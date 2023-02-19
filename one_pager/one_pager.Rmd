@@ -1,0 +1,45 @@
+---
+title: "On enhancing knowledge transfer from a contingent workforce"
+author: "Roel Peters"
+date: "2023-02-19"
+output: pdf_document
+bibliography: references.bib
+csl: apa.csl
+link-citations: yes
+linkcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Traditionally, management consultancy came in the form of strategic advice. However, over the past decades, the business world has witnessed that organizations increasingly focus on their core business, while outsourcing everything else to a third party of a "contingent workforce": consultant and freelancers [@msp2022]. This practice has even penetrated organizations' core value chain, a phenomenon known as business process outsourcing or BPO [@shi1]
+
+However, working with a contingent workforce, entails considerable risk.
+
+An important risk is the lack of knowledge transfer from the consultant to the hiring organization, especially in the case of complex IT implementations. Why? When complex digital ecosystems are rolled out in an organization, several factors determine the success of the outcome. Not only should IT & business strategies be aligned, and should the solution be thoroughly adopted by business departments. Equally important is how the IT department succeeds in developing and absorbing knowledge about the solution and how it is embedded in the organization's ecosystem. A lack of knowledge transfer between the contingent workforce and the principal can results in a lack of understanding of the solution's capabilities, and several negative externalities can arise:
+
+* inadequate support towards business users;
+* incomplete maintenance with second-degree externalities such as risks for availability and security;
+* over time, a capability overlap with other tools in the organization's tool stack can develop.
+
+There are many causes for knowledge transfer not to succeed:
+
+* The consultant simply does not have the required knowledge.
+* The consultant tries to lock in their client by not transferring all the required knowledge.
+* The organization (or the manager, or the hiring department) does not explicitly expect to extract knowledge from the consultant, but simply considers them to be a “contingent workforce” in its minimalist interpretation.
+* There are no adequate procedures, rituals and tools in place within the organization for facilitating the knowledge transfer.
+
+There is already a fair amount of research with regards to management consultancy (i.e. in the narrow sense of the term, meaning "strategic business advice"), and the consultancy sector could get under increasing scrutiny with the release of Mariana Mazzucato's [-@mazzucato_collington_2023] new book. Nevertheless, research that focuses on IT-related consultancy is fairly scarce [@bloomfield1995; @nevo2007; @swanson2010].
+
+Furthermore, there is substantial research on knowledge management (as a multidisciplinary discipline within the field of information science) and knowledge transfer (as a broad topic within the discipline). Furthermore, there seems to be some academic interest in knowledge transfer in a principal-agent context [@ning2008; @haines2003], as is the case with between an organization and their contingent workforce.
+
+Novel research is feasible for drawing conclusions regarding the *raison d'être* of IT consultants and the current state of knowledge transfer between IT consultants and their principals. The most relevant outcome of this research could be a set of recommendations, or a framework for maximizing knowledge transfer in the described setting.
+
+Given these observations, I propose the following research questions.
+
+1. How successful is knowledge transfer between IT implementation consultants and internal employees at corporations with regards to adoption and implementation of IT solutions? (Methodology: Quantitative such as surveys)
+
+2. What factors have a positive impact on knowledge transfer between IT implementation consultants and internal employees of corporations? (Methodology: Qualitative research such as deep interviews and focus groups)
+
+# References
