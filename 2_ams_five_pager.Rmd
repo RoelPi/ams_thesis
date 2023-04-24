@@ -29,13 +29,13 @@ Traditionally, management consultancy came in the form of strategic advice. Howe
 # State of the literature
 
 ## What is IT consultancy?
-Defining IT consultancy is no easy task. Over the past decades, their possible roles and variety of responsibilities have expanded drastically. However, @swanson2010 [20-25] has described five different ways how consultants can contribute to an organization's innovation process through IT.
+Defining IT consultancy is no easy task. Over the past decades, their possible roles and variety of responsibilities have expanded drastically. @swanson2010 [20-25] has described five different ways how consultants can contribute to an organization's innovation process through IT.
 
 * Business strategy: IT consultancy can lead the organization to new pursuits and technologies they wouldn't have discovered themselves. Second, IT consultancy can frame the need for innovation in strategic terms, and they prepare and legitimize the need for change.
-* Technology assessment: 
-* Business process improvement:
-* Systems integration:
-* Business support services:
+* Technology assessment: IT consultancy can facilitate the comprehension of IT technologies and its alternatives.
+* Business process improvement: Innovations that involve IT usually come to fruition only after business processes have been revamped. Business process changes usually require an outside-in view and offer rich opportunities for consulting.
+* Systems integration: In many cases, introducing a new technology requires that it needs to be integrated with existing systems and users need to be onboarded. This type of IT consultancy usually requires coding skills, hands-on design and implementation expertise
+* Business support services: Finally, once the implementation is completed, it can take a while before the solution is entirely assimilated. IT consultants can provide complementary IT services such as support and maintenance until the technology is entirely embedded in the organization.
 The line between consulting and outsourcing is becoming increasingly blurred.
 
 # Problem statement
