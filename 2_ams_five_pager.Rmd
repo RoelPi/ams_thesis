@@ -31,12 +31,32 @@ Traditionally, management consultancy came in the form of strategic advice. Howe
 ## What is IT consultancy?
 Defining IT consultancy is no easy task. Over the past decades, their possible roles and variety of responsibilities have expanded drastically. @swanson2010 [20-25] has described five different ways how consultants can contribute to an organization's innovation process through IT.
 
-* Business strategy: IT consultancy can lead the organization to new pursuits and technologies they wouldn't have discovered themselves. Second, IT consultancy can frame the need for innovation in strategic terms, and they prepare and legitimize the need for change.
-* Technology assessment: IT consultancy can facilitate the comprehension of IT technologies and its alternatives.
-* Business process improvement: Innovations that involve IT usually come to fruition only after business processes have been revamped. Business process changes usually require an outside-in view and offer rich opportunities for consulting.
-* Systems integration: In many cases, introducing a new technology requires that it needs to be integrated with existing systems and users need to be onboarded. This type of IT consultancy usually requires coding skills, hands-on design and implementation expertise
-* Business support services: Finally, once the implementation is completed, it can take a while before the solution is entirely assimilated. IT consultants can provide complementary IT services such as support and maintenance until the technology is entirely embedded in the organization.
-The line between consulting and outsourcing is becoming increasingly blurred.
+* *Business strategy*: IT consultancy can lead the organization to new pursuits and technologies they wouldn't have discovered themselves. Second, IT consultancy can frame the need for innovation in strategic terms, and they prepare and legitimize the need for change.
+* *Technology assessment*: IT consultancy can facilitate the comprehension of IT technologies and its alternatives.
+* *Business process improvement*: Innovations that involve IT usually come to fruition only after business processes have been revamped. Business process changes usually require an outside-in view and offer rich opportunities for consulting.
+* *Systems integration*: In many cases, introducing a new technology requires that it needs to be integrated with existing systems and users need to be onboarded. This type of IT consultancy usually requires coding skills, hands-on design and implementation expertise
+* *Business support services*: Finally, once the implementation is completed, it can take a while before the solution is entirely assimilated. IT consultants can provide complementary IT services such as support and maintenance until the technology is entirely embedded in the organization.
+
+## Why IT Consultancy?
+
+@nevo2007 [8-10] outlines five theoretical frameworks that contribute to the question why firms should (not) utilize external IT capabilities.
+* The *resource-based view* (RBV) claims that firms can earn sustainable above-normal returns by possessing rare and valuable resources and that they have isolating mechanisms that prevent the dissemination of those resources. <<This needs to be investigated further how this relates to consulting >>
+* The *micro-economic* view assumes that firms operate in fully competitive markets and, contrary to RBV, that above-normal returns are competed away by rivals or new entrants. Utilizing IT and external capabilities is simply a matter of delivering the optimal quantity of products and their prices.
+* *Transaction cost economics* claims that firms are interested in identifying areas in which they can outperform market-based interactions and do themselves. The commodity-like nature of IT solutions make them very prone to being outsourced to consultants.
+* *Institutional theory* does not reject the microeconomic theory that firms try to make rational choices, but acknowledges that there are cognitive and rational constraints. Consequently, the choice for internal or external capabilities involves trust, relationships, personal beliefs and aspirations.
+* *Identification theory*: Individuals derive value and meaning from group membership. This can impact the involvement of external actors for IT projects in a negative way.
+
+
+
+<<should be reworked and integrated>>
+## Management Consultancy
+
+There is already a fair amount of research with regards to management consultancy (i.e. in the narrow sense of the term, meaning "strategic business advice") that describes why consultants exist [@canback1998; @sturdy2009] and how they operate [@clark1998; @bessant1995; @whittle2006]. Central in this literature is the diffusion and transferring of knowledge. @canback1999 summarizes it neatly by stating that "external consultants have a wider knowledge base than their internal counterparts, having worked with more clients and in a wider range of industries. Having seen similar problems before, the cost of leveraging this knowledge base is lower for external consultants." Despite this body of literature on management consultancy, research that focuses on IT-related consultancy is fairly scarce [@bloomfield1995; @nevo2007; @swanson2010].
+
+## Knowledge transfer
+
+There is substantial research on knowledge management (as a multidisciplinary discipline within the field of information science) and knowledge transfer (as a broad topic within the discipline). Furthermore, there seems to be some academic interest in knowledge transfer in a principal-agent context [@ning2008; @haines2003], as is the case with between an organization and their contingent workforce. This research could be key in steering and narrowing the scope of the research.
+<</should be reworked and integrated>>
 
 # Problem statement
 
@@ -53,15 +73,6 @@ There are many **causes for knowledge transfer to (partially) fail**:
 -   The organization (or the manager, or the hiring department) does not explicitly expect to extract knowledge from the consultant, but simply considers them to be a "contingent workforce" in its minimalist interpretation.
 -   There are no adequate procedures, rituals and tools in place within the organization for facilitating the knowledge transfer.
 
-# The existing body of knowledge
-
-## Management Consultancy
-
-There is already a fair amount of research with regards to management consultancy (i.e. in the narrow sense of the term, meaning "strategic business advice") that describes why consultants exist [@canback1998; @sturdy2009] and how they operate [@clark1998; @bessant1995; @whittle2006]. Central in this literature is the diffusion and transferring of knowledge. @canback1999 summarizes it neatly by stating that "external consultants have a wider knowledge base than their internal counterparts, having worked with more clients and in a wider range of industries. Having seen similar problems before, the cost of leveraging this knowledge base is lower for external consultants." Despite this body of literature on management consultancy, research that focuses on IT-related consultancy is fairly scarce [@bloomfield1995; @nevo2007; @swanson2010].
-
-## Knowledge transfer
-
-There is substantial research on knowledge management (as a multidisciplinary discipline within the field of information science) and knowledge transfer (as a broad topic within the discipline). Furthermore, there seems to be some academic interest in knowledge transfer in a principal-agent context [@ning2008; @haines2003], as is the case with between an organization and their contingent workforce. This research could be key in steering and narrowing the scope of the research.
 
 # Research Questions
 
