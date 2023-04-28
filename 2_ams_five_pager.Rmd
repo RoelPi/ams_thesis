@@ -29,6 +29,8 @@ Traditionally, management consultancy came in the form of strategic advice. Howe
 # State of the literature
 
 ## What is IT consultancy?
+
+### Types of IT consultancy
 Defining IT consultancy is no easy task. Over the past decades, their possible roles and variety of responsibilities have expanded drastically. @swanson2010 [20-25] has described five different ways how consultants can contribute to an organization's innovation process through IT.
 
 * *Business strategy*: IT consultancy can lead the organization to new pursuits and technologies they wouldn't have discovered themselves. Second, IT consultancy can frame the need for innovation in strategic terms, and they prepare and legitimize the need for change.
@@ -37,11 +39,30 @@ Defining IT consultancy is no easy task. Over the past decades, their possible r
 * *Systems integration*: In many cases, introducing a new technology requires that it needs to be integrated with existing systems and users need to be onboarded. This type of IT consultancy usually requires coding skills, hands-on design and implementation expertise
 * *Business support services*: Finally, once the implementation is completed, it can take a while before the solution is entirely assimilated. IT consultants can provide complementary IT services such as support and maintenance until the technology is entirely embedded in the organization.
 
+
+
+### Expectations of IT Consultancy
+* Knowledge transfer?
+* Crisis management?
+* Operational excellence?
+
+#### Knowledge transfer
+
+There is substantial research on knowledge management (as a multidisciplinary discipline within the field of information science) and knowledge transfer (as a broad topic within the discipline). Furthermore, there seems to be some academic interest in knowledge transfer in a principal-agent context [@ning2008; @haines2003], as is the case with between an organization and their contingent workforce. This research could be key in steering and narrowing the scope of the research.
+
+<should be reworked and integrated>
+
+### Link with Management Consultancy
+
+There is already a fair amount of research with regards to management consultancy (i.e. in the narrow sense of the term, meaning "strategic business advice") that describes why consultants exist [@canback1998; @sturdy2009] and how they operate [@clark1998; @bessant1995; @whittle2006]. Central in this literature is the diffusion and transferring of knowledge. @canback1999 summarizes it neatly by stating that "external consultants have a wider knowledge base than their internal counterparts, having worked with more clients and in a wider range of industries. Having seen similar problems before, the cost of leveraging this knowledge base is lower for external consultants." Despite this body of literature on management consultancy, research that focuses on IT-related consultancy is fairly scarce [@bloomfield1995; @nevo2007; @swanson2010].
+</should be reworked and integrated>
+
 ## Why IT Consultancy?
 
-<<Unsure if this part should be expanded, or even in the final paper>>
+<Unsure if this part should be expanded, or even in the final paper>
 @nevo2007 [8-10] outlines five theoretical frameworks that contribute to the question why firms should (not) utilize external IT capabilities.
-* The *resource-based view* (RBV) claims that firms can earn sustainable above-normal returns by possessing rare and valuable resources and that they have isolating mechanisms that prevent the dissemination of those resources. <<This needs to be investigated further how this relates to consulting >>
+
+* The *resource-based view* (RBV) claims that firms can earn sustainable above-normal returns by possessing rare and valuable resources and that they have isolating mechanisms that prevent the dissemination of those resources. <This needs to be investigated further how this relates to consulting>
 * The *micro-economic* view assumes that firms operate in fully competitive markets and, contrary to RBV, that above-normal returns are competed away by rivals or new entrants. Utilizing IT and external capabilities is simply a matter of delivering the optimal quantity of products and their prices.
 * *Transaction cost economics* claims that firms are interested in identifying areas in which they can outperform market-based interactions and do themselves. The commodity-like nature of IT solutions make them very prone to being outsourced to consultants.
 * *Institutional theory* does not reject the micro-economic theory that firms try to make rational choices, but acknowledges that there are cognitive and rational constraints. Consequently, the choice for internal or external capabilities involves trust, relationships, personal beliefs and aspirations.
@@ -50,35 +71,23 @@ Defining IT consultancy is no easy task. Over the past decades, their possible r
 @nevo2007 [16-17] concludes that his research supports the transaction cost hypothesis: "when the internal IT capability is weak, developing and implementing an IT solution is likely to cost more compared with hiring external IT consultants to do the same job." Furthermore, the reverse situation also supports the identification theory: "IT consultants will not receive the legitimacy they require [...] if their knowledge and expertise do not differ from that possessed by the in-house IT team. Under these circumstances, external IT consultants' impact on IT productivity is expected to be lower."
 
 Nevertheless, there is a serious limitation in the work of @nevo2007. An IT project is assumed to be fixed in time, with fixed parameters. It does not account for "vendor learning" [@wu2004] during the project. @cha2009 tackles this shortcoming with a model built around two parameters:
+
 1. (production) knowledge transfer rate: the ability of the client to capture knowledge from the vendor.
 2. (coordination) knowledge depreciation rate: the ability of the client to retain coordination knowledge as it outsources IT activities.
 
 They conclude that firms with a low production knowledge transfer rate (e.g. unmotivated employees) should insource or outsource all their IT capabilities. When they also have a high coordination knowledge deprecation rate (e.g. bad project management), insourcing is the only option. On the other hand, when both the production knowledge transfer and coordination knowledge depreciation rate are high, the optimal rate of of IT outsourcing is also high.
 
-<<should be reworked and integrated>>
-## Management Consultancy
-
-There is already a fair amount of research with regards to management consultancy (i.e. in the narrow sense of the term, meaning "strategic business advice") that describes why consultants exist [@canback1998; @sturdy2009] and how they operate [@clark1998; @bessant1995; @whittle2006]. Central in this literature is the diffusion and transferring of knowledge. @canback1999 summarizes it neatly by stating that "external consultants have a wider knowledge base than their internal counterparts, having worked with more clients and in a wider range of industries. Having seen similar problems before, the cost of leveraging this knowledge base is lower for external consultants." Despite this body of literature on management consultancy, research that focuses on IT-related consultancy is fairly scarce [@bloomfield1995; @nevo2007; @swanson2010].
-
-## Knowledge transfer
-
-There is substantial research on knowledge management (as a multidisciplinary discipline within the field of information science) and knowledge transfer (as a broad topic within the discipline). Furthermore, there seems to be some academic interest in knowledge transfer in a principal-agent context [@ning2008; @haines2003], as is the case with between an organization and their contingent workforce. This research could be key in steering and narrowing the scope of the research.
-<</should be reworked and integrated>>
-
 # Problem statement
+According to @ang2004 [357], the legal interpretation of an IT outsourcing contract is too limited. Instead, they claim that the construct of a _psychological contract_ is more appropriate for analyzing the relationship between an IT service supplier and customer. The strength of psychological contract theory is threefold:
 
-An important risk is the **lack of knowledge transfer** from the consultant to the hiring organization, especially in the case of complex IT implementations. Why? When complex digital ecosystems are rolled out in an organization, several factors determine the success of the outcome. Not only should IT & business strategies be aligned, and should the solution be thoroughly adopted by business departments. Equally important is how the IT department succeeds in developing and absorbing knowledge about the solution and how it is embedded in the organization. A lack of knowledge transfer between the contingent workforce and the principal can results in a lack of understanding of the solution's capabilities and applications. Several **negative externalities** can arise:
+1. it focuses on mutual obligations;
+2. the emphasis is on psychological obligations;
+3. the emphasis is on the individual level--not on the organizations as parties of the contract.
 
--   inadequate support towards business users;
--   incomplete maintenance with second-degree externalities such as risks for availability and security;
--   over time, a capability overlap with other tools in the organization's tool stack can develop.
+Consequently, the psychological contract not only comprises the legal contract, but also the unwritten promises, interpersonal relations, and the individual interpretations and perceptions. Since consultancy contracts can become extremely complex (with project descriptions going into the ten thousands of words), and the involved parties entangled in multiple ways, these intangible aspects can gain prominence. The research in @ang2004 [369-70] outlines several psychological contract obligations that positively impact the success of an outsourced IT project. 
 
-There are many **causes for knowledge transfer to (partially) fail**:
-
--   The consultant simply does not have the required knowledge.
--   The consultant tries to lock in their client by not transferring all the required knowledge.
--   The organization (or the manager, or the hiring department) does not explicitly expect to extract knowledge from the consultant, but simply considers them to be a "contingent workforce" in its minimalist interpretation.
--   There are no adequate procedures, rituals and tools in place within the organization for facilitating the knowledge transfer.
+* On the supplier side: (1) clear authority structures, (2) knowledge transfer by educating the customer, (3) building inter-organizational teams. 
+* On the customer side: (1) clear specification of requirements, (2) prompt payment, and (3) project ownership and monitoring.
 
 
 # Research Questions
