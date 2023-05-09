@@ -39,16 +39,16 @@ Defining IT consultancy is no easy task. Over the past decades, their possible r
 * *Systems integration*: In many cases, introducing a new technology requires that it needs to be integrated with existing systems and users need to be onboarded. This type of IT consultancy usually requires coding skills, hands-on design and implementation expertise
 * *Business support services*: Finally, once the implementation is completed, it can take a while before the solution is entirely assimilated. IT consultants can provide complementary IT services such as support and maintenance until the technology is entirely embedded in the organization.
 
-
-
 ### Expectations of IT Consultancy
 * Knowledge transfer?
 * Crisis management?
 * Operational excellence?
 
-#### Knowledge transfer
+#### Knowledge transfer & diffusion
 
 There is substantial research on knowledge management (as a multidisciplinary discipline within the field of information science) and knowledge transfer (as a broad topic within the discipline). Furthermore, there seems to be some academic interest in knowledge transfer in a principal-agent context [@ning2008; @haines2003], as is the case with between an organization and their contingent workforce. This research could be key in steering and narrowing the scope of the research.
+
+- https://journals.sagepub.com/doi/10.1177/1350508409338435
 
 <should be reworked and integrated>
 
@@ -62,11 +62,13 @@ There is already a fair amount of research with regards to management consultanc
 <Unsure if this part should be expanded, or even in the final paper>
 @nevo2007 [8-10] outlines five theoretical frameworks that contribute to the question why firms should (not) utilize external IT capabilities.
 
-* The *resource-based view* (RBV) claims that firms can earn sustainable above-normal returns by possessing rare and valuable resources and that they have isolating mechanisms that prevent the dissemination of those resources. <This needs to be investigated further how this relates to consulting>
+* The *resource-based view* (RBV) claims that firms can earn sustainable above-normal returns by possessing rare and valuable resources and that they have isolating mechanisms that prevent the dissemination of those resources.
 * The *micro-economic* view assumes that firms operate in fully competitive markets and, contrary to RBV, that above-normal returns are competed away by rivals or new entrants. Utilizing IT and external capabilities is simply a matter of delivering the optimal quantity of products and their prices.
 * *Transaction cost economics* claims that firms are interested in identifying areas in which they can outperform market-based interactions and do themselves. The commodity-like nature of IT solutions make them very prone to being outsourced to consultants.
 * *Institutional theory* does not reject the micro-economic theory that firms try to make rational choices, but acknowledges that there are cognitive and rational constraints. Consequently, the choice for internal or external capabilities involves trust, relationships, personal beliefs and aspirations.
 * *Identification theory*: Individuals derive value and meaning from group membership. This can impact the involvement of external actors for IT projects in a negative way.
+
+### Transaction cost economics
 
 @nevo2007 [16-17] concludes that his research supports the transaction cost hypothesis: "when the internal IT capability is weak, developing and implementing an IT solution is likely to cost more compared with hiring external IT consultants to do the same job." Furthermore, the reverse situation also supports the identification theory: "IT consultants will not receive the legitimacy they require [...] if their knowledge and expertise do not differ from that possessed by the in-house IT team. Under these circumstances, external IT consultants' impact on IT productivity is expected to be lower."
 
@@ -77,7 +79,46 @@ Nevertheless, there is a serious limitation in the work of @nevo2007. An IT proj
 
 They conclude that firms with a low production knowledge transfer rate (e.g. unmotivated employees) should insource or outsource all their IT capabilities. When they also have a high coordination knowledge deprecation rate (e.g. bad project management), insourcing is the only option. On the other hand, when both the production knowledge transfer and coordination knowledge depreciation rate are high, the optimal rate of of IT outsourcing is also high.
 
+- Ronald Coase!
+
+### Resource-based View
+
+In @willcocks2003 [177-180], four types of sourcing options for developing IT projects are outlined, of which three involve consultants.
+1. Internal development: has the the advantage of internalization of the learning outcomes, but comes with high costs related to mistakes and being the first mover.
+2. Outsourcing: has the advantage of tapping into existing knowledge and experience, and the ability to get quickly up to speed. However, internalization of learning outcomes is not guaranteed, and consultants may not be familiar with existing organizational processes. For example, the development of an internal application by an external party.
+3. Insourcing/partnering: has the same advantages as outsouring, with the added bonus of facilitating the internalization of the learning outcomes. The disadvantage is mostly related to a more complex project management, with a variety of parties involved. For example: long-term contracts with IT consultants who operate side-by-side with an organization's own staff.
+4. Cheap-sourcing: when IT projects are low risk, and far from the core business, and organization should consider cheap-sourcing. This option involves low investments and effort, but also comes with no internal learning. For example: development of a new promotional website by a digital agency.
+
+In the same research paper, @willcocks [188-189] identify two congruent four-quadrant matrices to assess sourcing options. 
+* By business activity: non-critical, commoditized applications should be out-sourced. Critical, commoditized applications should be insourced or built in-house, and differentiating, critical applications should be built in-house or acquired.
+* By market comparison: A high-cost, low-quality market leads to in-house development, while a high-cost, high-quality market should lead to insourcing. A low-cost, low-quality market leads to cheap-sourcing and a low-cost, high-quality market is perfect for outsourcing.
+
+### Identification Theory
+
+The research by @schwarz2005 [311-313] claims that it matters _who_ implements an IT project: "technology-enabled inertia can be explained through understanding an employee's social identifications and his or her associated cognitions, where inertia exists on a sliding scale of change." By defending their self-image, low-status groups can hinder the implementation of an application. The assessment for potentially adding consultants to a team needs to incorporate this finding.
+
+
 # Problem statement
+
+## Quality problems & Adverse Selection
+
+According to some, assessing the quality of consultants is impossible, so one has to rely on informal and relational criteria [@wright2002 277].
+
+To read:
+- @wright2002
+- @david2013
+- @mahoney2016
+- https://www.tandfonline.com/doi/abs/10.1080/02642069800000002
+
+## Moral Hazard
+
+## Potential solutions
+
+Several mechanisms have already been proposed.
+https://link.springer.com/chapter/10.1057/9780230362994_12
+
+### Psychological contract obligations
+
 According to @ang2004 [357], the legal interpretation of an IT outsourcing contract is too limited. Instead, they claim that the construct of a _psychological contract_ is more appropriate for analyzing the relationship between an IT service supplier and customer. The strength of psychological contract theory is threefold:
 
 1. it focuses on mutual obligations;
@@ -88,6 +129,8 @@ Consequently, the psychological contract not only comprises the legal contract, 
 
 * On the supplier side: (1) clear authority structures, (2) knowledge transfer by educating the customer, (3) building inter-organizational teams. 
 * On the customer side: (1) clear specification of requirements, (2) prompt payment, and (3) project ownership and monitoring.
+
+Closely related is the work by @willcockskern [9-13] that makes a distinction between the contractual level and the cooperative level. The contractual level is about payment for the exchange of services and the transfer of assets, information & consultants. The cooperative level involves formal communication mechanisms; personal investments in time, resources & knowledge; mutual goals & objectives and social bonds. The atmosphere surrounding the former is heavily impacted by developments at the latter. A respondent in @willcockskern [9] states that "the contract is a bit like a nuclear deterrent. You need one and you have got to have a framework, but if you've got to use it you are probably in trouble."
 
 
 # Research Questions
