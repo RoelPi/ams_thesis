@@ -30,6 +30,17 @@ Traditionally, management consultancy came in the form of strategic advice. Howe
 
 ## What is IT consultancy?
 
+### Link with Management Consultancy
+
+There is already a fair amount of research with regards to management consultancy (i.e. in the narrow sense of the term, meaning "strategic business advice") that describes why consultants exist [@canback1998; @sturdy2009] and how they operate [@clark1998; @bessant1995; @whittle2006]. Central in this literature is the diffusion and transferring of knowledge. @canback1999 summarizes it neatly by stating that "external consultants have a wider knowledge base than their internal counterparts, having worked with more clients and in a wider range of industries. Having seen similar problems before, the cost of leveraging this knowledge base is lower for external consultants." Despite this body of literature on management consultancy, research that focuses on IT-related consultancy is fairly scarce [@bloomfield1995; @nevo2007; @swanson2010].
+</should be reworked and integrated>
+
+### Digital Consultancy or IT Consultancy?
+
+### Emergence
+
+See [@armbruster2006 120-130]
+
 ### Types of IT consultancy
 Defining IT consultancy is no easy task. Over the past decades, their possible roles and variety of responsibilities have expanded drastically. @swanson2010 [20-25] has described five different ways how consultants can contribute to an organization's innovation process through IT.
 
@@ -39,10 +50,14 @@ Defining IT consultancy is no easy task. Over the past decades, their possible r
 * *Systems integration*: In many cases, introducing a new technology requires that it needs to be integrated with existing systems and users need to be onboarded. This type of IT consultancy usually requires coding skills, hands-on design and implementation expertise
 * *Business support services*: Finally, once the implementation is completed, it can take a while before the solution is entirely assimilated. IT consultants can provide complementary IT services such as support and maintenance until the technology is entirely embedded in the organization.
 
-### Expectations of IT Consultancy
+See also [@bessant1995].
+
+## Expectations of IT Consultancy
 * Knowledge transfer?
 * Crisis management?
 * Operational excellence?
+
+See also [@turner1982]
 
 #### Knowledge transfer & diffusion
 
@@ -52,12 +67,9 @@ There is substantial research on knowledge management (as a multidisciplinary di
 
 <should be reworked and integrated>
 
-### Link with Management Consultancy
 
-There is already a fair amount of research with regards to management consultancy (i.e. in the narrow sense of the term, meaning "strategic business advice") that describes why consultants exist [@canback1998; @sturdy2009] and how they operate [@clark1998; @bessant1995; @whittle2006]. Central in this literature is the diffusion and transferring of knowledge. @canback1999 summarizes it neatly by stating that "external consultants have a wider knowledge base than their internal counterparts, having worked with more clients and in a wider range of industries. Having seen similar problems before, the cost of leveraging this knowledge base is lower for external consultants." Despite this body of literature on management consultancy, research that focuses on IT-related consultancy is fairly scarce [@bloomfield1995; @nevo2007; @swanson2010].
-</should be reworked and integrated>
 
-## Why IT Consultancy?
+## Why IT Consultancy vis-a-vis inhouse
 
 <Unsure if this part should be expanded, or even in the final paper>
 @nevo2007 [8-10] outlines five theoretical frameworks that contribute to the question why firms should (not) utilize external IT capabilities.
@@ -68,7 +80,11 @@ There is already a fair amount of research with regards to management consultanc
 * *Institutional theory* does not reject the micro-economic theory that firms try to make rational choices, but acknowledges that there are cognitive and rational constraints. Consequently, the choice for internal or external capabilities involves trust, relationships, personal beliefs and aspirations.
 * *Identification theory*: Individuals derive value and meaning from group membership. This can impact the involvement of external actors for IT projects in a negative way.
 
+See also [@armbruster2006 66]
+
 ### Transaction cost economics
+
+Intro on Ronald Coase.
 
 @nevo2007 [16-17] concludes that his research supports the transaction cost hypothesis: "when the internal IT capability is weak, developing and implementing an IT solution is likely to cost more compared with hiring external IT consultants to do the same job." Furthermore, the reverse situation also supports the identification theory: "IT consultants will not receive the legitimacy they require [...] if their knowledge and expertise do not differ from that possessed by the in-house IT team. Under these circumstances, external IT consultants' impact on IT productivity is expected to be lower."
 
@@ -79,7 +95,7 @@ Nevertheless, there is a serious limitation in the work of @nevo2007. An IT proj
 
 They conclude that firms with a low production knowledge transfer rate (e.g. unmotivated employees) should insource or outsource all their IT capabilities. When they also have a high coordination knowledge deprecation rate (e.g. bad project management), insourcing is the only option. On the other hand, when both the production knowledge transfer and coordination knowledge depreciation rate are high, the optimal rate of of IT outsourcing is also high.
 
-- Ronald Coase!
+See also [@armbruster2006 12-14], [@canback1999].
 
 ### Resource-based View
 
@@ -99,20 +115,52 @@ In the same research paper, @willcocks2003 [188-189] identify two congruent four
 
 The research by @schwarz2005 [311-313] claims that it matters _who_ implements an IT project: "technology-enabled inertia can be explained through understanding an employee's social identifications and his or her associated cognitions, where inertia exists on a sliding scale of change." By defending their self-image, low-status groups can hinder the implementation of an application. The sourcing assessment needs to incorporate this finding.
 
+### Embeddedness Theory
+[@armbruster2006 14-16]
+
+### Sociological neoinstitutionalism
+[@armbruster2006 8-11]
+
 
 # Problem statement
 
 ## Quality problems & Adverse Selection
 
-According to some, assessing the quality of consultants is impossible, so one has to rely on informal and relational criteria [@wright2002 277].
+[@armbruster2006 69-75] outlines various reasons for quality uncertainty and groups them in two categories.
 
-To read:
-- @wright2002
-- @david2013
-- @mahoney2016
-- https://www.tandfonline.com/doi/abs/10.1080/02642069800000002
+Category 1: Formal institutional uncertainty
+
+* Consulting is an unbounded profession.
+* Consulting is an unbounded industry.
+* Consulting has unbounded service lines and product standards.
+
+
+Category 2: Transactional Uncertainty
+
+* Confidentiality
+* Product intangibility
+* Interdependent cooperation
+
+The economic barriers to entry [@fee2004 463] in IT consultancy (and consultancy in general) are few to none. Anyone with experience in a specific field, sector or technology can wrap it as advice and sell it to whoever wants to hear it. Furthermore, the author of this paper is unaware of legal barriers to entry.
+
+According to some, assessing the quality of consultants is impossible. For example, according do @bloomfield1995 [40], "there can be no presumed separation between technical skills and political skills, and no ranking between the two in terms of their importance for consultancy practice and the development of IT in user organizations." 
+
+For evaluating (future) performance of consultants, one has to rely on informal and relational criteria [@wright2002 277]. According to @clark1993 [250], "the main trust-producing mechanism [...] is the 'closed' social structure; a form of individual trust. The formal, institutional-based, trust-producing mechanisms are weak. It is the contractual guarantees, and the history of past transactions underlying reputation, which overcome the potential effects of adverse selection and moral hazard."
+
+Especially in a situation where past transactions are absent, "management consultancies must convey in some way to their clients that they have something valuable to offer. [...] consultants are able to take control of the process by which impressions and perceptions of their service are created. By managing the creation of these images consultants are able to persuade clients of their value and quality. Management consultancies are therefore 'systems of persuasion' _par excellence_ excellence and impression management is not external to the core of their work but is at its core." [@clark1998 35]
+
+In the existing literature, these remarks are part of a critical paradigm regarding consultants [@armbruster2006 4-5]. Authors point to the contestable nature of consulting, the self-interest of consultancy firms, and the stretching of consultancy advice.
+
+See also:
+
+- [@wright2002]
+- [@david2013]
+- [@mahoney2016]
+- [@nayyar1990]
 
 ## Moral Hazard
+
+See [@armbruster2006 72-73].
 
 ## Potential solutions
 
@@ -134,17 +182,22 @@ Consequently, the psychological contract not only comprises the legal contract, 
 
 Closely related is the work by @willcockskern [9-13] that makes a distinction between the contractual level and the cooperative level. The contractual level is about payment for the exchange of services and the transfer of assets, information & consultants. The cooperative level involves formal communication mechanisms; personal investments in time, resources & knowledge; mutual goals & objectives and social bonds. The atmosphere surrounding the former is heavily impacted by developments at the latter. A respondent in @willcockskern [9] states that "the contract is a bit like a nuclear deterrent. You need one and you have got to have a framework, but if you've got to use it you are probably in trouble."
 
+### Networked Reputation
+
+See [@armbruster2006 75].
+
+### Public Reputation
+
+See [@armbruster2006 76]
+
+### Experience-based trust
+
+See [@armbruster2006 76-77], [@clark1993]
+
 
 # Research Questions
 
-Novel research is feasible for drawing conclusions regarding the *raison d'être* of IT consultants with regards to knowledge transfer between IT consultants and their principals.
-
-Given these observations, I propose the following research questions.
-
-1.  How successful is knowledge transfer between IT implementation consultants and internal employees at corporations with regards to adoption and implementation of IT solutions? (Methodology: Quantitative such as surveys)
-
-2.  What factors have a positive impact on knowledge transfer between IT implementation consultants and internal employees of corporations? (Methodology: Qualitative research such as deep interviews and focus groups)
-
-The most relevant outcome of this research could be a set of recommendations, or a framework for maximizing knowledge transfer in the described setting.
+1. Why do Belgian firms rely on digital consultants?
+2. What control mechanisms do Belgium firms have in place with regards to adverse selection of digital consultants?
 
 # References
