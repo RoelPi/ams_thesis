@@ -30,19 +30,34 @@ Traditionally, management consultancy came in the form of strategic advice. Howe
 
 ## What is IT consultancy?
 
-### Link with Management Consultancy
-
-There is already a fair amount of research with regards to management consultancy (i.e. in the narrow sense of the term, meaning "strategic business advice") that describes why consultants exist [@canback1998; @sturdy2009] and how they operate [@clark1998; @bessant1995; @whittle2006]. Central in this literature is the diffusion and transferring of knowledge. @canback1999 summarizes it neatly by stating that "external consultants have a wider knowledge base than their internal counterparts, having worked with more clients and in a wider range of industries. Having seen similar problems before, the cost of leveraging this knowledge base is lower for external consultants." Despite this body of literature on management consultancy, research that focuses on IT-related consultancy is fairly scarce [@bloomfield1995; @nevo2007; @swanson2010].
-</should be reworked and integrated>
-
-### Digital Consultancy or IT Consultancy?
+### Definitions:
+* Contingent workforce
+* Freelance
+* Digital consultancy
+* IT consultancy
+* Management consultancy
+* Outsourcing
+* Knowledge-intensive business services
+* 
 
 ### Emergence
 
 See [@armbruster2006 120-130]
 
-### Types of IT consultancy
-Defining IT consultancy is no easy task. Over the past decades, their possible roles and variety of responsibilities have expanded drastically. @swanson2010 [20-25] has described five different ways how consultants can contribute to an organization's innovation process through IT.
+### Why digital consultancy? A practical perspective
+
+@turner1982 provides a hierarchy of consulting purposes. The first five are traditionally associated with consultancy, while the last three are seen as by-products, and often not as explicit goals.
+
+1. Provide requested information
+2. Provide solution to given problem
+3. Conduct diagnosis that may redefine problem
+4. Provide recommendations
+5. Assist implementation. This is not without controversy, as traditionally, some argued that "one who helps put recommendations into effect takes on the role of manager and thus exceeds consulting's legitimate bounds." Also, "a frequent dilemma for experienced consultants is whether they should recommend what they know is right or what they know will be accepted."
+6. Build consensus and commitment
+7. Facilitate client learning
+8. Improve organizational effectiveness
+
+If we go from consultancy, in general, to IT consultancy, it is essential to understand that over the past decades, their possible roles and variety of responsibilities have expanded drastically. @swanson2010 [20-25] has described five different ways how consultants can contribute to an organization's innovation process through IT.
 
 * *Business strategy*: IT consultancy can lead the organization to new pursuits and technologies they wouldn't have discovered themselves. Second, IT consultancy can frame the need for innovation in strategic terms, and they prepare and legitimize the need for change.
 * *Technology assessment*: IT consultancy can facilitate the comprehension of IT technologies and its alternatives.
@@ -52,24 +67,37 @@ Defining IT consultancy is no easy task. Over the past decades, their possible r
 
 See also [@bessant1995].
 
-## Expectations of IT Consultancy
-* Knowledge transfer?
-* Crisis management?
-* Operational excellence?
+In their 1994 study, for which they interviewed over 100 decision, @lacity1994 [10-17] group expectations with regards to outsourcing into four categories: financial, business, technical and political expectations.
 
-See also [@turner1982]
+### Financial expectations
+Reducing costs
+Improving cost controls
+Restructuring IT budgets
 
-#### Knowledge transfer & diffusion
+### Business expectations
+Focusing on core activities
+Facilitating mergers & acquisitions
+Starting-up a company
+
+### Technical expectations
+
+Improving technical service
+Accessing talent & technologies
+
+### Political expectations
+
+
+### Knowledge transfer & diffusion
+
+Return to @turner1982.
+
+Something about knowledge transfer here [@sturdy2009].
+
+Nevertheless, there are constraints to knowledge transfer. According to @cohen1990 [128-129], "the ability to evaluate and utilize outside knowledge is largely a function of the level of prior related knowledge [such as] basic skills, or even a shared language but may also include knowledge of the most recent scientific or technological developments in a given field. [...] These abilities collectively constitute what we call a firm's _absorptive capacity_."
 
 There is substantial research on knowledge management (as a multidisciplinary discipline within the field of information science) and knowledge transfer (as a broad topic within the discipline). Furthermore, there seems to be some academic interest in knowledge transfer in a principal-agent context [@ning2008; @haines2003], as is the case with between an organization and their contingent workforce. This research could be key in steering and narrowing the scope of the research.
 
-- https://journals.sagepub.com/doi/10.1177/1350508409338435
-
-<should be reworked and integrated>
-
-
-
-## Why IT Consultancy vis-a-vis inhouse
+## Why digital Consultancy: a theoretical perspective
 
 <Unsure if this part should be expanded, or even in the final paper>
 @nevo2007 [8-10] outlines five theoretical frameworks that contribute to the question why firms should (not) utilize external IT capabilities.
@@ -134,7 +162,6 @@ Category 1: Formal institutional uncertainty
 * Consulting is an unbounded industry.
 * Consulting has unbounded service lines and product standards.
 
-
 Category 2: Transactional Uncertainty
 
 * Confidentiality
@@ -143,7 +170,7 @@ Category 2: Transactional Uncertainty
 
 The economic barriers to entry [@fee2004 463] in IT consultancy (and consultancy in general) are few to none. Anyone with experience in a specific field, sector or technology can wrap it as advice and sell it to whoever wants to hear it. Furthermore, the author of this paper is unaware of legal barriers to entry.
 
-According to some, assessing the quality of consultants is impossible. For example, according do @bloomfield1995 [40], "there can be no presumed separation between technical skills and political skills, and no ranking between the two in terms of their importance for consultancy practice and the development of IT in user organizations." 
+According to some, assessing the quality of consultants is impossible. For example, according do @bloomfield1995 [40], "there can be no presumed separation between technical skills and political skills, and no ranking between the two in terms of their importance for consultancy practice and the development of IT in user organizations." Furthermore, @bettencourt2002 [101-102] states that for knowledge-intensive business services (KIBS) to succeed, a lot depends on the client. "Client co-production roles [...] are emergent, multi-faceted, and highly collaborative because clients themselves possess much of the knowledge and competence that a KIBS firm needs to successfully deliver its service solution."
 
 For evaluating (future) performance of consultants, one has to rely on informal and relational criteria [@wright2002 277]. According to @clark1993 [250], "the main trust-producing mechanism [...] is the 'closed' social structure; a form of individual trust. The formal, institutional-based, trust-producing mechanisms are weak. It is the contractual guarantees, and the history of past transactions underlying reputation, which overcome the potential effects of adverse selection and moral hazard."
 
@@ -194,10 +221,10 @@ See [@armbruster2006 76]
 
 See [@armbruster2006 76-77], [@clark1993]
 
-
 # Research Questions
 
 1. Why do Belgian firms rely on digital consultants?
-2. What control mechanisms do Belgium firms have in place with regards to adverse selection of digital consultants?
+2. Which control mechanisms do Belgium firms have in place with regards to adverse selection of digital consultants?
+3. Which control mechanisms positively impact success of engaging with a consultancy firm?
 
 # References
