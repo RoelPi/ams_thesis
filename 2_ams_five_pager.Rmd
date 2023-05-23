@@ -152,7 +152,14 @@ The research by @schwarz2005 [311-313] claims that it matters _who_ implements a
 
 # Problem statement
 
-## Quality problems & Adverse Selection
+Organizations employing the services of a contingent workforce, like digital consultants, should always be aware of principal-agent problems arising from information asymmetries. This is caused by the fact that a transaction between a vendor and a buying organization involves the delivery of services in the future. As a result, opportunism is always lurking around the corner.
+
+Two types of opportunism can be identified @clark1993 [242]:
+
+1. Ex ante: adverse selection
+2. Ex post: moral hazard
+
+## Adverse Selection
 
 [@armbruster2006 69-75] outlines various reasons for quality uncertainty and groups them in two categories.
 
@@ -174,7 +181,7 @@ According to some, assessing the quality of consultants is impossible. For examp
 
 For evaluating (future) performance of consultants, one has to rely on informal and relational criteria [@wright2002 277]. According to @clark1993 [250], "the main trust-producing mechanism [...] is the 'closed' social structure; a form of individual trust. The formal, institutional-based, trust-producing mechanisms are weak. It is the contractual guarantees, and the history of past transactions underlying reputation, which overcome the potential effects of adverse selection and moral hazard."
 
-Especially in a situation where past transactions are absent, "management consultancies must convey in some way to their clients that they have something valuable to offer. [...] consultants are able to take control of the process by which impressions and perceptions of their service are created. By managing the creation of these images consultants are able to persuade clients of their value and quality. Management consultancies are therefore 'systems of persuasion' _par excellence_ excellence and impression management is not external to the core of their work but is at its core." [@clark1998 35]
+Especially in a situation where past transactions are absent, "management consultancies must convey in some way to their clients that they have something valuable to offer. [...] consultants are able to take control of the process by which impressions and perceptions of their service are created. By managing the creation of these images consultants are able to persuade clients of their value and quality. Management consultancies are therefore 'systems of persuasion' _par excellence_ and impression management is not external to the core of their work but is at its core." [@clark1998 35]
 
 In the existing literature, these remarks are part of a critical paradigm regarding consultants [@armbruster2006 4-5]. Authors point to the contestable nature of consulting, the self-interest of consultancy firms, and the stretching of consultancy advice.
 
@@ -183,11 +190,19 @@ See also:
 - [@wright2002]
 - [@david2013]
 - [@mahoney2016]
-- [@nayyar1990]
+
+Why does digital consultancy require a separate study?
+- Due to long-term involvement in huge projects, can take long for reputational info to spread and kick in
+- Vendor is tech-savvy & can manipulate online reputation
 
 ## Moral Hazard
 
 See [@armbruster2006 72-73].
+
+Why does digital consultancy require a separate study?
+- Work from home
+- Complexity lends itself to hiding fuckups.
+- Digital evolves quickly
 
 ## Potential solutions
 
@@ -217,6 +232,10 @@ See [@armbruster2006 75].
 
 See [@armbruster2006 76]
 
+According to @nayyar1990 [516] "reputation performs as an implicit contract. It is enforced by the seller's concerns about future demand for the service provided. [...] reputation is likely to exhibit characteristics of a public good. Once acquired, it can be user over and over again in the context of other services or markets."
+
+>> I need a definition of reputation, and also some research on how reputation can be faked.
+
 ### Experience-based trust
 
 See [@armbruster2006 76-77], [@clark1993]
@@ -226,5 +245,10 @@ See [@armbruster2006 76-77], [@clark1993]
 1. Why do Belgian firms rely on digital consultants?
 2. Which control mechanisms do Belgium firms have in place with regards to adverse selection of digital consultants?
 3. Which control mechanisms positively impact success of engaging with a consultancy firm?
+
+Research questions for side projects:
+
+1. Why do people join a consultancy firm or become an independent consultant?
+2. Do reputational effects exist on the individual consultant level or on the firm level?
 
 # References
