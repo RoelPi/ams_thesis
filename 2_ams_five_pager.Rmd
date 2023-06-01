@@ -30,13 +30,13 @@ Traditionally, management consultancy came in the form of strategic advice. Howe
 
 ## What is IT consultancy?
 
-### Definitions:
+### Definitions
 * Contingent workforce
 * Freelance
 * Digital consultancy
 * IT consultancy
 * Management consultancy
-* Outsourcing
+* Outsourcing: 
 * Knowledge-intensive business services
 * 
 
@@ -99,6 +99,10 @@ There is substantial research on knowledge management (as a multidisciplinary di
 
 ## Why digital Consultancy: a theoretical perspective
 
+Altijd de link terugleggen naar PA-problemen.
+RBV: no knowledge transfer no success
+TC: no lower transactions when no transfer
+
 <Unsure if this part should be expanded, or even in the final paper>
 @nevo2007 [8-10] outlines five theoretical frameworks that contribute to the question why firms should (not) utilize external IT capabilities.
 
@@ -156,10 +160,12 @@ Organizations employing the services of a contingent workforce, like digital con
 
 Two types of opportunism can be identified @clark1993 [242]:
 
-1. Ex ante: adverse selection
-2. Ex post: moral hazard
+1. Ex ante: Pre-contractual opportunism or adverse selection
+2. Ex post: Post-contractual opportunism or moral hazard
 
 ## Adverse Selection
+
+Adverse selection is associated with the client's inability to determine the client's capabilities with regards to the assignment. This analogous to Akerlof's "Lemons problem" [-@akerlof1970]: due to the information asymmetry, clients don't want to pay more than the average price for consultants within a certain niche. While consultants of below-average quality ("lemons") benefit from this average price, above-average consultants will not want to compete, and are crowded out.
 
 [@armbruster2006 69-75] outlines various reasons for quality uncertainty and groups them in two categories.
 
@@ -204,6 +210,8 @@ Why does digital consultancy require a separate study?
 - Complexity lends itself to hiding fuckups.
 - Digital evolves quickly
 
+- Vergelijking maken met andere soorten consultancies.
+
 ## Potential solutions
 
 Several mechanisms have already been proposed.
@@ -228,22 +236,45 @@ Closely related is the work by @willcockskern [9-13] that makes a distinction be
 
 See [@armbruster2006 75].
 
-### Public Reputation
+### (Public) Reputation
 
 See [@armbruster2006 76]
+
+@clark1993 [243-244] asked 55 respondents about the factors that are important when choosing an executive search & selection consultancy. "Reputation of individual consultants" and "reputation of the consultancy" are in the top three factors. This reputation often arises from "a history of past transactions with individual consultants. Frequent transactions between consultants and clients leads to familiarity which underpins the latters' assessment of the former." In other words, because finding a new consultants implies a search cost [@wilson2012 1072], incumbent consultants are expected to receive new contracts as long as the cost incurred from a potential sub-optimal performance is lower than the search cost of finding a new consultant.
 
 According to @nayyar1990 [516] "reputation performs as an implicit contract. It is enforced by the seller's concerns about future demand for the service provided. [...] reputation is likely to exhibit characteristics of a public good. Once acquired, it can be user over and over again in the context of other services or markets."
 
 >> I need a definition of reputation, and also some research on how reputation can be faked.
 
-### Experience-based trust
+## Contingent Fees
 
-See [@armbruster2006 76-77], [@clark1993]
+See [@clark1993 243]
+
+## Regulation
+
+Three sources of regulation can be identified (@clark1993 246-247):
+
+* Government Initiated Codes:
+* Self-imposed Sectoral Codes:
+* Contractual Obligations:
+
+## Third-party Assessors
+
+@zucker1985 [57-62] describes the rise of the "social overhead sector" in the 20th century. This sector acts as an "intermediary" in a variety of situations: stock brokers, real estate agents, banks, etc. The same principle can be applied to consultants: assessment by a third-party agency can prevent adverse selection.
+
+See [@armbruster2006 76-77], 
 
 # Research Questions
 
-1. Why do Belgian firms rely on digital consultants?
-2. Which control mechanisms do Belgium firms have in place with regards to adverse selection of digital consultants?
+Abstractie maken van zaken zoals cultuur, bedrijfsgrootte, etc.
+Link met HR & internaliseren van externen, externe kennis.
+
+1a. Why do Belgian firms rely on digital consultants?
+1b. What are inhibitors & enablers for success of digital consultants?
+1c. Definition of success
+
+2. Do Belgian firms see PA problems with consultants?
+3. Which control mechanisms do Belgium firms have in place with regards to adverse selection and moral hazard of digital consultants?
 3. Which control mechanisms positively impact success of engaging with a consultancy firm?
 
 Research questions for side projects:
