@@ -38,6 +38,9 @@ knitr::opts_chunk$set(echo = TRUE)
 * IT consultancy
 * Management consultancy
 * Outsourcing: the practice of obtaining goods or services from an external provider, substituting internal sourcing [@lacity2012 2].
+* IT Outsourcing
+* Business Process Outsourcing
+* Total Outsourcing
 * Knowledge-intensive business services
 
 
@@ -279,7 +282,7 @@ See @sturdy2021 [4]
 * shorter-term contracts;
 * high-value contracts.
 
-### Formalised Transactional Contracting
+### Formalised Transactional Contracting (Purchasing Regulation)
 
 See @sturdy2021 [4-5]
 
@@ -288,6 +291,16 @@ See @sturdy2021 [4-5]
 @zucker1985 [57-62] describes the rise of the "social overhead sector" in the 20th century. This sector acts as an "intermediary" in a variety of situations: stock brokers, real estate agents, banks, etc. The same principle can be applied to consultants: assessment by a third-party agency can prevent adverse selection.
 
 See [@armbruster2006 76-77], 
+
+### Whistleblowing
+
+Also media.
+
+### Incentivization
+
+### Specific Commitment
+
+See @sturdy2021 [12]
 
 # Research Questions
 
