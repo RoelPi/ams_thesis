@@ -36,7 +36,7 @@ Traditionally, management consultancy came in the form of strategic advice. Howe
 * Digital consultancy
 * IT consultancy
 * Management consultancy
-* Outsourcing: 
+* Outsourcing: the practice of obtaining goods or services from an external provider, substituting internal sourcing [@lacity2012 2].
 * Knowledge-intensive business services
 * 
 
@@ -153,7 +153,6 @@ The research by @schwarz2005 [311-313] claims that it matters _who_ implements a
 ### Sociological neoinstitutionalism
 [@armbruster2006 8-11]
 
-
 # Problem statement
 
 Organizations employing the services of a contingent workforce, like digital consultants, should always be aware of principal-agent problems arising from information asymmetries. This is caused by the fact that a transaction between a vendor and a buying organization involves the delivery of services in the future. As a result, opportunism is always lurking around the corner.
@@ -162,6 +161,14 @@ Two types of opportunism can be identified @clark1993 [242]:
 
 1. Ex ante: Pre-contractual opportunism or adverse selection
 2. Ex post: Post-contractual opportunism or moral hazard
+
+Hiring consultants for digital services deserves a dedicated scope, because of the following five properties that make it very prone to opportunism [@leslie1995 207].
+
+1. Information technology evolves rapidly. Consequently, it involves a high degree of uncertainty. (ex ante)
+2. The underlying economics of IT changes rapidly, making it hard to evaluate the consultant's contribution. (ex post)
+3. IT has penetrated all business functions. It is hard to isolate it from organizational functions (ex post)
+4. The cost of switching providers are often significant. For example: some consultants have exclusivity for implementing a certain solution. (ex post)
+5. Clients might be very inexperienced with regards to IT (and outsourcing it). This puts them at a disadvantage for selecting and evaluating a consultant (ex ante, ex post).
 
 ## Adverse Selection
 
@@ -212,7 +219,7 @@ Why does digital consultancy require a separate study?
 
 - Vergelijking maken met andere soorten consultancies.
 
-## Potential solutions
+## Governance Measures
 
 Several mechanisms have already been proposed.
 https://link.springer.com/chapter/10.1057/9780230362994_12
@@ -246,19 +253,35 @@ According to @nayyar1990 [516] "reputation performs as an implicit contract. It 
 
 >> I need a definition of reputation, and also some research on how reputation can be faked.
 
-## Contingent Fees
+### Contingent Fees
 
 See [@clark1993 243]
 
-## Regulation
+### Regulation
 
 Three sources of regulation can be identified (@clark1993 246-247):
 
-* Government Initiated Codes:
-* Self-imposed Sectoral Codes:
-* Contractual Obligations:
+#### Government Initiated Codes
 
-## Third-party Assessors
+See @sturdy2021 [3]
+
+#### Self-imposed Sectoral Codes
+
+See @sturdy2021 [4]
+
+#### Contractual Obligations
+
+@lacity2012 [4] describes that there is substantial evidence that positive outsourcing outcomes are associated with:
+
+* more detailed contracts with regards to scope, service levels, responsibilities and adaption to change;
+* shorter-term contracts;
+* high-value contracts.
+
+### Formalised Transactional Contracting
+
+See @sturdy2021 [4]
+
+### Third-party Assessors
 
 @zucker1985 [57-62] describes the rise of the "social overhead sector" in the 20th century. This sector acts as an "intermediary" in a variety of situations: stock brokers, real estate agents, banks, etc. The same principle can be applied to consultants: assessment by a third-party agency can prevent adverse selection.
 
