@@ -29,15 +29,54 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # State of the literature
 
-## What is IT consultancy?
+## What is digital consultancy?
 
 ### Definitions
+
+#### Consultancy
+
+#### Management Consultancy
+
+#### IT Consultancy
+
+#### Digital Consultancy
+
+#### Contingent Workforce
+
+#### Freelancer
+
+#### Outsourcing
+
+Outsourcing is the practice of obtaining goods or services from an external provider, as a substitute for sourcing it internally [@lacity2012 2]. Although @willcocks1995 [68-69] focuses specifically on IT outsourcing (infra), most outsourcing arrangements can be located on four spectra:
+* Focus: control through contract vis-à-vis results through trust and partnership
+* Time-scale: short-term vis-à-vis long-term
+* Criticality of the relationship: low vis-à-vis high
+* Mindset: contract out vis-à-vis strategic alliance
+
+#### IT Outsourcing
+
+
+
+#### Business Process Outsourcing
+
+
+#### Total Outsourcing
+
+Definition at @willcocks1995 [67].
+
+According to @willcocks1995 [70-71], "the difference in mind-set that is often thought to be required as IT outsourcing decisions become more 'total' in their coverage, has many similarities to the espoused need for mind-set changes for managers working in long-term strategic alliances." 
+
+Furthermore, since working with consultants holds a risk of moral hazard (infra), maintenance and enforcement are aspects that need to be taken into account. Typically, total outsourcing relations don't rely on trust mechanisms solely and are accompanied by contractual governance measures. 
+
+Total outsourcing entails some risks (@willcocks1995 77). Organizations need to be wary of the balance shifting in favor of the vendor, unless clients maintain some countervailing leverages to support the basis of their partnership.
+
+#### Knowledge-intensive business service
+
+
+
 * Contingent workforce
 * Freelance
-* Digital consultancy
-* IT consultancy
-* Management consultancy
-* Outsourcing: the practice of obtaining goods or services from an external provider, substituting internal sourcing [@lacity2012 2].
+
 * IT Outsourcing
 * Business Process Outsourcing
 * Total Outsourcing
@@ -258,10 +297,6 @@ According to @nayyar1990 [516] "reputation performs as an implicit contract. It 
 
 >> I need a definition of reputation, and also some research on how reputation can be faked.
 
-### Contingent Fees
-
-See [@clark1993 243]
-
 ### Regulation
 
 Three sources of regulation can be identified (@clark1993 246-247):
@@ -301,6 +336,12 @@ Also media.
 ### Specific Commitment
 
 See @sturdy2021 [12]
+
+### Hostage-taking and contingent fees
+
+When there are no trust-related nor legal enforcement mechanisms, parties can be discouraged from forming long-term relationships. According to @werner1993 [47-48], "hostages" are used in situations where rational behavior would lead to sub-optimal outcome, in the Paretoian sense. In game theoretical terms, hostage-taking is used to prevent defecting behavior.
+
+In terms of the subject of this paper, "hostages" could come in the form of contingent fees. See [@clark1993 243]
 
 # Research Questions
 
