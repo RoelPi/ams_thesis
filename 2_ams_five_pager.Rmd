@@ -1,5 +1,5 @@
 ---
-title: On enhancing knowledge transfer from a contingent workforce
+title: (working title) Control mechanisms for working with consultants
 biblio-style: unsrt
 csl: apa.csl
 blinded: 0
@@ -71,22 +71,24 @@ See also [@bessant1995].
 In their 1994 study, for which they interviewed over 100 decision, @lacity1994 [10-17] group expectations with regards to outsourcing into four categories: financial, business, technical and political expectations.
 
 ### Financial expectations
-Reducing costs
-Improving cost controls
-Restructuring IT budgets
+
+* Reducing costs
+* Improving cost controls
+* Restructuring IT budgets
 
 ### Business expectations
-Focusing on core activities
-Facilitating mergers & acquisitions
-Starting-up a company
+* Focusing on core activities
+* Facilitating mergers & acquisitions
+* Starting-up a company
 
 ### Technical expectations
 
-Improving technical service
-Accessing talent & technologies
+* Improving technical service
+* Accessing talent & technologies
 
 ### Political expectations
 
+Yup.
 
 ### Knowledge transfer & diffusion
 
@@ -149,9 +151,11 @@ In the same research paper, @willcocks2003 [188-189] identify two congruent four
 The research by @schwarz2005 [311-313] claims that it matters _who_ implements an IT project: "technology-enabled inertia can be explained through understanding an employee's social identifications and his or her associated cognitions, where inertia exists on a sliding scale of change." By defending their self-image, low-status groups can hinder the implementation of an application. The sourcing assessment needs to incorporate this finding.
 
 ### Embeddedness Theory
+
 [@armbruster2006 14-16]
 
 ### Sociological neoinstitutionalism
+
 [@armbruster2006 8-11]
 
 # Problem statement
@@ -294,7 +298,7 @@ Link met HR & internaliseren van externen, externe kennis.
 1b. What are inhibitors & enablers for success of digital consultants?
 1c. Definition of success
 
-2. Do Belgian firms see PA problems with consultants?
+2. Do Belgian firms see PA problems with digital consultants?
 3. Which control mechanisms do Belgium firms have in place with regards to adverse selection and moral hazard of digital consultants?
 3. Which control mechanisms positively impact success of engaging with a consultancy firm?
 
