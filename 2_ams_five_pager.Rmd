@@ -16,7 +16,7 @@ output: rticles::asa_article
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Traditionally, management consultancy came in the form of strategic advice. However, over the past decades, the business world has witnessed that organizations increasingly focus on their core business, while outsourcing everything else to a third party or a "contingent workforce": consultants and freelancers [@msp2022]. This practice has even penetrated organizations' core value chain, a phenomenon known as business process outsourcing or BPO [@shi1]. However, working with a contingent workforce, entails considerable risk.
+# Introduction
 
 # Relevancy
 
@@ -25,6 +25,7 @@ Traditionally, management consultancy came in the form of strategic advice. Howe
 3. Hot topic: _when_ to rely on consultants?
 4. Productivity: is it worth it? If so, under what circumstances?
 5. Job market & macro-economic aspects
+6. Recent news in BE/NL
 
 # State of the literature
 
@@ -38,7 +39,7 @@ Traditionally, management consultancy came in the form of strategic advice. Howe
 * Management consultancy
 * Outsourcing: the practice of obtaining goods or services from an external provider, substituting internal sourcing [@lacity2012 2].
 * Knowledge-intensive business services
-* 
+
 
 ### Emergence
 
@@ -239,11 +240,8 @@ Consequently, the psychological contract not only comprises the legal contract, 
 
 Closely related is the work by @willcockskern [9-13] that makes a distinction between the contractual level and the cooperative level. The contractual level is about payment for the exchange of services and the transfer of assets, information & consultants. The cooperative level involves formal communication mechanisms; personal investments in time, resources & knowledge; mutual goals & objectives and social bonds. The atmosphere surrounding the former is heavily impacted by developments at the latter. A respondent in @willcockskern [9] states that "the contract is a bit like a nuclear deterrent. You need one and you have got to have a framework, but if you've got to use it you are probably in trouble."
 
-### Networked Reputation
 
-See [@armbruster2006 75].
-
-### (Public) Reputation
+### Reputation
 
 See [@armbruster2006 76]
 
@@ -263,7 +261,7 @@ Three sources of regulation can be identified (@clark1993 246-247):
 
 #### Government Initiated Codes
 
-See @sturdy2021 [3]
+See @sturdy2021 [3-4]
 
 #### Self-imposed Sectoral Codes
 
@@ -279,7 +277,7 @@ See @sturdy2021 [4]
 
 ### Formalised Transactional Contracting
 
-See @sturdy2021 [4]
+See @sturdy2021 [4-5]
 
 ### Third-party Assessors
 
