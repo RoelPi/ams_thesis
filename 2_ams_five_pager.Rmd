@@ -146,53 +146,56 @@ There is substantial research on knowledge management (as a multidisciplinary di
 
 According to @armbruster2006 [3-6], the theoretical perspectives on consultancy can be broken down into two main categories and corresponding streams of literature. The first one is the functionalist view, which sees consultants as "carriers and transmitters of management knowledge." The second perspective argues that the functionalist perspective is to narrow in scope to grasp consulting projects: client-consultants interactions are open to distortions, and understanding them requires research. This is known as the critical view.
 
+<!--
 Altijd de link terugleggen naar PA-problemen.
 RBV: no knowledge transfer no success
 TC: no lower transactions when no transfer
-
-<Unsure if this part should be expanded, or even in the final paper>
-@nevo2007 [8-10] outlines five theoretical frameworks that contribute to the question why firms should (not) utilize external IT capabilities.
-
-* The *resource-based view* (RBV) claims that firms can earn sustainable above-normal returns by possessing rare and valuable resources and that they have isolating mechanisms that prevent the dissemination of those resources.
-* The *micro-economic* view assumes that firms operate in fully competitive markets and, contrary to RBV, that above-normal returns are competed away by rivals or new entrants. Utilizing IT and external capabilities is simply a matter of delivering the optimal quantity of products and their prices.
-* *Transaction cost economics* claims that firms are interested in identifying areas in which they can outperform market-based interactions and do themselves. The commodity-like nature of IT solutions make them very prone to being outsourced to consultants.
-* *Institutional theory* does not reject the micro-economic theory that firms try to make rational choices, but acknowledges that there are cognitive and rational constraints. Consequently, the choice for internal or external capabilities involves trust, relationships, personal beliefs and aspirations.
-* *Identification theory*: Individuals derive value and meaning from group membership. This can impact the involvement of external actors for IT projects in a negative way.
-
-See also [@armbruster2006 66]
+-->
 
 ### Transaction cost economics
 
-Need @williamson1985 [72] here. Departing from Coase!
+Transaction costs economics sees economic organization as a problem of contracting, i.e. organizing economic activity. The starting point is that every transaction comes with certain costs, both ex ante and ex post. Ex ante transaction costs come in the form of drafting and negotiating an agreement, which can become extremely complex when lots of contingencies are present. Ex post transaction costs, on the other hand, include maladaptation costs, when the delivery of a good or service drifts from its initial conceptualization, the haggling costs for adapting the contract, the setup and running of governance structures to handle disputes and finally and recurring bonding costs to secure commitments.
 
-@canback1998 [31] does a solid job explaining the role of transaction costs, and how consultants fit into that picture. "As companies strive to reduce the production costs by exploiting scale and scope economies, they must specialise -- which in turn leads to a need for internal coordination. If transaction costs did not exist, then the largest company in each market would also be the most profitable company, since coordination between functions could be achieved without effort. But because of transaction costs, this does not happen." The result is that blue-collar jobs disappear as production costs are reduced, while white-collar jobs, aimed at coordination, do not. 
+The decision whether a service should be conducted in-house or purchased in the market is based on the comparison of the sum of production and transaction costs [@armbruster2006 12]. 
 
-Since managers are only boundedly rational, the assumption is that there is a high demand for advice and (IT) solutions that improve coordination within and between firms. Services in which consultants are particularly well-versed. The question to ask here is: is the transaction cost for working with external consultants lower than for working with internal consultants when it comes to knowledge production? 
+@canback1998 [31] does a solid job explaining the role of transaction costs in explaining the raison d'être of consultants. "As companies strive to reduce the production costs by exploiting scale and scope economies, they must specialise -- which in turn leads to a need for internal coordination. If transaction costs did not exist, then the largest company in each market would also be the most profitable company, since coordination between functions could be achieved without effort. But because of transaction costs, this does not happen." The result is that blue-collar jobs disappear as production costs are reduced, while white-collar jobs, aimed at coordination, do not. 
 
-@canback1998 [37-44] argues it does. According to his interpretation of transaction cost economics, the choice depends on three factors.
+Since managers are only boundedly rational, the assumption is that there is a high demand for advice and (IT) solutions that improve coordination within and between firms. These are services in which consultants are particularly well-versed. The question to ask here is: are the transaction costs for working with external consultants lower than for working with internal consultants when it comes to knowledge production? 
 
-1. The degree of asset specificity: do physical, human or site assets have a specific usage and can they not be put to use for another purpose? Higher asset specificity leads to internalization, since no vendor is willing to tailor his product or service to one client, facing downward price pressure, since the latter acts as a monopsonist [@robinson1969 218-228].
-2. Uncertainty: business cycle volatility and technical uncertainty lead to more coordination and bureaucratic transactions since it is hard and expensive to work with contracts that cover a wide range of contexts and possible outcomes. Consequently, uncertainty leads to internalization.
-3. The frequency of transactions: if transactions are frequent, there will be a higher bureaucratic cost involved, once again leading to a tendency to internalize the good or service.
+@canback1998 [37-44] argues it does, and arguments from the three critical dimensions of transactions, a popular research topic within transaction cost economics.
 
-@canback1998 [37] argues that it's mainly human asset specificity that favor using consultants, since their assignments typically have a human low asset specificity, since the solution or advice can be reproduced at many organizations. While it is true that consultancy assignments involve relatively few transactions (often a single one), Canback claims that transaction frequency and uncertainty are less of an influence. By referring to market uncertainty, he obscures the fact that consultants rather thrive in a context with high complexity and uncertainty. This is a prime example of the vagueness surrounding the concept of uncertainty.
+*Asset specificity* describes the degree to which physical, human or site assets have a specific usage and can they not be put to use for another purpose. With highly idiosyncratic transactions, no vendor is willing to tailor his product or service to one client, and face downward price pressure, since the latter acts as a monopsonist [@robinson1969 218-228]. 
 
-Within the context of transaction cost economics, @shin2003 [38] states that "many empirical studies show mixed and contradictory results against what transaction cost economics predicts, especially for the concept of uncertainty." and as a solution, reduces the concept to "behavioral uncertainty". This is in line with @williamson1985 [79] who claims that "The proposed match of governance structures with transactions considers only two of the three dimensions for describing transactions: asset specificity and frequency. The third dimension, uncertainty, is assumed to be present in sufficient degree to pose an adaptive, sequential decision problem. [...] Since continuity now matters, [...] uncertainty makes it more imperative to organize transactions within governance structures that have the capacity to 'work things out.'"
+According to @williamson1979 [250-253] higher asset specificity leads either to one of two forms of "relational contracting". The first form is bilateral governance in which there are "admissible dimensions for adjustment such that flexibility is provided under terms in which both parties have confidence." The second form is unified governance (i.e. internalization or vertical integration), in which "adaptations can be made in a sequential way without the need to consult, complete, or revise interfirm agreements. Where a single ownership entity spans both sides of the transactions, a presumption of joint profit maximization is waranted.
 
-To summarize: asset specificity may lead to opportunism. In other words, behavioral uncertainty arises from asset specificity, but only in recurrent transactions. In this context, behavioral uncertainty can't be disentangled from asset specificity.
+@williamson1985 [95-96] identifies 4 types of asset specificity:
 
-Since consultancy firms can make the most money when they commoditize (recurrent transaction, albeit with different buyers) their strategies or solutions, TCE predicts that they will stay away from assignments with high asset specificity. <I need a citation on the commoditization part>
+1. Site specificity: the degree to which the successive stages of production are in close proximity to each other.
+2. Physical asset specificity: the degree to which the physical properties of the product are unique.
+3. Human asset specificity: the degree to which the skills, or configuration of skills within a team, are unique to an organization's production process.
+4. Dedicated assets: 
 
-@nevo2007 [16-17] concludes that his research supports the transaction cost hypothesis: "when the internal IT capability is weak, developing and implementing an IT solution is likely to cost more compared with hiring external IT consultants to do the same job." Furthermore, the reverse situation also supports the identification theory: "IT consultants will not receive the legitimacy they require [...] if their knowledge and expertise do not differ from that possessed by the in-house IT team. Under these circumstances, external IT consultants' impact on IT productivity is expected to be lower."
+The second dimension is the *frequency* of transactions on the buyer side. A transaction with high asset specificity does not require a different contracting approach, because there is no subsequent phase in which the buyer can leverage his monopsony power and stray from the initial contract. However, when the frequency goes beyond a single transaction "idiosyncratic transactions are ones for which the relationship between buyer and supplier is quickly thereafter transformed into one of bilateral monopoly." [@williamson1985 241]
 
+*Uncertainty*. Within the context of transaction cost economics, @shin2003 [38] states that "many empirical studies show mixed and contradictory results against what transaction cost economics predicts, especially for the concept of uncertainty." and as a solution, reduces the concept to "behavioral uncertainty", hereby ignoring environmental uncertainty [@watjatrakul2005 391-392] This is in line with @williamson1985 [79] who claims that "The proposed match of governance structures with transactions considers only two of the three dimensions for describing transactions: asset specificity and frequency. The third dimension, uncertainty, is assumed to be present in sufficient degree to pose an adaptive, sequential decision problem. [...] Since continuity now matters, [...] uncertainty makes it more imperative to organize transactions within governance structures that have the capacity to 'work things out.'"
+
+When we bring these three dimensions together, we conclude that behavioral uncertainty arises from asset specificity because it may lead to opportunism, but only in recurrent transactions. In this context, behavioral uncertainty and can't be disentangled from asset specificity. @williamson1985 [78] is fully aware that this is a departure from Coase's transaction cost rationale.
+
+To drive back the theory to the subject of consulting, @canback1998 [37] argues that it's mainly human asset specificity that favor using consultants, since their assignments typically have a low human asset specificity so that the solution or advice can be reproduced at many organizations.^[Furthermore, Canback claims that transaction frequency and uncertainty are less of an influence. By referring to market uncertainty, not only does he obscure the fact that consultants rather thrive in a context with high complexity and uncertainty, he also misrepresents the uncertainty dimension that is central in transaction cost economics. This is a prime example of the vagueness surrounding the concept of uncertainty in transaction cost economics (supra).] This allows them to achieve economies of scale. That's why the rather shun highly idiosyncratic assignments. Rather, they'll focus on (often high-level) organizational advice and IT architectures, since these have the biggest adaptive properties.
+
+@mata1995 [498] comes to the same conclusion regarding technical IT skills: "While technical skills are essential in the use and application of IT, they are usually not sources of sustained competitive advantage. [...] they are usually not heterogeneously distributed across firms. Moreover, even when they are heterogeneously distributed across firms, they are typically highly mobile. [...] firms without the required analysis, design, and programming skills required to make an IT investment can hire technical consultants and contractors."
+
+@nevo2007 [16-17] concludes that his research supports the transaction cost hypothesis: "when the internal IT capability is weak, developing and implementing an IT solution is likely to cost more compared with hiring external IT consultants to do the same job."^[ the reverse situation also supports the identification theory: "IT consultants will not receive the legitimacy they require [...] if their knowledge and expertise do not differ from that possessed by the in-house IT team. Under these circumstances, external IT consultants' impact on IT productivity is expected to be lower."]
+
+<!--
 Nevertheless, there is a serious limitation in the work of @nevo2007. An IT project is assumed to be fixed in time, with fixed parameters. It does not account for "vendor learning" [@wu2004] during the project. @cha2009 tackles this shortcoming with a model built around two parameters:
 
 1. (production) knowledge transfer rate: the ability of the client to capture knowledge from the vendor.
 2. (coordination) knowledge depreciation rate: the ability of the client to retain coordination knowledge as it outsources IT activities.
 
-They conclude that firms with a low production knowledge transfer rate (e.g. unmotivated employees) should insource or outsource all their IT capabilities. When they also have a high coordination knowledge deprecation rate (e.g. bad project management), insourcing is the only option. On the other hand, when both the production knowledge transfer and coordination knowledge depreciation rate are high, the optimal rate of of IT outsourcing is also high.
+They conclude that firms with a low production knowledge transfer rate (e.g. unmotivated employees) should insource or outsource all their IT capabilities. When they also have a high coordination knowledge deprecation rate (e.g. bad project management), insourcing is the only option. On the other hand, when both the production knowledge transfer and coordination knowledge depreciation rate are high, the optimal rate of of IT outsourcing is also high.-->
 
-See also [@armbruster2006 12-14], [@canback1999].
+### Principal-Agent Theory
 
 ### Resource-based View
 
