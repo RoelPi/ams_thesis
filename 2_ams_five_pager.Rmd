@@ -33,17 +33,29 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Definitions
 
-#### Consultancy
+#### (Management) Consultancy
 
-#### Management Consultancy
+"...definitions of management consultancy are problematic because the permeable boundaries of the industry have resulted in significant shifts over time in the composition of the industry. This means that what comprises consulting work is dynamic, ever shifting, and contested as new firms enter the industry and techniques deemed formerly appropriate, change. Although the industry is characterized by periodic structural shifts, at its heart it is an advisory activity built on the client–consultant relationship. [...] it is perhaps this chimeral ability to avoid precise definition and to be able to constantly reinvent its core services to meet ever changing understandings of the problems that beset contemporary organizations, which partly underpins its growing economic importance." [@kipping2012 24]
+
+@werr1997 [1] implies that there is always a change process between clients and consultants.
+
+- Vague body of knowledge: Consulting knowledge is described as elusive, fuzzy, perishable, indeterminate, esoteric, fluid and changeable [@muzio2011].
+- Weak professionalization: Consultancy is marked by very low professionalization. Occupational entry is unprotected, the supply of labor is not regulated and there is no formal accreditation. [@fincham2006 20] Practising "consultancy" is the main criterion of membership. Competences and 'time spent in the industry' are the main differentiators.
+- Market-based orientation: "The top client firms in any given sector represent the cornerstone of consultants' ability to benchmark leading-edge knowledge." [@fincham2006 24]
+- Nicknames: they belong to the cultural circuits of capitalism [@thrift2005 95], capitalism's commissars [@thrift2005 93], "shadowy figures operating in the background but exercising considerable influence." [@kipping2012 31], "agents of a modern rationalistic and universalistic culture" [@kipping2012 190], "institutionally approved agents" [@kipping2012 193]
+- Management consultancies earn money through changing current procedures in client organizations. []
 
 #### IT Consultancy
+
+@armbruster2006 [71-72] argues that the boundaries between consultancy service types are blurred. A single project often requires multiple types of services, but the distinction is often artificial. Especially the boundary between strategy and IT consultancy is opaque due to the fact that the big accounting & strategy firms entered the IT consultancy market to conduct all-encompassing projects where strategy and IT meet. 
 
 #### Digital Consultancy
 
 #### Contingent Workforce
 
-#### Freelancer
+#### Freelancer / Independent Consultant
+
+#### Temporary Staffing
 
 #### Outsourcing
 
@@ -54,7 +66,6 @@ Outsourcing is the practice of obtaining goods or services from an external prov
 * Mindset: contract out vis-à-vis strategic alliance
 
 #### IT Outsourcing
-
 
 
 #### Business Process Outsourcing
@@ -72,8 +83,6 @@ Total outsourcing entails some risks (@willcocks1995 77). Organizations need to 
 
 #### Knowledge-intensive business service
 
-
-
 * Contingent workforce
 * Freelance
 
@@ -85,7 +94,11 @@ Total outsourcing entails some risks (@willcocks1995 77). Organizations need to 
 
 ### Emergence
 
-See [@armbruster2006 120-130]
+Some papers to explore:
+
+- [@armbruster2006 120-130].
+- [@kipping2002]
+- [@fincham1999 336]
 
 ### Why digital consultancy? A practical perspective
 
@@ -112,27 +125,27 @@ See also [@bessant1995].
 
 In their 1994 study, for which they interviewed over 100 decision, @lacity1994 [10-17] group expectations with regards to outsourcing into four categories: financial, business, technical and political expectations.
 
-### Financial expectations
+#### Financial expectations
 
 * Reducing costs
 * Improving cost controls
 * Restructuring IT budgets
 
-### Business expectations
+#### Business expectations
 * Focusing on core activities
 * Facilitating mergers & acquisitions
 * Starting-up a company
 
-### Technical expectations
+#### Technical expectations
 
 * Improving technical service
 * Accessing talent & technologies
 
-### Political expectations
+#### Political expectations
 
 Yup.
 
-### Knowledge transfer & diffusion
+#### Knowledge transfer & diffusion
 
 Return to @turner1982.
 
@@ -141,6 +154,10 @@ Something about knowledge transfer here [@sturdy2009].
 Nevertheless, there are constraints to knowledge transfer. According to @cohen1990 [128-129], "the ability to evaluate and utilize outside knowledge is largely a function of the level of prior related knowledge [such as] basic skills, or even a shared language but may also include knowledge of the most recent scientific or technological developments in a given field. [...] These abilities collectively constitute what we call a firm's _absorptive capacity_."
 
 There is substantial research on knowledge management (as a multidisciplinary discipline within the field of information science) and knowledge transfer (as a broad topic within the discipline). Furthermore, there seems to be some academic interest in knowledge transfer in a principal-agent context [@ning2008; @haines2003], as is the case with between an organization and their contingent workforce. This research could be key in steering and narrowing the scope of the research.
+
+#### Attracting capabilities
+
+"Attracting capabilities that are in short supply." @aubert1996 [52]
 
 ## Why digital Consultancy: a theoretical perspective
 
@@ -154,26 +171,28 @@ TC: no lower transactions when no transfer
 
 ### Transaction cost economics
 
-Transaction costs economics sees economic organization as a problem of contracting, i.e. organizing economic activity. The starting point is that every transaction comes with certain costs, both ex ante and ex post. Ex ante transaction costs come in the form of drafting and negotiating an agreement, which can become extremely complex when lots of contingencies are present. Ex post transaction costs, on the other hand, include maladaptation costs, when the delivery of a good or service drifts from its initial conceptualization, the haggling costs for adapting the contract, the setup and running of governance structures to handle disputes and finally and recurring bonding costs to secure commitments.
+Transaction costs economics sees economic organization as a problem of contracting, i.e. organizing economic activity. The starting point is that every transaction comes with certain costs, both ex ante and ex post. Ex ante transaction costs come in the form of drafting and negotiating an agreement, which can become extremely complex when lots of contingencies are present. Ex post transaction costs, on the other hand, include maladaptation costs, when the delivery of a good or service drifts from its initial conceptualization, the haggling costs for adapting the contract, the setup and running of governance structures to handle disputes and finally and recurring bonding costs to secure commitments. 
 
-The decision whether a service should be conducted in-house or purchased in the market is based on the comparison of the sum of production and transaction costs [@armbruster2006 12]. 
+Their bounded rationality makes it impossible for humans to estimate both the costs and risks of complete contracts, or even enacting and enforcing them. [@aubert1996 53] The result is that the contractual partners often decide to leave room for adaptation and interpretation, which, in turn, increases the risk of opportunistic behavior (infra).
+
+According to transaction cost economics, the decision whether a service should be conducted in-house or purchased in the market is based on the comparison of the sum of production and transaction costs [@armbruster2006 12]. 
 
 @canback1998 [31] does a solid job explaining the role of transaction costs in explaining the raison d'être of consultants. "As companies strive to reduce the production costs by exploiting scale and scope economies, they must specialise -- which in turn leads to a need for internal coordination. If transaction costs did not exist, then the largest company in each market would also be the most profitable company, since coordination between functions could be achieved without effort. But because of transaction costs, this does not happen." The result is that blue-collar jobs disappear as production costs are reduced, while white-collar jobs, aimed at coordination, do not. 
 
-Since managers are only boundedly rational, the assumption is that there is a high demand for advice and (IT) solutions that improve coordination within and between firms. These are services in which consultants are particularly well-versed. The question to ask here is: are the transaction costs for working with external consultants lower than for working with internal consultants when it comes to knowledge production? 
+Mindful of this evolution, the assumption is that there is a high demand for advice and (IT) solutions that improve coordination within and between firms. These are services in which consultants are particularly well-versed. The question to ask here is: are the transaction costs for working with external consultants lower than for working with internal consultants when it comes to knowledge production? 
 
 @canback1998 [37-44] argues it does, and arguments from the three critical dimensions of transactions, a popular research topic within transaction cost economics.
 
 *Asset specificity* describes the degree to which physical, human or site assets have a specific usage and can they not be put to use for another purpose. With highly idiosyncratic transactions, no vendor is willing to tailor his product or service to one client, and face downward price pressure, since the latter acts as a monopsonist [@robinson1969 218-228]. 
 
-According to @williamson1979 [250-253] higher asset specificity leads either to one of two forms of "relational contracting". The first form is bilateral governance in which there are "admissible dimensions for adjustment such that flexibility is provided under terms in which both parties have confidence." The second form is unified governance (i.e. internalization or vertical integration), in which "adaptations can be made in a sequential way without the need to consult, complete, or revise interfirm agreements. Where a single ownership entity spans both sides of the transactions, a presumption of joint profit maximization is waranted.
+According to @williamson1979 [250-253] higher asset specificity leads either to one of two forms of "relational contracting". The first form is bilateral governance in which there are "admissible dimensions for adjustment such that flexibility is provided under terms in which both parties have confidence." The second form is unified governance (i.e. internalization or vertical integration), in which "adaptations can be made in a sequential way without the need to consult, complete, or revise interfirm agreements. Where a single ownership entity spans both sides of the transactions, a presumption of joint profit maximization is waranted."
 
 @williamson1985 [95-96] identifies 4 types of asset specificity:
 
 1. Site specificity: the degree to which the successive stages of production are in close proximity to each other.
 2. Physical asset specificity: the degree to which the physical properties of the product are unique.
 3. Human asset specificity: the degree to which the skills, or configuration of skills within a team, are unique to an organization's production process.
-4. Dedicated assets: 
+4. Dedicated assets: ??? 
 
 The second dimension is the *frequency* of transactions on the buyer side. A transaction with high asset specificity does not require a different contracting approach, because there is no subsequent phase in which the buyer can leverage his monopsony power and stray from the initial contract. However, when the frequency goes beyond a single transaction "idiosyncratic transactions are ones for which the relationship between buyer and supplier is quickly thereafter transformed into one of bilateral monopoly." [@williamson1985 241]
 
@@ -181,11 +200,13 @@ The second dimension is the *frequency* of transactions on the buyer side. A tra
 
 When we bring these three dimensions together, we conclude that behavioral uncertainty arises from asset specificity because it may lead to opportunism, but only in recurrent transactions. In this context, behavioral uncertainty and can't be disentangled from asset specificity. @williamson1985 [78] is fully aware that this is a departure from Coase's transaction cost rationale.
 
-To drive back the theory to the subject of consulting, @canback1998 [37] argues that it's mainly human asset specificity that favor using consultants, since their assignments typically have a low human asset specificity so that the solution or advice can be reproduced at many organizations.^[Furthermore, Canback claims that transaction frequency and uncertainty are less of an influence. By referring to market uncertainty, not only does he obscure the fact that consultants rather thrive in a context with high complexity and uncertainty, he also misrepresents the uncertainty dimension that is central in transaction cost economics. This is a prime example of the vagueness surrounding the concept of uncertainty in transaction cost economics (supra).] This allows them to achieve economies of scale. That's why the rather shun highly idiosyncratic assignments. Rather, they'll focus on (often high-level) organizational advice and IT architectures, since these have the biggest adaptive properties.
+To drive back the theory to the subject of consulting, @canback1998 [37] argues that it's mainly human asset specificity that favor using consultants, since their assignments typically have a low human asset specificity so that the solution or advice can be reproduced at many organizations.^[Furthermore, Canback claims that transaction frequency and uncertainty are less of an influence. By referring to market uncertainty, not only does he obscure the fact that consultants rather thrive in a context with high complexity and uncertainty, he also misrepresents the uncertainty dimension that is central in transaction cost economics. This is a prime example of the vagueness surrounding the concept of uncertainty in transaction cost economics (supra).] @watjatrakul2005 [408] put the theory to the test and compared the transaction cost view with the resource-based view (infra) for describing the sourcing  decisions in three cases and comes to the following conclusion: "a high-specificity asset has a major impact on sourcing decisions. It overpowers the effect of uncertainty." 
 
-@mata1995 [498] comes to the same conclusion regarding technical IT skills: "While technical skills are essential in the use and application of IT, they are usually not sources of sustained competitive advantage. [...] they are usually not heterogeneously distributed across firms. Moreover, even when they are heterogeneously distributed across firms, they are typically highly mobile. [...] firms without the required analysis, design, and programming skills required to make an IT investment can hire technical consultants and contractors."
+Focusing on low-specificity assets allows consultancy firms to achieve economies of scale. That's why they rather shun highly idiosyncratic assignments. Rather, they'll focus on (often high-level) organizational advice and IT architectures, since these have the biggest adaptive properties.
 
-@nevo2007 [16-17] concludes that his research supports the transaction cost hypothesis: "when the internal IT capability is weak, developing and implementing an IT solution is likely to cost more compared with hiring external IT consultants to do the same job."^[ the reverse situation also supports the identification theory: "IT consultants will not receive the legitimacy they require [...] if their knowledge and expertise do not differ from that possessed by the in-house IT team. Under these circumstances, external IT consultants' impact on IT productivity is expected to be lower."]
+Borrowing rhetoric from the resource-based view (infra) @mata1995 [498] applies Canback's conclusion on technical IT skills: "While technical skills are essential in the use and application of IT, they are usually not sources of sustained competitive advantage. [...] they are usually not heterogeneously distributed across firms. Moreover, even when they are heterogeneously distributed across firms, they are typically highly mobile. [...] firms without the required analysis, design, and programming skills required to make an IT investment can hire technical consultants and contractors." Ergo, IT capabilities are very likely to be outsourced.
+
+@nevo2007 [16-17] also concludes that his research supports the transaction cost hypothesis: "when the internal IT capability is weak, developing and implementing an IT solution is likely to cost more compared with hiring external IT consultants to do the same job."^[ the reverse situation also supports the identification theory: "IT consultants will not receive the legitimacy they require [...] if their knowledge and expertise do not differ from that possessed by the in-house IT team. Under these circumstances, external IT consultants' impact on IT productivity is expected to be lower."]
 
 <!--
 Nevertheless, there is a serious limitation in the work of @nevo2007. An IT project is assumed to be fixed in time, with fixed parameters. It does not account for "vendor learning" [@wu2004] during the project. @cha2009 tackles this shortcoming with a model built around two parameters:
@@ -199,11 +220,13 @@ They conclude that firms with a low production knowledge transfer rate (e.g. unm
 
 ### Resource-based View
 
+The resource-based view rejects the traditional microeconomic assumptions that goods or services are homogeneous. Instead, it argues that they are heterogeneously distributed across firms, and not perfectly transferable @watjatrakul2005 [392]. These resources come in the form of assets, capabilities or organizational processes. Firms can obtain above-normal results if they can establish a competitive advantage by making their resources to exploit opportunities in the market, or neutralize those established by competitors. To be strategic, resources should be valuable, rare, inimitable and non-substitutable.
+
 In @willcocks2003 [177-180], four types of sourcing options for developing IT projects are outlined, of which three involve consultants.
 
 1. Internal development: has the the advantage of internalization of the learning outcomes, but comes with high costs related to mistakes and being the first mover.
 2. Outsourcing: has the advantage of tapping into existing knowledge and experience, and the ability to get quickly up to speed. However, internalization of learning outcomes is not guaranteed, and consultants may not be familiar with existing organizational processes. For example, the development of an internal application by an external party.
-3. Insourcing/partnering: has the same advantages as outsouring, with the added bonus of facilitating the internalization of the learning outcomes. The disadvantage is mostly related to a more complex project management, with a variety of parties involved. For example: long-term contracts with IT consultants who operate side-by-side with an organization's own staff.
+3. Insourcing/partnering: has the same advantages as outsourcing, with the added bonus of facilitating the internalization of the learning outcomes. The disadvantage is mostly related to a more complex project management, with a variety of parties involved. For example: long-term contracts with IT consultants who operate side-by-side with an organization's own staff.
 4. Cheap-sourcing: when IT projects are low risk, and far from the core business, and organization should consider cheap-sourcing. This option involves low investments and effort, but also comes with no internal learning. For example: development of a new promotional website by a digital agency.
 
 In the same research paper, @willcocks2003 [188-189] identify two congruent four-quadrant matrices to assess sourcing options. 
@@ -211,23 +234,37 @@ In the same research paper, @willcocks2003 [188-189] identify two congruent four
 * By business activity: non-critical, commoditized applications should be out-sourced. Critical, commoditized applications should be insourced or built in-house, and differentiating, critical applications should be built in-house or acquired.
 * By market comparison: A high-cost, low-quality market leads to in-house development, while a high-cost, high-quality market should lead to insourcing. A low-cost, low-quality market leads to cheap-sourcing and a low-cost, high-quality market is perfect for outsourcing.
 
+By referring to commoditization, @willcocks2003 implicitly refers to asset specificity, blending elements of transaction cost economics in the resource based view. @watjatrakul2005 does this explicitly by juxtaposing the resource-based view with the transaction cost view. Four types of assets result from this exercise:
+
+1. Low specificity, non-strategic such as generic managerial capabilities.
+2. Low specificity, strategic such as a configuration of capabilities that result in certain strategic decisions.
+3. High specificity, non-strategic such as an consumer tracking technology that provides valuable insights into the organization's processes.
+4. High specificity, strategic such as company experts that are responsible for developing a organization's differentiating features.
+
 ### Identification Theory
 
 The research by @schwarz2005 [311-313] claims that it matters _who_ implements an IT project: "technology-enabled inertia can be explained through understanding an employee's social identifications and his or her associated cognitions, where inertia exists on a sliding scale of change." By defending their self-image, low-status groups can hinder the implementation of an application. The sourcing assessment needs to incorporate this finding.
 
 ### Embeddedness Theory
+<!-- Need founding paper here -->
 
-[@armbruster2006 14-16]
+Embeddedness theorists distance themselves from transaction costs economics [@armbruster2006 14-16]. They argue that outsourcing decisions are the byproduct of the relationships between the decision-makers across different companies. Although transaction cost economists stress the importance of trust within relational contracting, it is undersocialized <!-- need citation from granoveter --> according to embeddedness theorists. "As a result, transactions may be inefficient without the participants either noticing or calculating it as such. A transaction cost analysis of such processes may then represent an ex post rationalization of an otherwise inefficient solution." [@armbruster2006 15]
+
+Several empirical findings support embeddedness theory. <!-- See @armbruster2006 p16 for references -->
 
 ### Sociological neoinstitutionalism
 
 A theory that is systematically drawn upon [@armbruster2006 6-8] is sociological neoinstitutionalism. It is based on the argument that the belief in efficiency of certain practices or solutions drives economic actions, rather than the proven efficiency. The result is that large consultancies have been described as carriers, not only of knowledge, but of legitimacy too. After all, it's their analyses that validate management decisions.
 
+@zucker1985 [20-21] argues that this is the result of trust-building signals (infra) growing beyond their initial goal of delineating specific expectations. Trust-producing firms (such as consultancy firms) an sich assume a high status, with the business world protecting them against failure.
+
 Clearly, this view is mainly appropriated by the critical view since it raises doubts about the efficient outcomes on the practice of consultancy.
 
 ### Signaling Theory
 
-Another theory that falls in the camp of the critical view is that of economic signaling theory [@armbruster2006 8-10]. Unlike sociological institutionalism, it treats the economic actors as experienced and knowledgeable, and not as part of an institution. Signaling theory argues that in uncertain markets, suppliers invest in features that signal status, quality and reliability. In consulting this translates into degrees, certificates, using the adequate buzzwords, wearing a suit and driving a quality car.
+Another theory that falls in the camp of the critical view is that of economic signaling theory [@armbruster2006 8-10]. Unlike sociological institutionalism, it treats the economic actors as experienced and knowledgeable, and not as part of an institution. Signaling theory argues that in uncertain markets, suppliers invest in features that signal status, quality and reliability.
+
+@zucker1985 [15-16] argues that these features can also be used to signal similarity. While nationality, ethnicity and sex can indicate a common cultural system, or a "world held in common", more superficial (bought or acquired) features can delineate specific expectations in specific situations. In consulting this translates into degrees, certificates, using the adequate buzzwords, wearing a suit and driving a quality car. These indicators signal adherence to the "rules of the game."
 
 Sociological neoinstitutionalism argues that legitimacy-seeking behavior leads to inefficient market outcomes, while signaling theory argues the opposite.
 
@@ -244,9 +281,11 @@ Hiring consultants for digital services deserves a dedicated scope, because of t
 
 1. Information technology evolves rapidly. Consequently, it involves a high degree of uncertainty. (ex ante)
 2. The underlying economics of IT changes rapidly, making it hard to evaluate the consultant's contribution. (ex post)
-3. IT has penetrated all business functions. It is hard to isolate it from organizational functions (ex post)
+3. IT has penetrated all business functions. It is hard to isolate it from organizational functions. The question is rarely about "outsourcing or not", but more often about "what tasks will be outsourced, and how". The result is that the responsibilities of in-house staff and consultants is very intertwined. (ex post)
 4. The cost of switching providers are often significant. For example: some consultants have exclusivity for implementing a certain solution. (ex post)
 5. Clients might be very inexperienced with regards to IT (and outsourcing it). This puts them at a disadvantage for selecting and evaluating a consultant (ex ante, ex post).
+
+@aubert1996 [59] also points to a problem of measurement within IT outsourcing. Contracts often specify all kinds of measures: response time, uptime, error logs, etc. Although they are linked to explicit provisions (such as fines, penalties and contract termination), there are two conditions for them to be effective: (1) observability and (2) verifiability. The former implies that the client can observe the actual performance of the agent, while the latter is about verifying observations and providing evidence.
 
 ## Adverse Selection
 
@@ -299,8 +338,9 @@ Why does digital consultancy require a separate study?
 
 ## Governance Measures
 
-Several mechanisms have already been proposed.
+Several mechanisms have already been proposed. What they all share is that they should result in a higher degree of trust^[Trust is defined in the broad sense: "a set of expectations shared by all those involved in the an exchange." [@zucker1985 2]] between the business partners. More specific, trust from the principal towards the agent.
 https://link.springer.com/chapter/10.1057/9780230362994_12
+
 
 ### Psychological contract obligations
 
@@ -320,17 +360,22 @@ Closely related is the work by @willcockskern [9-13] that makes a distinction be
 
 ### Reputation
 
-See [@armbruster2006 76]
+@armbruster2006 [75-76] distinguishes three types of reputation:
+
+1. Public reputation is the perception of a consulting firm's (or individual consultant) past performance. While there are few to no barriers to enter the market as a whole with a newly-found consulting firm, public reputation is a huge barrier to reaching its upper end. Public reputation is like a public good <!-- citation needed -->; the information is non-excludable and non-rivalrous. 
+2. Experience-based trust relates to personal experience with a specific partner. A positive relation drives future action. However, trust evolves slowly, and maintaining it requires commitment. That's why it is often constrained to a small group of business partners. <!-- See also @nooteboom2000. -->
+3. Networked reputation is the result of word-of-mouth recommendations
 
 @clark1993 [243-244] asked 55 respondents about the factors that are important when choosing an executive search & selection consultancy. "Reputation of individual consultants" and "reputation of the consultancy" are in the top three factors. This reputation often arises from "a history of past transactions with individual consultants. Frequent transactions between consultants and clients leads to familiarity which underpins the latters' assessment of the former." In other words, because finding a new consultants implies a search cost [@wilson2012 1072], incumbent consultants are expected to receive new contracts as long as the cost incurred from a potential sub-optimal performance is lower than the search cost of finding a new consultant.
 
 According to @nayyar1990 [516] "reputation performs as an implicit contract. It is enforced by the seller's concerns about future demand for the service provided. [...] reputation is likely to exhibit characteristics of a public good. Once acquired, it can be user over and over again in the context of other services or markets."
 
->> I need a definition of reputation, and also some research on how reputation can be faked.
+<!-- I need a definition of reputation, and also some research on how reputation can be faked. -->
 
 ### Regulation
 
-Three sources of regulation can be identified (@clark1993 246-247):
+- Three sources of regulation can be identified (@clark1993 246-247).
+- See @muzio2011 [813-817].
 
 #### Government Initiated Codes
 
@@ -374,6 +419,14 @@ When there are no trust-related nor legal enforcement mechanisms, parties can be
 
 In terms of the subject of this paper, "hostages" could come in the form of contingent fees. See [@clark1993 243]
 
+### Infobase
+
+
+
+### Clan mechanisms
+
+See @aubert1996 [62] and 
+
 # Research Questions
 
 Abstractie maken van zaken zoals cultuur, bedrijfsgrootte, etc.
@@ -385,7 +438,7 @@ Link met HR & internaliseren van externen, externe kennis.
 
 2. Do Belgian firms see PA problems with digital consultants?
 3. Which control mechanisms do Belgium firms have in place with regards to adverse selection and moral hazard of digital consultants?
-3. Which control mechanisms positively impact success of engaging with a consultancy firm?
+4. Which control mechanisms positively impact success of engaging with a consultancy firm?
 
 Research questions for side projects:
 
