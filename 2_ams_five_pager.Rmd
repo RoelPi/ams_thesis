@@ -43,7 +43,7 @@ knitr::opts_chunk$set(echo = TRUE)
 - Weak professionalization: Consultancy is marked by very low professionalization. Occupational entry is unprotected, the supply of labor is not regulated and there is no formal accreditation. [@fincham2006 20] Practising "consultancy" is the main criterion of membership. Competences and 'time spent in the industry' are the main differentiators.
 - Market-based orientation: "The top client firms in any given sector represent the cornerstone of consultants' ability to benchmark leading-edge knowledge." [@fincham2006 24]
 - Nicknames: they belong to the cultural circuits of capitalism [@thrift2005 95], capitalism's commissars [@thrift2005 93], "shadowy figures operating in the background but exercising considerable influence." [@kipping2012 31], "agents of a modern rationalistic and universalistic culture" [@kipping2012 190], "institutionally approved agents" [@kipping2012 193]
-- Management consultancies earn money through changing current procedures in client organizations. []
+- Management consultancies earn money through changing current procedures in client organizations. [@kipping2000 12]
 
 #### IT Consultancy
 
@@ -127,7 +127,8 @@ In their 1994 study, for which they interviewed over 100 decision, @lacity1994 [
 
 #### Financial expectations
 
-* Reducing costs
+* Reducing costs:
+- "executives wanting to exercise control over the management and investment of IT, but lacking the expertise." [@sturdy1998 233]
 * Improving cost controls
 * Restructuring IT budgets
 
@@ -143,7 +144,7 @@ In their 1994 study, for which they interviewed over 100 decision, @lacity1994 [
 
 #### Political expectations
 
-Yup.
+"...using the 'objectivity' and/or status of consultants to legitimate or influence a course of action." [@sturdy1998 233]
 
 #### Knowledge transfer & diffusion
 
@@ -157,7 +158,8 @@ There is substantial research on knowledge management (as a multidisciplinary di
 
 #### Attracting capabilities
 
-"Attracting capabilities that are in short supply." @aubert1996 [52]
+* "Attracting capabilities that are in short supply." @aubert1996 [52] 
+"...lacking the skills for a project or, less explicitly, to compete with each other." [@sturdy1998 233]
 
 ## Why digital Consultancy: a theoretical perspective
 
@@ -244,6 +246,10 @@ By referring to commoditization, @willcocks2003 implicitly refers to asset speci
 ### Identification Theory
 
 The research by @schwarz2005 [311-313] claims that it matters _who_ implements an IT project: "technology-enabled inertia can be explained through understanding an employee's social identifications and his or her associated cognitions, where inertia exists on a sliding scale of change." By defending their self-image, low-status groups can hinder the implementation of an application. The sourcing assessment needs to incorporate this finding.
+
+"...competitive pressures, on both clients and consultants, combined with a US culture of anti-intellectualism and 'macho' (grand and unreflective) visions lead to the marketing and adoption of simplistic and necessarily flawed techniques." [@sturdy1998 34] 
+
+"Terms such as 'growth' and 'effectiveness' have mythical qualities. They are condensation symbols collapsing a managerial world view into a single word. So, too, [...] consultancy packages [make] use of condensation symbols thereby creating affective bonds to the symbol's object, tying managers into the package at an emotional level and creating a shared managerial language." [@gill1993 290]
 
 ### Embeddedness Theory
 <!-- Need founding paper here -->
