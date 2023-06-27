@@ -33,21 +33,18 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Definitions
 
-#### (Management) Consultancy
+Consultants, or management consultants, have been described through a multitude of metaphors and nicknames: "capitalism's commissars" [@thrift2005 93], "shadowy figures operating in the background but exercising considerable influence" [@kipping2012 31], "agents of a modern rationalistic and universalistic culture" [@kipping2012 190], "institutionally approved agents" [@kipping2012 193], "magical figures, shamans or witch doctors" [@fincham2002 68] and simply "The Big Con" [@mazzucato2023].
 
-"...definitions of management consultancy are problematic because the permeable boundaries of the industry have resulted in significant shifts over time in the composition of the industry. This means that what comprises consulting work is dynamic, ever shifting, and contested as new firms enter the industry and techniques deemed formerly appropriate, change. Although the industry is characterized by periodic structural shifts, at its heart it is an advisory activity built on the client–consultant relationship. [...] it is perhaps this chimeral ability to avoid precise definition and to be able to constantly reinvent its core services to meet ever changing understandings of the problems that beset contemporary organizations, which partly underpins its growing economic importance." [@kipping2012 24]
+Their work makes use of a vague body of knowledge described as elusive, fuzzy, perishable, indeterminate, esoteric, fluid and changeable by @muzio2011. Furthermore, consultancy is marked by very low professionalization as occupational entry is unprotected, the supply of labor is unregulated and there is no formal accreditation. [@fincham2006 20] Practicising "consultancy" is the main criterion of membership with competences and 'time spent in the industry' as the main differentiators.
 
-@werr1997 [1] implies that there is always a change process between clients and consultants.
+One could say that who they are, and what they do is extremely hard to describe. @kipping2012 [24] states that
+"definitions of management consultancy are problematic because the permeable boundaries of the industry have resulted in significant shifts over time in the composition of the industry. This means that what comprises consulting work is dynamic, ever shifting, and contested as new firms enter the industry and techniques deemed formerly appropriate, change. Although the industry is characterized by periodic structural shifts, at its heart it is an advisory activity built on the client–consultant relationship. [...] it is perhaps this chimeral ability to avoid precise definition and to be able to constantly reinvent its core services to meet ever changing understandings of the problems that beset contemporary organizations, which partly underpins its growing economic importance." 
 
-- Vague body of knowledge: Consulting knowledge is described as elusive, fuzzy, perishable, indeterminate, esoteric, fluid and changeable [@muzio2011].
-- Weak professionalization: Consultancy is marked by very low professionalization. Occupational entry is unprotected, the supply of labor is not regulated and there is no formal accreditation. [@fincham2006 20] Practising "consultancy" is the main criterion of membership. Competences and 'time spent in the industry' are the main differentiators.
-- Market-based orientation: "The top client firms in any given sector represent the cornerstone of consultants' ability to benchmark leading-edge knowledge." [@fincham2006 24]
-- Nicknames: they belong to the cultural circuits of capitalism [@thrift2005 95], capitalism's commissars [@thrift2005 93], "shadowy figures operating in the background but exercising considerable influence." [@kipping2012 31], "agents of a modern rationalistic and universalistic culture" [@kipping2012 190], "institutionally approved agents" [@kipping2012 193]
-- Management consultancies earn money through changing current procedures in client organizations. [@kipping2000 12]
+Clearly, the construct of a "consultant" cannot be described by the topic that they work on, nor their academic and professional background, accreditation or membership. Instead, we should look at their goals. @werr1997 [1] implies that there is always a change process between clients and consultants. This is confirmed by @kipping2000 [12] who states that "management consultancies earn money through changing current procedures in client organizations."
 
-#### IT Consultancy
+Within this group, however, we can identify consultancy types: strategy consulting, tax consulting, HR consulting, risk & regulatory consulting, etc. However, @armbruster2006 [71-72] argues that the boundaries between consultancy service types are blurred. A single project often requires multiple types of services, but the distinction is often artificial. Especially the boundary between strategy and IT consultancy is opaque due to the fact that the big accounting & strategy firms entered the IT consultancy market to conduct all-encompassing projects where strategy and IT meet. 
 
-@armbruster2006 [71-72] argues that the boundaries between consultancy service types are blurred. A single project often requires multiple types of services, but the distinction is often artificial. Especially the boundary between strategy and IT consultancy is opaque due to the fact that the big accounting & strategy firms entered the IT consultancy market to conduct all-encompassing projects where strategy and IT meet. 
+Despite these blurred lines, this paper focuses on consultants that aim to accomplish change through information technology. Although many papers describe this group as "IT consultants" [@nevo2007; @loh1992; @fincham2006; @armbruster2006; @bloomfield1995; @schwarz2005], none of the big consultancies offer "IT consultancy". Instead, they offer consultancy in digital operations (PwC); digital commerce & engineering (Accenture); digital transformation (EY, Bain, Deloitte); digital (McKinsey, KPMG); digital, technology & data (BCG).
 
 #### Digital Consultancy
 
@@ -64,6 +61,8 @@ Outsourcing is the practice of obtaining goods or services from an external prov
 * Time-scale: short-term vis-à-vis long-term
 * Criticality of the relationship: low vis-à-vis high
 * Mindset: contract out vis-à-vis strategic alliance
+
+According to @liberatore2010 [255] consulting differs from outsourcing with respect to two dimensions: (1) the client and the consulting organization may have conflicting goals and incompatible work practices. Despite these differences (2) client and consultant need to collaborate throughout the project.
 
 #### IT Outsourcing
 
@@ -83,14 +82,6 @@ Total outsourcing entails some risks (@willcocks1995 77). Organizations need to 
 
 #### Knowledge-intensive business service
 
-* Contingent workforce
-* Freelance
-
-* IT Outsourcing
-* Business Process Outsourcing
-* Total Outsourcing
-* Knowledge-intensive business services
-
 
 ### Emergence
 
@@ -99,6 +90,7 @@ Some papers to explore:
 - [@armbruster2006 120-130].
 - [@kipping2002]
 - [@fincham1999 336]
+- [@mckenna2006]
 
 ### Why digital consultancy? A practical perspective
 
@@ -218,7 +210,9 @@ Nevertheless, there is a serious limitation in the work of @nevo2007. An IT proj
 
 They conclude that firms with a low production knowledge transfer rate (e.g. unmotivated employees) should insource or outsource all their IT capabilities. When they also have a high coordination knowledge deprecation rate (e.g. bad project management), insourcing is the only option. On the other hand, when both the production knowledge transfer and coordination knowledge depreciation rate are high, the optimal rate of of IT outsourcing is also high.-->
 
-### Principal-Agent Theory
+### Agency Theory
+
+Agency theory is very compatible with transaction cost economics. When an organization decides to not develop a specific service in-house, and instead, buys it in the market, it encounters agency issues: information asymmetries and goal incompatibility. See @shapiro2005. The organization is interested in a timely roll-out of a quality solution for a problem they have. The consultancy firm, on the other hand, is driven by profit maximization. 
 
 ### Resource-based View
 
@@ -344,7 +338,10 @@ Why does digital consultancy require a separate study?
 
 ## Governance Measures
 
-Several mechanisms have already been proposed. What they all share is that they should result in a higher degree of trust^[Trust is defined in the broad sense: "a set of expectations shared by all those involved in the an exchange." [@zucker1985 2]] between the business partners. More specific, trust from the principal towards the agent.
+Several mechanisms have already been proposed. What they all share is that they should result in a higher degree of trust^[Trust is defined in the broad sense: "a set of expectations shared by all those involved in the an exchange." [@zucker1985 2]] between the business partners. More specific, trust from the principal towards the agent. @liberatore2010 [265] found that building trust, and goal congruence, can help solve the agency problem because it drives the consultancy firm's motivation for short-term profits towards long-term business and reputation.   
+
+See @lewicki2006.
+
 https://link.springer.com/chapter/10.1057/9780230362994_12
 
 
@@ -393,11 +390,15 @@ See @sturdy2021 [4]
 
 #### Contractual Obligations
 
+@mcfarlan1995 claim that it is important to have flexibility in an outsourcing contract, because the target state of a project might change due to evolving technology and business environment. Nevertheless...
+
 @lacity2012 [4] describes that there is substantial evidence that positive outsourcing outcomes are associated with:
 
 * more detailed contracts with regards to scope, service levels, responsibilities and adaption to change;
 * shorter-term contracts;
 * high-value contracts.
+
+More detailed contracts, when resulting in requirements uncertainty, is an enabler of goal congruence and trust between the consultancy firm and the client, which is found to result in a better project performance [@liberatore264].
 
 ### Formalised Transactional Contracting (Purchasing Regulation)
 
@@ -414,6 +415,8 @@ See [@armbruster2006 76-77],
 Also media.
 
 ### Incentivization
+
+@liberatore2010 [264-266] finds that a higher goal congruence between the consultancy firm and the client is an enabler of project performance.
 
 ### Specific Commitment
 
@@ -432,6 +435,9 @@ In terms of the subject of this paper, "hostages" could come in the form of cont
 ### Clan mechanisms
 
 See @aubert1996 [62] and 
+
+### Outcome-driven contracts
+See @tosi1997.
 
 # Research Questions
 
