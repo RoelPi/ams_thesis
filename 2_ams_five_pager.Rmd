@@ -51,22 +51,28 @@ Within this group, however, we can identify consultancy types: strategy consulti
 
 ## Digital Consultancy
 
-Despite these blurred lines, this paper focuses on consultants that aim to accomplish change through information technology. Although many papers describe this group as "IT consultants" [@nevo2007; @loh1992; @fincham2006; @armbruster2006; @bloomfield1995; @schwarz2005], none of the big consultancies offer "IT consultancy". Instead, they offer consultancy in digital operations (PwC); digital commerce & engineering (Accenture); digital transformation (EY, Bain, Deloitte); digital (McKinsey, KPMG); digital, technology & data (BCG).
+Despite these blurred lines, this paper focuses on consultants that aim to accomplish change through information technology. Although many research describes this group as "IT consultants" [@nevo2007; @loh1992; @fincham2006; @armbruster2006; @bloomfield1995; @schwarz2005], none of the big consultancies offer "IT consultancy". Instead, they offer consultancy in digital operations (PwC); digital commerce & engineering (Accenture); digital transformation (EY, Bain, Deloitte); digital (McKinsey, KPMG); digital, technology & data (BCG).
 
-### Digital Consultancy is not...
+Needs more body here.
+
+## Digital Consultancy is not...
 
 By juxtaposing the concept of "consultancy" bla.
 
-#### Temporary Staffing
+### Temporary Staffing
 
 Bla.
 
-#### IT Outsourcing
+### Outsourcing
 
 Outsourcing is the practice of obtaining goods or services from an external provider, as a substitute for sourcing it internally [@lacity2012 2]. Or in the words of @zhu2001 [374]: "the process of transferring the responsibility for a specific business function from an employee group to a non-employee group." While early IT outsourcing initiatives were rather "total" @willcocks1995 in nature, outsourcing individual business functions is a more common activity [@zhu2001 377], and focus has shifted from cost saving to quality, productivity, flexibility and technological diversity [@kirilov2012 185].
 
-The following IT services are often outsourced: applications development and maintenance, systems operations, network management, end-user support, systems planning and management, purchase of software.
+The following IT services are often outsourced [@kipping2012 167] : applications development and maintenance, systems operations, network management, end-user support, systems planning and management, purchase of software.
 
+(IT) outsourcing differs from (digital) consulting in two main ways [@kipping2012 171-173]. First, while consultancy is about procedural services, outsourcing activities are provided through longstanding partnerships. Second, the success of a consultancy assignment depends on social processes involving human interaction, while outsourcing relies heavily on technical capabilities.
+
+```{=html}
+<!--
 According to @willcocks1995 [68-69] most outsourcing arrangements can be located on four spectra:
 
 -   Focus: control through contract vis-à-vis results through trust and partnership
@@ -74,21 +80,17 @@ According to @willcocks1995 [68-69] most outsourcing arrangements can be located
 -   Criticality of the relationship: low vis-à-vis high
 -   Mindset: contract out vis-à-vis strategic alliance
 
-<!--According to @liberatore2010 [255] consulting differs from outsourcing with respect to two dimensions: (1) the client and the consulting organization may have conflicting goals and incompatible work practices. Despite these differences (2) client and consultant need to collaborate throughout the project.-->
+According to \@liberatore2010 [255] consulting differs from outsourcing with respect to two dimensions: (1) the client and the consulting organization may have conflicting goals and incompatible work practices. Despite these differences (2) client and consultant need to collaborate throughout the project.
 
-#### IT Management Ad Interim
+-->
+```
+### Management Ad Interim
 
 Bla.
 
-#### Freelancer / Independent Consultant
+### Freelancing
 
-#### IT Outsourcing
-
-#### Business Process Outsourcing
-
-#### Total Outsourcing
-
-#### Knowledge-intensive business service
+Bla.
 
 ### Emergence
 
@@ -390,6 +392,8 @@ See also @lewicki2006 and @kirilov2012.
 ### Ability
 
 #### Reputation
+
+@kirilov2012 [193] describes reputation as "a mixture of the brand name of the enterprise, executive management background, maturity level, customer references, and independent quality assessments."
 
 @armbruster2006 [75-76] distinguishes three types of reputation:
 
