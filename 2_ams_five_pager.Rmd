@@ -49,7 +49,11 @@ Bla.
 
 Within this group, however, we can identify consultancy types: strategy consulting, tax consulting, HR consulting, risk & regulatory consulting, etc. However, @armbruster2006 [71-72] argues that the boundaries between consultancy service types are blurred. A single project often requires multiple types of services, but the distinction is often artificial. Especially the boundary between strategy and IT consultancy is opaque due to the fact that the big accounting & strategy firms entered the IT consultancy market to conduct all-encompassing projects where strategy and IT meet.
 
-### Consultancy is not...
+## Digital Consultancy
+
+Despite these blurred lines, this paper focuses on consultants that aim to accomplish change through information technology. Although many papers describe this group as "IT consultants" [@nevo2007; @loh1992; @fincham2006; @armbruster2006; @bloomfield1995; @schwarz2005], none of the big consultancies offer "IT consultancy". Instead, they offer consultancy in digital operations (PwC); digital commerce & engineering (Accenture); digital transformation (EY, Bain, Deloitte); digital (McKinsey, KPMG); digital, technology & data (BCG).
+
+### Digital Consultancy is not...
 
 By juxtaposing the concept of "consultancy" bla.
 
@@ -57,25 +61,24 @@ By juxtaposing the concept of "consultancy" bla.
 
 Bla.
 
-#### Outsourcing
+#### IT Outsourcing
 
-Outsourcing is the practice of obtaining goods or services from an external provider, as a substitute for sourcing it internally [@lacity2012 2]. Although @willcocks1995 [68-69] focuses specifically on IT outsourcing (infra), most outsourcing arrangements can be located on four spectra: \* Focus: control through contract vis-à-vis results through trust and partnership \* Time-scale: short-term vis-à-vis long-term \* Criticality of the relationship: low vis-à-vis high \* Mindset: contract out vis-à-vis strategic alliance
+Outsourcing is the practice of obtaining goods or services from an external provider, as a substitute for sourcing it internally [@lacity2012 2]. Or in the words of @zhu2001 [374]: "the process of transferring the responsibility for a specific business function from an employee group to a non-employee group." While early IT outsourcing initiatives were rather "total" @willcocks1995 in nature, outsourcing individual business functions is a more common activity [@zhu2001 377], and focus has shifted from cost saving to quality, productivity, flexibility and technological diversity [@kirilov2012 185].
 
-According to @liberatore2010 [255] consulting differs from outsourcing with respect to two dimensions: (1) the client and the consulting organization may have conflicting goals and incompatible work practices. Despite these differences (2) client and consultant need to collaborate throughout the project.
+The following IT services are often outsourced: applications development and maintenance, systems operations, network management, end-user support, systems planning and management, purchase of software.
 
-#### Management Ad Interim
+According to @willcocks1995 [68-69] most outsourcing arrangements can be located on four spectra:
+
+-   Focus: control through contract vis-à-vis results through trust and partnership
+-   Time-scale: short-term vis-à-vis long-term
+-   Criticality of the relationship: low vis-à-vis high
+-   Mindset: contract out vis-à-vis strategic alliance
+
+<!--According to @liberatore2010 [255] consulting differs from outsourcing with respect to two dimensions: (1) the client and the consulting organization may have conflicting goals and incompatible work practices. Despite these differences (2) client and consultant need to collaborate throughout the project.-->
+
+#### IT Management Ad Interim
 
 Bla.
-
-## Digital
-
-Despite these blurred lines, this paper focuses on consultants that aim to accomplish change through information technology. Although many papers describe this group as "IT consultants" [@nevo2007; @loh1992; @fincham2006; @armbruster2006; @bloomfield1995; @schwarz2005], none of the big consultancies offer "IT consultancy". Instead, they offer consultancy in digital operations (PwC); digital commerce & engineering (Accenture); digital transformation (EY, Bain, Deloitte); digital (McKinsey, KPMG); digital, technology & data (BCG).
-
-## Digital Consultancy
-
-### What it is not
-
-#### 
 
 #### Freelancer / Independent Consultant
 
@@ -85,14 +88,6 @@ Despite these blurred lines, this paper focuses on consultants that aim to accom
 
 #### Total Outsourcing
 
-Definition at @willcocks1995 [67].
-
-According to @willcocks1995 [70-71], "the difference in mind-set that is often thought to be required as IT outsourcing decisions become more 'total' in their coverage, has many similarities to the espoused need for mind-set changes for managers working in long-term strategic alliances."
-
-Furthermore, since working with consultants holds a risk of moral hazard (infra), maintenance and enforcement are aspects that need to be taken into account. Typically, total outsourcing relations don't rely on trust mechanisms solely and are accompanied by contractual governance measures.
-
-Total outsourcing entails some risks (@willcocks1995 77). Organizations need to be wary of the balance shifting in favor of the vendor, unless clients maintain some countervailing leverages to support the basis of their partnership.
-
 #### Knowledge-intensive business service
 
 ### Emergence
@@ -100,9 +95,18 @@ Total outsourcing entails some risks (@willcocks1995 77). Organizations need to 
 Some papers to explore:
 
 -   [@armbruster2006 120-130].
--   [@kipping2002]
+-   [@kipping2003]
+-   [@kipping2012]
 -   [@fincham1999 336]
 -   [@mckenna2006]
+
+Three phases can be identified.
+
+In the first phase, consultants were working with the first commercially usable computers of the 1950s, as companies were exploring the benefits of using them in their operations. IT consultancy emerged in three groups of companies: technology companies, accounting and auditing firms, and management consultancy firms. [@kipping2012 162]
+
+During the second phase, in the 1970s, managers began to employ IT to align internal processes with their organizations' business objectives, clearly pointing to an alignment of IT and strategy. The result was a growing demand for IT consultants with a background in strategy. Furthermore, as new application such as ERPs, CRMs, and accounting software hit the market, IT became recognized as a facilitator of change. IT consultants were working on client's operations and often served as change managers.
+
+The third phase arrived with the introduction of network computing, as the internet fundamentally transformed the nature of commercial transactions. This sparked the rise of a host of 'dot.com consultancies' that provides advice on how to exploit these new opportunities. This third phase differs from the first two as it is mainly driven by new applications and services, and not by new hardware developments. It is during this phase that many IT consulting & outsourcing services became standardized, leading to rapid commoditization and lower prices. New companies began to offer these services on a global scale, often driven by a relatively cheap labor force in emerging economies.
 
 ### Why digital consultancy? A practical perspective
 
@@ -243,6 +247,8 @@ Agency theory is very compatible with transaction cost economics. When an organi
 
 @fincham2002 made an interesting addition to this typical principal-agent problem. It starts from the premise that since managers are agents of the owners of capital, a consultants can be described as "an agent's agent", extending the management's own agency function. In other words, consultants operate at the "outer reaches of corporate power", stretching corporate authority to its limits. Consequently, their legitimacy is often problematic within the corporation that engages with them.
 
+Another valid point is raised by @basu2011 [23] , who discovered that pre-qualification efforts displayed little effect on adverse selection because the consultant might present an excellent reputation, but individual consultants assigned to a project might lack the required skills.
+
 ### Resource-based View
 
 The resource-based view rejects the traditional microeconomic assumptions that goods or services are homogeneous. Instead, it argues that they are heterogeneously distributed across firms, and not perfectly transferable @watjatrakul2005 [392]. These resources come in the form of assets, capabilities or organizational processes. Firms can obtain above-normal results if they can establish a competitive advantage by making their resources to exploit opportunities in the market, or neutralize those established by competitors. To be strategic, resources should be valuable, rare, inimitable and non-substitutable.
@@ -365,11 +371,13 @@ Why does digital consultancy require a separate study? - Work from home - Comple
 
 ## Governance Measures
 
-Several mechanisms have already been proposed. What they all share is that they should result in a higher degree of trust[^3] between the business partners. More specific, trust from the principal towards the agent. @liberatore2010 [265] found that building trust, and goal congruence, can help solve the agency problem because it drives the consultancy firm's motivation for short-term profits towards long-term business and reputation.
+In the existing literature, several governance mechanisms have been proposed. What they all share is that they result in a higher degree of trust[^3] between the business partners. More specific, trust from the principal towards the agent.
 
 [^3]: Trust is defined in the broad sense: "the willingness of a party to be vulnerable to the actions of another party based on the expectation that the other will perform a particular action important to the trustor, irrespective of the ability to monitor or control that other party." [@kee1970] If the level of a perceived risk is bigger than the level of trust, the trustor will not engage in a risk-taking relationship.
 
-In the trust literature, @mayer1995 [717-720] discovered three groups of trust antecedents: ability, integrity and benevolence.
+@liberatore2010 [265] found that building trust, and goal congruence, can help solve the agency problem because it drives the consultancy firm's motivation for short-term profits towards long-term business and reputation.
+
+@kirilov2012 [193-194] breaks trust factors down in trust-building and trust-sustaining factors. The former is about signaling ability through references, experience and reputation. The latter is about signaling integrity: effective and transparent communication, proactivity, monitoring and consistently meeting contractual obligations. This is highly compatible with the research by @mayer1995 [717-720], which discovered three groups of trust antecedents: ability, integrity and benevolence.
 
 -   *Ability* describes the skills, competencies and characteristics that enable a party to have influence within a specific domain.
 -   *Integrity* involves the trustor's perception that the trustee adheres to the principles that the trustor finds acceptable for that domain.
@@ -407,6 +415,12 @@ See [@armbruster2006 76-77],
 
 "At the post-contractual stage, agency theory asserts that monitoring the agent gathers information about the agent and helps reduce opportunism. Monitoring places an uncomfortable social pressure on the agent that increases compliance. It also increases the principal's ability to detect the agent's opportunism and thus to appropriately reward or sanction agent behavior. It reduces the agent's motivation to justify a failed strategy, and promotes actions consistent with shareholder goals." [@basu2011 13]
 
+Researchers have emphasized three broad ways in which consultants should be monitored [@basu2011 15]:
+
+1.  When the consultancy firm gives their agreement to the specified deliverables and accompanying deadlines.
+2.  During the implementation of a project, the client verifies that the deliverables are being produces according to the original plan by thoroughly and regularly assessing reviews and written and oral progress reports. Meeting with consultants is essential to ensure that consultants share all relevant information in a timely manner.
+3.  During the implementation of a project, the client checks that the consultants do not sacrifice quality nor scope to meet deadlines. Furthermore, the originally committed staff should not be changed without approval.
+
 #### Contractual Obligations
 
 @mcfarlan1995 claim that it is important to have flexibility in an outsourcing contract, because the target state of a project might change due to evolving technology and business environment. Nevertheless...
@@ -429,7 +443,7 @@ Also media.
 
 #### Incentivization
 
-"Basing the agent's rewards and incentives on imperfect surrogates of performance lads to moral hazard, but aligning the preferences of the agent and the principal through an appropriate reward structure helps curb the agent's opportunistic behavior." [@basu2011 13]
+"Basing the agent's rewards and incentives on imperfect surrogates of performance lads to moral hazard, but aligning the preferences of the agent and the principal through an appropriate reward structure helps curb the agent's opportunistic behavior." [@basu2011 13-15] Several actions are proposed to align incentives: link payment to completion of the promised deliverables, sharing of cost savings or overruns with the consultancy firm, incentives and penalties related to timely completion of a project.
 
 @liberatore2010 [264-266] finds that a higher goal congruence between the consultancy firm and the client is an enabler of project performance.
 
