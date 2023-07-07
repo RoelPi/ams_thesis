@@ -37,13 +37,27 @@ Their work makes use of a vague body of knowledge described as elusive, fuzzy, p
 
 One could say that who they are, and what they do is extremely hard to describe. @kipping2012 [24] states that "definitions of management consultancy are problematic because the permeable boundaries of the industry have resulted in significant shifts over time in the composition of the industry. This means that what comprises consulting work is dynamic, ever shifting, and contested as new firms enter the industry and techniques deemed formerly appropriate, change. Although the industry is characterized by periodic structural shifts, at its heart it is an advisory activity built on the client--consultant relationship. [...] it is perhaps this chimeral ability to avoid precise definition and to be able to constantly reinvent its core services to meet ever changing understandings of the problems that beset contemporary organizations, which partly underpins its growing economic importance."
 
+### External
+
+@chowdhury2021 [138] describes consultants as "external advisors to corporations, nonprofits, governments, and any other forms of organizations"
+
 ### Change
 
-Clearly, the construct of a "consultant" cannot be described by the topic that they work on, nor their academic and professional background, accreditation or membership. Instead, we should look at their goal(s): @werr1986 [1] implies that there is always a change process between clients and consultants. This is confirmed by @kipping2000 [12] who states that "management consultancies earn money through changing current procedures in client organizations." Although this change is often described by consultants as a 'tailored solution', consultants provide a service, which is inherently intangible (compared to the 'solid' nature of products) and hard to evaluate [@fincham1999 348], especially because an evaluation should only account for the content of the changes, but also in terms of the competence development of the client, as a result of the change process [@werr1986 17].
+Clearly, the construct of a "consultant" cannot be described by the topic that they work on, nor their academic and professional background, accreditation or membership. Instead, we should look at their goal(s): @werr1986 [1] implies that there is always a change process between clients and consultants. This is confirmed by @kipping2000 [12] who states that "management consultancies earn money through changing current procedures in client organizations." Although this change is often described by consultants as a 'tailored solution', consultants provide a service, which is inherently intangible (compared to the 'solid' nature of products) and hard to evaluate [@fincham1999 348], especially because an evaluation should not only account for the content of the changes, but also in terms of the competence development of the client, as a result of the change process [@werr1986 17].
 
 ### Contingent
 
+"Consultants operate in an intense environment that regularly entails new challenges." @chowdhury2021 [138]
+
+### Relational
+
 Bla.
+
+### Two-sided
+
+Besides their tasks at the client, consultants also face internal pressures from their employers in terms of optimized resource utilization (billabillity), using proprietary knowledge and "proximity that they can develop with the client." @chowdhury2021 [138]
+
+"Consultant-assisted IS projects differ from internal and outsourced IS projects, in two important respects. First, the joint project team consists of members from client and consulting organizations that may have conflicting goals and incompatible work practices. Second, close collaboration between the client and consulting organizations is required throughout the course of the project." @liberatore2010 [255]
 
 ### Consultancy Types
 
