@@ -29,6 +29,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Defining "Digital Consultancy"
 
+"Digital consultancy" is defined as a consultancy that requires expertise in (either or both) the technological and organizational aspects of digital transformation.
+
+The following two sections substantiate this definition by elaborating on the two words that comprise this concept. First, six properties that define consultancy are discussed, and then ... to complete.
+
 ## Consultancy
 
 Consultants, or management consultants, have been described through a multitude of metaphors and nicknames: "capitalism's commissars" [@thrift2005 93], "shadowy figures operating in the background but exercising considerable influence" [@kipping2012 31], "agents of a modern rationalistic and universalistic culture" [@kipping2012 190], "institutionally approved agents" [@kipping2012 193], "magical figures, shamans or witch doctors" [@fincham2002 68], "puppet masters" [@fincham2002 69] and simply "The Big Con" [@mazzucato2023].
@@ -37,29 +41,40 @@ Their work makes use of a vague body of knowledge described as elusive, fuzzy, p
 
 From these remarks, one could say that who they are, and what they do is extremely hard to describe. @kipping2012 [24] states that "definitions of management consultancy are problematic because the permeable boundaries of the industry have resulted in significant shifts over time in the composition of the industry. This means that what comprises consulting work is dynamic, ever shifting, and contested as new firms enter the industry and techniques deemed formerly appropriate, change. Although the industry is characterized by periodic structural shifts, at its heart it is an advisory activity built on the client--consultant relationship. [...] it is perhaps this chimeral ability to avoid precise definition and to be able to constantly reinvent its core services to meet ever changing understandings of the problems that beset contemporary organizations, which partly underpins its growing economic importance."
 
+The following definition of "consultancy" is used throughout this paper: consultancy is a service offered by an external service provider. Although the responsibilities of a consultant are highly contingent on the client organization and consultancy can take many forms and require a variety of expertise, its goals is to establish change in the procedures, organizational structure or tools of a client organization. Finally, the success of a consultancy engagement is often determined by the interactivity between a consultancy firm and the client organization.
+
+The sections below unpack this definition and elaborate on the six properties that it comprises.
+
 ### External
 
-@chowdhury2021 [138] describes consultants as "external advisors to corporations, nonprofits, governments, and any other forms of organizations"
+@chowdhury2021 [138] describes consultants as "external advisors to corporations, nonprofits, governments, and any other forms of organizations."
 
 ### Change
 
 Clearly, the construct of a "consultant" cannot be described by the topic that they work on, nor their academic and professional background, accreditation or membership. Instead, we should look at their goal(s): @werr1986 [1] implies that there is always a change process between clients and consultants. This is confirmed by @kipping2000 [12] who states that "management consultancies earn money through changing current procedures in client organizations." Although this change is often described by consultants as a 'tailored solution', consultants provide a service, which is inherently intangible (compared to the 'solid' nature of products) and hard to evaluate [@fincham1999 348], especially because an evaluation should not only account for the content of the changes, but also in terms of the competence development of the client, as a result of the change process [@werr1986 17].
 
-Although consultants' goal is to establish change in an organization, their role is often symbolic. As external consultants, associated with their "quest for knowledge" and their "quest for excellence", they are [@pellegrin2006 9-13] are well-equipped for legitimizing hard decisions, signaling importance and providing meaning.
+Although consultants' goal is to establish change in an organization, their role is often symbolic. As external consultants, associated with their "quest for knowledge" and their "quest for excellence", they are [@pellegrin2006 9-13] well-equipped for legitimizing hard decisions, signaling importance and providing meaning.
 
-This sets consultancy apart from outsourcing and temporary staffing.
+Establishing change is what sets consultancy apart from temporary staffing. "A temp is generally not supposed to change the work practices at the client organization. A consultant is often expected to do just that, or at least to provide an alternative point of view." [@furusten2000 5]
+
+The aspect of change is also important for drawing boundaries between consultancy and outsourcing. Outsourcing is the practice of obtaining goods or services from an external provider, as a substitute for sourcing it internally [@lacity2012 2]. Or in the words of @zhu2001 [374]: "the process of transferring the responsibility for a specific business function from an employee group to a non-employee group." While early IT outsourcing initiatives were rather "total" @willcocks1995 in nature, outsourcing individual business functions is a more common activity [@zhu2001 377], and focus has shifted from cost saving to quality, productivity, flexibility and technological diversity [@kirilov2012 185].
+This implies that outsourcing, unlike consultancy, is not about changing a procedure or service, but rather ensuring their continuation, by a third-party provider.
 
 ### Contingent
 
-"Consultants operate in an intense environment that regularly entails new challenges." @chowdhury2021 [138]
+Being a consultant implies taking on a variety of responsibilities throughout a certain time span. Although many consultants have structured methodologies, which are converging across the industry [@werr1986 17], "[c]onsultants operate in an intense environment that regularly entails new challenges." [@chowdhury2021 138] What entails consultancy work is dynamic, ever shifting and contested with every new firm entering the industry and new methodologies claiming the spotlight [@kipping2002 24].
+
+This is what sets external consultancy apart from internal consultancy.
 
 ### Relational
 
 The nature of consultancy is often relational. First of all, a consultant's work is embedded in an organization's web of interpersonal relations. "[T]he context, terms of reference, and ensueing recommendations pertaining to a consultancy engagement may represent a continuation, by other means, of ongoing processes of co-operation, struggle and conflict between organizational groups." [@bloomfield1995]
 
-Furthermore, a consultant's deliverable is often co-created with the client. @nikolova2009 [290-297] describes the client-consultant relationship within a 'social learning model'. It starts from the belief that there is no "knowledge out there", and client and consultant need to work closely together to develop problem solutions. The role of the consultant is that of a "facilitator of diagnosis and problem-solving" and coach, while the client is the actual problem solver.
+Furthermore, a consultant's deliverable is often co-created with the client. @nikolova2009 [290-297] describes the client-consultant relationship within a 'social learning model'. It starts from the belief that there is no "knowledge out there", and client and consultant need to work closely together to develop problem solutions. The role of the consultant is that of a "facilitator of diagnosis and problem-solving" and coach, while the client is the actual problem solver. @clark1998 [22] even goes so far as to claim that "Like a bottle of wine, a restaurant meal, or a book, the quality of a management consultancy service is determined during enactment/consumption. This indicates that the outcome of a consultancy service is highly dependent upon the quality of the interaction between the client and the consultant."
 
-This sets consultancy apart from outsourcing.
+A consultant needs to develop skills in order to fit in and adapt their skill set to the needs of a client. When a relationship does not succeed, no authority is placed on the skills of the service provider [@furusten2000 10] and the assignment might turnout to be unsuccessful.
+
+The importance of the relational aspect is what sets consultancy apart from outsourcing [@kipping2012 171-173]. The outcome of a consultancy assignment often depends heavily on the interaction between the client and the service provider. On the other hand, outsourcing focuses more on technical capabilities and implies an integral handover of a (set of) service(s) to an external provider that becomes the sole responsible for delivering them.
 
 ### Two-sided
 
@@ -71,7 +86,7 @@ Besides their tasks at the client, consultants also face internal pressures from
 
 Within this group, however, we can identify consultancy types: strategy consulting, tax consulting, HR consulting, risk & regulatory consulting, etc. However, @armbruster2006 [71-72] argues that the boundaries between consultancy service types are blurred. A single project often requires multiple types of services, but the distinction is often artificial. Especially the boundary between strategy and IT consultancy is opaque due to the fact that the big accounting & strategy firms entered the IT consultancy market to conduct all-encompassing projects where strategy and IT meet.
 
-## Digital Consultancy
+## Digital
 
 Despite these blurred lines, this paper focuses on consultants that aim to accomplish change through information technology. Unlike IT suppliers, IT consultants can claim that IT is not just a technical issue but an organizational one, as well [@bloomfield1995 24-25]. Like strategy, technology, often depicted as neutral and separate from social or political matters, can be wielded for political purposes. Nevertheless, the boundary between the merely technological and political is flexible: a social or political problem can be translated or framed as a technical one.
 
@@ -81,21 +96,7 @@ The offering by many different types of organizations of some kind of IT consult
 
 Although many research describes this group as "IT consultants" [@nevo2007; @loh1992; @fincham2006; @armbruster2006; @bloomfield1995; @schwarz2005], none of the big consultancies offer "IT consultancy". Instead, they offer consultancy in digital operations (PwC); digital commerce & engineering (Accenture); digital transformation (EY, Bain, Deloitte); digital (McKinsey, KPMG); digital, technology & data (BCG).
 
-## Digital Consultancy is not...
-
-By juxtaposing the concept of "consultancy" bla.
-
-### Temporary Staffing
-
-Bla.
-
-### Outsourcing
-
-Outsourcing is the practice of obtaining goods or services from an external provider, as a substitute for sourcing it internally [@lacity2012 2]. Or in the words of @zhu2001 [374]: "the process of transferring the responsibility for a specific business function from an employee group to a non-employee group." While early IT outsourcing initiatives were rather "total" @willcocks1995 in nature, outsourcing individual business functions is a more common activity [@zhu2001 377], and focus has shifted from cost saving to quality, productivity, flexibility and technological diversity [@kirilov2012 185].
-
-The following IT services are often outsourced [@kipping2012 167] : applications development and maintenance, systems operations, network management, end-user support, systems planning and management, purchase of software.
-
-(IT) outsourcing differs from (digital) consulting in two main ways [@kipping2012 171-173]. First, while consultancy is about procedural services, outsourcing activities are provided through longstanding partnerships. Second, the success of a consultancy assignment depends on social processes involving human interaction, while outsourcing relies heavily on technical capabilities.
+Towards "digital transformation", and then the definition is complete.
 
 ```{=html}
 <!--
@@ -110,14 +111,6 @@ According to \@liberatore2010 [255] consulting differs from outsourcing with res
 
 -->
 ```
-### Management Ad Interim
-
-Bla.
-
-### Freelancing
-
-Bla.
-
 # Emergence of Digital Consultancy
 
 Some papers to explore:
@@ -137,6 +130,8 @@ During the second phase, in the 1970s, managers began to employ IT to align inte
 The third phase arrived with the introduction of network computing, as the internet fundamentally transformed the nature of commercial transactions. This sparked the rise of a host of 'dot.com consultancies' that provides advice on how to exploit these new opportunities. This third phase differs from the first two as it is mainly driven by new applications and services, and not by new hardware developments. It is during this phase that many IT consulting & outsourcing services became standardized, leading to rapid commoditization and lower prices. New companies began to offer these services on a global scale, often driven by a relatively cheap labor force in emerging economies.
 
 # Why digital consultancy? A practical perspective
+
+See @lacity1994 for more body in the following paragraphs.
 
 @turner1982 provides a hierarchy of consulting purposes. The first five are traditionally associated with consultancy, while the last three are seen as by-products, and often not as explicit goals.
 
