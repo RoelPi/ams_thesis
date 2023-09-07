@@ -196,6 +196,8 @@ Reducing costs: - "executives wanting to exercise control over the management an
 
 "...using the 'objectivity' and/or status of consultants to legitimate or influence a course of action." [@sturdy1998 233]
 
+"Companies that are held internally and externally accountable for how they 'handle' uncertainty will contract consultants as a sign of good management. Even patients who principally distrust physicians cannot avoid consulting them." [@kieser2006, 70]
+
 ## Knowledge transfer & diffusion
 
 In @werr2002 [53], a manager describes how they are often caught up in day-to-day activities, and consultants can help them take a loot at the "big picture", from a strategic perspective: they make sense of the manager's organization in relation to its environment, such as its competitors.
@@ -287,7 +289,14 @@ They conclude that firms with a low production knowledge transfer rate (e.g. unm
 ```
 ## Agency Theory
 
-Agency theory is very compatible with transaction cost economics. When an organization decides to not develop a specific service in-house, and instead, buys it in the market, it encounters agency issues: information asymmetries and goal incompatibility. See @shapiro2005. The organization is interested in a timely roll-out of a quality solution for a problem they have. The consultancy firm, on the other hand, is driven by profit maximization.
+Agency theory is very compatible with transaction cost economics. When an organization decides to not develop a specific service in-house, and instead, buys it in the market, it encounters agency issues: information asymmetries and goal incompatibility. See @shapiro2005.
+
+-   Information asymmetry: consultants wield enormous power over the knowledge that they possess and use. Their clients depend on this knowledge, making them vulnerable, and putting them at mercy of the consultant. [@brien1998]
+
+```{=html}
+<!-- -->
+```
+-   Goal incompatibility: The organization is interested in a timely roll-out of a quality solution for a problem they have. The consultancy firm, on the other hand, is driven by profit maximization. There is an important information assymetry
 
 @fincham2002 made an interesting addition to this typical principal-agent problem. It starts from the premise that since managers are agents of the owners of capital, a consultants can be described as "an agent's agent", extending the management's own agency function. In other words, consultants operate at the "outer reaches of corporate power", stretching corporate authority to its limits. Consequently, their legitimacy is often problematic within the corporation that engages with them.
 
@@ -536,7 +545,19 @@ Closely related is the work by @willcockskern [9-13] that makes a distinction be
 
 ???
 
-### Beyond Controls: Professionalization
+### Beyond Controls
+
+#### Professionalization
+
+Professionalization is a mechanism that typically protects clients against self-proclaimed experts but who are unqualified and expose their clients to even greater risks than the ones they are supposed to advice on. [@kieser2006 71] Furthermore, they also protect experts against colleagues that could ruin the reputation of the whole industry. Finally, professionalization typically results in the establishment of an ethos, which fosters[^4] trust between a profession and the public writ large [\@sokolowski1991].
+
+[^4]: A professional ethos is "a set of written and unwritten rules that guide professional practice." [@enstad2017]
+
+Certain countries, like Germany, have made attempts to professionalize the sector through the establishment of specialized university programs to make the use of the title "consultant" dependent on the attainment of specific qualifications. These attempts haven't turned out to be successful: today, consultancy is not yet a profession, not in the classical sense. [@kieser2006 73].
+
+According to a popular functionalist view [@goode1957], which identifies criteria that distinguish professions from occupations: (1) members share a common identity, (2) it's a life-long calling, (3) share common ideals, (4) have a shared self-conception, (5) behave distinctly towards non-members, (6) use specific language, (7) easy to recognize and (8) follow an ethical code by a powerful association.
+
+The functionalist view is much different from the power approach which argues that professions are a group of people that wants to achieve expert status within society, attaining certain privileges. [@kieser2006 75]
 
 #### Regulation
 
