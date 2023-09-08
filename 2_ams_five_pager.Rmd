@@ -33,7 +33,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Consultancy
 
-Consultants, or management consultants, have been described through a multitude of metaphors and nicknames: "capitalism's commissars" [@thrift2005 93], "shadowy figures operating in the background but exercising considerable influence" [@kipping2012 31], "agents of a modern rationalistic and universalistic culture" [@kipping2012 190], "institutionally approved agents" [@kipping2012 193], "marketized experts" [@furusten2012 265], "magical figures, shamans or witch doctors" [@fincham2002 68], "puppet masters" [@fincham2002 69], "knowledge entrepreneurs that promote emotionally charged, enthusiastic, and unreasoned discourse" [@leicht2006 37], and simply "The Big Con" [@mazzucato2023].
+Consultants, or management consultants, have been described through a multitude of metaphors and nicknames: "capitalism's commissars" [@thrift2005 93], "shadowy figures operating in the background but exercising considerable influence" [@kipping2012 31], "agents of a modern rationalistic and universalistic culture" [@kipping2012 190], "institutionally approved agents" [@kipping2012 193], "marketized experts" [@furusten2012 265], "magical figures, shamans or witch doctors" [@fincham2002 68], "puppet masters" [@fincham2002 69], "knowledge entrepreneurs that promote emotionally charged, enthusiastic, and unreasoned discourse" [@leicht2006 37], "supra-experts" [@kieser2006 94] and simply "The Big Con" [@mazzucato2023].
 
 Their work makes use of a vague body of knowledge described as "elusive", "fuzzy", "perishable", "indeterminate", "esoteric", "fluid" and "changeable". [@muzio2011]. Consequently, for buyers it is hard to know what they need and what they get, and for sellers of consultancy it is hard to know what to offer [@furusten2012 266]. Furthermore, consultancy is marked by very low professionalization since occupational entry is unprotected, the supply of labor is unregulated and there is no formal accreditation. [@fincham2006 20] Practicing "consultancy" is the main criterion of membership with competences and "time spent in the industry" as the main differentiators.
 
@@ -150,7 +150,7 @@ During the second phase, in the 1970s, managers began to employ IT to align inte
 
 The third phase arrived with the introduction of network computing, as the internet fundamentally transformed the nature of commercial transactions. This sparked the rise of a host of 'dot.com consultancies' that provides advice on how to exploit these new opportunities. This third phase differs from the first two as it is mainly driven by new applications and services, and not by new hardware developments. It is during this phase that many IT consulting & outsourcing services became standardized, leading to rapid commoditization and lower prices. New companies began to offer these services on a global scale, often driven by a relatively cheap labor force in emerging economies.
 
-# Why digital consultancy? A practical perspective
+# Why digital consultancy: Practical perspectives
 
 See @lacity1994 for more body in the following paragraphs.
 
@@ -224,7 +224,7 @@ There is substantial research on knowledge management (as a multidisciplinary di
 -   "...lacking the skills for a project or, less explicitly, to compete with each other." [@sturdy1998 233]
 -   "The consultants chased us so that we really implemented the change. 'In supporting the realization of change projects, consultants provided methodology as well as an energizing example with their own style of working." [@werr2002 54]
 
-# Why digital Consultancy: a theoretical perspective
+# Why digital Consultancy: Theoretical perspectives
 
 According to @armbruster2006 [3-6], the theoretical perspectives on consultancy can be broken down into two main categories and corresponding streams of literature. The first one is the functionalist view, which sees consultants as "carriers and transmitters of management knowledge." The second perspective argues that the functionalist perspective is to narrow in scope to grasp consulting projects: client-consultants interactions are open to distortions, and understanding them requires research. This is known as the critical view.
 
@@ -293,9 +293,8 @@ Agency theory is very compatible with transaction cost economics. When an organi
 
 -   Information asymmetry: consultants wield enormous power over the knowledge that they possess and use. Their clients depend on this knowledge, making them vulnerable, and putting them at mercy of the consultant. [@brien1998]
 
-```{=html}
 <!-- -->
-```
+
 -   Goal incompatibility: The organization is interested in a timely roll-out of a quality solution for a problem they have. The consultancy firm, on the other hand, is driven by profit maximization. There is an important information assymetry
 
 @fincham2002 made an interesting addition to this typical principal-agent problem. It starts from the premise that since managers are agents of the owners of capital, a consultants can be described as "an agent's agent", extending the management's own agency function. In other words, consultants operate at the "outer reaches of corporate power", stretching corporate authority to its limits. Consequently, their legitimacy is often problematic within the corporation that engages with them.
@@ -304,7 +303,18 @@ Another valid point is raised by @basu2011 [23] , who discovered that pre-qualif
 
 ## Resource-based View
 
-The resource-based view rejects the traditional microeconomic assumptions that goods or services are homogeneous. Instead, it argues that they are heterogeneously distributed across firms, and not perfectly transferable @watjatrakul2005 [392]. These resources come in the form of assets, capabilities or organizational processes. Firms can obtain above-normal results if they can establish a competitive advantage by making their resources to exploit opportunities in the market, or neutralize those established by competitors. To be strategic, resources should be valuable, rare, inimitable and non-substitutable.
+The resource-based view rejects the traditional microeconomic assumptions that goods or services are homogeneous. Instead, it argues that they are heterogeneously distributed across firms, and may be long lasting due to not being perfectly transferable, for example because of resource immobility [@watjatrakul2005 392; @mata1995 491].
+
+These resources come in the form of assets, capabilities or organizational processes. Firms can obtain above-normal results if they can establish a competitive advantage by making their resources exploit opportunities in the market, or neutralize those established by competitors. To be strategic, resources should be valuable, rare, inimitable and non-substitutable.
+
+@mata1995 [495-500] identifies five attributes of IT as sources of sustained competitive advantage for a firm.
+
+1.  Customer switching costs: the ability to create a lock-in effect for one's customers through the use of IT.
+2.  Access to capital: IT (or digital) investments can be very expensive and risky. Only a couple of firms might be able to acquire the capital to make these investments.
+3.  Proprietary technology: when technology can be kept proprietary, it can be a source of sustained competitive advantage.
+4.  Technical IT skills: the ability to attract and keep technical IT skills that is required to built IT applications.
+5.  Managerial IT skills: management's ability to conceive of, develop and exploit IT applications to support and enhance other business functions can enable a firm to manage market risks associated with IT investments.
+6.  
 
 In @willcocks2003 [177-180], four types of sourcing options for developing IT projects are outlined, of which three involve consultants.
 
@@ -454,7 +464,7 @@ See also @lewicki2006 and @kirilov2012.
 
 @armbruster2006 [75-76] distinguishes three types of reputation:
 
-1.  Public reputation is the perception of a consulting firm's (or individual consultant) past performance. While there are few to no barriers to enter the market as a whole with a newly-found consulting firm, public reputation is a huge barrier to reaching its upper end. Public reputation is like a public good <!-- citation needed -->; the information is non-excludable and non-rivalrous.
+1.  Public reputation is the perception of a consulting firm's (or individual consultant) past performance or potential. For this reason, large consultancies make it known that they spend a lot of resources on the search and selection of recruits. [@kieser2006 91] While there are few to no barriers to enter the market as a whole with a newly-found consulting firm, public reputation is a huge barrier to reaching its upper end. Public reputation is like a public good <!-- citation needed -->; the information is non-excludable and non-rivalrous.
 2.  Experience-based trust relates to personal experience with a specific partner. A positive relation drives future action. However, trust evolves slowly, and maintaining it requires commitment. That's why it is often constrained to a small group of business partners. <!-- See also @nooteboom2000. -->
 3.  Networked reputation is the result of word-of-mouth recommendations
 
@@ -464,7 +474,20 @@ The findings in @clark1993 are confirmed by @richter2009 [285] who found, with r
 
 According to @nayyar1990 [516] "reputation performs as an implicit contract. It is enforced by the seller's concerns about future demand for the service provided. [...] reputation is likely to exhibit characteristics of a public good. Once acquired, it can be user over and over again in the context of other services or markets."
 
+According to a survey with 150 German companies [@kieser2006 91], for 73% of respondents, reputation is a deciding factor. Furthermore, 50% of respondents indicated that recommendations from managers of other companies is a deciding factor.
+
 <!-- I need a definition of reputation, and also some research on how reputation can be faked. -->
+
+#### Procurement
+
+Typically, the involvement of procurement intermediaries commodify[^4] management knowledge [@omahoney2013 205-206] However, commodification is often resisted on two fronts, both representing a power struggle.
+
+[^4]: Commodification is "the process whereby an object (in the widest sense of the term, meaning a thing, an idea, a creature, etc.) comes to be provided through, and/or represented in terms of, a market
+    transaction", crystalizing their value into a price. [@carvalho2008]]
+
+-   On the one hand, the "producers" of management knowledge, (i.e. the consultancy firms) are well aware that commodification could potentially neglect their competitive advantages, having a deleterious effect on their profit margins.
+
+-   On the other hand, as procurers define the problem of management, the come in direct competition with the managers they represent.
 
 #### Third-party Assessors
 
@@ -549,15 +572,31 @@ Closely related is the work by @willcockskern [9-13] that makes a distinction be
 
 #### Professionalization
 
-Professionalization is a mechanism that typically protects clients against self-proclaimed experts but who are unqualified and expose their clients to even greater risks than the ones they are supposed to advice on. [@kieser2006 71] Furthermore, they also protect experts against colleagues that could ruin the reputation of the whole industry. Finally, professionalization typically results in the establishment of an ethos, which fosters[^4] trust between a profession and the public writ large [\@sokolowski1991].
+Professionalization is a mechanism that typically protects clients against self-proclaimed experts but who are unqualified and expose their clients to even greater risks than the ones they are supposed to advice on. [@kieser2006 71] Furthermore, they also protect experts against colleagues that could ruin the reputation of the whole industry. Finally, professionalization typically results in the establishment of an ethos, which fosters[^5] trust between a profession and the public at large [@sokolowski1991]
 
-[^4]: A professional ethos is "a set of written and unwritten rules that guide professional practice." [@enstad2017]
+[^5]: A professional ethos is "a set of written and unwritten rules that guide professional practice." [@enstad2017]
 
 Certain countries, like Germany, have made attempts to professionalize the sector through the establishment of specialized university programs to make the use of the title "consultant" dependent on the attainment of specific qualifications. These attempts haven't turned out to be successful: today, consultancy is not yet a profession, not in the classical sense. [@kieser2006 73].
 
 According to a popular functionalist view [@goode1957], which identifies criteria that distinguish professions from occupations: (1) members share a common identity, (2) it's a life-long calling, (3) share common ideals, (4) have a shared self-conception, (5) behave distinctly towards non-members, (6) use specific language, (7) easy to recognize and (8) follow an ethical code by a powerful association.
 
-The functionalist view is much different from the power approach which argues that professions are a group of people that wants to achieve expert status within society, attaining certain privileges. [@kieser2006 75]
+The power approach, on the other hand, is much different from the functionalist approach. It argues that professions are a group of people that wants to achieve expert status within society, attaining certain privileges. [@kieser2006 75]
+
+Both are potent frameworks for providing arguments why the practice of consultancy is not likely to professionalize. From the functionalist perspective, we identify the following:
+
+-   Consultants do not seek to differentiate themselves from their clients, *au contraire*, they seek partnership, as to truly understand the problems and opportunities a client faces. [@fincham2006]
+
+-   A large part of the *raison d'être* of consultants relates to their capability of transferring expertise to the clients. This differs from professionals, who are approached by clients to solve a problem, without the expectation of knowledge transfer. [@oakley1993]
+
+-   Consulting organizations are extremely diverse, both in terms of subfields (IT, HR, strategy, ...) and in terms of organization size, structure and business models. [@kieser2006 79, 89]
+
+The arguments of the power approach are the following:
+
+-   On the one hand, there are the small consultancies which could try to establish associations to build up their reputation. On the other hand, there are the big consultancies, with a high reputation, that only stand to lose because of increased competition with (a priori) lower reputation organizations. For this reason, the probability of establishing all-encompassing associations is rather low [@kieser2006 77].
+
+-   Many employees of large consultancy firms see their tenure as a platform to self-employed consultant or partnership at a smaller consultant. A title, or membership of an association would facilitate further split-offs at large consultancies [@kieser2006 80].
+
+One could even argue that professionalization is not even relevant in today's capitalism. The "individual given class status, autonomy, social elevation, in return for safeguarding our well-being and applying their professional judgement on the basis of a benign moral or cultural code [...] no longer exists." [@dent2013, 1-2] Trust and respect in today's professional is "earned through their ability to perform to an externally given set of performance indicators." In that sense, "consultants are the real champions of creating a new professional *appearance*." [@kieser2006 95] By combining a promise of market success and professionalism they are "market professionals".
 
 #### Regulation
 
