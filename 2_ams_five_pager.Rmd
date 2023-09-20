@@ -33,9 +33,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Consultancy
 
-Consultants, or management consultants, have been described through a multitude of metaphors and nicknames: "capitalism's commissars" [@thrift2005 93], "shadowy figures operating in the background but exercising considerable influence" [@kipping2012 31], "agents of a modern rationalistic and universalistic culture" [@kipping2012 190], "institutionally approved agents" [@kipping2012 193], "marketized experts" [@furusten2012 265], "magical figures, shamans or witch doctors" [@fincham2002 68], "puppet masters" [@fincham2002 69], "knowledge entrepreneurs that promote emotionally charged, enthusiastic, and unreasoned discourse" [@leicht2006 37], "supra-experts" [@kieser2006 94] and simply "The Big Con" [@mazzucato2023].
+Consultants, or management consultants, have been described through a multitude of metaphors and nicknames: "capitalism's commissars" [@thrift2005 93], "shadowy figures operating in the background but exercising considerable influence" [@kipping2012 31], "agents of a modern rationalistic and universalistic culture" [@kipping2012 190], "institutionally approved agents" [@kipping2012 193], "marketized experts" [@furusten2012 265], "magical figures, shamans or witch doctors" [@fincham2002 68], "puppet masters" [@fincham2002 69], "knowledge entrepreneurs that promote emotionally charged, enthusiastic, and unreasoned discourse" [@leicht2006 37], "supra-experts" [@kieser2006 94], "improvising experts" [@furusten2009 272] and simply "The Big Con" [@mazzucato2023].
 
-Their work makes use of a vague body of knowledge described as "elusive", "fuzzy", "perishable", "indeterminate", "esoteric", "fluid" and "changeable". [@muzio2011]. Consequently, for buyers it is hard to know what they need and what they get, and for sellers of consultancy it is hard to know what to offer [@furusten2012 266]. Furthermore, consultancy is marked by very low professionalization since occupational entry is unprotected, the supply of labor is unregulated and there is no formal accreditation. [@fincham2006 20] Practicing "consultancy" is the main criterion of membership with competences and "time spent in the industry" as the main differentiators.
+Their work makes use of a vague body of knowledge described as "elusive", "fuzzy", "perishable", "indeterminate", "esoteric", "fluid" and "changeable" [@muzio2011]. Consequently, for buyers it is hard to know what they need and what they get, and for sellers of consultancy it is hard to know what to offer [@furusten2012 266]. Furthermore, consultancy is marked by very low professionalization since occupational entry is unprotected, the supply of labor is unregulated and there is no formal accreditation. [@fincham2006 20] Practicing "consultancy" is the main criterion of membership with competences and "time spent in the industry" as the main differentiators.
 
 These remarks are prima facie evidence that no consensus around the definition exists, and what they do is extremely hard to describe. @kipping2012 [24] states that "definitions of management consultancy are problematic because the permeable boundaries of the industry have resulted in significant shifts over time in the composition of the industry. This means that what comprises consulting work is dynamic, ever shifting, and contested as new firms enter the industry and techniques deemed formerly appropriate, change. Although the industry is characterized by periodic structural shifts, at its heart it is an advisory activity built on the client--consultant relationship. [...] it is perhaps this chimeral ability to avoid precise definition and to be able to constantly reinvent its core services to meet ever changing understandings of the problems that beset contemporary organizations, which partly underpins its growing economic importance."
 
@@ -57,11 +57,13 @@ Although consultants' goal is to establish change in an organization, their role
 
 Establishing change is what sets consultancy apart from temporary staffing. "A temp is generally not supposed to change the work practices at the client organization. A consultant is often expected to do just that, or at least to provide an alternative point of view." [@furusten2000 5]
 
-The aspect of change is also important for drawing boundaries between consultancy and outsourcing. Outsourcing is the practice of obtaining goods or services from an external provider, as a substitute for sourcing it internally [@lacity2012 2]. Or in the words of @zhu2001 [374]: "the process of transferring the responsibility for a specific business function from an employee group to a non-employee group." While early IT outsourcing initiatives were rather "total" @willcocks1995 in nature, outsourcing individual business functions is a more common activity [@zhu2001 377], and focus has shifted from cost saving to quality, productivity, flexibility and technological diversity [@kirilov2012 185]. This implies that outsourcing, unlike consultancy, is not about changing a procedure or service, but rather ensuring their continuation, by a third-party provider.
+The aspect of change is also important for drawing boundaries between consultancy and outsourcing. Consultants are often hired for defining a problem and presenting a solution at the same time [@furusten2009 272], while outsourcing simply delivers the solution. In that sense, outsourcing is the practice of obtaining goods or services from an external provider, as a substitute for sourcing it internally [@lacity2012 2]. Or in the words of @zhu2001 [374]: "the process of transferring the responsibility for a specific business function from an employee group to a non-employee group." While early IT outsourcing initiatives were rather "total" @willcocks1995 in nature, outsourcing individual business functions is a more common activity [@zhu2001 377], and focus has shifted from cost saving to quality, productivity, flexibility and technological diversity [@kirilov2012 185]. This implies that outsourcing, unlike consultancy, is not about changing a procedure or service, but rather ensuring continuation, or implementation, by a third-party provider.
+
+Finally, @furusten2009 [272-273] argues that consultants not only act as agents of change, but often as agents if stability. Consultants are often perceived as "relatively stable by [...] employees, stakeholders and other external counterparts", this "builds confidence for the organization. The more stable an organization is experienced as being, the greater its ability to concentrate on its core activities."
 
 ### Contingent
 
-Being a consultant implies taking on a variety of responsibilities throughout a certain time span. Although many consultants have structured methodologies, which are converging across the industry [@werr1986 17], "[c]onsultants operate in an intense environment that regularly entails new challenges." [@chowdhury2021 138] What entails consultancy work is dynamic, ever shifting and contested with every new firm entering the industry and new methodologies claiming the spotlight [@kipping2002 24].
+Being a consultant implies taking on a variety of responsibilities throughout a certain time span. Although many consultants have structured methodologies, which are converging across the industry [@werr1986 17], "[c]onsultants operate in an intense environment that regularly entails new challenges." [@chowdhury2021 138] What entails consultancy work is dynamic, ever shifting and contested with every new firm entering the industry and new methodologies claiming the spotlight [@kipping2012 24].
 
 This is what sets external consultancy apart from internal consultancy.
 
@@ -71,9 +73,9 @@ The nature of consultancy is often relational. First of all, a consultant's work
 
 Furthermore, a consultant's deliverable is often co-created with the client. @nikolova2009 [290-297] describes the client-consultant relationship within a 'social learning model'. It starts from the belief that there is no "knowledge out there", and client and consultant need to work closely together to develop problem solutions. The role of the consultant is that of a "facilitator of diagnosis and problem-solving" and coach, while the client is the actual problem solver. @clark1998 [22] even goes so far as to claim that "Like a bottle of wine, a restaurant meal, or a book, the quality of a management consultancy service is determined during enactment/consumption. This indicates that the outcome of a consultancy service is highly dependent upon the quality of the interaction between the client and the consultant."
 
-A consultant needs to develop skills in order to fit in and adapt their skill set to the needs of a client. When a relationship does not succeed, no authority is placed on the skills of the service provider [@furusten2000 10] and the assignment might turnout to be unsuccessful.
+A consultant needs to develop skills in order to fit in and adapt their skill set to the needs of a client. When a relationship does not succeed, no authority is placed on the skills of the service provider [@furusten2000 10] and the assignment might turnout to be unsuccessful. In other words, a consultant is good at improvising: "when they do not really know what problem the client has or how to solve it, to improvise and act in a manner they believe the other party expects of them in a particular situation is a convenient way for both parties to muddle through." [@furusten2009 270]
 
-The importance of the relational aspect again sets consultancy apart from outsourcing [@kipping2012 171-173]. The outcome of a consultancy assignment often depends heavily on the interaction between the client and the service provider. On the other hand, outsourcing focuses more on technical capabilities and implies an integral handover of a (set of) service(s) to an external provider that becomes the sole responsible for delivering them.
+The importance of the relational aspect again sets consultancy apart from outsourcing [@kipping2012 171-173]. The outcome of a consultancy assignment often depends heavily on the interaction between the client and the service provider. On the other hand, outsourcing focuses more on technical capabilities and implies an integral handover of a (set of) service(s) to an external provider that becomes the sole responsible for delivering them. However, one could argue that the implementation phase of a consultancy engagement offers the same benefits as outsourcing certain IT functions. For this reason, where appropriate, this study also uses insights from literature that focuses on IT outsourcing.
 
 Finally, the relational aspects also sets consultancy apart from auditing, for which "[i]ndependence is necessary to prevent auditors from biasing their opinions in favor of their clients." [@bazerman2011 310] In other words, to prevent client pressure leading to client pleasing by the auditor [@koch2017], audit engagements shouldn't be relational, on the contrary.
 
@@ -179,18 +181,38 @@ In their 1994 study, for which they interviewed over 100 decision, @lacity1994 [
 
 ## Financial expectations
 
-Reducing costs: - "executives wanting to exercise control over the management and investment of IT, but lacking the expertise." [@sturdy1998 233] - "Other sources of cost reductions are the elimination of large fixed costs during recessions and the transfer of adjustment costs to the outsources when a new technology is adopted." [@aubert1996] \* Improving cost controls \* Restructuring IT budgets
+Reducing costs:
+
+-   "executives wanting to exercise control over the management and investment of IT, but lacking the expertise." [@sturdy1998 233]
+
+-   "Other sources of cost reductions are the elimination of large fixed costs during recessions and the transfer of adjustment costs to the outsources when a new technology is adopted." [@aubert1996]
+
+-   Improving cost controls vs risk of quality loss. [@ketler1993 454]
+
+-   Sharing risks: @ketler1993 [454] describes how managers use outsourcing as a method of reducing weaknesses in a department. Problems (and associated costs) with staffing, technology and selection are transferred to, or shared with the partner.
+
+-   Restructuring IT budgets
 
 ## Business expectations
 
--   Focusing on core activities
--   Facilitating mergers & acquisitions
--   Starting-up a company
+### Focusing on core activities
+
+@furusten2009 [272-273] argues that consultants are often perceived as "relatively stable by [...] employees, stakeholders and other external counterparts", this "builds confidence for the organization. The more stable an organization is experienced as being, the greater its ability to concentrate on its core activities."
+
+### Facilitating mergers & acquisitions
+
+### Starting-up a company
 
 ## Technical expectations
 
+In their 2011 meta-analysis of business process outsourcing (BPO) and information technology outsourcing (ITO) literature, @lacity2011 found that the latter is often driven by technical considerations (such as attracting capabilities), while this is not the case in the former.
+
 -   Improving technical service
 -   Accessing talent & technologies
+-   "Attracting capabilities that are in short supply." @aubert1996 [52]
+-   "...lacking the skills for a project or, less explicitly, to compete with each other." [@sturdy1998 233]
+-   "The consultants chased us so that we really implemented the change. 'In supporting the realization of change projects, consultants provided methodology as well as an energizing example with their own style of working." [@werr2002 54]
+-   The research by @ketler1993 describes various factors that determine an organization's choice for outsourcing. One factor relates to personnel: "Two human resource problems in IS which may be addressed through outsourcing are (i) inability to justify full-time technical specialists and (2) temporary peaks in demand for development staff." @ketler1993
 
 ## Political expectations
 
@@ -214,16 +236,12 @@ Nevertheless, there are constraints to knowledge transfer. According to @cohen19
 
 "House consultants also had accumulated a unique understanding of the client company's historical legacies, having a much longer time perspective than individual managers who frequently changed jobs. The consultants were thus described as the 'organizational memory' of the organization."
 
+One of the possible roles of (management) consultants described by @furusten2009 [269] is that of the "carrier": "Carriers of experience, expertise, knowledge, information and data about leadership, management, organization, top-down strategies and holistic perspectives."
+
 ```{=html}
 <!--
 There is substantial research on knowledge management (as a multidisciplinary discipline within the field of information science) and knowledge transfer (as a broad topic within the discipline). Furthermore, there seems to be some academic interest in knowledge transfer in a principal-agent context [@ning2008; @haines2003], as is the case with between an organization and their contingent workforce. This research could be key in steering and narrowing the scope of the research.-->
 ```
-## Attracting capabilities
-
--   "Attracting capabilities that are in short supply." @aubert1996 [52]
--   "...lacking the skills for a project or, less explicitly, to compete with each other." [@sturdy1998 233]
--   "The consultants chased us so that we really implemented the change. 'In supporting the realization of change projects, consultants provided methodology as well as an energizing example with their own style of working." [@werr2002 54]
-
 # Why digital Consultancy: Theoretical perspectives
 
 According to @armbruster2006 [3-6], the theoretical perspectives on consultancy can be broken down into two main categories and corresponding streams of literature. The first one is the functionalist view, which sees consultants as "carriers and transmitters of management knowledge." The second perspective argues that the functionalist perspective is to narrow in scope to grasp consulting projects: client-consultants interactions are open to distortions, and understanding them requires research. This is known as the critical view.
@@ -359,7 +377,9 @@ Several empirical findings support embeddedness theory. <!-- See @armbruster2006
 
 ## Sociological neoinstitutionalism
 
-A theory that is systematically drawn upon [@armbruster2006 6-8] is sociological neoinstitutionalism. It is based on the argument that the belief in efficiency of certain practices or solutions drives economic actions, rather than the proven efficiency. The result is that large consultancies have been described as carriers, not only of knowledge, but of legitimacy too. After all, it's their analyses that validate management decisions.
+A theory that is systematically drawn upon [@armbruster2006 6-8] is sociological neoinstitutionalism. It is based on the argument that the belief in efficiency of certain practices or solutions drives economic actions, rather than the proven efficiency. For example, @jayatilaka2006 [120] argue that "Initiatives to follow other companies in IS sourcing arrangements could originate from IS and managerial professionals working in the companies and consultants who are aware of successful outsourcing arrangements. Mimetic isomorphism occurs when companies follow the lead of other companies that have successfully outsourced IT."
+
+The result is that large consultancies have been described as carriers, not only of knowledge, but of legitimacy too. After all, it's their analyses that validate management decisions.
 
 "Companies that are held internally and externally accountable for how they 'handle' uncertainty will contract consultants as a sign of good management." [@kieser2006 69]
 
@@ -438,7 +458,7 @@ Why does digital consultancy require a separate study? - Work from home - Comple
 
 -   Vergelijking maken met andere soorten consultancies.
 
-## Governance Measures
+## Corporate Governance & Management Control Systems
 
 In the existing literature, several governance mechanisms have been proposed. What they all share is that they result in a higher degree of trust[^3] between the business partners. More specific, trust from the principal towards the agent.
 
@@ -446,15 +466,27 @@ In the existing literature, several governance mechanisms have been proposed. Wh
 
 @liberatore2010 [265] found that building trust, and goal congruence, can help solve the agency problem because it drives the consultancy firm's motivation for short-term profits towards long-term business and reputation.
 
-@kirilov2012 [193-194] breaks trust factors down in trust-building and trust-sustaining factors. The former is about signaling ability through references, experience and reputation. The latter is about signaling integrity: effective and transparent communication, proactivity, monitoring and consistently meeting contractual obligations. This is highly compatible with the research by @mayer1995 [717-720], which discovered three groups of trust antecedents: ability, integrity and benevolence.
+@kirilov2012 [193-194] breaks trust factors down in trust-building and trust-sustaining factors. The former is about signaling ability through references, experience and reputation. The latter is about signaling integrity: effective and transparent communication, proactivity, monitoring and consistently meeting contractual obligations.
+
+@shapiro1992 [366-374] identified three bases of trust. Investing in either of these can be matched to the level and benefits of the trust desired, and the costs and risks associated with it. The three bases of trust are the following.
+
+1.  Deterrence-based trust results in predictive behavior of the agent because there are measures in place to prevent hostile actions. These measures generate a potential cost for acting in a distrustful way, outweighing the advantages of doing so.
+2.  Knowledge-based trust emerges from prior contacts based on the premise that through ongoing interaction, partners get to know each other better and develop trust around norms of equity [@gulati1995 92]. People act cooperatively when they expect their partner to behave in the same way and reciprocate. Each has something to give the other. Small gestures, such as a consultant providing market insights, a client inviting consultants to team buildings or company events, pressure each other into conformity [@macaulay1963 63].
+3.  Identification-based trust rests on the premise that when both parties share the same preferences they tend to behave in a more trustworthy manner towards each other [@shapiro1992 371]. Several conditions can build trust based on identification, of which joint products or goals, a common team name, proximity and shared values are mentioned explicitly in the research. An interesting finding by @schoenherr2015 [408] is that process integration not only serves as a mechanism for information exchange, but also for engendering reciprocity, yielding greater levels of trust.
+
+This is highly compatible with the research by @mayer1995 [717-720], which describes three groups of trust antecedents: ability, integrity and benevolence.
 
 -   *Ability* describes the skills, competencies and characteristics that enable a party to have influence within a specific domain.
 -   *Integrity* involves the trustor's perception that the trustee adheres to the principles that the trustor finds acceptable for that domain.
 -   *Benevolence* is the extent to which the trustor believes that the trustee wants to do good to the trustor, and looks beyond their profit motive.
 
+Finally, each of these antecedents maps perfectly to the three trust definitions by @sako1992 [37-40]: competence trust, contractual trust and goodwill trust.
+
 Below, a fairly exhaustive list of proposed governance measures is outlined and grouped by their corresponding trust antecedent.
 
 See also @lewicki2006 and @kirilov2012.
+
+Also: how does 'governance' relate to control mechanisms? See @smith2003.
 
 ### Ability
 
@@ -465,12 +497,12 @@ See also @lewicki2006 and @kirilov2012.
 @armbruster2006 [75-76] distinguishes three types of reputation:
 
 1.  Public reputation is the perception of a consulting firm's (or individual consultant) past performance or potential. For this reason, large consultancies make it known that they spend a lot of resources on the search and selection of recruits. [@kieser2006 91] While there are few to no barriers to enter the market as a whole with a newly-found consulting firm, public reputation is a huge barrier to reaching its upper end. Public reputation is like a public good <!-- citation needed -->; the information is non-excludable and non-rivalrous.
-2.  Experience-based trust relates to personal experience with a specific partner. A positive relation drives future action. However, trust evolves slowly, and maintaining it requires commitment. That's why it is often constrained to a small group of business partners. <!-- See also @nooteboom2000. -->
-3.  Networked reputation is the result of word-of-mouth recommendations
+2.  Experience-based trust relates to personal experience with a specific partner. A positive relation drives future action because a partner is less likely to act distrustfully in one transaction if future benefits are jeopardized. [@shapiro1992 367] However, trust evolves slowly, and maintaining it requires commitment. That's why it is often constrained to a small group of business partners. <!-- See also @nooteboom2000. -->
+3.  Networked reputation is the result of word-of-mouth recommendations. For example, @honer2006 [308] proposes building informal networks that would allow managers to communicate their experience in consulting to each other.
 
 @clark1993 [243-244] asked 55 respondents about the factors that are important when choosing an executive search & selection consultancy. "Reputation of individual consultants" and "reputation of the consultancy" are in the top three factors. This reputation often arises from "a history of past transactions with individual consultants. Frequent transactions between consultants and clients leads to familiarity which underpins the latters' assessment of the former." In other words, because finding a new consultants implies a search cost [@wilson2012 1072], incumbent consultants are expected to receive new contracts as long as the cost incurred from a potential sub-optimal performance is lower than the search cost of finding a new consultant.
 
-The findings in @clark1993 are confirmed by @richter2009 [285] who found, with regards to projects that involve client-specific information, that "clients are willing to involve external consultants with whom they have established a relationship of trust in the execution of such projects. [...] intermediate forms of governance between the extremes of market procurement from an anonymous provider and fully-fledged integration, are not only viable, but an effective option for clients to procure managerial services." Organizations are more inclined to work with consultants with whom they have no experience when no client-specific information or industry expertise is required.
+The findings in @clark1993 are confirmed by @richter2009 [285] who found, with regards to projects that involve client-specific information, that "clients are willing to involve external consultants with whom they have established a relationship of trust in the execution of such projects. [...] intermediate forms of governance between the extremes of market procurement from an anonymous provider and fully-fledged integration, are not only viable, but an effective option for clients to procure managerial services." Organizations are more inclined to work with consultants with whom they have no experience when no client-specific information or industry expertise is required. A prior client/supplier working relationship is also listed as an important determinant in the meta-analysis by @lacity2011 [235].
 
 According to @nayyar1990 [516] "reputation performs as an implicit contract. It is enforced by the seller's concerns about future demand for the service provided. [...] reputation is likely to exhibit characteristics of a public good. Once acquired, it can be user over and over again in the context of other services or markets."
 
@@ -480,20 +512,33 @@ According to a survey with 150 German companies [@kieser2006 91], for 73% of res
 
 #### Procurement
 
-Typically, the involvement of procurement intermediaries commodify[^4] management knowledge [@omahoney2013 205-206] However, commodification is often resisted on two fronts, both representing a power struggle.
+"Management consulting is a highly interactive service in which interpersonal trust and 'liking' play a central role. [It is often described] as very similar to recruiting an employee." [@furusten2005 185] Experienced managers buy the services of individuals in whom they have confidence, not from consulting companies. The role if interpersonal is motivated by the argument that the need for consultants is often not driven by the organization, but by the manager's personal needs and insecurities. What is results is the assumption that managers do not always behave in the company's interest when dealing with consultants, and governance measures are required [@honer2006 300]. This ties in to the "agent's agent" argument in @fincham2002, discussed earlier.
 
-[^4]: Commodification is "the process whereby an object (in the widest sense of the term, meaning a thing, an idea, a creature, etc.) comes to be provided through, and/or represented in terms of, a market
-    transaction", crystalizing their value into a price. [@carvalho2008]]
+@honer2006 [307] describes how a central purchasing/project office which selects consultants on behalf of the managers could streamline the hiring process of consultants. Furthermore, this office could be tasks with control and coordination of all consulting projects, going beyond mere selection. Nevertheless, this could be incongruent with company culture and managerial budget responsibility.
+
+Typically, the involvement of procurement intermediaries commodify[^4] management knowledge [@omahoney2013 205-206]. However, commodification is often resisted on two fronts, both representing a power struggle.
+
+[^4]: Commodification is "the process whereby an object (in the widest sense of the term, meaning a thing, an idea, a creature, etc.) comes to be provided through, and/or represented in terms of, a market transaction", crystalizing their value into a price. [@carvalho2008]]
 
 -   On the one hand, the "producers" of management knowledge, (i.e. the consultancy firms) are well aware that commodification could potentially neglect their competitive advantages, having a deleterious effect on their profit margins.
 
 -   On the other hand, as procurers define the problem of management, the come in direct competition with the managers they represent.
 
-#### Third-party Assessors
+@honer2006 [305-306] found that friction between managers and procurement can result in three behavioral patterns:
+
+-   departmentalism: managers claiming that their department, contrary to the company as a whole, is very transparent regarding their use of consultants.
+
+-   authority protection: managers claiming that intervention ins their authority is neither necessary, nor desired and that they have authority to how their department's problems are solves.
+
+-   laziness: managers do not recognize that using consultants effectively is a significant managerial task, and underreport unsuccessful projects.
+
+#### Third-Party Assessment
 
 @zucker1985 [57-62] describes the rise of the "social overhead sector" in the 20th century. This sector acts as an "intermediary" in a variety of situations: stock brokers, real estate agents, banks, etc. The same principle can be applied to consultants: assessment by a third-party agency can prevent adverse selection.
 
-See [@armbruster2006 76-77],
+See [@armbruster2006 76-77].
+
+#### First-party assessment
 
 ### Integrity
 
@@ -507,7 +552,7 @@ Researchers have emphasized three broad ways in which consultants should be moni
 2.  During the implementation of a project, the client verifies that the deliverables are being produces according to the original plan by thoroughly and regularly assessing reviews and written and oral progress reports. Meeting with consultants is essential to ensure that consultants share all relevant information in a timely manner.
 3.  During the implementation of a project, the client checks that the consultants do not sacrifice quality nor scope to meet deadlines. Furthermore, the originally committed staff should not be changed without approval.
 
-#### Contractual Obligations
+#### Contractual Obligations vs. Contract Flexibility
 
 @mcfarlan1995 claim that it is important to have flexibility in an outsourcing contract, because the target state of a project might change due to evolving technology and business environment. Nevertheless...
 
@@ -517,11 +562,13 @@ Researchers have emphasized three broad ways in which consultants should be moni
 -   shorter-term contracts;
 -   high-value contracts.
 
-More detailed contracts, when resulting in requirements uncertainty, is an enabler of goal congruence and trust between the consultancy firm and the client, which is found to result in a better project performance [@liberatore264].
+More detailed contracts, when resulting in requirements uncertainty, is an enabler of goal congruence and trust between the consultancy firm and the client, which is found to result in a better project performance [@liberatore2010 264].
 
-#### Formalised Transactional Contracting (Purchasing Regulation)
+#### Purchasing Regulation
 
 See @sturdy2021 [4-5]
+
+@honer2006 [307] proposes setting op standardized processes for dealing with consultants. These would give managers "clear instructions for dealing with consultancy and enhance the principal's control." However, the author highlights that this might impact a manager's perception of their autonomy and they might act in ways to ignore or bypass these rules.
 
 #### Whistleblowing
 
@@ -545,6 +592,28 @@ In terms of the subject of this paper, "hostages" could come in the form of cont
 
 See @tosi1997.
 
+Reputation could also be taken hostage. [@shapiro1992 368]
+
+#### Third-Party Moderation
+
+@babin2017 [6-7] describes a single case study in which trust in an outsourcing relationship had eroded over time. Instead of parting ways, it was clear that both parties needed each other. A proactive approach in the form of a third-party facilitated workshop successfully addressed the trust problem. "When both sides feel hurt, and do not trust the other side, it can be difficult to take preliminary steps to begin to repair inter-organizational trust. An objective outsider using a formal approach proved useful to initiating the trust repair activities.
+
+#### First-party assessment
+
+"A second vehicle for improving understanding and predictability between partners is to conduct very good research on the potential partner before a relationship is engaged. This research is directed at assessing the real compatibility, or "interpersonal fit," between partners, as well as assessing the degree to which a potential partner engages in predictable behavior." [@shapiro1992 370]
+
+#### Consulting Database
+
+@sturdy2021 [5] proposes internalization of supplier information. For example, @mohe2006 set up an *infobase* in DaimlerChrysler that can be used by internal managers for managing consultants and consulting projects. It contains news and trends regarding consulting, process guidelines, consultant profiles, past projects and management info (such as price).
+
+@honer2006 [308] proposes an institution within an organization that has the staff and capabilities to support managers in dealing with consultancy. This institution would hold data on previous consultancy engagements, assisting managers in choosing the adequate consultancy partner. Their service is entirely voluntary and secures discrete conduct and sensitivity when dealing with confidential information. This could also be slimmed down
+
+### Benevolence
+
+#### Cultural Understanding
+
+Cultural understanding
+
 #### Psychological contract obligations
 
 According to @ang2004 [357], the legal interpretation of an IT outsourcing contract is too limited. Instead, they claim that the construct of a *psychological contract* is more appropriate for analyzing the relationship between an IT service supplier and customer. The strength of psychological contract theory is threefold:
@@ -559,14 +628,6 @@ Consequently, the psychological contract not only comprises the legal contract, 
 -   On the customer side: (1) clear specification of requirements, (2) prompt payment, and (3) project ownership and monitoring.
 
 Closely related is the work by @willcockskern [9-13] that makes a distinction between the contractual level and the cooperative level. The contractual level is about payment for the exchange of services and the transfer of assets, information & consultants. The cooperative level involves formal communication mechanisms; personal investments in time, resources & knowledge; mutual goals & objectives and social bonds. The atmosphere surrounding the former is heavily impacted by developments at the latter. A respondent in @willcockskern [9] states that "the contract is a bit like a nuclear deterrent. You need one and you have got to have a framework, but if you've got to use it you are probably in trouble."
-
-#### Infobase
-
-???
-
-### Benevolence
-
-???
 
 ### Beyond Controls
 
@@ -603,6 +664,12 @@ One could even argue that professionalization is not even relevant in today's ca
 -   Three sources of regulation can be identified (@clark1993 246-247).
 -   See @muzio2011 [813-817].
 
+While in some countries, like Austria, there is a registration system for consultants, governments have been ambivalent towards professional regulation of the consulting sector [@muzio2011 814]. According to @leicht2006, this is the result of (Western) governments embrace of market logic and their reluctance to intervene with "additional coercive pressures in the wake of questionable professional conduct."
+
+One important antecedent for regulation is professionalization of the sector, which is highly unlikely in the current institutional environment. Although "expertise is increasingly more important in differentiating societies, it is difficult to defend the status of professions, to say nothing of establishing new ones. The trend is towards deregulation and deprofessionalization of existing professions, rather than towards establishing new ones." [@kieser2006 90]
+
+Finally, governments are often large consumers of consultancy services, making them wary of supporting regulation of the sector, as it could drive up prices and reduce their autonomy in hiring them [@muzio2011 815].
+
 #### Government Initiated Codes
 
 See @sturdy2021 [3-4]
@@ -614,6 +681,10 @@ See @sturdy2021 [4]
 #### Specific Commitment
 
 See @sturdy2021 [12]
+
+### Control configurations
+
+See @smith2003 [286-289]
 
 # Research Questions
 
