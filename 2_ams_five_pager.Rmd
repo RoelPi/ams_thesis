@@ -59,7 +59,7 @@ Establishing change is what sets consultancy apart from temporary staffing. "A t
 
 The aspect of change is also important for drawing boundaries between consultancy and outsourcing. Consultants are often hired for defining a problem and presenting a solution at the same time [@furusten2009 272], while outsourcing simply delivers the solution. In that sense, outsourcing is the practice of obtaining goods or services from an external provider, as a substitute for sourcing it internally [@lacity2012 2]. Or in the words of @zhu2001 [374]: "the process of transferring the responsibility for a specific business function from an employee group to a non-employee group." While early IT outsourcing initiatives were rather "total" @willcocks1995 in nature, outsourcing individual business functions is a more common activity [@zhu2001 377], and focus has shifted from cost saving to quality, productivity, flexibility and technological diversity [@kirilov2012 185]. This implies that outsourcing, unlike consultancy, is not about changing a procedure or service, but rather ensuring continuation, or implementation, by a third-party provider.
 
-Finally, @furusten2009 [272-273] argues that consultants not only act as agents of change, but often as agents if stability. Consultants are often perceived as "relatively stable by [...] employees, stakeholders and other external counterparts", this "builds confidence for the organization. The more stable an organization is experienced as being, the greater its ability to concentrate on its core activities."
+Finally, @furusten2009 [272-273] argues that consultants not only act as agents of change, but often as agents of stability. Consultants are often perceived as "relatively stable by [...] employees, stakeholders and other external counterparts", this "builds confidence for the organization. The more stable an organization is experienced as being, the greater its ability to concentrate on its core activities."
 
 ### Contingent
 
@@ -125,6 +125,14 @@ According to \@liberatore2010 [255] consulting differs from outsourcing with res
 ## The Ascent of Consultancy
 
 ### The Macro-economic Context: Supply-Side Economics
+
+The post-bureaucratic organization "invites market dynamics into what used to be intra-organizational matters and seeks to rid the organization of activities that are not directly linked to its focal service or product." [@furusten2000 3]
+
+Specifically for public sector use of consultants, @ylonen2019 [242] use the term 'consultocracy'; the "phenomenon in which often short-term, outsourced expert knowledge production is increasingly replacing the long-term work of civil servants and even politicians. This results in an increased power of consultants over politics, public governance, and public sector practices."
+
+@ylonen2019 [250] argues that the increasing reliance on consultants results in the loss of tacit knowledge in the public sector: "The old bureaucratic virtues erode as informal trust and information lose their organizational structures and channels." The culprit is usually found in cost-cutting programs that generate pressure to eliminate permanent work hours. However, it "can also be advanced as a hidden or explicit political agenda. [...] major organizational overhauls were often motivated by the desire to destruct existing organizational structures. Constant change was desirable precisely because it helped to shatter old ways of working."
+
+Finally @ylonen2019 [252] describes how the increasing use of consultancy weakens accountability of civil servants as responsibilities are transferred to consultancy firms. Furthermore, in many countries, contracts between the government and consultants are negotiated under private law, putting severe limits on the public availability of relevant documents.
 
 ### The Micro-economic Context: Radical Reflexivity
 
@@ -230,7 +238,7 @@ Something about knowledge transfer here [@sturdy2009].
 
 Nevertheless, there are constraints to knowledge transfer. According to @cohen1990 [128-129], "the ability to evaluate and utilize outside knowledge is largely a function of the level of prior related knowledge [such as] basic skills, or even a shared language but may also include knowledge of the most recent scientific or technological developments in a given field. [...] These abilities collectively constitute what we call a firm's *absorptive capacity*."
 
-@fincham2002 [84] made an interesting observation: organization-specific knowledge and expert knowledge are very complexly related, and knowledge transfer can only happen into a "well-prepared ground." For this reason, consultants tend to focus their efforts on the kinds of relationship in which a manager is relieved of their local knowledge.
+@fincham2002 [84] made an interesting observation: organization-specific knowledge and expert knowledge are very complexly related, and knowledge transfer can only happen into a "well-prepared ground." @nooteboom2000 [922] describes this from a transaction cost economics perspective: "[O]ne needs to make investments that are 'specific' to the relation, [...] and a certain durability of the relation is required to set up and recoup the investment." Especially tacit knowledge (impossible to codify or document) suffers from this problem, as it can only be transferred through direct interaction and with hands-on participation by the intended recipient.
 
 "Managers thus viewed consultants as a way of bypassing the knowledge filters created by the organizational hierarchy, as well as the effects of organizational politicals, which became salient in times of reorganization and change. Management consultants were seen as a way for managers to gain a 'true' picture of what was going on in their organizations." [@werr2002 54]
 
@@ -261,7 +269,7 @@ Their bounded rationality makes it impossible for humans to estimate both the co
 
 According to transaction cost economics, the decision whether a service should be conducted in-house or purchased in the market is based on the comparison of the sum of production and transaction costs [@armbruster2006 12].
 
-@canback1998 [31] does a solid job explaining the role of transaction costs in explaining the raison d'être of consultants. "As companies strive to reduce the production costs by exploiting scale and scope economies, they must specialise -- which in turn leads to a need for internal coordination. If transaction costs did not exist, then the largest company in each market would also be the most profitable company, since coordination between functions could be achieved without effort. But because of transaction costs, this does not happen." The result is that blue-collar jobs disappear as production costs are reduced, while white-collar jobs, aimed at coordination, do not.
+@canback1998 [31] does a solid job explaining the role of transaction costs in explaining the raison d'être of consultants. "As companies strive to reduce the production costs by exploiting scale and scope economies, they must speciali[z]e -- which in turn leads to a need for internal coordination. If transaction costs did not exist, then the largest company in each market would also be the most profitable company, since coordination between functions could be achieved without effort. But because of transaction costs, this does not happen." The result is that blue-collar jobs disappear as production costs are reduced, while white-collar jobs, aimed at coordination, do not.
 
 Mindful of this evolution, the assumption is that there is a high demand for advice and (IT) solutions that improve coordination within and between firms. These are services in which consultants are particularly well-versed. The question to ask here is: are the transaction costs for working with external consultants lower than for working with internal consultants when it comes to knowledge production?
 
@@ -269,7 +277,7 @@ Mindful of this evolution, the assumption is that there is a high demand for adv
 
 *Asset specificity* describes the degree to which physical, human or site assets have a specific usage and can they not be put to use for another purpose. With highly idiosyncratic transactions, no vendor is willing to tailor his product or service to one client, and face downward price pressure, since the latter acts as a monopsonist [@robinson1969 218-228].
 
-According to @williamson1979 [250-253] higher asset specificity leads either to one of two forms of "relational contracting". The first form is bilateral governance in which there are "admissible dimensions for adjustment such that flexibility is provided under terms in which both parties have confidence." The second form is unified governance (i.e. internalization or vertical integration), in which "adaptations can be made in a sequential way without the need to consult, complete, or revise interfirm agreements. Where a single ownership entity spans both sides of the transactions, a presumption of joint profit maximization is waranted."
+According to @williamson1979 [250-253] higher asset specificity leads either to one of two forms of "relational contracting". The first form is bilateral governance in which there are "admissible dimensions for adjustment such that flexibility is provided under terms in which both parties have confidence." The second form is unified governance (i.e. internalization or vertical integration), in which "adaptations can be made in a sequential way without the need to consult, complete, or revise interfirm agreements. Where a single ownership entity spans both sides of the transactions, a presumption of joint profit maximization is warranted."
 
 @williamson1985 [95-96] identifies 4 types of asset specificity:
 
@@ -280,9 +288,9 @@ According to @williamson1979 [250-253] higher asset specificity leads either to 
 
 The second dimension is the *frequency* of transactions on the buyer side. A transaction with high asset specificity does not require a different contracting approach, because there is no subsequent phase in which the buyer can leverage his monopsony power and stray from the initial contract. However, when the frequency goes beyond a single transaction "idiosyncratic transactions are ones for which the relationship between buyer and supplier is quickly thereafter transformed into one of bilateral monopoly." [@williamson1985 241]
 
-*Uncertainty*. Within the context of transaction cost economics, @shin2003 [38] states that "many empirical studies show mixed and contradictory results against what transaction cost economics predicts, especially for the concept of uncertainty." and as a solution, reduces the concept to "behavioral uncertainty", hereby ignoring environmental uncertainty [@watjatrakul2005 391-392] This is in line with @williamson1985 [79] who claims that "The proposed match of governance structures with transactions considers only two of the three dimensions for describing transactions: asset specificity and frequency. The third dimension, uncertainty, is assumed to be present in sufficient degree to pose an adaptive, sequential decision problem. [...] Since continuity now matters, [...] uncertainty makes it more imperative to organize transactions within governance structures that have the capacity to 'work things out.'"
+*Uncertainty*. Within the context of transaction cost economics, @shin2003 [38] states that "many empirical studies show mixed and contradictory results against what transaction cost economics predicts, especially for the concept of uncertainty." and as a solution, reduces the concept to "behavioral uncertainty", hereby ignoring environmental uncertainty [@watjatrakul2005 391-392]. This is in line with @williamson1985 [79] who claims that "The proposed match of governance structures with transactions considers only two of the three dimensions for describing transactions: asset specificity and frequency. The third dimension, uncertainty, is assumed to be present in sufficient degree to pose an adaptive, sequential decision problem. [...] Since continuity now matters, [...] uncertainty makes it more imperative to organize transactions within governance structures that have the capacity to 'work things out.'"
 
-When we bring these three dimensions together, we conclude that behavioral uncertainty arises from asset specificity because it may lead to opportunism, but only in recurrent transactions. In this context, behavioral uncertainty and can't be disentangled from asset specificity. @williamson1985 [78] is fully aware that this is a departure from Coase's transaction cost rationale.
+When we bring these three dimensions together, we conclude that behavioral uncertainty arises from asset specificity because it may lead to opportunism, but only in recurrent transactions. In this context, behavioral uncertainty can't be disentangled from asset specificity. @williamson1985 [78] is fully aware that this is a departure from Coase's transaction cost rationale.
 
 To drive back the theory to the subject of consulting, @canback1998 [37] argues that it's mainly human asset specificity that favor using consultants, since their assignments typically have a low human asset specificity so that the solution or advice can be reproduced at many organizations.[^1] @watjatrakul2005 [408] put the theory to the test and compared the transaction cost view with the resource-based view (infra) for describing the sourcing decisions in three cases and comes to the following conclusion: "a high-specificity asset has a major impact on sourcing decisions. It overpowers the effect of uncertainty."
 
@@ -309,11 +317,8 @@ They conclude that firms with a low production knowledge transfer rate (e.g. unm
 
 Agency theory is very compatible with transaction cost economics. When an organization decides to not develop a specific service in-house, and instead, buys it in the market, it encounters agency issues: information asymmetries and goal incompatibility. See @shapiro2005.
 
--   Information asymmetry: consultants wield enormous power over the knowledge that they possess and use. Their clients depend on this knowledge, making them vulnerable, and putting them at mercy of the consultant. [@brien1998]
-
-<!-- -->
-
--   Goal incompatibility: The organization is interested in a timely roll-out of a quality solution for a problem they have. The consultancy firm, on the other hand, is driven by profit maximization. There is an important information assymetry
+-   Information asymmetry: consultants wield enormous power over the knowledge that they possess and use. Their clients depend on this knowledge, making them vulnerable, and putting them at mercy of the consultant. [@brien1998] For example, @ylonen2019 [248-249] found that payments from the Finnish Ministry of Finance to a particular consultancy company drastically increased year-over-year, because the consultancy firm had a quasi-monopoly in the knowledge regarding particular remuneration practices.
+-   Goal incompatibility: The organization is interested in a timely roll-out of a quality solution for a problem they have. The consultancy firm, on the other hand, is driven by profit maximization. There is an important information asymetry
 
 @fincham2002 made an interesting addition to this typical principal-agent problem. It starts from the premise that since managers are agents of the owners of capital, a consultants can be described as "an agent's agent", extending the management's own agency function. In other words, consultants operate at the "outer reaches of corporate power", stretching corporate authority to its limits. Consequently, their legitimacy is often problematic within the corporation that engages with them.
 
@@ -373,11 +378,17 @@ The research by @schwarz2005 [311-313] claims that it matters *who* implements a
 
 Embeddedness theorists distance themselves from transaction costs economics [@armbruster2006 14-16]. They argue that outsourcing decisions are the byproduct of the relationships between the decision-makers across different companies. Although transaction cost economists stress the importance of trust within relational contracting, it is undersocialized <!-- need citation from granoveter --> according to embeddedness theorists. "As a result, transactions may be inefficient without the participants either noticing or calculating it as such. A transaction cost analysis of such processes may then represent an ex post rationalization of an otherwise inefficient solution." [@armbruster2006 15]
 
-Several empirical findings support embeddedness theory. <!-- See @armbruster2006 p16 for references -->
+@nooteboom1996 [992] states that typically, economists tend to neglect intrinsic utility and that it doesn't matter who the transaction partner is. Embeddedness theory rejects this, as personality and social embeddedness enter the picture.
+
+Several empirical findings support embeddedness theory.
+
+-   See [@armbruster2006 16]
+
+-   See [@kitay2004]
 
 ## Sociological neoinstitutionalism
 
-A theory that is systematically drawn upon [@armbruster2006 6-8] is sociological neoinstitutionalism. It is based on the argument that the belief in efficiency of certain practices or solutions drives economic actions, rather than the proven efficiency. For example, @jayatilaka2006 [120] argue that "Initiatives to follow other companies in IS sourcing arrangements could originate from IS and managerial professionals working in the companies and consultants who are aware of successful outsourcing arrangements. Mimetic isomorphism occurs when companies follow the lead of other companies that have successfully outsourced IT."
+A theory that is systematically drawn upon [@armbruster2006 6-8] is sociological neoinstitutionalism. It is based on the argument that the belief in efficiency of certain practices or solutions drives economic actions, rather than the proven efficiency. For example, @jayatilaka2006 [120] argue that "[i]nitiatives to follow other companies in IS sourcing arrangements could originate from IS and managerial professionals working in the companies and consultants who are aware of successful outsourcing arrangements. Mimetic isomorphism occurs when companies follow the lead of other companies that have successfully outsourced IT."
 
 The result is that large consultancies have been described as carriers, not only of knowledge, but of legitimacy too. After all, it's their analyses that validate management decisions.
 
@@ -460,13 +471,22 @@ Why does digital consultancy require a separate study? - Work from home - Comple
 
 ## Corporate Governance & Management Control Systems
 
-In the existing literature, several governance mechanisms have been proposed. What they all share is that they result in a higher degree of trust[^3] between the business partners. More specific, trust from the principal towards the agent.
+In the existing literature, several governance mechanisms have been proposed. Each of them is somehow related to trust[^3] between the business partners. Either they increase trust, or they eliminate the need for trust. From a transaction cost economics perspective, trust makes transactions cheaper and allows for greater flexibility, as it requires less incentivization, and specification and monitoring of contracts [\@nooteboom1996 989].
 
 [^3]: Trust is defined in the broad sense: "the willingness of a party to be vulnerable to the actions of another party based on the expectation that the other will perform a particular action important to the trustor, irrespective of the ability to monitor or control that other party." [@kee1970] If the level of a perceived risk is bigger than the level of trust, the trustor will not engage in a risk-taking relationship.
 
-@liberatore2010 [265] found that building trust, and goal congruence, can help solve the agency problem because it drives the consultancy firm's motivation for short-term profits towards long-term business and reputation.
+@liberatore2010 [265] found that building trust, and goal congruence, can help solve the agency problem because it drives the consultancy firm's motivation for short-term profits towards long-term business and reputation. However, trust is not unbounded and should not be taken for granted as it might break down [@nooteboom1996 988]. Golden opportunities that require defection are always lurking and even tempting for the most trustworthy.
 
 @kirilov2012 [193-194] breaks trust factors down in trust-building and trust-sustaining factors. The former is about signaling ability through references, experience and reputation. The latter is about signaling integrity: effective and transparent communication, proactivity, monitoring and consistently meeting contractual obligations.
+
+@williams1988 describes two dimensions to position 'trust': the context and egotism. This yields four sources of trust and cooperation.
+
+|               | Macro                                             | **Micro**                                                   |
+|---------------|---------------------------------------------------|-------------------------------------------------------------|
+| Egotistic     | Coercion or fear of sanctions from authorities    | Material advantage                                          |
+| Non-egotistic | Ethics such as values and norms of proper conduct | Bonds of friendship, kinship of a certain degree of empathy |
+
+As we'll see below, governance mechanisms can be designed to foster each of these four grounds for cooperation.
 
 @shapiro1992 [366-374] identified three bases of trust. Investing in either of these can be matched to the level and benefits of the trust desired, and the costs and risks associated with it. The three bases of trust are the following.
 
@@ -480,7 +500,7 @@ This is highly compatible with the research by @mayer1995 [717-720], which descr
 -   *Integrity* involves the trustor's perception that the trustee adheres to the principles that the trustor finds acceptable for that domain.
 -   *Benevolence* is the extent to which the trustor believes that the trustee wants to do good to the trustor, and looks beyond their profit motive.
 
-Finally, each of these antecedents maps perfectly to the three trust definitions by @sako1992 [37-40]: competence trust, contractual trust and goodwill trust.
+Finally, each of these antecedents maps rather well to the three trust definitions outlined by @sako1992 [37-40]: competence trust, contractual trust and goodwill trust.
 
 Below, a fairly exhaustive list of proposed governance measures is outlined and grouped by their corresponding trust antecedent.
 
@@ -538,7 +558,7 @@ Typically, the involvement of procurement intermediaries commodify[^4] managemen
 
 See [@armbruster2006 76-77].
 
-#### First-party assessment
+#### First-Party Assessment
 
 ### Integrity
 
@@ -552,7 +572,13 @@ Researchers have emphasized three broad ways in which consultants should be moni
 2.  During the implementation of a project, the client verifies that the deliverables are being produces according to the original plan by thoroughly and regularly assessing reviews and written and oral progress reports. Meeting with consultants is essential to ensure that consultants share all relevant information in a timely manner.
 3.  During the implementation of a project, the client checks that the consultants do not sacrifice quality nor scope to meet deadlines. Furthermore, the originally committed staff should not be changed without approval.
 
+@nooteboom2000
+
 #### Contractual Obligations vs. Contract Flexibility
+
+Contracts have several functions [@noteboom1996 924]: a legal document to constrain opportunism, a record of agreement to guide technical coordination, prevention of misunderstanding and even a ritualistic function to seal the intention to cooperate. However, not all future contingencies are known, the cost of setting up a detailed contract and monitoring it can be significant (supra), and contracts may form a straight-jacket that blocks the utilization of future opportunities. Finally, detailed contracts can shroud a contract in an atmosphere of mistrust, derailing the relation before it has even started.
+
+According to @nooteboom1996 [924], most inter-firm cooperation is described in a contract of some form. However, "[t]he question is not so much whether there is a contract, but whats its content is an how elaborate it is."
 
 @mcfarlan1995 claim that it is important to have flexibility in an outsourcing contract, because the target state of a project might change due to evolving technology and business environment. Nevertheless...
 
@@ -576,17 +602,13 @@ Also media.
 
 #### Incentivization
 
+Contrary to the design and enforcement of contractual obligations, management by self-interest (i.e. incentivization) "has the advantage that it is cheaper than contracts, is more flexible, and it is in the players' own interest to be seen to comply with agreements." [@nooteboom2000 924] However, it's not a silver bullet as it requires a need for observation, measurement and monitoring. Yet, "How does one measure and monitor degree of dependence, spillovers, and specificity of investments?" It's hard to quantify compensation for such intangible risks. Furthermore, it is hard to maintain, since competences and external conditions are constantly changing.
+
 "Basing the agent's rewards and incentives on imperfect surrogates of performance lads to moral hazard, but aligning the preferences of the agent and the principal through an appropriate reward structure helps curb the agent's opportunistic behavior." [@basu2011 13-15] Several actions are proposed to align incentives: link payment to completion of the promised deliverables, sharing of cost savings or overruns with the consultancy firm, incentives and penalties related to timely completion of a project.
 
 @liberatore2010 [264-266] finds that a higher goal congruence between the consultancy firm and the client is an enabler of project performance.
 
-#### Clan mechanisms (closely related to incentivization)
-
-See @aubert1996 [62] and @ouchi1980.
-
-#### Hostage-taking, outcome-driven contracts and contingent fees
-
-When there are no trust-related nor legal enforcement mechanisms, parties can be discouraged from forming long-term relationships. According to @werner1993 [47-48], "hostages" are used in situations where rational behavior would lead to sub-optimal outcome, in the Paretoian sense. In game theoretical terms, hostage-taking is used to prevent defecting behavior.
+A particular form of incentivization is "hostage-taking": "one-sided ownership of specific assets may be balanced by one-sided hostages going the other way, or by a rigorous reputation mechanism." [@nooteboom2000 924] When there are no trust-related nor legal enforcement mechanisms, parties can be discouraged from forming long-term relationships. According to @werner1993 [47-48], "hostages" are used in situations where rational behavior would lead to sub-optimal outcome, in the Paretoian sense. In game theoretical terms, hostage-taking is used to prevent defecting behavior.
 
 In terms of the subject of this paper, "hostages" could come in the form of contingent fees. See [@clark1993 243]
 
@@ -594,11 +616,15 @@ See @tosi1997.
 
 Reputation could also be taken hostage. [@shapiro1992 368]
 
+#### Clan mechanisms (closely related to incentivization)
+
+See @aubert1996 [62] and @ouchi1980.
+
 #### Third-Party Moderation
 
 @babin2017 [6-7] describes a single case study in which trust in an outsourcing relationship had eroded over time. Instead of parting ways, it was clear that both parties needed each other. A proactive approach in the form of a third-party facilitated workshop successfully addressed the trust problem. "When both sides feel hurt, and do not trust the other side, it can be difficult to take preliminary steps to begin to repair inter-organizational trust. An objective outsider using a formal approach proved useful to initiating the trust repair activities.
 
-#### First-party assessment
+#### First-Party Assessment
 
 "A second vehicle for improving understanding and predictability between partners is to conduct very good research on the potential partner before a relationship is engaged. This research is directed at assessing the real compatibility, or "interpersonal fit," between partners, as well as assessing the degree to which a potential partner engages in predictable behavior." [@shapiro1992 370]
 

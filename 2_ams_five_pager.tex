@@ -27,6 +27,17 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
+% From pandoc table feature
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
 
 
 
@@ -226,7 +237,7 @@ consultancy, is not about changing a procedure or service, but rather
 ensuring continuation, or implementation, by a third-party provider.
 
 Finally, \citet[272-273]{furusten2009} argues that consultants not only
-act as agents of change, but often as agents if stability. Consultants
+act as agents of change, but often as agents of stability. Consultants
 are often perceived as ``relatively stable by {[}\ldots{]} employees,
 stakeholders and other external counterparts'', this ``builds confidence
 for the organization. The more stable an organization is experienced as
@@ -397,6 +408,36 @@ Consultancy}\label{the-pioneers-of-consultancy}}
 \hypertarget{the-macro-economic-context-supply-side-economics}{%
 \subsubsection{The Macro-economic Context: Supply-Side
 Economics}\label{the-macro-economic-context-supply-side-economics}}
+
+The post-bureaucratic organization ``invites market dynamics into what
+used to be intra-organizational matters and seeks to rid the
+organization of activities that are not directly linked to its focal
+service or product.'' \citep[ 3]{furusten2000}
+
+Specifically for public sector use of consultants,
+\citet[242]{ylonen2019} use the term `consultocracy'; the ``phenomenon
+in which often short-term, outsourced expert knowledge production is
+increasingly replacing the long-term work of civil servants and even
+politicians. This results in an increased power of consultants over
+politics, public governance, and public sector practices.''
+
+\citet[250]{ylonen2019} argues that the increasing reliance on
+consultants results in the loss of tacit knowledge in the public sector:
+``The old bureaucratic virtues erode as informal trust and information
+lose their organizational structures and channels.'' The culprit is
+usually found in cost-cutting programs that generate pressure to
+eliminate permanent work hours. However, it ``can also be advanced as a
+hidden or explicit political agenda. {[}\ldots{]} major organizational
+overhauls were often motivated by the desire to destruct existing
+organizational structures. Constant change was desirable precisely
+because it helped to shatter old ways of working.''
+
+Finally \citet[252]{ylonen2019} describes how the increasing use of
+consultancy weakens accountability of civil servants as responsibilities
+are transferred to consultancy firms. Furthermore, in many countries,
+contracts between the government and consultants are negotiated under
+private law, putting severe limits on the public availability of
+relevant documents.
 
 \hypertarget{the-micro-economic-context-radical-reflexivity}{%
 \subsubsection{The Micro-economic Context: Radical
@@ -670,9 +711,13 @@ constitute what we call a firm's \emph{absorptive capacity}.''
 \citet[84]{fincham2002} made an interesting observation:
 organization-specific knowledge and expert knowledge are very complexly
 related, and knowledge transfer can only happen into a ``well-prepared
-ground.'' For this reason, consultants tend to focus their efforts on
-the kinds of relationship in which a manager is relieved of their local
-knowledge.
+ground.'' \citet[922]{nooteboom2000} describes this from a transaction
+cost economics perspective: ``{[}O{]}ne needs to make investments that
+are `specific' to the relation, {[}\ldots{]} and a certain durability of
+the relation is required to set up and recoup the investment.''
+Especially tacit knowledge (impossible to codify or document) suffers
+from this problem, as it can only be transferred through direct
+interaction and with hands-on participation by the intended recipient.
 
 ``Managers thus viewed consultants as a way of bypassing the knowledge
 filters created by the organizational hierarchy, as well as the effects
@@ -738,9 +783,9 @@ comparison of the sum of production and transaction costs \citep[
 \citet[31]{canback1998} does a solid job explaining the role of
 transaction costs in explaining the raison d'être of consultants. ``As
 companies strive to reduce the production costs by exploiting scale and
-scope economies, they must specialise -- which in turn leads to a need
-for internal coordination. If transaction costs did not exist, then the
-largest company in each market would also be the most profitable
+scope economies, they must speciali{[}z{]}e -- which in turn leads to a
+need for internal coordination. If transaction costs did not exist, then
+the largest company in each market would also be the most profitable
 company, since coordination between functions could be achieved without
 effort. But because of transaction costs, this does not happen.'' The
 result is that blue-collar jobs disappear as production costs are
@@ -773,7 +818,7 @@ governance (i.e.~internalization or vertical integration), in which
 ``adaptations can be made in a sequential way without the need to
 consult, complete, or revise interfirm agreements. Where a single
 ownership entity spans both sides of the transactions, a presumption of
-joint profit maximization is waranted.''
+joint profit maximization is warranted.''
 
 \citet[95-96]{williamson1985} identifies 4 types of asset specificity:
 
@@ -809,7 +854,7 @@ transformed into one of bilateral monopoly.'' \citep[
 contradictory results against what transaction cost economics predicts,
 especially for the concept of uncertainty.'' and as a solution, reduces
 the concept to ``behavioral uncertainty'', hereby ignoring environmental
-uncertainty \citep[ 391-392]{watjatrakul2005} This is in line with
+uncertainty \citep[ 391-392]{watjatrakul2005}. This is in line with
 \citet[79]{williamson1985} who claims that ``The proposed match of
 governance structures with transactions considers only two of the three
 dimensions for describing transactions: asset specificity and frequency.
@@ -822,7 +867,7 @@ have the capacity to `work things out.'\,''
 When we bring these three dimensions together, we conclude that
 behavioral uncertainty arises from asset specificity because it may lead
 to opportunism, but only in recurrent transactions. In this context,
-behavioral uncertainty and can't be disentangled from asset specificity.
+behavioral uncertainty can't be disentangled from asset specificity.
 \citet[78]{williamson1985} is fully aware that this is a departure from
 Coase's transaction cost rationale.
 
@@ -884,16 +929,16 @@ asymmetries and goal incompatibility. See \citet{shapiro2005}.
   Information asymmetry: consultants wield enormous power over the
   knowledge that they possess and use. Their clients depend on this
   knowledge, making them vulnerable, and putting them at mercy of the
-  consultant. \citep{brien1998}
-\end{itemize}
-
-\begin{itemize}
-\tightlist
+  consultant. \citep{brien1998} For example, \citet[248-249]{ylonen2019}
+  found that payments from the Finnish Ministry of Finance to a
+  particular consultancy company drastically increased year-over-year,
+  because the consultancy firm had a quasi-monopoly in the knowledge
+  regarding particular remuneration practices.
 \item
   Goal incompatibility: The organization is interested in a timely
   roll-out of a quality solution for a problem they have. The
   consultancy firm, on the other hand, is driven by profit maximization.
-  There is an important information assymetry
+  There is an important information asymetry
 \end{itemize}
 
 \citet{fincham2002} made an interesting addition to this typical
@@ -1087,7 +1132,19 @@ noticing or calculating it as such. A transaction cost analysis of such
 processes may then represent an ex post rationalization of an otherwise
 inefficient solution.'' \citep[ 15]{armbruster2006}
 
+\citet[992]{nooteboom1996} states that typically, economists tend to
+neglect intrinsic utility and that it doesn't matter who the transaction
+partner is. Embeddedness theory rejects this, as personality and social
+embeddedness enter the picture.
+
 Several empirical findings support embeddedness theory.
+
+\begin{itemize}
+\item
+  See \citep[ 16]{armbruster2006}
+\item
+  See \citep{kitay2004}
+\end{itemize}
 
 \hypertarget{sociological-neoinstitutionalism}{%
 \subsection{Sociological
@@ -1097,8 +1154,8 @@ A theory that is systematically drawn upon \citep[ 6-8]{armbruster2006}
 is sociological neoinstitutionalism. It is based on the argument that
 the belief in efficiency of certain practices or solutions drives
 economic actions, rather than the proven efficiency. For example,
-\citet[120]{jayatilaka2006} argue that ``Initiatives to follow other
-companies in IS sourcing arrangements could originate from IS and
+\citet[120]{jayatilaka2006} argue that ``{[}i{]}nitiatives to follow
+other companies in IS sourcing arrangements could originate from IS and
 managerial professionals working in the companies and consultants who
 are aware of successful outsourcing arrangements. Mimetic isomorphism
 occurs when companies follow the lead of other companies that have
@@ -1320,20 +1377,26 @@ Why does digital consultancy require a separate study? - Work from home
 Systems}\label{corporate-governance-management-control-systems}}
 
 In the existing literature, several governance mechanisms have been
-proposed. What they all share is that they result in a higher degree of
-trust\footnote{Trust is defined in the broad sense: ``the willingness of
-  a party to be vulnerable to the actions of another party based on the
-  expectation that the other will perform a particular action important
-  to the trustor, irrespective of the ability to monitor or control that
-  other party.'' \citep{kee1970} If the level of a perceived risk is
-  bigger than the level of trust, the trustor will not engage in a
-  risk-taking relationship.} between the business partners. More
-specific, trust from the principal towards the agent.
+proposed. Each of them is somehow related to trust\footnote{Trust is
+  defined in the broad sense: ``the willingness of a party to be
+  vulnerable to the actions of another party based on the expectation
+  that the other will perform a particular action important to the
+  trustor, irrespective of the ability to monitor or control that other
+  party.'' \citep{kee1970} If the level of a perceived risk is bigger
+  than the level of trust, the trustor will not engage in a risk-taking
+  relationship.} between the business partners. Either they increase
+trust, or they eliminate the need for trust. From a transaction cost
+economics perspective, trust makes transactions cheaper and allows for
+greater flexibility, as it requires less incentivization, and
+specification and monitoring of contracts {[}@nooteboom1996 989{]}.
 
 \citet[265]{liberatore2010} found that building trust, and goal
 congruence, can help solve the agency problem because it drives the
 consultancy firm's motivation for short-term profits towards long-term
-business and reputation.
+business and reputation. However, trust is not unbounded and should not
+be taken for granted as it might break down \citep[ 988]{nooteboom1996}.
+Golden opportunities that require defection are always lurking and even
+tempting for the most trustworthy.
 
 \citet[193-194]{kirilov2012} breaks trust factors down in trust-building
 and trust-sustaining factors. The former is about signaling ability
@@ -1341,6 +1404,33 @@ through references, experience and reputation. The latter is about
 signaling integrity: effective and transparent communication,
 proactivity, monitoring and consistently meeting contractual
 obligations.
+
+\citet{williams1988} describes two dimensions to position `trust': the
+context and egotism. This yields four sources of trust and cooperation.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1181}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4016}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4803}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Macro
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Micro}
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Egotistic & Coercion or fear of sanctions from authorities & Material
+advantage \\
+Non-egotistic & Ethics such as values and norms of proper conduct &
+Bonds of friendship, kinship of a certain degree of empathy \\
+\end{longtable}
+
+As we'll see below, governance mechanisms can be designed to foster each
+of these four grounds for cooperation.
 
 \citet[366-374]{shapiro1992} identified three bases of trust. Investing
 in either of these can be matched to the level and benefits of the trust
@@ -1396,9 +1486,9 @@ antecedents: ability, integrity and benevolence.
   profit motive.
 \end{itemize}
 
-Finally, each of these antecedents maps perfectly to the three trust
-definitions by \citet[37-40]{sako1992}: competence trust, contractual
-trust and goodwill trust.
+Finally, each of these antecedents maps rather well to the three trust
+definitions outlined by \citet[37-40]{sako1992}: competence trust,
+contractual trust and goodwill trust.
 
 Below, a fairly exhaustive list of proposed governance measures is
 outlined and grouped by their corresponding trust antecedent.
@@ -1556,7 +1646,7 @@ third-party agency can prevent adverse selection.
 See \citep[ 76-77]{armbruster2006}.
 
 \hypertarget{first-party-assessment}{%
-\paragraph{First-party assessment}\label{first-party-assessment}}
+\paragraph{First-Party Assessment}\label{first-party-assessment}}
 
 \hypertarget{integrity}{%
 \subsubsection{Integrity}\label{integrity}}
@@ -1595,9 +1685,27 @@ be monitored \citep[ 15]{basu2011}:
   without approval.
 \end{enumerate}
 
+\citet{nooteboom2000}
+
 \hypertarget{contractual-obligations-vs.-contract-flexibility}{%
 \paragraph{Contractual Obligations vs.~Contract
 Flexibility}\label{contractual-obligations-vs.-contract-flexibility}}
+
+Contracts have several functions \citep[ 924]{noteboom1996}: a legal
+document to constrain opportunism, a record of agreement to guide
+technical coordination, prevention of misunderstanding and even a
+ritualistic function to seal the intention to cooperate. However, not
+all future contingencies are known, the cost of setting up a detailed
+contract and monitoring it can be significant (supra), and contracts may
+form a straight-jacket that blocks the utilization of future
+opportunities. Finally, detailed contracts can shroud a contract in an
+atmosphere of mistrust, derailing the relation before it has even
+started.
+
+According to \citet[924]{nooteboom1996}, most inter-firm cooperation is
+described in a contract of some form. However, ``{[}t{]}he question is
+not so much whether there is a contract, but whats its content is an how
+elaborate it is.''
 
 \citet{mcfarlan1995} claim that it is important to have flexibility in
 an outsourcing contract, because the target state of a project might
@@ -1643,6 +1751,17 @@ Also media.
 \hypertarget{incentivization}{%
 \paragraph{Incentivization}\label{incentivization}}
 
+Contrary to the design and enforcement of contractual obligations,
+management by self-interest (i.e.~incentivization) ``has the advantage
+that it is cheaper than contracts, is more flexible, and it is in the
+players' own interest to be seen to comply with agreements.'' \citep[
+924]{nooteboom2000} However, it's not a silver bullet as it requires a
+need for observation, measurement and monitoring. Yet, ``How does one
+measure and monitor degree of dependence, spillovers, and specificity of
+investments?'' It's hard to quantify compensation for such intangible
+risks. Furthermore, it is hard to maintain, since competences and
+external conditions are constantly changing.
+
 ``Basing the agent's rewards and incentives on imperfect surrogates of
 performance lads to moral hazard, but aligning the preferences of the
 agent and the principal through an appropriate reward structure helps
@@ -1656,22 +1775,15 @@ timely completion of a project.
 between the consultancy firm and the client is an enabler of project
 performance.
 
-\hypertarget{clan-mechanisms-closely-related-to-incentivization}{%
-\paragraph{Clan mechanisms (closely related to
-incentivization)}\label{clan-mechanisms-closely-related-to-incentivization}}
-
-See \citet[62]{aubert1996} and \citet{ouchi1980}.
-
-\hypertarget{hostage-taking-outcome-driven-contracts-and-contingent-fees}{%
-\paragraph{Hostage-taking, outcome-driven contracts and contingent
-fees}\label{hostage-taking-outcome-driven-contracts-and-contingent-fees}}
-
-When there are no trust-related nor legal enforcement mechanisms,
-parties can be discouraged from forming long-term relationships.
-According to \citet[47-48]{werner1993}, ``hostages'' are used in
-situations where rational behavior would lead to sub-optimal outcome, in
-the Paretoian sense. In game theoretical terms, hostage-taking is used
-to prevent defecting behavior.
+A particular form of incentivization is ``hostage-taking'': ``one-sided
+ownership of specific assets may be balanced by one-sided hostages going
+the other way, or by a rigorous reputation mechanism.'' \citep[
+924]{nooteboom2000} When there are no trust-related nor legal
+enforcement mechanisms, parties can be discouraged from forming
+long-term relationships. According to \citet[47-48]{werner1993},
+``hostages'' are used in situations where rational behavior would lead
+to sub-optimal outcome, in the Paretoian sense. In game theoretical
+terms, hostage-taking is used to prevent defecting behavior.
 
 In terms of the subject of this paper, ``hostages'' could come in the
 form of contingent fees. See \citep[ 243]{clark1993}
@@ -1679,6 +1791,12 @@ form of contingent fees. See \citep[ 243]{clark1993}
 See \citet{tosi1997}.
 
 Reputation could also be taken hostage. \citep[ 368]{shapiro1992}
+
+\hypertarget{clan-mechanisms-closely-related-to-incentivization}{%
+\paragraph{Clan mechanisms (closely related to
+incentivization)}\label{clan-mechanisms-closely-related-to-incentivization}}
+
+See \citet[62]{aubert1996} and \citet{ouchi1980}.
 
 \hypertarget{third-party-moderation}{%
 \paragraph{Third-Party Moderation}\label{third-party-moderation}}
@@ -1694,7 +1812,7 @@ a formal approach proved useful to initiating the trust repair
 activities.
 
 \hypertarget{first-party-assessment-1}{%
-\paragraph{First-party assessment}\label{first-party-assessment-1}}
+\paragraph{First-Party Assessment}\label{first-party-assessment-1}}
 
 ``A second vehicle for improving understanding and predictability
 between partners is to conduct very good research on the potential
