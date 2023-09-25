@@ -57,7 +57,9 @@ Although consultants' goal is to establish change in an organization, their role
 
 Establishing change is what sets consultancy apart from temporary staffing. "A temp is generally not supposed to change the work practices at the client organization. A consultant is often expected to do just that, or at least to provide an alternative point of view." [@furusten2000 5]
 
-The aspect of change is also important for drawing boundaries between consultancy and outsourcing. Consultants are often hired for defining a problem and presenting a solution at the same time [@furusten2009 272], while outsourcing simply delivers the solution. In that sense, outsourcing is the practice of obtaining goods or services from an external provider, as a substitute for sourcing it internally [@lacity2012 2]. Or in the words of @zhu2001 [374]: "the process of transferring the responsibility for a specific business function from an employee group to a non-employee group." While early IT outsourcing initiatives were rather "total" @willcocks1995 in nature, outsourcing individual business functions is a more common activity [@zhu2001 377], and focus has shifted from cost saving to quality, productivity, flexibility and technological diversity [@kirilov2012 185]. This implies that outsourcing, unlike consultancy, is not about changing a procedure or service, but rather ensuring continuation, or implementation, by a third-party provider.
+The aspect of change is also important for drawing boundaries between consultancy and outsourcing. Consultants are often hired for defining a problem and presenting a solution at the same time [@furusten2009 272], while outsourcing simply delivers the solution. In that sense, outsourcing is the practice of obtaining goods or services from an external provider, as a substitute for sourcing it internally [@lacity2012 2]. Or in the words of @zhu2001 [374]: "the process of transferring the responsibility for a specific business function from an employee group to a non-employee group." While early IT outsourcing initiatives were rather "total" @willcocks1995 in nature, outsourcing individual business functions is now a more common activity [@zhu2001 377], and focus has shifted from cost saving to quality, productivity, flexibility and technological diversity [@kirilov2012 185]. This implies that outsourcing, unlike consultancy, is not about changing a procedure or service, but rather ensuring continuation, or implementation, by a third-party provider[^1].
+
+[^1]: At first glance, this could be interpreted as a departure from the work by @loh1992 and @venkatraman1994, who claim that IT outsourcing is an "administrative innovation, [...] involving significant changes in the routines used by the organization to deal with its tasks of internal arrangements and external alignments." However, while there is indeed a firm-level change [@nelson1985 14], in the sense of who is responsible for a specific (part of a) procedure, the procedure or service involved does not change *an sich.*
 
 Finally, @furusten2009 [272-273] argues that consultants not only act as agents of change, but often as agents of stability. Consultants are often perceived as "relatively stable by [...] employees, stakeholders and other external counterparts", this "builds confidence for the organization. The more stable an organization is experienced as being, the greater its ability to concentrate on its core activities."
 
@@ -263,17 +265,29 @@ TC: no lower transactions when no transfer
 ```
 ## Transaction cost economics
 
-Transaction costs economics sees economic organization as a problem of contracting, i.e. organizing economic activity. The starting point is that every transaction comes with certain costs, both ex ante and ex post. Ex ante transaction costs come in the form of drafting and negotiating an agreement, which can become extremely complex when lots of contingencies are present. Ex post transaction costs, on the other hand, include maladaptation costs, when the delivery of a good or service drifts from its initial conceptualization, the haggling costs for adapting the contract, the setup and running of governance structures to handle disputes and finally and recurring bonding costs to secure commitments.
+Transaction costs economics sees economic organization as a problem of contracting, i.e. organizing economic activity. The starting point is that every transaction comes with certain costs, both ex ante and ex post.
 
-Their bounded rationality makes it impossible for humans to estimate both the costs and risks of complete contracts, or even enacting and enforcing them. [@aubert1996 53] The result is that the contractual partners often decide to leave room for adaptation and interpretation, which, in turn, increases the risk of opportunistic behavior (infra).
+@dahlman1979 [147-148] obtains a classification of transaction costs by going through the different phases of the transaction process.
 
-According to transaction cost economics, the decision whether a service should be conducted in-house or purchased in the market is based on the comparison of the sum of production and transaction costs [@armbruster2006 12].
+-   Search & information costs (ex ante): "Two parties [...] search each other out, which is costly in terms of time and resources. If the search is successful [they] must inform each other of the exchange opportunity [...] and the conveying of such information will again require resources."
 
-@canback1998 [31] does a solid job explaining the role of transaction costs in explaining the raison d'être of consultants. "As companies strive to reduce the production costs by exploiting scale and scope economies, they must speciali[z]e -- which in turn leads to a need for internal coordination. If transaction costs did not exist, then the largest company in each market would also be the most profitable company, since coordination between functions could be achieved without effort. But because of transaction costs, this does not happen." The result is that blue-collar jobs disappear as production costs are reduced, while white-collar jobs, aimed at coordination, do not.
+-   Bargaining & decision costs (ex ante): "Often [...] agreeable terms can only be determined after costly bargaining between the parties involved."
 
-Mindful of this evolution, the assumption is that there is a high demand for advice and (IT) solutions that improve coordination within and between firms. These are services in which consultants are particularly well-versed. The question to ask here is: are the transaction costs for working with external consultants lower than for working with internal consultants when it comes to knowledge production?
+-   Policing & enforcement costs (ex post): "After the trade has been decided on, there will be the costs of policing and monitoring the other party to see that his obligations are carried out as determined by the terms of the contract, and of enforcing the agreement reached."
 
-@canback1998 [37-44] argues it does, and arguments from the three critical dimensions of transactions, a popular research topic within transaction cost economics.
+<!-- This is also an excellent way to group governance measures. -->
+
+The last type of transaction costs arises from bounded rationality: it is impossible to estimate both the costs and risks of complete contracts, or even enacting and enforcing them. [@aubert1996 53] The result is that the contractual partners often decide to leave room for adaptation and interpretation, which, in turn, increases the risk of opportunistic behavior (infra).
+
+What follows is that the decision whether a service should be conducted in-house or purchased in the market is based on the comparison of the sum of production costs and transaction costs [@armbruster2006 12].
+
+However, there are limits to this argument. "As a firm gets larger, there may be decreasing returns to the entrepreneur function, that is, the costs of organi[z]ing additional transactions within the firm may rise. [For example, because] the entrepreneur fails to place the factors of production in the uses where their value is greatest." [@coase1937 394-395]
+
+@canback1998 [31] does a solid job explaining the role of transaction costs in explaining the *raison d'être* of consultants. "As companies strive to reduce the production costs by exploiting scale and scope economies, they must speciali[z]e -- which in turn leads to a need for internal coordination. If transaction costs did not exist, then the largest company in each market would also be the most profitable company, since coordination between functions could be achieved without effort. But because of transaction costs, this does not happen." The result is that blue-collar jobs disappear as production costs are reduced, while white-collar jobs, aimed at coordination, do not.
+
+Mindful of this evolution, the assumption is that there is a high demand for advice and (IT) solutions that improve coordination within and between firms. These are services in which consultants are particularly well-versed. The question to ask here is: are the transaction costs for working with external consultants lower than internal coordination costs when it comes to knowledge production?
+
+@canback1998 [37-44] argues it does, and argues from the three critical dimensions of transactions, a popular research topic within transaction cost economics.
 
 *Asset specificity* describes the degree to which physical, human or site assets have a specific usage and can they not be put to use for another purpose. With highly idiosyncratic transactions, no vendor is willing to tailor his product or service to one client, and face downward price pressure, since the latter acts as a monopsonist [@robinson1969 218-228].
 
@@ -292,19 +306,18 @@ The second dimension is the *frequency* of transactions on the buyer side. A tra
 
 When we bring these three dimensions together, we conclude that behavioral uncertainty arises from asset specificity because it may lead to opportunism, but only in recurrent transactions. In this context, behavioral uncertainty can't be disentangled from asset specificity. @williamson1985 [78] is fully aware that this is a departure from Coase's transaction cost rationale.
 
-To drive back the theory to the subject of consulting, @canback1998 [37] argues that it's mainly human asset specificity that favor using consultants, since their assignments typically have a low human asset specificity so that the solution or advice can be reproduced at many organizations.[^1] @watjatrakul2005 [408] put the theory to the test and compared the transaction cost view with the resource-based view (infra) for describing the sourcing decisions in three cases and comes to the following conclusion: "a high-specificity asset has a major impact on sourcing decisions. It overpowers the effect of uncertainty."
+To drive back the theory to the subject of consulting, @canback1998 [37] argues that it's mainly human asset specificity that favor using consultants, since their assignments typically have a low human asset specificity so that the solution or advice can be reproduced at many organizations.[^2] @watjatrakul2005 [408] put the theory to the test and compared the transaction cost view with the resource-based view (infra) for describing the sourcing decisions in three cases and comes to the following conclusion: "a high-specificity asset has a major impact on sourcing decisions. It overpowers the effect of uncertainty."
 
-[^1]: Furthermore, Canback claims that transaction frequency and uncertainty are less of an influence. By referring to market uncertainty, not only does he obscure the fact that consultants rather thrive in a context with high complexity and uncertainty, he also misrepresents the uncertainty dimension that is central in transaction cost economics. This is a prime example of the vagueness surrounding the concept of uncertainty in transaction cost economics (supra).
+[^2]: Furthermore, Canback claims that transaction frequency and uncertainty are less of an influence. By referring to market uncertainty, not only does he obscure the fact that consultants rather thrive in a context with high complexity and uncertainty, he also misrepresents the uncertainty dimension that is central in transaction cost economics. This is a prime example of the vagueness surrounding the concept of uncertainty in transaction cost economics (supra).
 
 Focusing on low-specificity assets allows consultancy firms to achieve economies of scale. That's why they rather shun highly idiosyncratic assignments. Rather, they'll focus on (often high-level) organizational advice and IT architectures, since these have the biggest adaptive properties.
 
 Borrowing rhetoric from the resource-based view (infra) @mata1995 [498] applies Canback's conclusion on technical IT skills: "While technical skills are essential in the use and application of IT, they are usually not sources of sustained competitive advantage. [...] they are usually not heterogeneously distributed across firms. Moreover, even when they are heterogeneously distributed across firms, they are typically highly mobile. [...] firms without the required analysis, design, and programming skills required to make an IT investment can hire technical consultants and contractors." Ergo, IT capabilities are very likely to be outsourced.
 
-@nevo2007 [16-17] also concludes that his research supports the transaction cost hypothesis: "when the internal IT capability is weak, developing and implementing an IT solution is likely to cost more compared with hiring external IT consultants to do the same job."[^2]
+@nevo2007 [16-17] also concludes that his research supports the transaction cost hypothesis: "when the internal IT capability is weak, developing and implementing an IT solution is likely to cost more compared with hiring external IT consultants to do the same job."[^3]
 
-[^2]: the reverse situation also supports the identification theory: "IT consultants will not receive the legitimacy they require [...] if their knowledge and expertise do not differ from that possessed by the in-house IT team. Under these circumstances, external IT consultants' impact on IT productivity is expected to be lower."
+[^3]: the reverse situation also supports the identification theory: "IT consultants will not receive the legitimacy they require [...] if their knowledge and expertise do not differ from that possessed by the in-house IT team. Under these circumstances, external IT consultants' impact on IT productivity is expected to be lower."
 
-```{=html}
 <!--
 Nevertheless, there is a serious limitation in the work of @nevo2007. An IT project is assumed to be fixed in time, with fixed parameters. It does not account for "vendor learning" [@wu2004] during the project. @cha2009 tackles this shortcoming with a model built around two parameters:
 
@@ -312,15 +325,25 @@ Nevertheless, there is a serious limitation in the work of @nevo2007. An IT proj
 2. (coordination) knowledge depreciation rate: the ability of the client to retain coordination knowledge as it outsources IT activities.
 
 They conclude that firms with a low production knowledge transfer rate (e.g. unmotivated employees) should insource or outsource all their IT capabilities. When they also have a high coordination knowledge deprecation rate (e.g. bad project management), insourcing is the only option. On the other hand, when both the production knowledge transfer and coordination knowledge depreciation rate are high, the optimal rate of of IT outsourcing is also high.-->
-```
+
 ## Agency Theory
 
-Agency theory is very compatible with transaction cost economics. When an organization decides to not develop a specific service in-house, and instead, buys it in the market, it encounters agency issues: information asymmetries and goal incompatibility. See @shapiro2005.
+At the center of agency theory is the observation that the firm is not an individual. *Au contraire,* "the *behavior* of the firm is like the behavior of a market; i.e., the outcome of a complex equilibrium process." [@jensen1976 311] This makes agency theory highly compatible with transaction cost economics, which deals with the organization of economic activity, either intra-firm or in the market.
+
+When an organization decides to not develop a specific service in-house, and instead, buys it in the market, it encounters agency problems (and accompanying costs to offset them): information asymmetry and goal incompatibility.
 
 -   Information asymmetry: consultants wield enormous power over the knowledge that they possess and use. Their clients depend on this knowledge, making them vulnerable, and putting them at mercy of the consultant. [@brien1998] For example, @ylonen2019 [248-249] found that payments from the Finnish Ministry of Finance to a particular consultancy company drastically increased year-over-year, because the consultancy firm had a quasi-monopoly in the knowledge regarding particular remuneration practices.
--   Goal incompatibility: The organization is interested in a timely roll-out of a quality solution for a problem they have. The consultancy firm, on the other hand, is driven by profit maximization. There is an important information asymetry
+-   Goal incompatibility: The organization is interested in a timely roll-out of a quality solution for a problem they have. The consultancy firm, on the other hand, is driven by profit maximization.
 
-@fincham2002 made an interesting addition to this typical principal-agent problem. It starts from the premise that since managers are agents of the owners of capital, a consultants can be described as "an agent's agent", extending the management's own agency function. In other words, consultants operate at the "outer reaches of corporate power", stretching corporate authority to its limits. Consequently, their legitimacy is often problematic within the corporation that engages with them.
+These arise "because contracts are not costlessly written and enforced. Agency costs include the costs of structuring, monitoring, and bonding a set of contracts among agents with conflicting interests, plus the residual loss incurred because the cost of full enforcement of contracts exceeds the benefits." [@fama1983 327]
+
+The following expenditures sum up to the total amount of agency costs [@jensen1976 308]:
+
+1.  monitoring expenditures;
+2.  bonding expenditures to achieve incentive alignment;
+3.  residual loss: the remaining "loss of welfare" of the principal in those situations where the agent makes divergent decisions because it was to expensive to offset it through bonding or monitoring.
+
+Nevertheless, one should not forget that managers are also agents themselves. As @tosi1997 [584] describes: "the reality [is] that in large organizations, owners may be separated from the managers who make decisions in forms, and that the two may have different interests." In that sense, @fincham2002 claims that a consultant can be described as "an agent's agent", extending the management's own agency function. In other words, consultants operate at the "outer reaches of corporate power", stretching corporate authority to its limits. Consequently, their legitimacy is often problematic within the corporation that engages with them.
 
 Another valid point is raised by @basu2011 [23] , who discovered that pre-qualification efforts displayed little effect on adverse selection because the consultant might present an excellent reputation, but individual consultants assigned to a project might lack the required skills.
 
@@ -380,6 +403,8 @@ Embeddedness theorists distance themselves from transaction costs economics [@ar
 
 @nooteboom1996 [992] states that typically, economists tend to neglect intrinsic utility and that it doesn't matter who the transaction partner is. Embeddedness theory rejects this, as personality and social embeddedness enter the picture.
 
+Embeddedness solves the adverse selection problem (infra) since "[p]rincipals frequently know their agent's type because of personal familiarity with potential agents or through members of trusted social networks in which both principal and agent are embedded." [@shapiro2005 277]
+
 Several empirical findings support embeddedness theory.
 
 -   See [@armbruster2006 16]
@@ -389,6 +414,14 @@ Several empirical findings support embeddedness theory.
 ## Sociological neoinstitutionalism
 
 A theory that is systematically drawn upon [@armbruster2006 6-8] is sociological neoinstitutionalism. It is based on the argument that the belief in efficiency of certain practices or solutions drives economic actions, rather than the proven efficiency. For example, @jayatilaka2006 [120] argue that "[i]nitiatives to follow other companies in IS sourcing arrangements could originate from IS and managerial professionals working in the companies and consultants who are aware of successful outsourcing arrangements. Mimetic isomorphism occurs when companies follow the lead of other companies that have successfully outsourced IT."
+
+For example, @loh1992 [350] argues that the decision to outsource their entire IT department to IBM by Eastman Kodak in the late 1980s had a tremendous impact on other companies' outsourcing decisions.
+
+Mimetic isomorphism is driven by three mechanisms [@dimaggio1983 150-154]:
+
+1.  A coercive authority formally or informally exerts pressure on organizations to collude or fall in line. This authority can be governmental (through laws & regulation) and non-governmental (through standard operating procedures established at the conglomerate-level).
+2.  Uncertainty regarding technology or organizational processes could drive organizations to "model themselves after similar organizations in their field that they perceive to be more legitimate or successful. The ubiquity of certain kinds of structural arrangements can more likely be credited to the universality of mimetic processes than to any concrete evidence that the adopted models enhance efficiency."
+3.  Normative pressures mainly stem from professionalization (infra), as the members of an occupation try to establish a "cognitive base and legitimation for their occupational autonomy."
 
 The result is that large consultancies have been described as carriers, not only of knowledge, but of legitimacy too. After all, it's their analyses that validate management decisions.
 
@@ -471,9 +504,9 @@ Why does digital consultancy require a separate study? - Work from home - Comple
 
 ## Corporate Governance & Management Control Systems
 
-In the existing literature, several governance mechanisms have been proposed. Each of them is somehow related to trust[^3] between the business partners. Either they increase trust, or they eliminate the need for trust. From a transaction cost economics perspective, trust makes transactions cheaper and allows for greater flexibility, as it requires less incentivization, and specification and monitoring of contracts [\@nooteboom1996 989].
+In the existing literature, several governance mechanisms have been proposed. Each of them is somehow related to trust[^4] between the business partners. Either they increase trust, or they eliminate the need for trust. From a transaction cost economics perspective, trust makes transactions cheaper and allows for greater flexibility, as it requires less incentivization, and specification and monitoring of contracts [\@nooteboom1996 989].
 
-[^3]: Trust is defined in the broad sense: "the willingness of a party to be vulnerable to the actions of another party based on the expectation that the other will perform a particular action important to the trustor, irrespective of the ability to monitor or control that other party." [@kee1970] If the level of a perceived risk is bigger than the level of trust, the trustor will not engage in a risk-taking relationship.
+[^4]: Trust is defined in the broad sense: "the willingness of a party to be vulnerable to the actions of another party based on the expectation that the other will perform a particular action important to the trustor, irrespective of the ability to monitor or control that other party." [@kee1970] If the level of a perceived risk is bigger than the level of trust, the trustor will not engage in a risk-taking relationship.
 
 @liberatore2010 [265] found that building trust, and goal congruence, can help solve the agency problem because it drives the consultancy firm's motivation for short-term profits towards long-term business and reputation. However, trust is not unbounded and should not be taken for granted as it might break down [@nooteboom1996 988]. Golden opportunities that require defection are always lurking and even tempting for the most trustworthy.
 
@@ -536,9 +569,9 @@ According to a survey with 150 German companies [@kieser2006 91], for 73% of res
 
 @honer2006 [307] describes how a central purchasing/project office which selects consultants on behalf of the managers could streamline the hiring process of consultants. Furthermore, this office could be tasks with control and coordination of all consulting projects, going beyond mere selection. Nevertheless, this could be incongruent with company culture and managerial budget responsibility.
 
-Typically, the involvement of procurement intermediaries commodify[^4] management knowledge [@omahoney2013 205-206]. However, commodification is often resisted on two fronts, both representing a power struggle.
+Typically, the involvement of procurement intermediaries commodify[^5] management knowledge [@omahoney2013 205-206]. However, commodification is often resisted on two fronts, both representing a power struggle.
 
-[^4]: Commodification is "the process whereby an object (in the widest sense of the term, meaning a thing, an idea, a creature, etc.) comes to be provided through, and/or represented in terms of, a market transaction", crystalizing their value into a price. [@carvalho2008]]
+[^5]: Commodification is "the process whereby an object (in the widest sense of the term, meaning a thing, an idea, a creature, etc.) comes to be provided through, and/or represented in terms of, a market transaction", crystalizing their value into a price. [@carvalho2008]]
 
 -   On the one hand, the "producers" of management knowledge, (i.e. the consultancy firms) are well aware that commodification could potentially neglect their competitive advantages, having a deleterious effect on their profit margins.
 
@@ -572,7 +605,9 @@ Researchers have emphasized three broad ways in which consultants should be moni
 2.  During the implementation of a project, the client verifies that the deliverables are being produces according to the original plan by thoroughly and regularly assessing reviews and written and oral progress reports. Meeting with consultants is essential to ensure that consultants share all relevant information in a timely manner.
 3.  During the implementation of a project, the client checks that the consultants do not sacrifice quality nor scope to meet deadlines. Furthermore, the originally committed staff should not be changed without approval.
 
-@nooteboom2000
+Nevertheless, since monitoring often rely on surrogate measures, consultants can displace their behavior toward these surrogates in order to appear to be behaving well. [@shapiro2005 281]
+
+See also \@nooteboom2000.
 
 #### Contractual Obligations vs. Contract Flexibility
 
@@ -604,7 +639,7 @@ Also media.
 
 Contrary to the design and enforcement of contractual obligations, management by self-interest (i.e. incentivization) "has the advantage that it is cheaper than contracts, is more flexible, and it is in the players' own interest to be seen to comply with agreements." [@nooteboom2000 924] However, it's not a silver bullet as it requires a need for observation, measurement and monitoring. Yet, "How does one measure and monitor degree of dependence, spillovers, and specificity of investments?" It's hard to quantify compensation for such intangible risks. Furthermore, it is hard to maintain, since competences and external conditions are constantly changing.
 
-"Basing the agent's rewards and incentives on imperfect surrogates of performance lads to moral hazard, but aligning the preferences of the agent and the principal through an appropriate reward structure helps curb the agent's opportunistic behavior." [@basu2011 13-15] Several actions are proposed to align incentives: link payment to completion of the promised deliverables, sharing of cost savings or overruns with the consultancy firm, incentives and penalties related to timely completion of a project.
+"Basing the agent's rewards and incentives on imperfect surrogates of performance leads to moral hazard, but aligning the preferences of the agent and the principal through an appropriate reward structure helps curb the agent's opportunistic behavior." [@basu2011 13-15] Several actions are proposed to align incentives: link payment to completion of the promised deliverables, sharing of cost savings or overruns with the consultancy firm, incentives and penalties related to timely completion of a project.
 
 @liberatore2010 [264-266] finds that a higher goal congruence between the consultancy firm and the client is an enabler of project performance.
 
@@ -659,9 +694,9 @@ Closely related is the work by @willcockskern [9-13] that makes a distinction be
 
 #### Professionalization
 
-Professionalization is a mechanism that typically protects clients against self-proclaimed experts but who are unqualified and expose their clients to even greater risks than the ones they are supposed to advice on. [@kieser2006 71] Furthermore, they also protect experts against colleagues that could ruin the reputation of the whole industry. Finally, professionalization typically results in the establishment of an ethos, which fosters[^5] trust between a profession and the public at large [@sokolowski1991]
+Professionalization is a mechanism that typically protects clients against self-proclaimed experts but who are unqualified and expose their clients to even greater risks than the ones they are supposed to advice on. [@kieser2006 71] Furthermore, they also protect experts against colleagues that could ruin the reputation of the whole industry. Finally, professionalization typically results in the establishment of an ethos, which fosters[^6] trust between a profession and the public at large [@sokolowski1991] Through these mechanisms, "professions are social devices to limit agency costs." [@shapiro2005 276]
 
-[^5]: A professional ethos is "a set of written and unwritten rules that guide professional practice." [@enstad2017]
+[^6]: A professional ethos is "a set of written and unwritten rules that guide professional practice." [@enstad2017]
 
 Certain countries, like Germany, have made attempts to professionalize the sector through the establishment of specialized university programs to make the use of the title "consultant" dependent on the attainment of specific qualifications. These attempts haven't turned out to be successful: today, consultancy is not yet a profession, not in the classical sense. [@kieser2006 73].
 

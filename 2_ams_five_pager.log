@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.2)  21 SEP 2023 12:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.2)  25 SEP 2023 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -349,36 +349,36 @@ File: omlcmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 99.
-[2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33]
+[2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36]
 
-Package natbib Warning: Citation `noteboom1996' on page 34 undefined on input line 1694.
+Package natbib Warning: Citation `noteboom1996' on page 37 undefined on input line 1795.
 
-[34] [35] [36]
-Overfull \hbox (3.69203pt too wide) in paragraph at lines 1817--1823
+[37] [38]
+Overfull \hbox (3.69203pt too wide) in paragraph at lines 1918--1924
  []\OT1/cmr/bx/n/12 First-Party As-sess-ment[] \OT1/cmr/m/n/12 ``A sec-ond ve-hi-cle for im-prov-ing un-der-stand-ing and pre-dictabil-
  []
 
-[37] [38] [39] [40] (./2_ams_five_pager.bbl [41] [42] [43] [44] [45] [46] [47] [48] [49])
+[39] [40] [41] [42] [43] (./2_ams_five_pager.bbl [44] [45] [46] [47] [48] [49] [50] [51] [52] [53])
 
 Package natbib Warning: There were undefined citations.
 
-[50] (./2_ams_five_pager.aux)
+[54] (./2_ams_five_pager.aux)
 Package rerunfilecheck Info: File `2_ams_five_pager.out' has not changed.
 (rerunfilecheck)             Checksum: 21C58A25B50F81D1526459DB444B9049;7693.
  ) 
 Here is how much of TeX's memory you used:
- 10592 strings out of 477984
- 168980 string characters out of 5837988
+ 10633 strings out of 477984
+ 169585 string characters out of 5837988
  1859382 words of memory out of 5000000
- 30314 multiletter control sequences out of 15000+600000
- 520406 words of font info for 60 fonts, out of 8000000 for 9000
+ 30336 multiletter control sequences out of 15000+600000
+ 520752 words of font info for 61 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,8n,76p,386b,738s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <c:/Users/hi/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk><c:/Users/hi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/Users/hi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/Users/hi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/Users/hi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Users/hi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Users/hi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/Users/hi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/Users/hi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on 2_ams_five_pager.pdf (50 pages, 258331 bytes).
+ 75i,8n,76p,386b,774s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <c:/Users/hi/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk><c:/Users/hi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/Users/hi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/Users/hi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/Users/hi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Users/hi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Users/hi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/Users/hi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/Users/hi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/Users/hi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on 2_ams_five_pager.pdf (54 pages, 284651 bytes).
 PDF statistics:
- 1274 PDF objects out of 1440 (max. 8388607)
- 1193 compressed objects within 12 object streams
- 344 named destinations out of 1000 (max. 500000)
+ 1343 PDF objects out of 1440 (max. 8388607)
+ 1255 compressed objects within 13 object streams
+ 362 named destinations out of 1000 (max. 500000)
  353 words of extra memory for PDF output out of 10000 (max. 10000000)
 
