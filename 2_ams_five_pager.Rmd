@@ -99,7 +99,7 @@ However, the offering by many different types of organizations of some kind of I
 
 These blurring lines are the result of the fact that there is more than a technical dimension to IT solutions. Consequently, consultants frame IT solutions not just from their technical dimension, but from their organizational dimension, as well [@bloomfield1995 24-25]. Like strategy, technology, often depicted as neutral and separate from social or political matters, can be wielded for political purposes. However, the boundary between the merely technological and political is flexible: a social or political problem can be translated as a technical one.
 
-In accordance with this interpretation, the services of multinational consultancy firms are defined or classified as consultancy in digital operations (PwC); digital commerce & engineering (Accenture); digital transformation (EY, Bain, Deloitte, Tata); digital (McKinsey, KPMG); digital, technology & data (BCG); digitalization (Capgemini), digital solutions (BoozAllenHamilton) and digital experience (Cognizant). Ergo, it is remarkable that many research describes this group of consultants as "IT consultants" [@nevo2007; @loh1992; @fincham2006; @armbruster2006; @bloomfield1995; @schwarz2005], while none of the big consultancy firms offer "IT consultancy".
+In accordance with this interpretation, the services of multinational consultancy firms are defined or classified as consultancy in digital operations (PwC); digital commerce & engineering (Accenture); digital transformation (EY, Bain, Deloitte, Tata); digital (McKinsey, KPMG); digital, technology & data (BCG); digitalization (Capgemini), digital solutions (BoozAllenHamilton) and digital experience (Cognizant). Ergo, it is remarkable that many research describes this group of consultants as "IT consultants" [@nevo2007; @loh1992; @fincham2006; @armbruster2006; @bloomfield1995; @schwarz2005], while none of the big consultancy firms offer "IT consultancy". @czerniawska1999 [96] abandons the term and trades it in for "IT-related consultancy".
 
 Mindful of these findings, this paper trades in the concept of "IT consultancy" for "digital consultancy", and defines it as follows.
 
@@ -151,7 +151,15 @@ During the second phase, in the 1970s, managers began to employ IT to align inte
 
 The third phase arrived with the introduction of network computing, as the internet fundamentally transformed the nature of commercial transactions. This sparked the rise of a host of 'dot.com consultancies' that provides advice on how to exploit these new opportunities. This third phase differs from the first two as it is mainly driven by new applications and services, and not by new hardware developments. It is during this phase that many IT consulting & outsourcing services became standardized, leading to rapid commoditization and lower prices. New companies began to offer these services on a global scale, often driven by a relatively cheap labor force in emerging economies.
 
+"Where once a company would have spent considerable in-house time on developing their own tailor-made software, most accept that they can buy a ready-made package from a professional software house. Although many companies are still in the grip of major software implementations, our attitudes are changing. Ten years ago we believed that we should adapt software to match our internal processes: nowadays we accept that it is probably quicker, cheaper, and ultimately more effective to adapt our processes to a given package." [@czerniawska1999 23]
+
+"It is already apparent that clients want their 'advisers' to take a much more hands-on role; strategy firms, for example, are constantly exposed over their perceived reluctance to be involved in the implementation of their recommendations." [@czerniawska1999 168]
+
 # Why digital consultancy: Practical perspectives
+
+<!--- Hiring consultancy can be driven from a functionalist perspective, a critical perspective, but also a economic deterministic perspective. First two are in @werr2002 -->
+
+<!-- not the goal to judge if these expectations make sense, rather if the controls they use are fit for purpose -->
 
 An end-to-end consultancy assignment involves many steps. The following overview by @turner1982 involves eight steps and demonstrates how consultancy is external, contingent, relational and involves change.
 
@@ -182,7 +190,7 @@ In their 1994 study, for which they interviewed over 100 decision, @lacity1994 [
 
 @wood1996 [656] discovered that "consultancies tend to reinforce the strategic strengths of experienced companies rather than compensate for the weaknesses of the inexperienced."
 
-The following sections rely on research both in (IT) outsourcing and consulting, since many conclusions apply to both. In these situations, it is referred to was working with a "third party." Nevertheless, distinctions are mentioned wherever extrapolating conclusions from the former to the latter is inadequate.
+The following sections follow an amended classification by @lacity1994 and rely on research both in (IT) outsourcing and consulting, since many conclusions apply to both. In these situations, it is referred to as working with a "third party." Nevertheless, distinctions are mentioned wherever extrapolating conclusions from the former to the latter is inadequate.
 
 ## Financial Expectations
 
@@ -192,7 +200,7 @@ Financial expectations regarding digital consultancy and IT outsourcing are twof
 
 The expectation of cost reduction comes from the ability to save on human resources, the ability to eliminate them in times of recession, and not having to pay dues when a new technology needs to be explored and adopted. @lacity1994 [10] found that managers expect that "unit costs are less expensive because of mass production efficiencies and labor specialization." The former applies to outsourcing, but the latter apply to both. For IT outsourcing, it also involves the elimination of large fixed costs during recession and transferring adjustment cost to a third-party [@aubert1996 52].
 
-### Cost Controls
+### Cost Control
 
 The second financial expectation is not necessary about reducing costs, but about controlling them. @sturdy1998 [233] describes how "executives wanting to exercise control over the management and investment of IT, but lacking the expertise." @lacity1994 [10] states that "[i]n most organizations [...] IT costs are controlled through general allocation systems that motivate users to excessively demand and consume resources." No surprise that involving third parties is seen "as a way to contain costs because vendors implement cost controls that more directly tie usage to costs. In addition, users can no longer call their favorite analysts to request frivolous changes but instead must submit requests through a formal cost control process."
 
@@ -220,21 +228,23 @@ Oftentimes, "[m]ergers and acquisitions create many nightmares for IT managers, 
 
 "Companies that are held internally and externally accountable for how they 'handle' uncertainty will contract consultants as a sign of good management. Even patients who principally distrust physicians cannot avoid consulting them." [@kieser2006, 70]
 
-## Technical expectations
+"On the other hand, as pointed out by Lacity and Hirschheim [22], political motivations also play a role. Reponen [34], for instance, found that outsourc ing decisions were sometimes motivated by the difficulties organizations had in managing their IS function. Among these are: the lack of efficiency and effectiveness of IS departments, the difficulty of assessing IS productivity and of evaluating tangible benefits of IS investments, and the low quality of the services rendered by the IS departments. Lacity and Hirschheim also identify a number of political motives, where the managers "react to the efficiency imperative, acquire or justify additional resources, react to positive outsourcing media reports, reduce uncertainty, eliminate a burdensome function, and enhance credibility" ([22], p. 258). [@aubert1996 52]
 
-In their 2011 meta-analysis of business process outsourcing (BPO) and information technology outsourcing (ITO) literature, @lacity2011 found that the latter is often driven by technical considerations (such as attracting capabilities), while this is not the case in the former.
+"Management consultants were valued for energizing the change efforts and pushing the change projects forward. As one of the managers expressed it: "The consultants chased us so that we really implemented the change." In supporting the realization of change projects, consultants provided methodology as well as an "energizing example" with their own style of working." [@werr2002 54]
 
--   Improving technical service
--   Accessing talent & technologies
--   "Attracting capabilities that are in short supply." @aubert1996 [52]
--   "...lacking the skills for a project or, less explicitly, to compete with each other." [@sturdy1998 233]
--   "The consultants chased us so that we really implemented the change. 'In supporting the realization of change projects, consultants provided methodology as well as an energizing example with their own style of working." [@werr2002 54]
--   The research by @ketler1993 describes various factors that determine an organization's choice for outsourcing. One factor relates to personnel: "Two human resource problems in IS which may be addressed through outsourcing are (i) inability to justify full-time technical specialists and (2) temporary peaks in demand for development staff." @ketler1993
--   
+## Technical Expectations
 
-### Knowledge transfer & diffusion
+### Hiring Skilled Individuals
 
-"a 'user' or Information Systems (IS) department (manager) lacking the skills for a project or, less explicitly, to compete with each other" [@sturdy1998 233]
+@lacity1994 [12] describes that in many organizations, there is dissatisfaction with in-house IT departments delivering systems late and over budget. In that context, involving third parties is seen as a way to improve technical service. @sturdy1998 [233] agrees and states that managers rely on consultants when their departments are "lacking the skills for a project" or they want to have them "compete with each other."
+
+@aubert1996 [52] found that as specialized firms have digital services as their core business, which is a source of increased efficiency and productivity. E.g. specialized firms can attract highly skilled professionals which are in short supply in the market as a whole.
+
+The sought-after skills are not always technical in nature. More often, it's about being up to date, and spotting emerging trends. @werr2002 [53] found that many organizations expect consultants "to interpret the meaning of technological developments, industry changes and emerging management concepts [...] to the client organization." Furthermore,
+
+@ketler1993 [452] offers another interesting perspective: as the scope of digital services expand, it is difficult or unnecessary for small firms to have a (full-time) expert in each area. Specialized third-party firms, on the other hand, offer a variety of skills and technical knowledge to their clients.
+
+### Knowledge Transfer & Diffusion
 
 In @werr2002 [53], a manager describes how they are often caught up in day-to-day activities, and consultants can help them take a loot at the "big picture", from a strategic perspective: they make sense of the manager's organization in relation to its environment, such as its competitors.
 
