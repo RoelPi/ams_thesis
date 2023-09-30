@@ -240,7 +240,7 @@ Oftentimes, "[m]ergers and acquisitions create many nightmares for IT managers, 
 
 @aubert1996 [52] found that as specialized firms have digital services as their core business, which is a source of increased efficiency and productivity. E.g. specialized firms can attract highly skilled professionals which are in short supply in the market as a whole.
 
-The sought-after skills are not always technical in nature. More often, it's about being up to date, and spotting emerging trends. @werr2002 [53] found that many organizations expect consultants "to interpret the meaning of technological developments, industry changes and emerging management concepts [...] to the client organization." Furthermore,
+The sought-after skills are not always technical in nature. More often, it's about being up to date, and spotting emerging trends. @werr2002 [53] found that many organizations expect consultants "to interpret the meaning of technological developments, industry changes and emerging management concepts [...] to the client organization."
 
 @ketler1993 [452] offers another interesting perspective: as the scope of digital services expand, it is difficult or unnecessary for small firms to have a (full-time) expert in each area. Specialized third-party firms, on the other hand, offer a variety of skills and technical knowledge to their clients.
 
