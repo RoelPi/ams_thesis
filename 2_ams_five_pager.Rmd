@@ -349,31 +349,28 @@ Finally, an extra remark is in place. One should not forget that managers are al
 
 ## Resource-based View
 
-The resource-based view rejects the traditional microeconomic assumptions that goods or services are homogeneous. Instead, it argues that they are heterogeneously distributed across firms, and may be long lasting due to not being perfectly transferable, for example because of resource immobility [@watjatrakul2005 392; @mata1995 491].
+The resource-based view rejects the traditional micro-economic assumptions that resources are homogeneously distributed across firms [@barney1991 99-103]. Instead, it argues that they are heterogeneously distributed, which could allow a firm not only to establish a competitive advantage[^7], but also a sustained competitive advantage when these resources are not perfectly transferable, for example because of resource immobility. These resources come in the form of assets, capabilities or organizational processes. Firms can obtain above-normal results if they can establish a competitive advantage by making their resources exploit opportunities in the market, or neutralize those established by competitors. To be strategic, resources should be valuable, rare, inimitable and non-substitutable.
 
-These resources come in the form of assets, capabilities or organizational processes. Firms can obtain above-normal results if they can establish a competitive advantage by making their resources exploit opportunities in the market, or neutralize those established by competitors. To be strategic, resources should be valuable, rare, inimitable and non-substitutable.
+[^7]: "A firm is said to have a competitive advantage when it is implementing a value creating strategy not simultaneously being implemented by any current or potential competitors." [@barney1991 102]
 
-@mata1995 [495-500] identifies five attributes of IT as sources of sustained competitive advantage for a firm.
+@mata1995 [495-500] identifies five attributes of information technology as possible sources of sustained competitive advantage for a firm.
 
-1.  Customer switching costs: the ability to create a lock-in effect for one's customers through the use of IT.
-2.  Access to capital: IT (or digital) investments can be very expensive and risky. Only a couple of firms might be able to acquire the capital to make these investments.
-3.  Proprietary technology: when technology can be kept proprietary, it can be a source of sustained competitive advantage.
-4.  Technical IT skills: the ability to attract and keep technical IT skills that is required to built IT applications.
-5.  Managerial IT skills: management's ability to conceive of, develop and exploit IT applications to support and enhance other business functions can enable a firm to manage market risks associated with IT investments.
+1.  Access to capital: IT (or digital) investments can be very expensive and risky. Only a couple of firms might be able to acquire the capital to make these investments, making it a source of sustained competitive advantage.
+2.  Proprietary technology: when technology can be kept proprietary, it can be a source of sustained competitive advantage. However, the author states that one the one hand, it's very hard to prevent proprietary IT knowledge from leaking, and on the other hand, IT has become generic more generic. We'd like to add that many organizations' digital ecosystems are peppered with open-source technologies[^8], which is freely available. In other words, for most non-software firms, a sustained competitive advantage through proprietary software is unattainable.
+3.  Technical IT skills: the ability to attract and keep technical IT skills that is required to built IT applications. However, these skills are rarely immobile, nor are they really heterogeneously distributed, according to the author.
+4.  Managerial IT skills: management's ability to conceive of, develop and exploit IT applications to support and enhance other business functions can enable a firm to manage market risks associated with IT investments. Given the entanglement of business and IT skills, one could say that managerial IT skills are heterogeneously distributed, and that they are immobile.
+5.  Customer switching costs: the ability to create a lock-in effect for one's customers through the use of IT. The author states that switching costs, in many situations, are not a source of sustained competitive advantage, as customers will anticipate it, lock-ins create reputation damage and there are many digital alternatives available. However, there are various value-creating attributes that can be achieved through a lock-in. For example, @amit2001 [505-507] describe how customization, two-sided markets, trust-establishing rating systems or virtual communities are features that generated customer switching costs yet are also value generators deemed legitimate.
 
-In @willcocks2003 [177-180], four types of sourcing options for developing IT projects are outlined, of which three involve consultants.
+[^8]: For example, a survey by the European Commission found that around 40% of respondents stated that open-source is the most important source of software development in their organization [@ec2021 191].
 
-1.  Internal development: has the the advantage of internalization of the learning outcomes, but comes with high costs related to mistakes and being the first mover.
-2.  Outsourcing: has the advantage of tapping into existing knowledge and experience, and the ability to get quickly up to speed. However, internalization of learning outcomes is not guaranteed, and consultants may not be familiar with existing organizational processes. For example, the development of an internal application by an external party.
-3.  Insourcing/partnering: has the same advantages as outsourcing, with the added bonus of facilitating the internalization of the learning outcomes. The disadvantage is mostly related to a more complex project management, with a variety of parties involved. For example: long-term contracts with IT consultants who operate side-by-side with an organization's own staff.
-4.  Cheap-sourcing: when IT projects are low risk, and far from the core business, and organization should consider cheap-sourcing. This option involves low investments and effort, but also comes with no internal learning. For example: development of a new promotional website by a digital agency.
+@willcocks2003 [188-189] describes how sourcing decision related to technical IT skills depends on both the market for IT consultancy skills and the type of business activity.
 
-In the same research paper, @willcocks2003 [188-189] identify two congruent four-quadrant matrices to assess sourcing options.
-
+-   By market comparison: A high-cost, low-quality market leads to in-house development, while a high-cost, high-quality market should lead to insourcing. A low-cost, low-quality market leads to cheap-sourcing[^9] and a low-cost, high-quality market is perfect for outsourcing.
 -   By business activity: non-critical, commoditized applications should be out-sourced. Critical, commoditized applications should be insourced or built in-house, and differentiating, critical applications should be built in-house or acquired.
--   By market comparison: A high-cost, low-quality market leads to in-house development, while a high-cost, high-quality market should lead to insourcing. A low-cost, low-quality market leads to cheap-sourcing and a low-cost, high-quality market is perfect for outsourcing.
 
-By referring to commoditization, @willcocks2003 implicitly refers to asset specificity, blending elements of transaction cost economics in the resource based view. @watjatrakul2005 does this explicitly by juxtaposing the resource-based view with the transaction cost view. Four types of assets result from this exercise:
+[^9]: Cheap-sourcing involves low investments and effort, but also comes with no internal learning. For example: development of a new promotional website by a digital agency.
+
+By referring to commoditization, one could say that @willcocks2003 implicitly refers to asset specificity, blending elements of transaction cost economics in the resource based view. @watjatrakul2005 [405-407] makes this explicit by juxtaposing the resource-based view with the transaction cost view. Four types of assets result from this exercise:
 
 1.  Low specificity, non-strategic such as generic managerial capabilities.
 2.  Low specificity, strategic such as a configuration of capabilities that result in certain strategic decisions.
@@ -505,9 +502,9 @@ This "ambiguity of the measurement of individual performance" [@ouchi1980 135] i
 
 ## Corporate Governance & Management Control Systems
 
-In the existing literature, several governance mechanisms have been proposed. Each of them is somehow related to trust[^7] between the business partners. Either they increase trust, or they eliminate the need for trust. From a transaction cost economics perspective, trust makes transactions cheaper and allows for greater flexibility, as it requires less incentivization, and specification and monitoring of contracts [\@nooteboom1996 989].
+In the existing literature, several governance mechanisms have been proposed. Each of them is somehow related to trust[^10] between the business partners. Either they increase trust, or they eliminate the need for trust. From a transaction cost economics perspective, trust makes transactions cheaper and allows for greater flexibility, as it requires less incentivization, and specification and monitoring of contracts [\@nooteboom1996 989].
 
-[^7]: Trust is defined in the broad sense: "the willingness of a party to be vulnerable to the actions of another party based on the expectation that the other will perform a particular action important to the trustor, irrespective of the ability to monitor or control that other party." [@kee1970] If the level of a perceived risk is bigger than the level of trust, the trustor will not engage in a risk-taking relationship.
+[^10]: Trust is defined in the broad sense: "the willingness of a party to be vulnerable to the actions of another party based on the expectation that the other will perform a particular action important to the trustor, irrespective of the ability to monitor or control that other party." [@kee1970] If the level of a perceived risk is bigger than the level of trust, the trustor will not engage in a risk-taking relationship.
 
 @liberatore2010 [265] found that building trust, and goal congruence, can help solve the agency problem because it drives the consultancy firm's motivation for short-term profits towards long-term business and reputation. However, trust is not unbounded and should not be taken for granted as it might break down [@nooteboom1996 988]. Golden opportunities that require defection are always lurking and even tempting for the most trustworthy.
 
@@ -516,7 +513,7 @@ In the existing literature, several governance mechanisms have been proposed. Ea
 @williams1988 describes two dimensions to position 'trust': the context and egotism. This yields four sources of trust and cooperation.
 
 |               | Macro                                             | **Micro**                                                   |
-|------------------|-------------------------|------------------------------|
+|------------------|-------------------------|-----------------------------|
 | Egotistic     | Coercion or fear of sanctions from authorities    | Material advantage                                          |
 | Non-egotistic | Ethics such as values and norms of proper conduct | Bonds of friendship, kinship of a certain degree of empathy |
 
@@ -574,9 +571,9 @@ According to a survey with 150 German companies [@kieser2006 91], for 73% of res
 
 @honer2006 [307] describes how a central purchasing/project office which selects consultants on behalf of the managers could streamline the hiring process of consultants. Furthermore, this office could be tasks with control and coordination of all consulting projects, going beyond mere selection. Nevertheless, this could be incongruent with company culture and managerial budget responsibility.
 
-Typically, the involvement of procurement intermediaries commodify[^8] management knowledge [@omahoney2013 205-206]. However, commodification is often resisted on two fronts, both representing a power struggle.
+Typically, the involvement of procurement intermediaries commodify[^11] management knowledge [@omahoney2013 205-206]. However, commodification is often resisted on two fronts, both representing a power struggle.
 
-[^8]: Commodification is "the process whereby an object (in the widest sense of the term, meaning a thing, an idea, a creature, etc.) comes to be provided through, and/or represented in terms of, a market transaction", crystalizing their value into a price. [@carvalho2008]]
+[^11]: Commodification is "the process whereby an object (in the widest sense of the term, meaning a thing, an idea, a creature, etc.) comes to be provided through, and/or represented in terms of, a market transaction", crystalizing their value into a price. [@carvalho2008]]
 
 -   On the one hand, the "producers" of management knowledge, (i.e. the consultancy firms) are well aware that commodification could potentially neglect their competitive advantages, having a deleterious effect on their profit margins.
 
@@ -656,9 +653,9 @@ Reputation could also be taken hostage. [@shapiro1992 368]
 
 #### Clan Mechanisms
 
-@ouchi1980 proposes to provent opportunism through the establishment of a "clan"[^9], which involves commitment from all parties and eliminates short-term inequities over time. Clans achieve the "union of objectives between individuals which stems from their necessary dependence upon one another. [...] [c]lans display a high degree of discipline [...] achieved through an extreme form of the belief that individual interests are best served by a complete immersion of each individual in the interests of the whole."
+@ouchi1980 proposes to provent opportunism through the establishment of a "clan"[^12], which involves commitment from all parties and eliminates short-term inequities over time. Clans achieve the "union of objectives between individuals which stems from their necessary dependence upon one another. [...] [c]lans display a high degree of discipline [...] achieved through an extreme form of the belief that individual interests are best served by a complete immersion of each individual in the interests of the whole."
 
-[^9]: @ouchi1980 borrows the concept of a clan from @durkheim1997 [127] who gives the term 'clan' to "a horde that has ceased to be independent and has become an element in a more extensive group [...] It is a family in the sense that all the members who go to make it up consider themselves kin to one another [...] The affinities produced by sharing a blood kinship are mainly what keeps them united. What is more, they sustain mutual relationships that might be termed domestic, since these are to be found elsewhere in societies whose family character is undisputed: I mean collective revenge, collective responsibility and, as soon as individual property makes an appearance, mutual heredity."
+[^12]: @ouchi1980 borrows the concept of a clan from @durkheim1997 [127] who gives the term 'clan' to "a horde that has ceased to be independent and has become an element in a more extensive group [...] It is a family in the sense that all the members who go to make it up consider themselves kin to one another [...] The affinities produced by sharing a blood kinship are mainly what keeps them united. What is more, they sustain mutual relationships that might be termed domestic, since these are to be found elsewhere in societies whose family character is undisputed: I mean collective revenge, collective responsibility and, as soon as individual property makes an appearance, mutual heredity."
 
 Clans differ from bureaucracies and markets in that they don't require auditing or evaluation as it takes place "through the kind of subtle reading of signals that is possible among intimate coworkers but which cannot be translated into explicit, verifiable measures." [@ouchi1980 137] For clans to succeed, the following conditions are required: reciprocity, legitimate authority, common values/beliefs and traditions. The former three are normative, while the latter is informal. When these conditions are not met, clans are merely ceremonial and ritualistic.
 
@@ -713,9 +710,9 @@ Closely related is the work by @willcockskern [9-13] that makes a distinction be
 
 #### Professionalization
 
-Professionalization is a mechanism that typically protects clients against self-proclaimed experts but who are unqualified and expose their clients to even greater risks than the ones they are supposed to advice on. [@kieser2006 71] Furthermore, they also protect experts against colleagues that could ruin the reputation of the whole industry. Finally, professionalization typically results in the establishment of an ethos, which fosters[^10] trust between a profession and the public at large [@sokolowski1991] Through these mechanisms, "professions are social devices to limit agency costs." [@shapiro2005 276]
+Professionalization is a mechanism that typically protects clients against self-proclaimed experts but who are unqualified and expose their clients to even greater risks than the ones they are supposed to advice on. [@kieser2006 71] Furthermore, they also protect experts against colleagues that could ruin the reputation of the whole industry. Finally, professionalization typically results in the establishment of an ethos, which fosters[^13] trust between a profession and the public at large [@sokolowski1991] Through these mechanisms, "professions are social devices to limit agency costs." [@shapiro2005 276]
 
-[^10]: A professional ethos is "a set of written and unwritten rules that guide professional practice." [@enstad2017]
+[^13]: A professional ethos is "a set of written and unwritten rules that guide professional practice." [@enstad2017]
 
 Certain countries, like Germany, have made attempts to professionalize the sector through the establishment of specialized university programs to make the use of the title "consultant" dependent on the attainment of specific qualifications. These attempts haven't turned out to be successful: today, consultancy is not yet a profession, not in the classical sense. [@kieser2006 73].
 
