@@ -547,7 +547,7 @@ To conclude this section, we note that control and trust are antagonistic, but a
 Below, a fairly exhaustive list of proposed governance measures is outlined and grouped by their corresponding trust antecedent.
 
 | Control Mechanism      | Description | Opportunism       | Agency phenomenon     |
-|----------------|-------------------------------|------------|--------------|
+|--------------------|-----------------|-----------------|-------------------|
 | Public Reputation      |             | Adverse Selection | Goal Incompatibility  |
 | Experience-based Trust |             | Adverse Selection | Goal Incompatibility  |
 | Networked Reputation   |             | Adverse Selection | Goal Incompatibility  |
@@ -714,15 +714,14 @@ Closely related is the work by @willcockskern [9-13] that makes a distinction be
 
 @rousseau1993 [10-12] describes a continuum between transactional contracts and relational contracts. On one end of the continuum, the former is based on "short-term monetizable agreements with limited involvement of each party in the lives and activities of the other." On the other end, the latter describes "agreements based upon exchanges of both socioeconomical and monetizable elements, duration which is open-ended and often long term, and a high degree of flexibility."
 
-# Research Questions
+# Research Design
 
 Abstractie maken van zaken zoals cultuur, bedrijfsgrootte, etc. Link met HR & internaliseren van externen, externe kennis.
 
-1a. Why do Belgian firms rely on digital consultants? 1b. What are inhibitors & enablers for success of digital consultants? 1c. Definition of success
-
-2.  Do Belgian firms see PA problems with digital consultants?
-3.  Which control mechanisms do Belgium firms have in place with regards to adverse selection and moral hazard of digital consultants?
-4.  Which control mechanisms positively impact success of engaging with a consultancy firm?
+1.  (a) Why do Belgian organizations rely on digital consultants? (b) What are inhibitors & enablers for the success of working with digital consultants? (c) How is success defined?
+2.  Do Belgian organizations experience principal-agent problems regarding the digital consultants?
+3.  Which control mechanisms do Belgium organizations have in place with regards to adverse selection and moral hazard of digital consultants?
+4.  Which control mechanisms positively impact success of engaging with digital consultants?
 
 Research questions for side projects:
 
