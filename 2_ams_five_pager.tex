@@ -1,12 +1,14 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
 % !TeX program = pdfLaTeX
 \documentclass[12pt]{article}
 \usepackage{amsmath}
 \usepackage{graphicx,psfrag,epsf}
 \usepackage{enumerate}
-\usepackage{natbib}
+\usepackage[]{natbib}
 \usepackage{textcomp}
-\usepackage[hyphens]{url} % not crucial - just used below for the URL
-\usepackage{hyperref}
+
 
 %\pdfminorversion=4
 % NOTE: To produce blinded version, replace "0" with "1" below.
@@ -14,10 +16,10 @@
 
 % DON'T change margins - should be 1 inch all around.
 \addtolength{\oddsidemargin}{-.5in}%
-\addtolength{\evensidemargin}{-.5in}%
+\addtolength{\evensidemargin}{-1in}%
 \addtolength{\textwidth}{1in}%
-\addtolength{\textheight}{1.3in}%
-\addtolength{\topmargin}{-.8in}%
+\addtolength{\textheight}{1.7in}%
+\addtolength{\topmargin}{-1in}%
 
 %% load any required packages here
 
@@ -38,6 +40,15 @@
 % Allow footnotes in longtable head/foot
 \IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
 \makesavenoteenv{longtable}
+
+
+
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\hypersetup{
+  pdftitle={(working title) Control mechanisms for working with consultants},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
 
 
 
@@ -75,22 +86,18 @@ consultants}
 } \fi
 
 \bigskip
-\begin{abstract}
-
-\end{abstract}
 
 \noindent%
-{\it Keywords:} 
+ 
+
 \vfill
 
 \newpage
-\spacingset{1.45} % DON'T change the spacing!
+\spacingset{1.9} % DON'T change the spacing!
 
-\hypertarget{introduction}{%
-\section{Introduction}\label{introduction}}
+\section{Introduction}\label{introduction}
 
-\hypertarget{relevancy-todo}{%
-\section{Relevancy (TODO)}\label{relevancy-todo}}
+\section{Relevancy (TODO)}\label{relevancy-todo}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -109,9 +116,8 @@ consultants}
   Recent news in BE/NL
 \end{enumerate}
 
-\hypertarget{defining-digital-consultancy}{%
 \section{Defining ``Digital
-Consultancy''}\label{defining-digital-consultancy}}
+Consultancy''}\label{defining-digital-consultancy}
 
 ``Digital consultancy'' is defined as consultancy in (either or both)
 technological and organizational aspects of digital transformation. The
@@ -120,8 +126,7 @@ the two concepts that comprise this definition. First, six properties
 that define ``consultancy'' are discussed, followed by an elaboration on
 ``digital transformation.''
 
-\hypertarget{consultancy}{%
-\subsection{Consultancy}\label{consultancy}}
+\subsection{Consultancy}\label{consultancy}
 
 Consultants, or management consultants, have been described through a
 multitude of metaphors and nicknames: ``capitalism's commissars''
@@ -183,15 +188,13 @@ organization.}
 The sections below unpack this definition and elaborate on the six
 properties that it comprises.
 
-\hypertarget{external}{%
-\subsubsection{External}\label{external}}
+\subsubsection{External}\label{external}
 
 \citet[138]{chowdhury2021} describes consultants as ``external advisors
 to corporations, nonprofits, governments, and any other forms of
 organizations.''
 
-\hypertarget{change}{%
-\subsubsection{Change}\label{change}}
+\subsubsection{Change}\label{change}
 
 Clearly, the construct of a ``consultant'' cannot be described by the
 topic that they work on, nor their academic and professional background,
@@ -255,8 +258,7 @@ stakeholders and other external counterparts'', this ``builds confidence
 for the organization. The more stable an organization is experienced as
 being, the greater its ability to concentrate on its core activities.''
 
-\hypertarget{contingent}{%
-\subsubsection{Contingent}\label{contingent}}
+\subsubsection{Contingent}\label{contingent}
 
 Being a consultant implies taking on a variety of responsibilities
 throughout a certain time span. Although many consultants have
@@ -269,8 +271,7 @@ methodologies claiming the spotlight \citep[ 24]{kipping2012}.
 
 This is what sets external consultancy apart from internal consultancy.
 
-\hypertarget{relational}{%
-\subsubsection{Relational}\label{relational}}
+\subsubsection{Relational}\label{relational}
 
 The nature of consultancy is often relational. First of all, a
 consultant's work is embedded in an organization's web of interpersonal
@@ -323,8 +324,7 @@ auditors from biasing their opinions in favor of their clients.''
 leading to client pleasing by the auditor \citep{koch2017}, audit
 engagements shouldn't be relational, on the contrary.
 
-\hypertarget{two-sided}{%
-\subsubsection{Two-sided}\label{two-sided}}
+\subsubsection{Two-sided}\label{two-sided}
 
 Besides their tasks at the client, consultants also face internal
 pressures from their employers in terms of optimized resource
@@ -341,8 +341,7 @@ under the direct supervision of the organization it is working for, it
 is seen as temporary staffing or ``staff augmentation.'' \citep[
 1]{hodosi2019}
 
-\hypertarget{diverse}{%
-\subsubsection{Diverse}\label{diverse}}
+\subsubsection{Diverse}\label{diverse}
 
 Within this group, however, we can identify consultancy types: strategy
 consulting, tax consulting, HR consulting, risk \& regulatory
@@ -354,8 +353,7 @@ consultancy is opaque due to the fact that the big accounting \&
 strategy firms entered the IT consultancy market to conduct
 all-encompassing projects where strategy and IT meet.
 
-\hypertarget{digital-transformation}{%
-\subsection{Digital Transformation}\label{digital-transformation}}
+\subsection{Digital Transformation}\label{digital-transformation}
 
 \citet[28]{bloomfield1995} describes IT consultants as intermediaries:
 ``they interpose themselves between IT and clients, or between IT
@@ -412,9 +410,8 @@ interpretation rolls up the dichotomy between the concepts of ``digital
 transformation'' and ``IT-enabled organizational transformation'' into a
 single term.
 
-\hypertarget{the-emergence-of-digital-consultancy}{%
 \section{The Emergence of Digital
-Consultancy}\label{the-emergence-of-digital-consultancy}}
+Consultancy}\label{the-emergence-of-digital-consultancy}
 
 Some more papers to explore:
 
@@ -542,9 +539,8 @@ for IT consultants, offered by both accounting forms and IT firms and
 (3) the internet offering opportunities for global expansion to all
 types and sizes of consultancy firms.
 
-\hypertarget{why-digital-consultancy-practical-perspectives}{%
 \section{Why digital consultancy: Practical
-perspectives}\label{why-digital-consultancy-practical-perspectives}}
+perspectives}\label{why-digital-consultancy-practical-perspectives}
 
 An end-to-end consultancy assignment involves many steps. The following
 overview by \citet{turner1982} involves eight steps and demonstrates how
@@ -638,14 +634,12 @@ it is referred to as working with a ``third party.'' Nevertheless,
 distinctions are mentioned wherever extrapolating conclusions from the
 former to the latter is inadequate.
 
-\hypertarget{financial-expectations}{%
-\subsection{Financial Expectations}\label{financial-expectations}}
+\subsection{Financial Expectations}\label{financial-expectations}
 
 Financial expectations regarding digital consultancy and IT outsourcing
 are twofold: reducing costs and improving financial control.
 
-\hypertarget{cost-reduction}{%
-\subsubsection{Cost Reduction}\label{cost-reduction}}
+\subsubsection{Cost Reduction}\label{cost-reduction}
 
 The expectation of cost reduction comes from the ability to save on
 human resources, the ability to eliminate them in times of recession,
@@ -657,8 +651,7 @@ latter apply to both. For IT outsourcing, it also involves the
 elimination of large fixed costs during recession and transferring
 adjustment cost to a third-party \citep[ 52]{aubert1996}.
 
-\hypertarget{cost-control}{%
-\subsubsection{Cost Control}\label{cost-control}}
+\subsubsection{Cost Control}\label{cost-control}
 
 The second financial expectation is not necessary about reducing costs,
 but about controlling them. \citet[233]{sturdy1998} describes how
@@ -684,17 +677,14 @@ Finally, \citet{lacity1994} describes how some managers ``wanted to use
 outsourcing to restructure their IT budgets from lumbering capital
 budgets to more flexible operating budgets.''
 
-\hypertarget{business-expectations}{%
-\subsection{Business Expectations}\label{business-expectations}}
+\subsection{Business Expectations}\label{business-expectations}
 
-\hypertarget{developing-strategy}{%
-\subsubsection{Developing Strategy}\label{developing-strategy}}
+\subsubsection{Developing Strategy}\label{developing-strategy}
 
 See \citet{sturdy1998}
 
-\hypertarget{focusing-on-core-activities}{%
 \subsubsection{Focusing on Core
-Activities}\label{focusing-on-core-activities}}
+Activities}\label{focusing-on-core-activities}
 
 \citet[272-273]{furusten2009} argues that consultants are often
 perceived as ``relatively stable by {[}\ldots{]} employees, stakeholders
@@ -702,9 +692,8 @@ and other external counterparts'', this ``builds confidence for the
 organization. The more stable an organization is experienced as being,
 the greater its ability to concentrate on its core activities.''
 
-\hypertarget{facilitating-mergers-acquisitions}{%
 \subsubsection{Facilitating Mergers \&
-Acquisitions}\label{facilitating-mergers-acquisitions}}
+Acquisitions}\label{facilitating-mergers-acquisitions}
 
 Oftentimes, ``{[}m{]}ergers and acquisitions create many nightmares for
 IT managers, who are required to absorb acquired companies into existing
@@ -713,12 +702,10 @@ involving third parties for merging IT functions could solve technical
 incompatibilities and absorb additional employees, the authors found
 that this was rarely successful.
 
-\hypertarget{technical-expectations}{%
-\subsection{Technical Expectations}\label{technical-expectations}}
+\subsection{Technical Expectations}\label{technical-expectations}
 
-\hypertarget{hiring-skilled-individuals}{%
 \subsubsection{Hiring Skilled
-Individuals}\label{hiring-skilled-individuals}}
+Individuals}\label{hiring-skilled-individuals}
 
 \citet[12]{lacity1994} describes that in many organizations, there is
 dissatisfaction with in-house IT departments delivering systems late and
@@ -750,9 +737,8 @@ small firms to have a (full-time) expert in each area. Specialized
 third-party firms, on the other hand, offer a variety of skills and
 technical knowledge to their clients.
 
-\hypertarget{knowledge-transfer-diffusion}{%
 \subsubsection{Knowledge Transfer \&
-Diffusion}\label{knowledge-transfer-diffusion}}
+Diffusion}\label{knowledge-transfer-diffusion}
 
 In \citet[53]{werr2002}, a manager describes how they are often caught
 up in day-to-day activities, and consultants can help them take a loot
@@ -822,8 +808,7 @@ content.'' Three mechanisms promote forgetfulness:
   evaluating them.
 \end{itemize}
 
-\hypertarget{political-expectations}{%
-\subsection{Political Expectations}\label{political-expectations}}
+\subsection{Political Expectations}\label{political-expectations}
 
 Finally, there are also reasons that are beyond the business-economical
 sphere. Oftentimes, individuals want to, or need to, pursue their
@@ -868,9 +853,8 @@ overhauls were often motivated by the desire to destruct existing
 organizational structures. Constant change was desirable precisely
 because it helped to shatter old ways of working.''
 
-\hypertarget{why-digital-consultancy-theoretical-perspectives}{%
 \section{Why digital Consultancy: Theoretical
-perspectives}\label{why-digital-consultancy-theoretical-perspectives}}
+perspectives}\label{why-digital-consultancy-theoretical-perspectives}
 
 According to \citet[3-6]{armbruster2006}, the theoretical perspectives
 on consultancy can be broken down into two main categories and
@@ -882,9 +866,8 @@ projects: client-consultants interactions are open to distortions, and
 understanding them requires research. This is known as the critical
 view.
 
-\hypertarget{transaction-cost-economics}{%
 \subsection{Transaction Cost
-Economics}\label{transaction-cost-economics}}
+Economics}\label{transaction-cost-economics}
 
 Transaction costs economics sees economic organization as a problem of
 contracting, i.e.~organizing economic activity. The starting point is
@@ -1086,8 +1069,7 @@ job.''\footnote{The reverse situation also supports the identification
   IT consultants' impact on IT productivity is expected to be lower.''
   \citep[ 17]{nevo2007}}
 
-\hypertarget{agency-theory}{%
-\subsection{Agency Theory}\label{agency-theory}}
+\subsection{Agency Theory}\label{agency-theory}
 
 At the center of agency theory is the observation that the firm is not
 an individual. \emph{Au contraire,} ``the \emph{behavior} of the firm is
@@ -1191,8 +1173,7 @@ stretching corporate authority to its limits. Consequently, their
 legitimacy is often problematic within the corporation that engages with
 them.
 
-\hypertarget{resource-based-view}{%
-\subsection{Resource-based View}\label{resource-based-view}}
+\subsection{Resource-based View}\label{resource-based-view}
 
 The resource-based view rejects the traditional micro-economic
 assumptions that resources are homogeneously distributed across firms
@@ -1308,8 +1289,7 @@ result from this exercise:
   responsible for developing a organization's differentiating features.
 \end{enumerate}
 
-\hypertarget{social-identity-theory}{%
-\subsection{Social Identity Theory}\label{social-identity-theory}}
+\subsection{Social Identity Theory}\label{social-identity-theory}
 
 The research by \citet[311-313]{schwarz2005} claims that it matters
 \emph{who} implements an IT project. Given the interdependent nature of
@@ -1336,8 +1316,7 @@ theory insights, one could even argue that the in-group's striving for
 intergroup differences further impedes the control and evaluation of
 individual consultants.
 
-\hypertarget{embeddedness-theory}{%
-\subsection{Embeddedness Theory}\label{embeddedness-theory}}
+\subsection{Embeddedness Theory}\label{embeddedness-theory}
 
 Embeddedness theorists distance themselves from transaction costs
 economics \citep[ 14-16]{armbruster2006}. They argue that outsourcing
@@ -1379,9 +1358,8 @@ However, this is not always the case. The authors note that there are
 where client and consultant perceptions diverge in terms of the type of
 relationship that each party is seeking.''
 
-\hypertarget{sociological-neoinstitutionalism}{%
 \subsection{Sociological
-Neoinstitutionalism}\label{sociological-neoinstitutionalism}}
+Neoinstitutionalism}\label{sociological-neoinstitutionalism}
 
 A theory that is systematically drawn upon \citep[ 6-8]{armbruster2006}
 is sociological neoinstitutionalism. It is very critical of transaction
@@ -1461,8 +1439,7 @@ clients, often by enabling those clients to extract rents themselves.
 Ultimately, this entrenches businesses' and governments' reliance on
 consultancies.''
 
-\hypertarget{signaling-theory}{%
-\subsection{Signaling Theory}\label{signaling-theory}}
+\subsection{Signaling Theory}\label{signaling-theory}
 
 Another theory that falls in the camp of the critical view is that of
 economic signaling theory \citep[ 8-10]{armbruster2006}. Unlike
@@ -1515,11 +1492,9 @@ Sociological neoinstitutionalism argues that legitimacy-seeking behavior
 leads to inefficient market outcomes, while signaling theory argues the
 opposite.
 
-\hypertarget{problem-statement}{%
-\section{Problem statement}\label{problem-statement}}
+\section{Problem statement}\label{problem-statement}
 
-\hypertarget{types-of-opportunism}{%
-\subsection{Types of Opportunism}\label{types-of-opportunism}}
+\subsection{Types of Opportunism}\label{types-of-opportunism}
 
 Organizations employing the services of a contingent workforce, like
 digital consultants, should always be aware of opportunism arising from
@@ -1536,9 +1511,8 @@ agency theory. Two types of opportunism can be identified
   Ex post: Post-contractual opportunism or moral hazard
 \end{enumerate}
 
-\hypertarget{ex-ante-opportunism-adverse-selection}{%
 \subsubsection{Ex Ante Opportunism: Adverse
-Selection}\label{ex-ante-opportunism-adverse-selection}}
+Selection}\label{ex-ante-opportunism-adverse-selection}
 
 Adverse selection is associated with the client's inability to determine
 the client's capabilities with regards to the assignment. This analogous
@@ -1556,8 +1530,7 @@ Typically, in this situation, a sector tends to professionalize, or
 become regulated. However, in (digital) consultancy, this is not the
 case.
 
-\hypertarget{no-professionalization}{%
-\paragraph{No Professionalization}\label{no-professionalization}}
+\paragraph{No Professionalization}\label{no-professionalization}
 
 Professionalization is a mechanism that typically protects clients
 against self-proclaimed experts but who are unqualified and expose their
@@ -1642,8 +1615,7 @@ professional \emph{appearance}.'' \citep[ 95]{kieser2006} By combining a
 promise of market success and professionalism they are ``market
 professionals''.
 
-\hypertarget{no-regulation-todo}{%
-\paragraph{No Regulation (TODO)}\label{no-regulation-todo}}
+\paragraph{No Regulation (TODO)}\label{no-regulation-todo}
 
 \begin{itemize}
 \tightlist
@@ -1696,9 +1668,8 @@ See \citet[3-4]{sturdy2021}
 
 See \citet[4]{sturdy2021}
 
-\hypertarget{ex-post-opportunism-moral-hazard}{%
 \subsubsection{Ex Post Opportunism: Moral
-Hazard}\label{ex-post-opportunism-moral-hazard}}
+Hazard}\label{ex-post-opportunism-moral-hazard}
 
 Moral hazard is the result of two elements at the core of transaction
 cost economics and agency theory: the ambiguity of the measurement of
@@ -1764,9 +1735,8 @@ can employ consultants, enabling them to respond quickly to threats or
 opportunities. On the other hand, it decreases consultants' formal
 accountability.
 
-\hypertarget{opportunism-in-digital-consultancy}{%
 \subsection{Opportunism in Digital
-Consultancy}\label{opportunism-in-digital-consultancy}}
+Consultancy}\label{opportunism-in-digital-consultancy}
 
 There are three main reasons why ``digital consultancy'' deserves a
 dedicated scope
@@ -1794,8 +1764,7 @@ exclusivity for implementing or personalizing a certain solution. as the
 costs of switching providers are often significant, it is not
 straightforward to switch vendors when ex post opportunism is detected.
 
-\hypertarget{preventing-opportunism}{%
-\subsection{Preventing Opportunism}\label{preventing-opportunism}}
+\subsection{Preventing Opportunism}\label{preventing-opportunism}
 
 In the existing literature, several governance mechanisms for preventing
 opportunism have been proposed. In the governance literature, there is a
@@ -1901,10 +1870,10 @@ Below, a fairly exhaustive list of proposed governance measures is
 outlined and grouped by their corresponding trust antecedent.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2740}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2329}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2329}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2603}}@{}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2603}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2466}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2466}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2466}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Control Mechanism
@@ -1933,16 +1902,14 @@ First-Party Assessment & & Moral Hazard & Goal Incompatibility \\
 Relational Mechanisms & & Moral Hazard & Goal Incompatibility \\
 \end{longtable}
 
-\hypertarget{preventing-adverse-selection}{%
 \subsubsection{Preventing Adverse
-Selection}\label{preventing-adverse-selection}}
+Selection}\label{preventing-adverse-selection}
 
 Several researchers have theorized and/or empirically tested several
 governance mechanisms for preventing adverse selection of consultancy
 service vendors.
 
-\hypertarget{procurement}{%
-\paragraph{Procurement}\label{procurement}}
+\paragraph{Procurement}\label{procurement}
 
 ``Management consulting is a highly interactive service in which
 interpersonal trust and `liking' play a central role. {[}It is often
@@ -2032,8 +1999,7 @@ against the sourcing and contract management stages, this was seen as
 due to procurement involvement here posing less of a threat to end-user
 interests and requiring lower levels of service-specific knowledge.''
 
-\hypertarget{third-party-assessments}{%
-\paragraph{Third-Party Assessments}\label{third-party-assessments}}
+\paragraph{Third-Party Assessments}\label{third-party-assessments}
 
 \citet[57-62]{zucker1985} describes the rise of the ``social overhead
 sector'' in the 19th and 20th century. This sector acts as an
@@ -2070,8 +2036,7 @@ weak. It is the contractual guarantees, and the history of past
 transactions underlying reputation, which overcome the potential effects
 of adverse selection and moral hazard.''
 
-\hypertarget{reputation}{%
-\paragraph{Reputation}\label{reputation}}
+\paragraph{Reputation}\label{reputation}
 
 \citet[193]{kirilov2012} describes reputation as ``a mixture of the
 brand name of the enterprise, executive management background, maturity
@@ -2156,8 +2121,7 @@ for 73\% of respondents, reputation is a deciding factor. Furthermore,
 50\% of respondents indicated that recommendations from managers of
 other companies is a deciding factor.
 
-\hypertarget{consulting-database}{%
-\paragraph{Consulting Database}\label{consulting-database}}
+\paragraph{Consulting Database}\label{consulting-database}
 
 One way to structure and crowd-source experience-based trust is by
 centralizing it in a ``consulting database''. This could force hiring
@@ -2178,14 +2142,12 @@ choosing the adequate consultancy partner. Their service is entirely
 voluntary and secures discrete conduct and sensitivity when dealing with
 confidential information.
 
-\hypertarget{preventing-moral-hazard}{%
-\subsubsection{Preventing Moral Hazard}\label{preventing-moral-hazard}}
+\subsubsection{Preventing Moral Hazard}\label{preventing-moral-hazard}
 
 Besides the prevention of adverse selection, several mechanisms have
 been proposed for preventing moral hazard.
 
-\hypertarget{monitoring}{%
-\paragraph{Monitoring}\label{monitoring}}
+\paragraph{Monitoring}\label{monitoring}
 
 \citep[ 13]{basu2011} states that ``Monitoring refers to the application
 of a feedback system to provide information to the principal about the
@@ -2259,24 +2221,29 @@ makes several interesting remarks:
 Finally, \citet[276]{shapiro2005} embeddedness (or relational
 mechanisms) are often ``an excuse to relax vigilant recruitment and
 monitoring, {[}which{]} provides cover {[}\ldots{]} for confidence
-swindlers to feign social intimacy and unfettered opportunism. The next
-section describes several interpretations of relational mechanisms.
+swindlers to feign social intimacy and unfettered opportunism.'' The
+next section describes several interpretations of relational mechanisms.
 
-\hypertarget{relational-mechanisms}{%
-\paragraph{Relational Mechanisms}\label{relational-mechanisms}}
+\paragraph{Relational Mechanisms}\label{relational-mechanisms}
 
-According to the research by \citet[4-5]{lacity2012} relational
-governance is operationalized most frequently as ``effective knowledge
-sharing, communication, trust, and viewing the provider as a partner.''
-Nevertheless, ``contractual governance and relational governance are not
-substitutes in that a poorly crafted contract cannot be overcome with
-friendly, communicative, and trusting account managers. Poor contracts,
-we have found, can make for poor relationships.''
+One could raise the argument that due to the nature of the services that
+consultants provice, relational mechanisms trump ``hard'' governance
+such as contractual formalities or monitoring. However, according to the
+research by \citet[4-5]{lacity2012} ``contractual governance and
+relational governance are not substitutes in that a poorly crafted
+contract cannot be overcome with friendly, communicative, and trusting
+account managers. Poor contracts, we have found, can make for poor
+relationships.''
 
-\hypertarget{clans}{%
-\subparagraph{Clans}\label{clans}}
+Nevertheless, many authors refer to some sorts of relational mechanisms
+for facilitating the engagement with consultants and preventing
+opportunism. Below, four constructs, borrowed from one or more
+disciplines within the humanities: (1) Clans, (2) psychological
+contracts, (3) cooperative-level contracts and (4) relational contracts.
 
-\citet{ouchi1980} proposes to provent opportunism through the
+\subparagraph{Clans}\label{clans}
+
+\citet{ouchi1980} proposes to prevent opportunism through the
 establishment of a ``clan''\footnote{\citet{ouchi1980} borrows the
   concept of a clan from \citet[127]{durkheim1997} who gives the term
   `clan' to ``a horde that has ceased to be independent and has become
@@ -2288,13 +2255,12 @@ establishment of a ``clan''\footnote{\citet{ouchi1980} borrows the
   since these are to be found elsewhere in societies whose family
   character is undisputed: I mean collective revenge, collective
   responsibility and, as soon as individual property makes an
-  appearance, mutual heredity.''}, which involves commitment from all
-parties and eliminates short-term inequities over time. Clans achieve
-the ``union of objectives between individuals which stems from their
-necessary dependence upon one another. {[}\ldots{]} {[}c{]}lans display
-a high degree of discipline {[}\ldots{]} achieved through an extreme
-form of the belief that individual interests are best served by a
-complete immersion of each individual in the interests of the whole.''
+  appearance, mutual heredity.''}. Clans achieve the ``union of
+objectives between individuals which stems from their necessary
+dependence upon one another. {[}\ldots{]} {[}c{]}lans display a high
+degree of discipline {[}\ldots{]} achieved through an extreme form of
+the belief that individual interests are best served by a complete
+immersion of each individual in the interests of the whole.''
 
 Clans differ from bureaucracies and markets in that they don't require
 auditing or evaluation as it takes place ``through the kind of subtle
@@ -2302,28 +2268,26 @@ reading of signals that is possible among intimate coworkers but which
 cannot be translated into explicit, verifiable measures.'' \citep[
 137]{ouchi1980} For clans to succeed, the following conditions are
 required: reciprocity, legitimate authority, common values/beliefs and
-traditions. The former three are normative, while the latter is
-informal. When these conditions are not met, clans are merely ceremonial
-and ritualistic.
+traditions. When these conditions are not met, clans are merely
+ceremonial and ritualistic, especially when only traditions remain.
 
-Within the context of digital consultancy, reciprocity is important in
+Within the context of digital consultancy, reciprocity is achieved in
 the sense that everybody within a team, both employees and consultants
-needs to have the freedom to call each other out. Furthermore, managers,
+need to have the freedom to call each other out. Furthermore, managers,
 product owners and lead developers can assume the role of legitimate
 authority.
 
-However, both the conditions of traditions and common values/beliefs are
-the hard to achieve. Mayo already construed in 1945 that ``by reason of
-external circumstance {[}\ldots{]} groups {[}that{]} have little
-opportunity to form, the immediate symptom is labor turnover,
-absenteeism, and the like.'' \citep[ 111]{mayo1945} A partial
-socialization may be accompanied by market or bureaucratic mechanisms
-\citep[ 138]{ouchi1980}, such as the participation in company meetings,
-to achieve common values and beliefs.
+However, the conditions of traditions and common values/beliefs are much
+harder to achieve in this setting. Mayo construed in 1945 that ``by
+reason of external circumstance {[}\ldots{]} groups {[}that{]} have
+little opportunity to form, the immediate symptom is labor turnover,
+absenteeism, and the like.'' \citep[ 111]{mayo1945} The solution might
+be a partial socialization, accompanied by market or bureaucratic
+mechanisms \citep[ 138]{ouchi1980}, such as the participation in company
+meetings, to achieve common values and beliefs.
 
-\hypertarget{psychological-contract-obligations}{%
 \subparagraph{Psychological Contract
-Obligations}\label{psychological-contract-obligations}}
+Obligations}\label{psychological-contract-obligations}
 
 According to \citet[357]{ang2004}, the legal interpretation of an IT
 outsourcing contract is too limited. Instead, they claim that the
@@ -2355,23 +2319,12 @@ IT project.
   prompt payment, and (3) project ownership and monitoring.
 \end{itemize}
 
-The strength of psychological contract theory is threefold:
+Psychological contract theory focuses on mutual obligations, and on the
+individual consultants--not the organizations that are the parties of
+the contract.
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  it focuses on mutual obligations;
-\item
-  the emphasis is on psychological obligations;
-\item
-  the emphasis is on the individual level--not on the organizations as
-  parties of the contract.
-\end{enumerate}
-
-\hypertarget{cooperative-level-contracts}{%
 \subparagraph{Cooperative-level
-Contracts}\label{cooperative-level-contracts}}
+Contracts}\label{cooperative-level-contracts}
 
 Closely related is the work by \citet[9-13]{willcockskern} that makes a
 distinction between the contractual level and the cooperative level. The
@@ -2385,8 +2338,7 @@ contract is a bit like a nuclear deterrent. You need one and you have
 got to have a framework, but if you've got to use it you are probably in
 trouble.''
 
-\hypertarget{relational-contracts}{%
-\subparagraph{Relational Contracts}\label{relational-contracts}}
+\subparagraph{Relational Contracts}\label{relational-contracts}
 
 Finally, \citet[10-12]{rousseau1993} describes a continuum between
 transactional contracts and relational contracts. On one end of the
@@ -2397,58 +2349,113 @@ upon exchanges of both socioeconomical and monetizable elements,
 duration which is open-ended and often long term, and a high degree of
 flexibility.''
 
-\hypertarget{whistleblowing-todo}{%
-\paragraph{Whistleblowing (TODO)}\label{whistleblowing-todo}}
+\paragraph{Whistleblowing}\label{whistleblowing}
 
-Also media.
+We can decompose the principle of whistleblowing\footnote{We define
+  ``whistleblowing'' as ``the disclosure by organization members (former
+  or current) of illegal, immoral or illegitimate practices under the
+  control of their employers, to persons or organizations that may be
+  able to effect action.'' \citep[ 4]{near1985}} into two constructs. On
+the one hand there is internal whistleblowing. This can be ad-hoc or
+organized, when there is a formal procedure for reporting misbehavior,
+such as by consultants. On the other hand, there is external
+whistleblowing: the inherent risk of reports of misbehavior leaking into
+the public or even into the press.
 
-\hypertarget{incentivization-todo}{%
-\paragraph{Incentivization (TODO)}\label{incentivization-todo}}
+\subparagraph{Internal Whistleblowing}\label{internal-whistleblowing}
 
-Contrary to the design and enforcement of contractual obligations,
-management by self-interest (i.e.~incentivization) ``has the advantage
-that it is cheaper than contracts, is more flexible, and it is in the
-players' own interest to be seen to comply with agreements.'' \citep[
-924]{nooteboom2000} However, it's not a silver bullet as it requires a
-need for observation, measurement and monitoring. Yet, ``How does one
-measure and monitor degree of dependence, spillovers, and specificity of
+In \citet{ayers2005}, an experimental setting investigates if two models
+of ethical decision-making apply to whistleblowing in a scenario of
+consultant wrongdoing.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Schultz' \citep{schultz1993} model states that the decision to report
+  relies on three (subjective) factors: the seriousness of the act, the
+  individual's attribution of their own responsibility and the perceived
+  costs of reporting (mainly reprisals).
+\item
+  According to \citep{reidenbach1990}, ethical beliefs aren't
+  unidimensional. To determine the seriousness of a fact, individuals
+  use more than one rationale and different ethical philosophies. In
+  response, the authors developed a multidimensional ethics scale. It
+  contains the following three dimensions: a moral equity dimension (is
+  something fair?), a relativistic dimension (is something fair in
+  relation to the guidelines?) and a contractual dimension (is something
+  deontological?).
+\end{enumerate}
+
+When combining these dimensions in a single model, personal costs,
+personal responsibility and moral equity correlate with the
+whistleblowing behavior. When an anonymous whistleblowing procedure is
+introduced, the seriousness of the wrongdoing primes.
+
+\subparagraph{External Whistleblowing}\label{external-whistleblowing}
+
+Consultancy firms always run the risk of of being exposed when one of
+their consultants is involved in some kind of wrongdoing. For example,
+the International Consortium of Investigative Journalists
+\citep{icij20231} reported that PwC consultants helped setting up
+financial constructions so that powerful Russians could evade Western
+sanctions that were imposed after Russia's unprovoked invasion of
+Ukraine. In another article, the ICIJ describes how tax advisory
+consultants used confidential information, acquired while consulting for
+the Australian government, to set up new tax avoidance structures
+\citep{icij20232}.
+
+Both types of whistblowing could foster good behavior and alignment with
+the hiring organization's goals. However, the first is more suitable as
+a formal governance mechanism.
+
+\paragraph{Incentivization}\label{incentivization}
+
+Another approach to governing consultants is to align ``the preferences
+of the agent and the principal through an appropriate reward structure
+{[}which{]} helps curb the agent's opportunistic behavior.'' \citep[
+13]{basu2011} Both \citet[264-266]{liberatore2010} and
+\citet[597]{tosi1997} find that a higher goal congruence between the
+consultancy firm and the client is an enabler of project performance.
+More importantly, contrary to the design and enforcement of contractual
+obligations, management by self-interest (i.e.~incentivization) ``has
+the advantage that it is cheaper than contracts, is more flexible, and
+it is in the players' own interest to be seen to comply with
+agreements.'' \citep[ 924]{nooteboom2000}
+
+\citet[15]{basu2011} proposes several actions to align incentives: (1)
+link payment to completion of the promised deliverables \citep[see
+also][ 243]{clark1993}, (2) sharing of cost savings or overruns with the
+consultancy firm, (3) incentives and penalties related to timely
+completion of a project.
+
+However, \citet[924]{noteboom2000} describes how incentivization is not
+a silver bullet as (1) it requires a need for observation, measurement
+and monitoring. Furthermore, (2) ``{[}h{]}ow does one measure and
+monitor degree of dependence, spillovers, and specificity of
 investments?'' It's hard to quantify compensation for such intangible
-risks. Furthermore, it is hard to maintain, since competences and
+risks. Finally, (3) it is hard to maintain, since competences and
 external conditions are constantly changing.
-
-``Basing the agent's rewards and incentives on imperfect surrogates of
-performance leads to moral hazard, but aligning the preferences of the
-agent and the principal through an appropriate reward structure helps
-curb the agent's opportunistic behavior.'' \citep[ 13-15]{basu2011}
-Several actions are proposed to align incentives: link payment to
-completion of the promised deliverables, sharing of cost savings or
-overruns with the consultancy firm, incentives and penalties related to
-timely completion of a project.
-
-\citet[264-266]{liberatore2010} finds that a higher goal congruence
-between the consultancy firm and the client is an enabler of project
-performance.
 
 A particular form of incentivization is ``hostage-taking'': ``one-sided
 ownership of specific assets may be balanced by one-sided hostages going
-the other way, or by a rigorous reputation mechanism.'' \citep[
-924]{nooteboom2000} When there are no trust-related nor legal
-enforcement mechanisms, parties can be discouraged from forming
-long-term relationships. According to \citet[47-48]{werner1993},
+the other way.''\citep[ 924]{nooteboom2000} Hostage-taking can be an
+adequate governance mechanism when there are no trust-related nor legal
+enforcement mechanisms. Without it, parties can be discouraged from
+forming long-term relationships. According to \citet[47-48]{werner1993},
 ``hostages'' are used in situations where rational behavior would lead
-to sub-optimal outcome, in the Paretoian sense. In game theoretical
+to sub-optimal outcome, in the Paretoian sense. In game-theoretical
 terms, hostage-taking is used to prevent defecting behavior.
 
-In terms of the subject of this paper, ``hostages'' could come in the
-form of contingent fees. See \citep[ 243]{clark1993}
+In that sense, incentivization and public reputation (supra) are related
+to one another as the latter can be the subject of former: ``The threat
+of loss of reputation and resulting loss of business that comes from
+having the word spread about untrustworthy business practice is
+generally quite an effective deterrent. For this reason, gossip
+{[}\ldots{]} has been identified as a powerful means of social
+control.'' \citep[ 368]{shapiro1992}
 
-See \citet{tosi1997}.
-
-Reputation could also be taken hostage. \citep[ 368]{shapiro1992}
-
-\hypertarget{third-party-moderation-todo}{%
-\paragraph{Third-Party Moderation
-(TODO)}\label{third-party-moderation-todo}}
+\paragraph{Third-Party Moderation}\label{third-party-moderation}
 
 \citet[6-7]{babin2017} describes a single case study in which trust in
 an outsourcing relationship had eroded over time. Instead of parting
@@ -2458,31 +2465,29 @@ addressed the trust problem. ``When both sides feel hurt, and do not
 trust the other side, it can be difficult to take preliminary steps to
 begin to repair inter-organizational trust. An objective outsider using
 a formal approach proved useful to initiating the trust repair
-activities.
+activities.''
 
-\hypertarget{first-party-assessment-todo}{%
-\paragraph{First-Party Assessment
-(TODO)}\label{first-party-assessment-todo}}
+\paragraph{Consultant Research}\label{consultant-research}
 
-As \citet[111]{mayo1945} describes: ``the belief that the behavior of an
+While it is possible to prevent adverse selection through tests, this
+isn't necessarily the case for moral hazard. For example,
+\citet[111]{mayo1945} claims that ``the belief that the behavior of an
 individual within the factory can be predicted before employment upon
 the basis of a laborious and minute examination by tests of his
 technical and other capacities is mainly, if not wholly, mistaken.
 Examination of his developed social skills and his general adaptability
 might give better results.''
 
-``A second vehicle for improving understanding and predictability
-between partners is to conduct very good research on the potential
-partner before a relationship is engaged. This research is directed at
-assessing the real compatibility, or''interpersonal fit,'' between
-partners, as well as assessing the degree to which a potential partner
-engages in predictable behavior.'' \citep[ 370]{shapiro1992}
+Examining consultants can be performed in various ways. The main way is
+to make cooperation contingent upon an interview, like a candidate for a
+job would. But researching consultants can also be done in more informal
+matters such as gathering information from (for example) their social
+media or academic work. This research ``is directed at assessing the
+real compatibility, or `interpersonal fit,' between partners, as well as
+assessing the degree to which a potential partner engages in predictable
+behavior.'' \citep[ 370]{shapiro1992}
 
-\hypertarget{section}{%
-\paragraph{}\label{section}}
-
-\hypertarget{research-design}{%
-\section{Research Design}\label{research-design}}
+\section{Research Design}\label{research-design}
 
 Abstractie maken van zaken zoals cultuur, bedrijfsgrootte, etc. Link met
 HR \& internaliseren van externen, externe kennis.
@@ -2490,35 +2495,25 @@ HR \& internaliseren van externen, externe kennis.
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \item
-  Why do Belgian organizations rely on digital consultants? (b) What are
-  inhibitors \& enablers for the success of working with digital
-  consultants? (c) How is success defined?
+  Why do Belgian organizations rely on digital consultants?
+\item
+  How do Belgian organizations determine the success of a consultancy
+  assignment?
 \item
   Do Belgian organizations experience principal-agent problems regarding
   the digital consultants?
 \item
-  Which control mechanisms do Belgium organizations have in place with
-  regards to adverse selection and moral hazard of digital consultants?
+  Which control mechanisms do Belgian organizations have in place with
+  regards to adverse selection?
 \item
-  Which control mechanisms positively impact success of engaging with
-  digital consultants?
+  Which control mechanisms do Belgian organizations have in place with
+  regards to moral hazard?
 \end{enumerate}
 
-Research questions for side projects:
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Why do people join a consultancy firm or become an independent
-  consultant?
-\item
-  Do reputational effects exist on the individual consultant level or on
-  the firm level?
-\end{enumerate}
-
-\bibliographystyle{agsm}
+\bibliographystyle{apalike}
+\renewcommand\refname{References}
 \bibliography{references.bib}
+
 
 
 \end{document}
