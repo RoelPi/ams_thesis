@@ -115,7 +115,7 @@ Some more papers to explore:
 -   [@fincham1999 336]
 -   [@mckenna2006]
 
-According to @mazzucato2023 [46] historians puth the birth of modern consulting in one of the three following periods.
+According to @mazzucato2023 [46] historians put the birth of modern consulting in one of the three following periods.
 
 -   The late 19th century, with the appearance of "consultant engineers" in Europe and the United States.
 
@@ -143,14 +143,10 @@ Concluding this section, the following three phases can be identified: (1) IT co
 
 # Why digital consultancy: Practical perspectives
 
-<!--- Hiring consultancy can be driven from a functionalist perspective, a critical perspective, but also a economic deterministic perspective. First two are in @werr2002 -->
-
-<!-- not the goal to judge if these expectations make sense, rather if the controls they use are fit for purpose -->
-
 An end-to-end consultancy assignment involves many steps. The following overview by @turner1982 involves eight steps and demonstrates how consultancy is external, contingent, relational and involves change.
 
 1.  Provide requested information.
-2.  Provide solution to given problem.
+2.  Provide a solution to a given problem.
 3.  Conduct diagnosis that may redefine problem.
 4.  Provide recommendations.
 5.  Assist with implementation.
@@ -319,7 +315,7 @@ Borrowing rhetoric from the resource-based view (infra), @mata1995 [498] applies
 
 ## Agency Theory
 
-At the center of agency theory is the observation that the firm is not an individual. *Au contraire,* "the *behavior* of the firm is like the behavior of a market; i.e., the outcome of a complex equilibrium process." [@jensen1976 311] When (the owners of) an organization ask(s) its employees to deliver a service, or buys a service in the market, it encounters the two-pronged principal-agent problem[^6]. By delegating work to an agent, the principal has to account for the fact that "(a) the desires or goals of the principal and the agent conflict and (b) it is difficult or expensive for the principal to verify what the agent is doing." [@eisenhardt1989 58] These phenomena are known as goal incompatibility and information asymmetry.
+At the center of agency theory is the observation that the firm is not a single individual. *Au contraire,* "the *behavior* of the firm is like the behavior of a market; i.e., the outcome of a complex equilibrium process." [@jensen1976 311] When (the owners of) an organization ask(s) its employees to deliver a service, or buys a service in the market, it encounters the two-pronged principal-agent problem[^6]. By delegating work to an agent, the principal has to account for the fact that "(a) the desires or goals of the principal and the agent conflict and (b) it is difficult or expensive for the principal to verify what the agent is doing." [@eisenhardt1989 58] These phenomena are known as goal incompatibility and information asymmetry.
 
 [^6]: Agency theory is also concerned with the problem of risk sharing that arises when principal and agent each prefer different courses of action due to differing attitudes towards risk. [@eisenhardt1989 58] However, this is not within scope of this paper.
 
@@ -334,7 +330,7 @@ To prevent adverse selection and/or moral hazard, control mechanisms could be pu
 2.  bonding expenditures to achieve incentive alignment;
 3.  residual loss: the remaining "loss of welfare" of the principal in those situations where the agent makes divergent decisions because it was to expensive to offset it through bonding or monitoring.
 
-Circling back to the this paper's subject of digital consulting, we can summarize the interplay of transaction cost economics and agency theory as follows. Low asset specificity of knowledge production and the improvement of internal coordination mechanisms through IT leads firms to order these services in the market. However, human bounded rationality does not allow for detailed consultancy contracts, since it is impossible for humans to predict the future. Payment for consulting engagements are typically recurring (high frequency), which leads to behavioral uncertainty, since the incentives of the consulting firm and the client do not align (goal incompatibility), their complex interdependent services are hard to evaluate and their contributions are hard to measure (information asymmetry). This could lead to adverse selection and moral hazard, and asks for control mechanisms to economize on agency costs.
+Circling back to the this paper's subject of digital consulting, we can summarize the interplay of transaction cost economics and agency theory as follows. Low asset specificity of knowledge production and the improvement of internal coordination mechanisms through IT leads firms to order these services in the market. However, human bounded rationality does not allow for detailed consultancy contracts. Payment for consulting engagements are typically recurring (high frequency), which leads to behavioral uncertainty, since the incentives of the consulting firm and the client do not align (goal incompatibility), their complex interdependent services are hard to evaluate and their contributions are hard to measure (information asymmetry). This could lead to adverse selection and moral hazard, and asks for control mechanisms to economize on agency costs.
 
 Finally, an extra remark is in place. One should not forget that managers are also agents themselves. As @tosi1997 [584] describes: "the reality [is] that in large organizations, owners may be separated from the managers who make decisions in forms, and that the two may have different interests." In that sense, @fincham2002 claims that a consultant can be described as "an agent's agent", extending the management's own agency function. In other words, consultants operate at the "outer reaches of corporate power", stretching corporate authority to its limits. Consequently, their legitimacy is often problematic within the corporation that engages with them.
 
@@ -740,16 +736,83 @@ Examining consultants can be performed in various ways. The main way is to make 
 
 # Research Design
 
-Abstractie maken van zaken zoals cultuur, bedrijfsgrootte, etc. Link met HR & internaliseren van externen, externe kennis.
+## Scope
 
-1.  Why do Belgian organizations rely on digital consultants?
+From this literature study, there are several observations. First of all, it is clear that there is a tremendous amount of theory regarding the *raison d'être* of consultants, their growth, why organizations hire them, and how they should be controlled. However, empirical research, both quantitative and qualitative, is fairly limited.
 
-2.  How do Belgian organizations determine the success of a consultancy assignment?
+The second observation is that very few research takes into account the local or cultural context. Some studies have been performed in the Anglosaxon countries. Thanks to Staffan Furusten, there has been quite some research in the Nordic countries. However, when it comes to research about consultants in Western Europe, very little to none is available. Nevertheless, a country such as Belgium deserves a specific focus for various reasons.
 
-3.  Do Belgian organizations experience principal-agent problems regarding the digital consultants?
+-   Many large organizations have their headquarters in Belgium due to a variety of reasons: the proximity to EU institutions, a chemical and pharmaceutical cluster and decades of tax advantages (such as the notional interest deduction).
 
-4.  Which control mechanisms do Belgian organizations have in place with regards to adverse selection?
+-   Belgium has a very high tax wedge, with a range of fringe benefits that are particularly interesting for consultancy firms: for example, company cars and copyright compensation. Furthermore, many people choose to become a freelance consultant, due to their after-tax income being a lot higher when using one of many tax optimization schemes available (e.g. the VVPR-bis regime, or liquidation reserves). For example, between 2015 and 2021, the number of freelancers in the region increased with a staggering 73% [@serv2023].
 
-5.  Which control mechanisms do Belgian organizations have in place with regards to moral hazard?
+-   Finally, throughout 2023 and 2024, there's been quite the ruckus due to the extensive use of consultants by ministerial cabinets in both the Flanders and Federal government. For example, the ministry of healthcare spent 43 million on consultancy in less than four years. [@healthcare2023]
+
+The third observation is that most research is about "management" consultants or "IT" consultants. In the case of the latter, there is a strong focus on ERP implementations. No research was found that related to "digital" consultants, as defined earlier. Nevertheless, there are many consultants working in digital marketing, data science, data engineering, ecommerce, etc. Their work often goes unscrutinized due to a variety of reasons.
+
+1.  These consultants often do not participate in typical IT rituals that monitor their performance.
+2.  They can easily work remotely, due to the nature of their work, and escape oversight-by-proximity.
+3.  Consultants are not subject to HR procedures, and rarely is procurement well-equipped to manage consultants in their firm.
+4.  Their hiring managers and the teams they work for are rarely digital-savvy.
+
+The focus of this paper is on the use of digital consultants (supra) working for organizations in Belgium.
+
+## Paradigm
+
+This research starts with the assumption that there is a lot of information asymmetry between consultants, and their hiring organizations and managers. Furthermore, since they are (often) both profit-maximizing forms, their goals rarely align in the short term. Consequently, these hiring organizations expose themselves to a lot of opportunism, both ex post and ex ante.
+
+By starting from this axioma, this study clearly puts itself in the camp of transaction cost economics and agency theory, and research questions and used methodology are laced with it.
+
+## Relevance
+
+## Research Questions
+
+Given the stellar rise of (digital) consultancy, recurring scandals, and implications for how companies and our democracies are run, we believe the following questions deserve the highest priority.
+
+> **RQ1: For which tasks do Belgian organizations rely on digital consultants?**
+
+With thins research question, we want to get a clear picture of the tasks that consultants are involved in. The primary framework for structuring the answer to this question is based on the classification from @turner1982.
+
+> **RQ2: Why do Belgian organizations rely on digital consultants for these tasks?**
+
+A logical followup question to RQ1 wants to uncover *why* organizations use consultants for these tasks, instead of relying on existing staff, or recruiting new personnel to execute the task. This research question does not aim to settle the big theoretical debates between the various theoretical perspectives. Instead, the (amended) classification of practical perspectives from @lacity1994 is used to structure the answer.
+
+> **RQ3: How do Belgian organizations determine the success of a consultancy assignment?**
+
+Not only are we interested in finding out why consultants are hired, but also how their work is evaluated. This is an important precursor to answering the next research questions. Without a definition of 'success', it is impossible to assess if an organization encountered agency problems with consultants.
+
+> **RQ4: Do Belgian organizations experience agency problems regarding the digital consultants?**
+
+Once we have an idea of the definition of success for working with consultants, we would like to know if agency problems stand in the way of achieving success.
+
+> **RQ5a: Which control mechanisms do Belgian organizations have in place with regards to adverse selection?**
+>
+> **RQ5b: Which control mechanisms do Belgian organizations have in place with regards to moral hazard?**
+
+The final two research questions are the meat of this paper. The answers to these questions are structured in line with the proposed control mechanisms from the literature study (supra). Answering these two questions will provide insight into the current state of governing consultants in Belgium firms and potentially broken down by relevant dimensions.
+
+All questions require an answer of descriptive nature. This paper does not have the ambition to investigate potential correlation or causality between the presence of specific control mechanisms and the success of working with consultants. To answer such questions, lots of quantitative data would need to be collected and analyzed. However, as became clear throughout this research, most organizations do not have a success criterion when working with consultants, let alone an objective criterion. Collecting data from a large-scale survey was simply not feasible.
+
+Nevertheless, these questions could provide the basis for normative research to come up with a prioritized set of control mechanisms and in which context they apply.
+
+## Methodology
+
+To answer these questions, nine structured interviews were done with a variety of decision-makers (regarding the use of digital consultancy services) working for an organization in Belgium. Most questions required a binary answer. Yet, due to the fuzzy nature of the topic, they often acted as conversation starters for followup questions.
+
+The initial goal of this research was to use the findings from these interviews in a structured survey, but as described earlier, this proved to be unfeasible. Structured interviews were the weapon of choice for the following reasons:
+
+-   Many concepts in the interview required an oral clarification, since the definition of various concepts is a topic of discussion an sich. Even the written interview preparation documents did not suffice for bringing clarity. For example: does a "consultant" include freelancers? Does it include people working for digital agencies? What if they're just a project manager?
+
+-   The respondents weren't always well-versed in the principle of corporate governance and control mechanisms. For the respondents to answer the question properly, the proposed mechanisms needed to be translated to their particular situation.
+
+-   For some tasks, the respondents didn't use consultants, but the respondents could often elaborate on the practices in other teams and departments. The same applied to the existence of certain controls.
+
+-   The relational mechanisms are often defined by seemingly small details (e.g. Do consultants wear a visitor badge? Is their lanyard of a different color? Are they invited to company events?) which are nonetheless interesting to determine how an organization relates to its consultants. Some respondents could easily sum up some of these company-specific details, which would be hard to capture in a survey.
+
+# Results
+
+# Limitations
+
+# Conclusions
 
 # References
