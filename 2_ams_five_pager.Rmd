@@ -17,15 +17,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Introduction
 
-# Relevancy (TODO)
-
-1.  Trend: external \> internal
-2.  Price of consultants
-3.  Hot topic: *when* to rely on consultants?
-4.  Productivity: is it worth it? If so, under what circumstances?
-5.  Job market & macro-economic aspects
-6.  Recent news in BE/NL
-
 # Defining "Digital Consultancy"
 
 "Digital consultancy" is defined as consultancy in (either or both) technological and organizational aspects of digital transformation. The following two sections substantiate this definition by elaborating on the two concepts that comprise this definition. First, six properties that define "consultancy" are discussed, followed by an elaboration on "digital transformation."
@@ -107,13 +98,6 @@ Mindful of these findings, this paper trades in the concept of "IT consultancy" 
 In this definition "digital transformation" refers to the expectation that the use of digital technology will lead to favorable business outcomes [@wessel2020 104-118], by redefining or supporting the value proposition of an organization and imposing changes on the work practices of its organizational members. Proceeding forward, this interpretation rolls up the dichotomy between the concepts of "digital transformation" and "IT-enabled organizational transformation" into a single term.
 
 # The Emergence of Digital Consultancy
-
-Some more papers to explore:
-
--   [@kipping2003]
--   [@kipping2012]
--   [@fincham1999 336]
--   [@mckenna2006]
 
 According to @mazzucato2023 [46] historians put the birth of modern consulting in one of the three following periods.
 
@@ -797,6 +781,8 @@ Nevertheless, these questions could provide the basis for normative research to 
 
 ## Methodology
 
+### Structured Interviews
+
 To answer these questions, nine structured interviews were done with a variety of decision-makers (regarding the use of digital consultancy services) working for an organization in Belgium. Most questions required a binary answer. Yet, due to the fuzzy nature of the topic, they often acted as conversation starters for followup questions.
 
 The initial goal of this research was to use the findings from these interviews in a structured survey, but as described earlier, this proved to be unfeasible. Structured interviews were the weapon of choice for the following reasons:
@@ -809,7 +795,97 @@ The initial goal of this research was to use the findings from these interviews 
 
 -   The relational mechanisms are often defined by seemingly small details (e.g. Do consultants wear a visitor badge? Is their lanyard of a different color? Are they invited to company events?) which are nonetheless interesting to determine how an organization relates to its consultants. Some respondents could easily sum up some of these company-specific details, which would be hard to capture in a survey.
 
+### Question Set
+
+-   Q1. (binary) Does your organization hire digital consultants?
+
+-   Q2. (binary) Do you make decisions regarding the hiring of digital consultants?
+
+-   Q3. (multiple response) What tasks do digital consultants fulfill in your organization? (1) providing information, (2) providing a solution, (3) diagnosing a problem, (4) recommendations, (5) implementation, (6) building consensus & commitment, (7) facilitate client learning, (8) improve organizational effectiveness, (open) How does your organization define the success of a consultancy engagement?
+
+-   Q5. (open) What facilitates a successful consultancy engagement? Both with the consult, the consultancy firm and within the organization.
+
+-   Q6. (multiple response): Why do you hire digital consultants? Why do you not recruit internally for these responsibilities? (1) cost reduction, (2) cost control, (3) outside view, (4) facilitating M&A's, (5) missing skills, (6) better performance, (7) knowledge transfer & diffusion, (8) political reasons.
+
+-   Q7. (binary) Has your organization ever hired digital consultants which did not have the required skill set?
+
+-   Q8. (multiple response) What mechanisms does your organization use for reducing adverse selection? (1) reputational checks, (2) procurement, (3) purchase regulation, (4) third-party assessments, (5) consulting database.
+
+-   Q9. (open) Are the controls to prevent adverse selection formal? Are they actively used? Do they work?
+
+-   Q10. (binary) Has your organization ever hired digital consultants that resulted in some kind of abuse of the organization? Examples: using company secrets and insights elsewhere; poaching employees; slacking off?
+
+-   Q11. (multiple response) What mechanisms does your organization use for reducing moral hazard? (1) first-party assessments, (2) monitoring, (3) whistleblowing, (4) incentivization, (5) third-party moderation, (6) relational mechanisms.
+
+-   Q12. (open) Are the controls to prevent moral hazard formal? Are they actively used? Do they work?
+
+## Respondents
+
+To do.
+
 # Results
+
+```{r, echo=FALSE, out.width="100%"}
+options(warn = -1)
+suppressPackageStartupMessages(require(data.table))
+suppressPackageStartupMessages(require(tidyverse))
+suppressPackageStartupMessages(require(ggplot2))
+suppressPackageStartupMessages(require(ggthemes))
+suppressPackageStartupMessages(require(ggpattern))
+suppressPackageStartupMessages(require(knitr))
+figure_n <- 0
+```
+
+## Tasks (RQ1)
+
+As is clear from the answers by the respondents, consultants are hired for a wide range of tasks. However, all respondents indicated that they have hired consultants to provide a solution for a specific problem. Furthermore, six respondents described how consultants were brought in a step earlier: to define and diagnose the problem in the first place.
+
+Also, six respondents described how consultants were used to temporarily bring new knowledge to an organization and "pollinate" in-house employees with it. Respondent 1 stated that for many assignments, client learning is explicitly mentioned in the contract as a deliverable. Respondent 7 indicated that this is rarely a formal requirement from a consultant and knowledge transfer is formally organized through formal training session. The instructors *can* be consultants, but also internal or external experts.
+
+The other tasks were selected five times or less. Task Q3e (implementation) sparked a lot of discussion as multiple respondents indicated that it's company policy to implement as much as possible by people on the payroll. For there is a lot of knowledge produced when implementing a new solution, and they want to reap that externality themselves. Furthermore, they don't want to depend or be locked in with a specific partner. Respondent 4 and 6 agreed, and stated that sometimes "an extra pair of hands" is hired, merely to assist their own people, and this is where the line between a consultant and a temporary worker blurs.
+
+Finally, with regards to Q3d, respondent 8 stated that this is an inherent task of consultants when they work for their organization for a long time. From their outside experience, they should indicate where there is room for improvement.
+
+$~$
+
+```{r, echo=FALSE}
+data <- fread('data.csv')
+legend <- fread('legend.csv')
+
+
+figure_n <- figure_n + 1
+data %>% 
+  select(all_of('ID') | starts_with("Q3")) %>%
+  pivot_longer(cols = starts_with("Q3"), names_to = 'control_mech', values_to = 'in_place') %>%
+  left_join(legend, by = join_by(control_mech == Question)) %>%
+  mutate(description = paste(control_mech, Description, sep = ': ')) %>%
+  select(all_of(c('ID', 'description', 'in_place'))) %>%
+  group_by(description) %>% 
+    summarise(cnt = sum(in_place)) %>%
+  ggplot(aes(x = reorder(description, cnt), y = cnt)) + 
+    geom_bar(stat = 'identity', color='black', fill = '#d3d3d3') +
+    coord_flip() +
+    ylab('# respondents') +
+    xlab('task') +
+    ggtitle(paste0('figure ', figure_n, ': tasks fulfilled by consultants for 8 managers at firms in Belgium')) +
+    theme_tufte() +
+    theme(
+      plot.title = element_text(size=10),
+      axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0), size = 10),
+      axis.title.x = element_text(margin = margin(t = 20, r = 0, b = 0, l = 0), size = 10),
+      plot.title.position = 'plot'
+      )
+```
+
+## Rationale (RQ2)
+
+## Success (RQ3)
+
+## Agency Problems (RQ4)
+
+## Controlling Adverse Selection (RQ5)
+
+## Controlling Moral Hazard (RQ6)
 
 # Limitations
 
