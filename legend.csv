@@ -1,9 +1,17 @@
-"Question","Description"
-"Q3a","providing information"
-"Q3b","providing a solution"
-"Q3c","diagnosing a problem"
-"Q3d","recommendations"
-"Q3e","implementation"
-"Q3f","building consensus & commitment"
-"Q3g","facilitate client learning"
-"Q3h","improve organizational effectiveness"
+Question,Description
+Q3a,providing information
+Q3b,providing a solution
+Q3c,diagnosing a problem
+Q3d,recommendations
+Q3e,implementation
+Q3f,building consensus & commitment
+Q3g,facilitate client learning
+Q3h,improve organizational effectiveness
+Q6a,cost reduction
+Q6b,cost control
+Q6c,outside view
+Q6d,facilitating M&As
+Q6e,missing skills
+Q6f,better performance
+Q6g,knowledge transfer
+Q6h,political reasons
