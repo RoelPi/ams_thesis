@@ -712,13 +712,26 @@ In that sense, incentivization and public reputation (supra) are related to one 
 
 @babin2017 [6-7] describes a single case study in which trust in an outsourcing relationship had eroded over time. Instead of parting ways, it was clear that both parties needed each other. A proactive approach in the form of a third-party facilitated workshop successfully addressed the trust problem. "When both sides feel hurt, and do not trust the other side, it can be difficult to take preliminary steps to begin to repair inter-organizational trust. An objective outsider using a formal approach proved useful to initiating the trust repair activities."
 
-#### Consultant Research
+#### First-party assessments
 
 While it is possible to prevent adverse selection through tests, this isn't necessarily the case for moral hazard. For example, @mayo1945 [111] claims that "the belief that the behavior of an individual within the factory can be predicted before employment upon the basis of a laborious and minute examination by tests of his technical and other capacities is mainly, if not wholly, mistaken. Examination of his developed social skills and his general adaptability might give better results."
 
 Examining consultants can be performed in various ways. The main way is to make cooperation contingent upon an interview, like a candidate for a job would. But researching consultants can also be done in more informal matters such as gathering information from (for example) their social media or academic work. This research "is directed at assessing the real compatibility, or 'interpersonal fit,' between partners, as well as assessing the degree to which a potential partner engages in predictable behavior." [@shapiro1992 370]
 
 # Research Design
+```{r, echo=FALSE}
+options(warn = -1)
+suppressPackageStartupMessages(require(data.table))
+suppressPackageStartupMessages(require(tidyverse))
+suppressPackageStartupMessages(require(ggplot2))
+suppressPackageStartupMessages(require(ggthemes))
+suppressPackageStartupMessages(require(ggpattern))
+suppressPackageStartupMessages(require(knitr))
+figure_n <- 0
+
+data <- fread('data.csv')
+legend <- fread('legend.csv')
+```
 
 ## Scope
 
@@ -781,6 +794,8 @@ Nevertheless, these questions could provide the basis for normative research to 
 
 ## Methodology
 
+
+
 ### Structured Interviews
 
 To answer these questions, eight structured interviews were done with a variety of decision-makers (regarding the use of digital consultancy services) working for an organization in Belgium. Most questions required a binary answer. Yet, due to the fuzzy nature of the topic, they often acted as conversation starters for followup questions.
@@ -821,22 +836,22 @@ The initial goal of this research was to use the findings from these interviews 
 
 ## Respondents
 
-To do.
+The respondents in this interview are senior and mid-level managers from 8 different organizations that have a significant presence in Belgium. Six out of eight were even founded in Belgium. The number of employees working in Belgium ranges between 250 and 3000 (numbers rounded) and excludes consultants. The headcount of each manager _includes_ long-term consultants. 
+
+All respondents were sampled from the researcher's professional network.
+
+```{r, echo=FALSE, out.width="75%", fig.align="center"}
+kable(
+  data %>% select(ID, Level, Expertise, Tenure, `Reports to`, N_below, N_Belgium), 
+booktabs=T)
+```
 
 # Results
 
-```{r, echo=FALSE}
-options(warn = -1)
-suppressPackageStartupMessages(require(data.table))
-suppressPackageStartupMessages(require(tidyverse))
-suppressPackageStartupMessages(require(ggplot2))
-suppressPackageStartupMessages(require(ggthemes))
-suppressPackageStartupMessages(require(ggpattern))
-suppressPackageStartupMessages(require(knitr))
-figure_n <- 0
-```
+Before discussing the results, there are some side notes to be mindful of.
+* Multiple respondents are not on the payroll of the company, but work as a freelancer through a management enterprise--which is typical in Belgium.
+* Some respondents had a hard time disentangling the concept of disentangling the concepts of a freelancer, temporary worker, agency and consultant, even after receiving a lengthy written briefing. The concept of a consultant was always clarified through six properties from the definition (supra). Many responses required followup questions about the nature of party involved. For example, off-shore workers _can_ be consultants, but aren't necessarily so.
 
-Consultant =/= freelancer.
 
 ## Tasks (RQ1)
 
@@ -851,10 +866,6 @@ Finally, with regards to Q3d, respondent 8 stated that this is an inherent task 
 $~$
 
 ```{r, echo=FALSE}
-data <- fread('data.csv')
-legend <- fread('legend.csv')
-
-
 figure_n <- figure_n + 1
 data %>% 
   select(all_of('ID') | starts_with("Q3")) %>%
@@ -867,6 +878,7 @@ data %>%
   ggplot(aes(x = reorder(description, cnt), y = cnt)) + 
     geom_bar(stat = 'identity', color='black', fill = '#d3d3d3') +
     coord_flip() +
+    lims(y = c(0,8)) +
     ylab('# respondents') +
     xlab('task') +
     ggtitle(paste0('figure ', figure_n, ': tasks fulfilled by consultants for 8 managers at firms in Belgium')) +
@@ -892,9 +904,6 @@ The topic of cost control and/or cost reduction sparked discussion with three re
 $~$
 
 ```{r, echo=FALSE, out.width="75%", fig.align="center"}
-data <- fread('data.csv')
-legend <- fread('legend.csv')
-
 figure_n <- figure_n + 1
 data %>% 
   select(all_of('ID') | starts_with("Q6")) %>%
@@ -907,6 +916,7 @@ data %>%
   ggplot(aes(x = reorder(description, cnt), y = cnt)) + 
     geom_bar(stat = 'identity', color='black', fill = '#d3d3d3') +
     coord_flip() +
+    lims(y = c(0,8)) +
     ylab('# respondents') +
     xlab('task') +
     ggtitle(paste0('figure ', figure_n, ': reasons for using consultants according to 8 managers at firms in Belgium')) +
@@ -935,9 +945,196 @@ The second is completely subjective, and hard to rationalize. This hard-to-defin
 
 ## Agency Problems (RQ4)
 
+### Adverse selection
+
+Only one respondent claimed to have never encountered adverse selection with a consultants. That means that seven respondents have ever hired a consultant who did not have the adequate skill set to complete one or more tasks. Respondent 1 described how the mismatch can be related to both hard skills or cultural fit. 
+
+Respondent 2 and 3 described how many firms overpromise on the skills of their consultants. Respondent 6 described how adverse selection is rampant with near-shore implementation consultants, but that the good consultants definitely make up for the bad consultants. Respondent 7 made an interesting remark: "I'm not sure they do it intentionally. Sometimes they seem to overestimate their own skills." 
+
+### Moral Hazard
+
+Six respondents described how they have encountered types of moral hazard when working with consultants.
+
+* Lack of passion. Respondent 1 elaborated on consultants not taking the time to understand the context, and instead focusing to hard on the process. The result is that they don't get traction, don't get heard, become demotivated and quickly exit.
+* Training a consultant. Respondent 4 described how the organization often pays the dues for training a junior consultant, and it takes quite a lot of time to realize that this is happening. This is closely related to adverse selection.
+* Slacking off: Respondent 6 described how consultants have slacked off before. An important enabler for this behavior is working remotely.
+
+No respondent described a conflict of interest or unethical behavior.
+
+$~$
+
+```{r, echo=FALSE, out.width="75%", fig.align="center"}
+figure_n <- figure_n + 1
+data %>% 
+  select(all_of('ID') | starts_with("Q7") | starts_with("Q10")) %>%
+  pivot_longer(cols = starts_with("Q7") | starts_with("Q10"), names_to = 'answer', values_to = 'count') %>%
+  left_join(legend, by = join_by(answer == Question)) %>%
+  mutate(description = paste(answer, Description, sep = ': ')) %>%
+  select(all_of(c('ID', 'description', 'count'))) %>%
+  group_by(description) %>% 
+    summarise(cnt = sum(count)) %>%
+  ggplot(aes(x = reorder(description, -cnt), y = cnt)) + 
+    geom_bar(stat = 'identity', color='black', fill = '#d3d3d3') +
+    coord_flip() +
+    lims(y = c(0,8)) +
+    ylab('# respondents') +
+    xlab('task') +
+    ggtitle(paste0('figure ', figure_n, ': experience with agency problems according to 8 managers at firms in Belgium')) +
+    theme_tufte() +
+    theme(
+      plot.title = element_text(size=10),
+      axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0), size = 10),
+      axis.title.x = element_text(margin = margin(t = 20, r = 0, b = 0, l = 0), size = 10),
+      plot.title.position = 'plot'
+      )
+
+```
+
 ## Controlling Adverse Selection (RQ5)
 
+From the respondents' answers, we can confidently state that most organizations have at least some purchase regulation, or involvement from the procurement department. Most repondents also indicated that reputation played some kind of role for the selection of consultancy firms and even individual consultants.
+
+### Reputation
+
+Respondent 1 described how there are formal reputational checks in place for consultants, and that this is outsourced to the partnering organization that recruits freelance consultants. When working directly with consultancy firms, reputational checks are done in-house.
+
+According to respondent 2, the procurement department at their organization values reputation a lot. Any consultancy firm that wants to bring in consultants us subjected to reputation checks. For individual consultants, this is rather done informally. Respondents 4, 6 and 7agree, and describe that internal reputation is very important for consultancy firms to end up on the short list to which the RFP is sent.
+
+### Procurement
+
+Respondent 1 described that there is no obligation to involve the procurement department. However, for contracts over 250.000 euro, they can voluntarily order contractual reviews & advice with the procurement department.
+
+The organization of respondent 2 makes a distinction between consultants that are hired for project, and those for roles for which they can't find the required profile. Procurement is mostly involved for project-based consultants, while HR is responsible for role-based consultants. The organization also works with a managed service provider (MSP), for which procurement sets the expected fees and preferred suppliers. Based on input from the manager, the MSP will look for consultants (both freelance and from consultancy firms). Individual consultants have to do an intake with both HR and the hiring manager.
+
+Respondents 5 and 7 explained that procurement is involved for the legal and financial side of a consultancy engagement. They also have a list of preferred suppliers.
+
+For large consultancy firms, the organization of respondent 6 has a preferred supplier list. Consultants with a niche expertise and freelance consultants need to go through a managed service provider.
+
+### Purchase regulation
+
+Respondent 1, 7 and 8 explained the various price forks for consultancy contracts. Depending on the order of magnitude of the contract, other procedures applied. While purchase regulation is mostly related to the chain of approval, and aren't very likely to prevent adverse selection, there is also some in-house expertise with regards to acceptable fees and compensation with respondent 1.
+
+The consultancy budgets in the organization of respondent 2 are assigned to each director. When a mid-level manager needs consultants, the director has to sign off. This is more about controlling the manager and is unlikely to catch adverse selection.
+
+Respondent 6 described how consultancy firms need the required insurance clauses and should have done the necessary business process risk assessments. While this could be a proxy for the quality of a consultancy firm, this is unlikely to catch poor individual consultants.
+
+### Third-party assessments
+
+Respondent 1 described how consultants that are expected to lead people are subjected to a third-party assessment that polls for cultural fit and managerial skills.
+
+### Consulting database
+
+The organization of respondent 3 does not have controls in place to prevent adverse selection. However, they describe having a personal list of preferred consultants and firms. Other managers also have such a list. Respondent 8 agreed.
+
+
+```{r, echo=FALSE, out.width="75%", fig.align="center"}
+figure_n <- figure_n + 1
+data %>% 
+  select(all_of('ID') | starts_with("Q8")) %>%
+  pivot_longer(cols = starts_with("Q8"), names_to = 'control_mech', values_to = 'in_place') %>%
+  filter(in_place != 0) %>%
+  mutate(in_place = as.character(in_place)) %>%
+  mutate(in_place = str_replace(in_place, '1', 'informal')) %>%
+  mutate(in_place = str_replace(in_place, '2', 'formal')) %>%
+  mutate(in_place = fct_relevel(in_place, 'informal', 'formal')) %>%
+  left_join(legend, by = join_by(control_mech == Question)) %>%
+  mutate(description = paste(control_mech, Description, sep = ': ')) %>%
+  select(all_of(c('ID', 'description', 'in_place'))) %>%
+  group_by(description, in_place) %>% 
+    summarise(cnt = n()) %>%
+  ggplot(aes(x = reorder(description, cnt), y = cnt, fill = in_place)) + 
+    geom_bar(stat = 'identity', color='black') +
+    scale_fill_manual(values = c('#d3d3d3', '#000000'), name = '') +
+    coord_flip() +
+    lims(y = c(0,8)) +
+    ylab('# respondents') +
+    xlab('task') +
+    ggtitle(paste0('figure ', figure_n, ': mechanisms for controlling adverse selection with consultants according to 8 managers at firms in Belgium')) +
+    theme_tufte() +
+    theme(
+      plot.title = element_text(size=10),
+      axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0), size = 10),
+      axis.title.x = element_text(margin = margin(t = 20, r = 0, b = 0, l = 0), size = 10),
+      plot.title.position = 'plot',
+      legend.position = 'bottom'
+      )
+
+```
+
 ## Controlling Moral Hazard (RQ6)
+
+### First-party assessments
+
+Respondent 1 described that for most consultants, there is a standard selection procedure, but excluding the HR-component. 
+
+For respondent 2, interviews are extremely important and are used to assess if a consultant will fit in at the company. They also stated not to be surprised if managers have hired consultants without having any knowledge if that consultant has the capabilities to execute the task, or will fit in with the team. Respondent 6 agrees. Due to the many mismatched with on-shore and off-shore consultants, interviews are crucial.
+
+### Monitoring
+
+According to respondent 1, consultants are monitored in the same way as consultants. There are recurrent 1-on-1s and recurring status updates However, a consultant's goals are defined more clearly, with the given task in mind. For this reason, they are evaluated much more stringently. Nevertheless, the respondent concurred that a lot depends on the hiring manager. Respondent 3, 4 and 5 agree and have recurrent status updates with their consultants.
+
+### Whistleblowing
+
+Respondent 2 indicated that they expect employees to reports consultants that underperform, and occasionally polls for opinions.
+
+### Incentivization
+
+Respondent 1 argued that the continuation of the contract should be an incentive an sich, although formal incentivization has been used occasionally in the past. At the company of respondent 6, contractual clauses exist that reward bonuses or refunds. However, the respondent doubted that this has any impact on the individual consultants. Respondent 8 confirms that consultancy firms can charge 90% of their price and an additional 10% if they meet deadlines or targets. The organization of respondent 4 allows consultancy firms to make a case for their website, in exchange for better contract terms.
+
+### Third-party moderation
+
+At the company of respondent 1, the management of projects and the actual execution of a project are handed to two different parties for large key projects. Respondent 7 has worked with consultants from multiple firms on a single project and assumes that they would call each other out when moral hazard occurs. Respondents 4, 6 and 8 described that a third-party has been involved to perform code audits, or to deescalate a projects when a rift between the organization and the consultancy firm has emerged.
+
+### Relational
+
+Within the team of respondent 1, consultants are treated in the same way as payroll workers. Nevertheless, a lot depends on the hiring manager. Respondent 5 agrees.
+
+For respondent 2 this is an active (yet informal) policy: they expect consultants to integrate neatly with the team, and are invited to the same team building activities as staff. They believe that this is both in the best interest of the company and of the individual consultant. This is very different from the formal company policy, that wants to create a distance between the consultants and the company, for example by giving their badge lanyards a different color. Consultants are also not invited to company events, unless they pay for their entrance ticket (which is 100 euro). Respondent 6 concurs: their senior management are also wary of consultants and don't expect managers to invest time in them.
+
+At the company of respondent 3 the same rules apply: consultants are identified by a different lanyard, and are not invited to company meetings. They are however welcome at team meetings. Respondent 4 agrees: consultants can attend team meetings, but it would be extremely frowned upon if consultants bill that time.
+
+$~$
+
+```{r, echo=FALSE, out.width="75%", fig.align="center"}
+figure_n <- figure_n + 1
+suppressMessages(data %>% 
+  select(all_of('ID') | starts_with("Q11")) %>%
+  pivot_longer(cols = starts_with("Q11"), names_to = 'control_mech', values_to = 'in_place') %>%
+  filter(in_place != 0) %>%
+  mutate(in_place = as.character(in_place)) %>%
+  mutate(in_place = str_replace(in_place, '1', 'informal')) %>%
+  mutate(in_place = str_replace(in_place, '2', 'formal')) %>%
+  mutate(in_place = fct_relevel(in_place, 'informal', 'formal')) %>%
+  left_join(legend, by = join_by(control_mech == Question)) %>%
+  mutate(description = as.factor(paste(control_mech, Description, sep = ': '))) %>%
+  mutate(description = fct_rev(fct_relevel(description, 
+                                   'Q11f: relational', 
+                                   'Q11a: first-party assessments', 
+                                   'Q11e: third-party moderation', 
+                                   'Q11b: monitoring',
+                                   'Q11d: incentivization', 
+                                   'Q11c: whistleblowing'
+                                   ))) %>%
+  select(all_of(c('ID', 'description', 'in_place'))) %>%
+  group_by(description, in_place) %>% 
+    summarise(cnt = n()) %>%
+  ggplot(aes(x = description, y = cnt)) + 
+    geom_bar(stat = 'identity', color='black', aes(fill = in_place)) +
+    scale_fill_manual(values = c('#d3d3d3', '#000000'), name = '') +
+    coord_flip() +
+    lims(y = c(0,8)) +
+    ylab('# respondents') +
+    xlab('task') +
+    ggtitle(paste0('figure ', figure_n, ': mechanisms for controlling moral hazard with consultants according to 8 managers at firms in Belgium')) +
+    theme_tufte() +
+    theme(
+      plot.title = element_text(size=10),
+      axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0), size = 10),
+      axis.title.x = element_text(margin = margin(t = 20, r = 0, b = 0, l = 0), size = 10),
+      plot.title.position = 'plot'
+      ))
+
+```
 
 # Limitations
 
