@@ -127,6 +127,13 @@ Concluding this section, the following three phases can be identified: (1) IT co
 
 # Why digital consultancy: Practical perspectives
 
+The question of "why" encompasses two relevant questions:
+
+1.  What are the tasks of consultants?
+2.  What are the reasons for choosing consultants over internal employees?
+
+## Tasks of consultants
+
 An end-to-end consultancy assignment involves many steps. The following overview by @turner1982 involves eight steps and demonstrates how consultancy is external, contingent, relational and involves change.
 
 1.  Provide requested information.
@@ -150,11 +157,9 @@ If we go from consultancy, in general, to digital consultancy, it is essential t
 -   *Systems integration*: In many cases, introducing a new technology requires that it needs to be integrated with existing systems and users need to be onboarded. This type of IT consultancy usually requires coding skills, hands-on design and implementation expertise
 -   *Business support services*: Finally, once the implementation is completed, it can take a while before the solution is entirely assimilated. IT consultants can provide complementary IT services such as support and maintenance until the technology is entirely embedded in the organization.
 
-See also [@bessant1995].
+With regards to the innovation process, @bessant1995 [101-102] describes four ways that consultants can play a role: (1) direct transfer of knowledge through experts, (2) sharing experiences from other organizations, (3) a single point of contact for accessing a wide range of experts and (4) defining the particular needs of a client.
 
-In their 1994 study, for which they interviewed over 100 decision, @lacity1994 [10-17] group expectations with regards to outsourcing into four categories: financial, business, technical and political expectations.
-
-@wood1996 [656] discovered that "consultancies tend to reinforce the strategic strengths of experienced companies rather than compensate for the weaknesses of the inexperienced."
+## Choosing consultants over employees
 
 The following sections follow an amended classification by @lacity1994 and rely on research both in (IT) outsourcing and consulting, since many conclusions apply to both. In these situations, it is referred to as working with a "third party." Nevertheless, distinctions are mentioned wherever extrapolating conclusions from the former to the latter is inadequate.
 
@@ -192,7 +197,7 @@ Oftentimes, "[m]ergers and acquisitions create many nightmares for IT managers, 
 
 ### Hiring Skilled Individuals
 
-@lacity1994 [12] describes that in many organizations, there is dissatisfaction with in-house IT departments delivering systems late and over budget. In that context, involving third parties is seen as a way to improve technical service. @sturdy1998 [233] agrees and states that managers rely on consultants when their departments are "lacking the skills for a project" or they want to have them "compete with each other."
+@lacity1994 [12] describes that in many organizations, there is dissatisfaction with in-house IT departments delivering systems late and over budget. In that context, involving third parties is seen as a way to improve technical service. @sturdy1998 [233] agrees and states that managers rely on consultants when their departments are "lacking the skills for a project" or they want to have them "compete with each other." Nevertheless, @wood1996 [656] discovered that "consultancies tend to reinforce the strategic strengths of experienced companies rather than compensate for the weaknesses of the inexperienced."
 
 @aubert1996 [52] found that as specialized firms have digital services as their core business, which is a source of increased efficiency and productivity. E.g. specialized firms can attract highly skilled professionals which are in short supply in the market as a whole. @mazzucato2023 [28] describes how the British National Health Service (NHS) heavily relied on data, digital and project management consultants, because these "were in short supply in the civil service."
 
@@ -200,23 +205,17 @@ The sought-after skills are not always technical in nature. More often, it's abo
 
 @ketler1993 [452] offers another interesting perspective: as the scope of digital services expand, it is difficult or unnecessary for small firms to have a (full-time) expert in each area. Specialized third-party firms, on the other hand, offer a variety of skills and technical knowledge to their clients.
 
-### Knowledge Transfer & Diffusion (TODO)
+### Knowledge Transfer & Diffusion
 
-In @werr2002 [53], a manager describes how they are often caught up in day-to-day activities, and consultants can help them take a loot at the "big picture", from a strategic perspective: they make sense of the manager's organization in relation to its environment, such as its competitors.
+In @werr2002 [53-54], a manager describes how they are often caught up in day-to-day activities, and consultants can help them take a loot at the "big picture", from a strategic perspective: they make sense of the manager's organization in relation to its environment, such as its competitors. The research describes it as follows: "Managers thus viewed consultants as a way of bypassing the knowledge filters created by the organizational hierarchy, as well as the effects of organizational politics, which became salient in times of reorganization and change. Management consultants were seen as a way for managers to gain a 'true' picture of what was going on in their organizations."
 
-Return to @turner1982.
+In thas sense, @furusten2009 [269] describes a consultant as a "carrier": "Carriers of experience, expertise, knowledge, information and data about leadership, management, organization, top-down strategies and holistic perspectives."
 
-Something about knowledge transfer here [@sturdy2009].
+However, in @sturdy2009 [633], two notions of knowledge transfer are proposed. In the static notion, knowledge is hard to transfer and diffuse because of its stickiness at the source. In the action-oriented view, knowledge is made by the context (the boundaries) and constructed through interaction or practice. These boundaries can be of physical, cultural and political nature.
 
-Nevertheless, there are constraints to knowledge transfer. According to @cohen1990 [128-129], "the ability to evaluate and utilize outside knowledge is largely a function of the level of prior related knowledge [such as] basic skills, or even a shared language but may also include knowledge of the most recent scientific or technological developments in a given field. [...] These abilities collectively constitute what we call a firm's *absorptive capacity*."
+@cohen1990 [128-129] agrees with the latter notion: "the ability to evaluate and utilize outside knowledge is largely a function of the level of prior related knowledge [such as] basic skills, or even a shared language but may also include knowledge of the most recent scientific or technological developments in a given field. [...] These abilities collectively constitute what we call a firm's *absorptive capacity*."
 
-@fincham2002 [84] made an interesting observation: organization-specific knowledge and expert knowledge are very complexly related, and knowledge transfer can only happen into a "well-prepared ground." @nooteboom2000 [922] describes this from a transaction cost economics perspective: "[O]ne needs to make investments that are 'specific' to the relation, [...] and a certain durability of the relation is required to set up and recoup the investment." Especially tacit knowledge (impossible to codify or document) suffers from this problem, as it can only be transferred through direct interaction and with hands-on participation by the intended recipient.
-
-"Managers thus viewed consultants as a way of bypassing the knowledge filters created by the organizational hierarchy, as well as the effects of organizational politicals, which became salient in times of reorganization and change. Management consultants were seen as a way for managers to gain a 'true' picture of what was going on in their organizations." [@werr2002 54]
-
-"House consultants also had accumulated a unique understanding of the client company's historical legacies, having a much longer time perspective than individual managers who frequently changed jobs. The consultants were thus described as the 'organizational memory' of the organization."
-
-One of the possible roles of (management) consultants described by @furusten2009 [269] is that of the "carrier": "Carriers of experience, expertise, knowledge, information and data about leadership, management, organization, top-down strategies and holistic perspectives."
+@fincham2002 [84] made an interesting observation: organization-specific knowledge and expert knowledge are very complexly related, and knowledge transfer can only happen into a "well-prepared ground." @nooteboom2000 [922] describes this from a transaction cost economics (infra) perspective: "[O]ne needs to make investments that are 'specific' to the relation, [...] and a certain durability of the relation is required to set up and recoup the investment." Especially tacit knowledge (impossible to codify or document) suffers from this problem, as it can only be transferred through direct interaction and with hands-on participation by the intended recipient.
 
 @brunson1993 [41-42] is very critical of learning and knowledge transfer through consultants: "There may even be cynics in the organization who have experienced so many reforms that they have become sceptical about the very idea of reform itself as a means of solving problems or improving performance. So reforms are facilited not by learning, but by forgetfulness, by mechanisms that cause the organization to forget previous reforms or at least those of a similar content." Three mechanisms promote forgetfulness:
 
@@ -719,6 +718,7 @@ While it is possible to prevent adverse selection through tests, this isn't nece
 Examining consultants can be performed in various ways. The main way is to make cooperation contingent upon an interview, like a candidate for a job would. But researching consultants can also be done in more informal matters such as gathering information from (for example) their social media or academic work. This research "is directed at assessing the real compatibility, or 'interpersonal fit,' between partners, as well as assessing the degree to which a potential partner engages in predictable behavior." [@shapiro1992 370]
 
 # Research Design
+
 ```{r, echo=FALSE}
 options(warn = -1)
 suppressPackageStartupMessages(require(data.table))
@@ -794,8 +794,6 @@ Nevertheless, these questions could provide the basis for normative research to 
 
 ## Methodology
 
-
-
 ### Structured Interviews
 
 To answer these questions, eight structured interviews were done with a variety of decision-makers (regarding the use of digital consultancy services) working for an organization in Belgium. Most questions required a binary answer. Yet, due to the fuzzy nature of the topic, they often acted as conversation starters for followup questions.
@@ -836,7 +834,7 @@ The initial goal of this research was to use the findings from these interviews 
 
 ## Respondents
 
-The respondents in this interview are senior and mid-level managers from 8 different organizations that have a significant presence in Belgium. Six out of eight were even founded in Belgium. The number of employees working in Belgium ranges between 250 and 3000 (numbers rounded) and excludes consultants. The headcount of each manager _includes_ long-term consultants. 
+The respondents in this interview are senior and mid-level managers from 8 different organizations that have a significant presence in Belgium. Six out of eight were even founded in Belgium. The number of employees working in Belgium ranges between 250 and 3000 (numbers rounded) and excludes consultants. The headcount of each manager *includes* long-term consultants.
 
 All respondents were sampled from the researcher's professional network.
 
@@ -848,10 +846,7 @@ booktabs=T)
 
 # Results
 
-Before discussing the results, there are some side notes to be mindful of.
-* Multiple respondents are not on the payroll of the company, but work as a freelancer through a management enterprise--which is typical in Belgium.
-* Some respondents had a hard time disentangling the concept of disentangling the concepts of a freelancer, temporary worker, agency and consultant, even after receiving a lengthy written briefing. The concept of a consultant was always clarified through six properties from the definition (supra). Many responses required followup questions about the nature of party involved. For example, off-shore workers _can_ be consultants, but aren't necessarily so.
-
+Before discussing the results, there are some side notes to be mindful of. \* Multiple respondents are not on the payroll of the company, but work as a freelancer through a management enterprise--which is typical in Belgium. \* Some respondents had a hard time disentangling the concept of disentangling the concepts of a freelancer, temporary worker, agency and consultant, even after receiving a lengthy written briefing. The concept of a consultant was always clarified through six properties from the definition (supra). Many responses required followup questions about the nature of party involved. For example, off-shore workers *can* be consultants, but aren't necessarily so.
 
 ## Tasks (RQ1)
 
@@ -947,17 +942,17 @@ The second is completely subjective, and hard to rationalize. This hard-to-defin
 
 ### Adverse selection
 
-Only one respondent claimed to have never encountered adverse selection with a consultants. That means that seven respondents have ever hired a consultant who did not have the adequate skill set to complete one or more tasks. Respondent 1 described how the mismatch can be related to both hard skills or cultural fit. 
+Only one respondent claimed to have never encountered adverse selection with a consultants. That means that seven respondents have ever hired a consultant who did not have the adequate skill set to complete one or more tasks. Respondent 1 described how the mismatch can be related to both hard skills or cultural fit.
 
-Respondent 2 and 3 described how many firms overpromise on the skills of their consultants. Respondent 6 described how adverse selection is rampant with near-shore implementation consultants, but that the good consultants definitely make up for the bad consultants. Respondent 7 made an interesting remark: "I'm not sure they do it intentionally. Sometimes they seem to overestimate their own skills." 
+Respondent 2 and 3 described how many firms overpromise on the skills of their consultants. Respondent 6 described how adverse selection is rampant with near-shore implementation consultants, but that the good consultants definitely make up for the bad consultants. Respondent 7 made an interesting remark: "I'm not sure they do it intentionally. Sometimes they seem to overestimate their own skills."
 
 ### Moral Hazard
 
 Six respondents described how they have encountered types of moral hazard when working with consultants.
 
-* Lack of passion. Respondent 1 elaborated on consultants not taking the time to understand the context, and instead focusing to hard on the process. The result is that they don't get traction, don't get heard, become demotivated and quickly exit.
-* Training a consultant. Respondent 4 described how the organization often pays the dues for training a junior consultant, and it takes quite a lot of time to realize that this is happening. This is closely related to adverse selection.
-* Slacking off: Respondent 6 described how consultants have slacked off before. An important enabler for this behavior is working remotely.
+-   Lack of passion. Respondent 1 elaborated on consultants not taking the time to understand the context, and instead focusing to hard on the process. The result is that they don't get traction, don't get heard, become demotivated and quickly exit.
+-   Training a consultant. Respondent 4 described how the organization often pays the dues for training a junior consultant, and it takes quite a lot of time to realize that this is happening. This is closely related to adverse selection.
+-   Slacking off: Respondent 6 described how consultants have slacked off before. An important enabler for this behavior is working remotely.
 
 No respondent described a conflict of interest or unethical behavior.
 
@@ -1026,7 +1021,6 @@ Respondent 1 described how consultants that are expected to lead people are subj
 
 The organization of respondent 3 does not have controls in place to prevent adverse selection. However, they describe having a personal list of preferred consultants and firms. Other managers also have such a list. Respondent 8 agreed.
 
-
 ```{r, echo=FALSE, out.width="75%", fig.align="center"}
 figure_n <- figure_n + 1
 data %>% 
@@ -1065,7 +1059,7 @@ data %>%
 
 ### First-party assessments
 
-Respondent 1 described that for most consultants, there is a standard selection procedure, but excluding the HR-component. 
+Respondent 1 described that for most consultants, there is a standard selection procedure, but excluding the HR-component.
 
 For respondent 2, interviews are extremely important and are used to assess if a consultant will fit in at the company. They also stated not to be surprised if managers have hired consultants without having any knowledge if that consultant has the capabilities to execute the task, or will fit in with the team. Respondent 6 agrees. Due to the many mismatched with on-shore and off-shore consultants, interviews are crucial.
 
