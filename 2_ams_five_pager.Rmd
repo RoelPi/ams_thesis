@@ -1,5 +1,5 @@
 ---
-title: (working title) Control mechanisms for working with consultants
+title: "Outsiders at team buildings: \r\n controlling opportunistic behavior by digital consultants in Belgium"
 biblio-style: apalike
 csl: apa.csl
 blinded: 0
@@ -9,15 +9,14 @@ authors:
   affiliation: Antwerp Management School
 bibliography: references.bib
 output: rticles::asa_article
+abstract: "The first two decades of the 21st century have seen a stellar rise of consultancy in all aspects of digital transformation. There is a multitude of theoretical and practical perspectives on the rationale for working with digital consultants. Whatever the reason, agency theory states that in the relationship between consultants and their clients, the latter expose themselves to risks regarding adverse selection and moral hazard. In this study, we interviewed eight managers to explore agency problems in Belgium and the common control mechanisms to manage them. We find that most managers have experienced agency problems, that they have some control mechanisms in place, but that they are mostly informal."
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Introduction
-
-# Defining "Digital Consultancy"
+# Defining "digital consultancy"
 
 "Digital consultancy" is defined as consultancy in (either or both) technological and organizational aspects of digital transformation. The following two sections substantiate this definition by elaborating on the two concepts that comprise this definition. First, six properties that define "consultancy" are discussed, followed by an elaboration on "digital transformation."
 
@@ -79,9 +78,18 @@ Two-sidedness is what sets external consultants apart from internal consultants,
 
 ### Diverse
 
-Within this group, however, we can identify consultancy types: strategy consulting, tax consulting, HR consulting, risk & regulatory consulting, etc. However, @armbruster2006 [71-72] argues that the boundaries between consultancy service types are blurred. A single project often requires multiple types of services, but the distinction is often artificial. Especially the boundary between strategy and IT consultancy is opaque due to the fact that the big accounting & strategy firms entered the IT consultancy market to conduct all-encompassing projects where strategy and IT meet.
+Within this group, however, we can identify consultancy expertises: strategy consulting, tax consulting, HR consulting, risk & regulatory consulting, etc. However, @armbruster2006 [71-72] argues that the boundaries between consultancy service types are blurred. A single project often requires multiple types of services, but the distinction is often artificial. Especially the boundary between strategy and IT consultancy is opaque due to the fact that the big accounting & strategy firms entered the IT consultancy market to conduct all-encompassing projects where strategy and IT meet.
 
-## Digital Transformation
+| Property   | Description                                                                                                                                        |
+|-------------|-----------------------------------------------------------|
+| External   | A consultant is external to the client they work for. They are not in an employer-employee relationship.                                           |
+| Change     | Working as a consultant for a client implies that they introduce some kind of change into the organization.                                        |
+| Contingent | A consultant has to adapt to the context of the assignment: the sector, the organization, the culture, etc.                                        |
+| Relational | The outcome of a consultancy assignment often depends heavily on the interaction between the client and the consultant.                            |
+| Two-sided  | Next to the pressures based from the client, a consultant face internal pressures from their employers in terms of optimized resource utilization. |
+| Diverse    | Consultants have different expertises and can work in different sectors.                                                                           |
+
+## Digital transformation
 
 @bloomfield1995 [28] describes IT consultants as intermediaries: "they interpose themselves between IT and clients, or between IT suppliers and clients, in effect seeking to speak for technology. Put another way, they seek to portray them selves as obligatory passage points. [...] the problem of choosing a particular functional system is translated into a problem of choosing the best expert advice."
 
@@ -97,7 +105,7 @@ Mindful of these findings, this paper trades in the concept of "IT consultancy" 
 
 In this definition "digital transformation" refers to the expectation that the use of digital technology will lead to favorable business outcomes [@wessel2020 104-118], by redefining or supporting the value proposition of an organization and imposing changes on the work practices of its organizational members. Proceeding forward, this interpretation rolls up the dichotomy between the concepts of "digital transformation" and "IT-enabled organizational transformation" into a single term.
 
-# The Emergence of Digital Consultancy
+# The emergence of digital consultancy
 
 According to @mazzucato2023 [46] historians put the birth of modern consulting in one of the three following periods.
 
@@ -113,7 +121,7 @@ However, it was the deregulation of the 1980s that acted as a catalysator for th
 
 Besides private companies, consultancy firms also found their way into the government. @ylonen2019 [242] use the term 'consultocracy'; the "phenomenon in which often short-term, outsourced expert knowledge production is increasingly replacing the long-term work of civil servants and even politicians. This results in an increased power of consultants over politics, public governance, and public sector practices. The calculations in @saintmartin2017, suggest that smaller public sectors consume more management consulting services than in countries where the state plays a larger role in the economy and society.
 
-On a micro-scale, laissez-faire polices, deregulation and globalization increased "insecurity regarding the basic assumptions, discourse and practices used in describing reality." [@pollner1991 370] While markets are supposed to be the guiding signal, they "do not speak very clearly nor do they provide elite managers with clear guidance regarding the directions markets are heading in specific contexts." Seen in that perspective, consulting is the profession that "interprets markets for you". [@leicht2006 37]
+On a micro-scale, @pollner1991 [370] argues that laissez-faire policies, deregulation and globalization increased "insecurity regarding the basic assumptions, discourse and practices used in describing reality." While markets are supposed to be the guiding signal, they "do not speak very clearly nor do they provide elite managers with clear guidance regarding the directions markets are heading in specific contexts." Seen in that perspective, consulting is the profession that "interprets markets for you". [@leicht2006 37]
 
 In that same period, managers began to employ IT to align internal processes with their organizations' business objectives, clearly pointing to an alignment of IT and strategy. However, it were audit and accounting firms that succeeded in occupying the space. First, an audit allowed it to enter a client's business, and when they detected aspects of their systems that could be improved, there would be an opportunity for selling IT services to fix the client's problems. [@mazzucato2023 73] Next, they had accounting-related experience with large-scale data processing [@armbruster2006 121]. Third, auditing requirements had consultants validate the functioning of the software, providing them the necessary experience. Fourth, they were more used to a hands-on role while management consultancy firms "are constantly exposed over their perceived reluctance to be involved in the implementation of their recommendations." [@czerniawska1999 168] Finally, due to antitrust regulation in mature markets such as the UK and the US, big IT firms were initially barred from offering consultancy services. However, a more laissez-faire approach to antitrust by the American government, allowed large IT providers such as IBM, HP and Siemens to also expanded into consulting, as this market offered higher margins than their original hardware and software businesses. Compared to audit and accounting firms, however, they were rather late to the table.
 
@@ -163,15 +171,15 @@ With regards to the innovation process, @bessant1995 [101-102] describes four wa
 
 The following sections follow an amended classification by @lacity1994 and rely on research both in (IT) outsourcing and consulting, since many conclusions apply to both. In these situations, it is referred to as working with a "third party." Nevertheless, distinctions are mentioned wherever extrapolating conclusions from the former to the latter is inadequate.
 
-## Financial Expectations
+### Financial Expectations
 
 Financial expectations regarding digital consultancy and IT outsourcing are twofold: reducing costs and improving financial control.
 
-### Cost Reduction
+#### Cost Reduction
 
 The expectation of cost reduction comes from the ability to save on human resources, the ability to eliminate them in times of recession, and not having to pay dues when a new technology needs to be explored and adopted. @lacity1994 [10] found that managers expect that "unit costs are less expensive because of mass production efficiencies and labor specialization." The former applies to outsourcing, but the latter apply to both. For IT outsourcing, it also involves the elimination of large fixed costs during recession and transferring adjustment cost to a third-party [@aubert1996 52].
 
-### Cost Control
+#### Cost Control
 
 The second financial expectation is not necessary about reducing costs, but about controlling them. @sturdy1998 [233] describes how "executives wanting to exercise control over the management and investment of IT, but lacking the expertise." @lacity1994 [10] states that "[i]n most organizations [...] IT costs are controlled through general allocation systems that motivate users to excessively demand and consume resources." No surprise that involving third parties is seen "as a way to contain costs because vendors implement cost controls that more directly tie usage to costs. In addition, users can no longer call their favorite analysts to request frivolous changes but instead must submit requests through a formal cost control process."
 
@@ -179,23 +187,23 @@ The second financial expectation is not necessary about reducing costs, but abou
 
 Finally, @lacity1994 describes how some managers "wanted to use outsourcing to restructure their IT budgets from lumbering capital budgets to more flexible operating budgets."
 
-## Business Expectations
+### Business Expectations
 
-### Developing Strategy
+#### Outside View
 
-See @sturdy1998
+There is a notion that consultants "can obtain knowledge from a variety of sources and, potentially, apply experiences gained in other industrial sectors or parts of the world." [@armbruster2006 3] Marvin Bower, one of the key figures in McKinsey's history agrees, but adds that as outsiders, consultants ensure independence, impartiality and objectivity. [@bower1979 123]
 
-### Focusing on Core Activities
+#### Focusing on Core Activities
 
 @furusten2009 [272-273] argues that consultants are often perceived as "relatively stable by [...] employees, stakeholders and other external counterparts", this "builds confidence for the organization. The more stable an organization is experienced as being, the greater its ability to concentrate on its core activities."
 
-### Facilitating Mergers & Acquisitions
+#### Facilitating Mergers & Acquisitions
 
 Oftentimes, "[m]ergers and acquisitions create many nightmares for IT managers, who are required to absorb acquired companies into existing systems." [@lacity1994 12] Although managers expect that involving third parties for merging IT functions could solve technical incompatibilities and absorb additional employees, the authors found that this was rarely successful.
 
-## Technical Expectations
+### Technical Expectations
 
-### Hiring Skilled Individuals
+#### Hiring Skilled Individuals
 
 @lacity1994 [12] describes that in many organizations, there is dissatisfaction with in-house IT departments delivering systems late and over budget. In that context, involving third parties is seen as a way to improve technical service. @sturdy1998 [233] agrees and states that managers rely on consultants when their departments are "lacking the skills for a project" or they want to have them "compete with each other." Nevertheless, @wood1996 [656] discovered that "consultancies tend to reinforce the strategic strengths of experienced companies rather than compensate for the weaknesses of the inexperienced."
 
@@ -205,7 +213,7 @@ The sought-after skills are not always technical in nature. More often, it's abo
 
 @ketler1993 [452] offers another interesting perspective: as the scope of digital services expand, it is difficult or unnecessary for small firms to have a (full-time) expert in each area. Specialized third-party firms, on the other hand, offer a variety of skills and technical knowledge to their clients.
 
-### Knowledge Transfer & Diffusion
+#### Knowledge Transfer & Diffusion
 
 In @werr2002 [53-54], a manager describes how they are often caught up in day-to-day activities, and consultants can help them take a loot at the "big picture", from a strategic perspective: they make sense of the manager's organization in relation to its environment, such as its competitors. The research describes it as follows: "Managers thus viewed consultants as a way of bypassing the knowledge filters created by the organizational hierarchy, as well as the effects of organizational politics, which became salient in times of reorganization and change. Management consultants were seen as a way for managers to gain a 'true' picture of what was going on in their organizations."
 
@@ -225,7 +233,7 @@ However, in @sturdy2009 [633], two notions of knowledge transfer are proposed. I
 
 -   dependence on consultants: fresh to the organization, repeating previous mistakes and rarely involved in the implementation, let alone evaluating them.
 
-## Political Expectations
+### Political Expectations
 
 Finally, there are also reasons that are beyond the business-economical sphere. Oftentimes, individuals want to, or need to, pursue their personal goals within an organization. They might have ideas or plans, and use "the 'objectivity' and/or status of consultants to legitimate or influence a course of action." [@sturdy1998 233]
 
@@ -284,7 +292,7 @@ The second transaction dimension is its *frequency*. A one-time transaction with
 
 *Uncertainty*. Within the context of transaction cost economics, @shin2003 [38] states that "many empirical studies show mixed and contradictory results against what transaction cost economics predicts, especially for the concept of uncertainty." As a solution, he reduces the concept to "behavioral uncertainty", ignoring environmental uncertainty [@watjatrakul2005 391-392]. This is in line with the original interpretation by @williamson1985 [79]: "The proposed match of governance structures with transactions considers only two of the three dimensions for describing transactions: asset specificity and frequency." Uncertainty arises from these two, and together with bounded rationality and opportunism, gives rise to exchange difficulties [@williamson1975 7], making it "more imperative to organize transactions within governance structures that have the capacity to 'work things out.'" [@williamson1985 79] In this context, behavioral uncertainty can't be disentangled from asset specificity. @williamson1985 [78] is fully aware that this is a departure from Coase's transaction cost rationale.
 
-To drive back the theory to the subject of consulting, @canback1998 [37] argues that it's low mainly human asset specificity that favors the use of consultants, referring to their solutions and advice that can easily be reproduced at many organizations.[^4] @watjatrakul2005 [408] put the theory to the test and compared the transaction cost view with the resource-based view (infra) for describing the sourcing decisions in three cases and comes to the following conclusion: "a high-specificity asset has a major impact on sourcing decisions. It overpowers the effect of uncertainty."
+To drive back the theory to the subject of consulting, @canback1998 [37] argues that it's mainly low human asset specificity that favors the use of consultants, referring to their solutions and advice that can easily be reproduced at many organizations.[^4] @watjatrakul2005 [408] put the theory to the test and compared the transaction cost view with the resource-based view (infra) for describing the sourcing decisions in three cases and comes to the following conclusion: "a high-specificity asset has a major impact on sourcing decisions. It overpowers the effect of uncertainty."
 
 [^4]: Furthermore, Canback claims that transaction frequency and uncertainty are less of an influence. By referring to market uncertainty, not only does he obscure the fact that consultants rather thrive in a context with high complexity and uncertainty, he also misrepresents the uncertainty dimension that is central in transaction cost economics. This is a prime example of the vagueness surrounding the concept of uncertainty in transaction cost economics (supra).
 
@@ -412,15 +420,55 @@ Organizations employing the services of a contingent workforce, like digital con
 
 ### Ex Ante Opportunism: Adverse Selection
 
-Adverse selection is associated with the client's inability to determine the client's capabilities with regards to the assignment. This analogous to Akerlof's "Lemons problem" [-@akerlof1970]: due to the information asymmetry, clients don't want to pay more than the average price for consultants within a certain niche. While consultants of below-average quality ("lemons") benefit from this average price, above-average consultants will not want to compete, and are crowded out. Furthermore, the economic barriers to entry [@fee2004 463] in IT consultancy (and consultancy in general) are few to none. Anyone with experience in a specific field, sector or technology can wrap it as advice and sell it to whoever wants to hear it.
+Adverse selection is associated with the client's inability to determine the client's capabilities with regards to the assignment. This analogous to Akerlof's "Lemons problem" [-@akerlof1970]: due to the information asymmetry, clients don't want to pay more than the average price for consultants within a certain niche.
 
-Typically, in this situation, a sector tends to professionalize, or become regulated. However, in (digital) consultancy, this is not the case.
+While consultants of below-average quality ("lemons") benefit from this average price, above-average consultants will not want to compete, and are crowded out. Furthermore, the economic barriers to entry [@fee2004 463] in IT consultancy (and consultancy in general) are few to none. Anyone with experience in a specific field, sector or technology can wrap it as advice and sell it to whoever wants to hear it.
 
-#### No Professionalization
+Typically, in this situation, a sector tends to professionalize, or become regulated. However, in (digital) consultancy, this is not the case. In their research on executive search agencies, \@clark1993 [246-247] outlined three sources of regulation, and these can easily be extrapolated to the whole services market, such as that of (digital) consultancy.
 
-Professionalization is a mechanism that typically protects clients against self-proclaimed experts but who are unqualified and expose their clients to even greater risks than the ones they are supposed to advice on. [@kieser2006 71] Furthermore, they also protect experts against colleagues that could ruin the reputation of the whole industry. Finally, professionalization typically results in the establishment of an ethos, which fosters[^10] trust between a profession and the public at large [@sokolowski1991] Through these mechanisms, "professions are social devices to limit agency costs." [@shapiro2005 276]
+1.  Government initiated codes, for example by handing out licenses. The application procedures provides a minimum standard of behavior.
+2.  Self-regulation of the sector.
+3.  Contractual obligations.
 
-[^10]: A professional ethos is "a set of written and unwritten rules that guide professional practice." [@enstad2017]
+### Ex Post Opportunism: Moral Hazard
+
+Moral hazard is the result of two elements at the core of transaction cost economics and agency theory: the ambiguity of the measurement of individual performance and the goal incompatibility between principal and agent during the cooperation. Ergo, when something goes awry, it is challenging for the client to convincingly pinpoint the blame on the consultant, due to their interactive nature and embeddedness in the organization.
+
+@mcfarlan1995 [9] also points to a relevant aspect. Because the target state of a project might change, most engagements are embedded in a flexible contract, exacerbating the difficulty of blaming the consultant: "[I]n each subsequent year, the contract payment stream becomes less and less tied to the initial set of planned outputs (as the world changes) and, thus, more subject to negotiation and misunderstanding." @nooteboom1996 [924] agrees, stating that "detailed contracts can shroud a contract in an atmosphere of mistrust, derailing the relation before it has even started."[^10]
+
+[^10]: At first sight, the work by @lacity2012 [4] seems contradictory to these findings, as it describes that there is substantial evidence that positive outsourcing outcomes are associated with *more detailed contracts*, shorter-term contracts and high-value contracts. However, these details relate to scope, service levels, responsibilities and adaption to change, but not necessarily to the individual tasks that comprise the assignment.
+
+For @mazzucato2023 [145], the resulting skewed risk-reward relationship is at the heart of the consulting industry's business model: "The rewards reaped--the rents--usually far exceed the financial risks of taking on the contract or the costs of creating an impression of value [because] large consultancies today can survive knocks to their reputations in the wake of public scandals with the help of their extensive resources, employing savvy legal and PR teams to respond to newspaper exposés and government inquiries."
+
+The ways that moral hazard can occur between a client and its consultants are plenty.
+
+-   Shirking due to individual consultants slacking off or shifting attention to other clients.
+
+-   Locking in a client by using proprietary tools, frameworks and technologies that are not widely supported.
+
+-   Selling the initial contract cheap, but the services that follow come with a premium. This practice of "making an offer more than possible to deliver and revoking a central part of the offer after the target subject accepts" [@motes1979 219] is known as "lowballing".
+
+-   Mishandling of confidential information, which not only includes straightforward transfer of information to competitors. Information may also be benchmarked with data from other firms without a principal's knowing. Furthermore, project reports, presentations, and analyses are saved in internal knowledge databases and may be used when similar projects come up. [@armbruster2006 72-73]
+
+It's clear that contractual flexibility is a double-edged sword. On the one hand, it positively impacts the diversity of tasks in which managers can employ consultants, enabling them to respond quickly to threats or opportunities. On the other hand, it decreases consultants' formal accountability.
+
+## Opportunism in digital consultancy
+
+There are three main reasons why "digital consultancy" deserves a dedicated scope.
+
+Information technology evolves rapidly. Consequently, organizations risk a high degree of both ex ante and ex post uncertainty. Will consultancy firms be able to deliver in n years from now? Will they customize the solution to such a degree that only they can deliver support, and lock in their client? Especially organizations with a low technological maturity have the highest risk encountering opportunism when working with third-party service provides.
+
+Ambiguity of measuring individual performance. When a particular individual sells his services to another one, it may be difficult to asses its true value [@ouchi1980 134-135]. This is especially the case when interdependent technologies are involved, as their implementation and maintenance requires teamwork. On that account, disentangling individual contribution from the team's joint efforts are particularly hard. This situation invites moral hazard, such as consultants slacking off, inflating their time sheets or unnecessarily widening the scope.
+
+Finally, there is often a degree of lock-in involved as some firms have exclusivity for implementing or personalizing a certain solution. as the costs of switching providers are often significant, it is not straightforward to switch vendors when ex post opportunism is detected.
+
+## Preventing opportunism
+
+### No professionalization
+
+Professionalization is a mechanism that typically protects clients against self-proclaimed experts but who are unqualified and expose their clients to even greater risks than the ones they are supposed to advice on. [@kieser2006 71] Furthermore, they also protect experts against colleagues that could ruin the reputation of the whole industry. Finally, professionalization typically results in the establishment of an ethos, which fosters[^11] trust between a profession and the public at large [@sokolowski1991] Through these mechanisms, "professions are social devices to limit agency costs." [@shapiro2005 276]
+
+[^11]: A professional ethos is "a set of written and unwritten rules that guide professional practice." [@enstad2017]
 
 Certain countries, like Germany, have made attempts to professionalize the sector through the establishment of specialized university programs to make the use of the title "consultant" dependent on the attainment of specific qualifications. These attempts haven't turned out to be successful: today, consultancy is not yet a profession, not in the classical sense. [@kieser2006 73].
 
@@ -444,62 +492,21 @@ The arguments of the power approach are the following:
 
 One could even argue that professionalization is not even relevant in today's capitalism. The "individual given class status, autonomy, social elevation, in return for safeguarding our well-being and applying their professional judgement on the basis of a benign moral or cultural code [...] no longer exists." [@dent2013, 1-2] Trust and respect in today's professional is "earned through their ability to perform to an externally given set of performance indicators." In that sense, "consultants are the real champions of creating a new professional *appearance*." [@kieser2006 95] By combining a promise of market success and professionalism they are "market professionals".
 
-#### No Regulation (TODO)
+### No regulation
 
--   Three sources of regulation can be identified (@clark1993 246-247).
--   See @muzio2011 [813-817].
+According to @muzio2011 [813], governments have traditionally played a key role in the development of business service professions such as law & accounting. For consultancy, too, there have been various attempts of governments trying to regulate the sector. Two examples:
 
-While in some countries, like Austria, there is a registration system for consultants, governments have been ambivalent towards professional regulation of the consulting sector [@muzio2011 814]. According to @leicht2006, this is the result of (Western) governments embrace of market logic and their reluctance to intervene with "additional coercive pressures in the wake of questionable professional conduct."
+-   In 1947, after the government asked the British Institute of Management (BIM) to address agency issues, it established a register of approved consultants with their qualifications. However, the large consultancy firms, instead, created their own association; the Management Consulting Association.
 
-One important antecedent for regulation is professionalization of the sector, which is highly unlikely in the current institutional environment. Although "expertise is increasingly more important in differentiating societies, it is difficult to defend the status of professions, to say nothing of establishing new ones. The trend is towards deregulation and deprofessionalization of existing professions, rather than towards establishing new ones." [@kieser2006 90]
+-   In 1997, the German government rejected a proposal to protect the title of "consultant", on the grounds that such regulation would limit choice and would go against the governments approach of lean regulation.
 
-Finally, governments are often large consumers of consultancy services, making them wary of supporting regulation of the sector, as it could drive up prices and reduce their autonomy in hiring them [@muzio2011 815].
+Why does regulating the consultancy sector fail?
 
-In the existing literature, these remarks are part of a critical paradigm regarding consultants [@armbruster2006 4-5]. Authors point to the contestable nature of consulting, the self-interest of consultancy firms, and the stretching of consultancy advice.
+-   According to @leicht2006, this is the result of (Western) governments embracing market logic and their reluctance to intervene with "additional coercive pressures in the wake of questionable professional conduct." The German exemplifies "the trend towards deregulation and deprofessionalization of existing professions, rather than towards establishing new ones." [@kieser2006 90]
 
-See also:
+-   Governments are often large consumers of consultancy services, making them wary of supporting regulation of the sector, as it could drive up prices and reduce their autonomy in hiring them [@muzio2011 815].
 
--   [@wright2002]
--   [@david2013]
--   [@mahoney2016]
-
-See @sturdy2021 [3-4]
-
-See @sturdy2021 [4]
-
-### Ex Post Opportunism: Moral Hazard
-
-Moral hazard is the result of two elements at the core of transaction cost economics and agency theory: the ambiguity of the measurement of individual performance and the goal incompatibility between principal and agent during the cooperation. Ergo, when something goes awry, it is challenging for the client to convincingly pinpoint the blame on the consultant, due to their interactive nature and embeddedness in the organization.
-
-@mcfarlan1995 [9] also points to a relevant aspect. Because the target state of a project might change, most engagements are embedded in a flexible contract, exacerbating the difficulty of blaming the consultant: "[I]n each subsequent year, the contract payment stream becomes less and less tied to the initial set of planned outputs (as the world changes) and, thus, more subject to negotiation and misunderstanding." @nooteboom1996 [924] agrees, stating that "detailed contracts can shroud a contract in an atmosphere of mistrust, derailing the relation before it has even started."[^11]
-
-[^11]: At first sight, the work by @lacity2012 [4] seems contradictory to these findings, as it describes that there is substantial evidence that positive outsourcing outcomes are associated with *more detailed contracts*, shorter-term contracts and high-value contracts. However, these details relate to scope, service levels, responsibilities and adaption to change, but not necessarily to the individual tasks that comprise the assignment.
-
-For @mazzucato2023 [145], the resulting skewed risk-reward relationship is at the heart of the consulting industry's business model: "The rewards reaped--the rents--usually far exceed the financial risks of taking on the contract or the costs of creating an impression of value [because] large consultancies today can survive knocks to their reputations in the wake of public scandals with the help of their extensive resources, employing savvy legal and PR teams to respond to newspaper exposés and government inquiries."
-
-The ways that moral hazard can occur between a client and its consultants are plenty.
-
--   Shirking due to individual consultants slacking off or shifting attention to other clients.
-
--   Locking in a client by using proprietary tools, frameworks and technologies that are not widely supported.
-
--   Selling the initial contract cheap, but the services that follow come with a premium. This practice of "making an offer more than possible to deliver and revoking a central part of the offer after the target subject accepts" [@motes1979 219] is known as "lowballing".
-
--   Mishandling of confidential information, which not only includes straightforward transfer of information to competitors. Information may also be benchmarked with data from other firms without a principal's knowing. Furthermore, project reports, presentations, and analyses are saved in internal knowledge databases and may be used when similar projects come up. [@armbruster2006 72-73]
-
-It's clear that contractual flexibility is a double-edged sword. On the one hand, it positively impacts the diversity of tasks in which managers can employ consultants, enabling them to respond quickly to threats or opportunities. On the other hand, it decreases consultants' formal accountability.
-
-## Opportunism in Digital Consultancy
-
-There are three main reasons why "digital consultancy" deserves a dedicated scope
-
-Information technology evolves rapidly. Consequently, organizations risk a high degree of both ex ante and ex post uncertainty. Will consultancy firms be able to deliver in n years from now? Will they customize the solution to such a degree that only they can deliver support, and lock in their client? Especially organizations with a low technological maturity have the highest risk encountering opportunism when working with third-party service provides.
-
-Ambiguity of measuring individual performance. When a particular individual sells his services to another one, it may be difficult to asses its true value [@ouchi1980 134-135]. This is especially the case when interdependent technologies are involved, as their implementation and maintenance requires teamwork. On that account, disentangling individual contribution from the team's joint efforts are particularly hard. This situation invites moral hazard, such as consultants slacking off, inflating their time sheets or unnecessarily widening the scope.
-
-Finally, there is often a degree of lock-in involved as some firms have exclusivity for implementing or personalizing a certain solution. as the costs of switching providers are often significant, it is not straightforward to switch vendors when ex post opportunism is detected.
-
-## Preventing Opportunism
+### Corporate governance
 
 In the existing literature, several governance mechanisms for preventing opportunism have been proposed. In the governance literature, there is a strong focus on control, however, several of these mechanisms aren't meant to exert control, but rely on, or foster trust.
 
@@ -527,24 +534,31 @@ To conclude this section, we note that control and trust are antagonistic, but a
 
 [^12]: The concept of "confidence" is defined as "the degree of belief in a given hypothesis." [@tversky1992 412]
 
-Below, a fairly exhaustive list of proposed governance measures is outlined and grouped by their corresponding trust antecedent.
+Below, a fairly exhaustive list of proposed governance measures, grouped by their opportunitism type.
 
-| Control Mechanism      | Description | Opportunism       | Agency phenomenon     |
-|-------------------|------------------|------------------|------------------|
-| Public Reputation      |             | Adverse Selection | Goal Incompatibility  |
-| Experience-based Trust |             | Adverse Selection | Goal Incompatibility  |
-| Networked Reputation   |             | Adverse Selection | Goal Incompatibility  |
-| Procurement            |             | Adverse Selection | Goal Incompatibility  |
-| Third-party Assessment |             | Adverse Selection | Goal Incompatibility  |
-| Consulting Database    |             | Adverse Selection | Goal Incompatibility  |
-| Monitoring             |             | Moral Hazard      | Information Asymmetry |
-| Whistleblowing         |             | Moral Hazard      | Information Asymmetry |
-| Incentivization        |             | Moral Hazard      | Goal Incompatibility  |
-| Third-Party Moderation |             | Moral Hazard      | Goal Incompatibility  |
-| First-Party Assessment |             | Moral Hazard      | Goal Incompatibility  |
-| Relational Mechanisms  |             | Moral Hazard      | Goal Incompatibility  |
+Adverse Selection
 
-### Preventing Adverse Selection
+| Control Mechanism      | Description |
+|------------------------|-------------|
+| Public Reputation      |             |
+| Experience-based Trust |             |
+| Networked Reputation   |             |
+| Procurement            |             |
+| Third-party Assessment |             |
+| Consulting Database    |             |
+
+Moral Hazard
+
+| Control Mechanism      | Description |
+|------------------------|-------------|
+| Monitoring             |             |
+| Whistleblowing         |             |
+| Incentivization        |             |
+| Third-Party Moderation |             |
+| First-Party Assessment |             |
+| Relational Mechanisms  |             |
+
+### Preventing adverse selection
 
 Several researchers have theorized and/or empirically tested several governance mechanisms for preventing adverse selection of consultancy service vendors.
 
@@ -576,7 +590,7 @@ The latter is confirmed by many of the respondents in @lonsdale2017 [161-163]. T
 
 Nevertheless, @lonsdale2017 [164] claims that, regarding consultancy services, the impact of purchase regulation on service quality is ambiguous, and largely depends on the purchasing phase in which the procurement department is involved: "In terms of the more positive perceptions of involvement at the needs assessment stage, as against the sourcing and contract management stages, this was seen as due to procurement involvement here posing less of a threat to end-user interests and requiring lower levels of service-specific knowledge."
 
-#### Third-Party Assessments
+#### Third-party assessments
 
 @zucker1985 [57-62] describes the rise of the "social overhead sector" in the 19th and 20th century. This sector acts as an "intermediary" or a "broker" in a variety of situations where transactions need to be bridged: stock brokers, real estate agents, banks, etc. These firms, bureaucracies and individuals are specialized in the production of trust, and marketing it to others. The same principle can be applied to the consultants: assessment by a third-party agency to prevent adverse selection.
 
@@ -606,7 +620,7 @@ According to @nayyar1990 [516] "reputation performs as an implicit contract. It 
 
 According to a survey with 150 German companies [@kieser2006 91], for 73% of respondents, reputation is a deciding factor. Furthermore, 50% of respondents indicated that recommendations from managers of other companies is a deciding factor.
 
-#### Consulting Database
+#### Consulting database
 
 One way to structure and crowd-source experience-based trust is by centralizing it in a "consulting database". This could force hiring managers to report on their experiences with individual consultants or consultancy firms.
 
@@ -693,7 +707,7 @@ When combining these dimensions in a single model, personal costs, personal resp
 
 Consultancy firms always run the risk of of being exposed when one of their consultants is involved in some kind of wrongdoing. For example, the International Consortium of Investigative Journalists [@icij20231] reported that PwC consultants helped setting up financial constructions so that powerful Russians could evade Western sanctions that were imposed after Russia's unprovoked invasion of Ukraine. In another article, the ICIJ describes how tax advisory consultants used confidential information, acquired while consulting for the Australian government, to set up new tax avoidance structures [@icij20232].
 
-Both types of whistblowing could foster good behavior and alignment with the hiring organization's goals. However, the first is more suitable as a formal governance mechanism.
+Both types of whistleblowing could foster good behavior and alignment with the hiring organization's goals. However, the first is more suitable as a formal governance mechanism.
 
 #### Incentivization
 
@@ -707,7 +721,7 @@ A particular form of incentivization is "hostage-taking": "one-sided ownership o
 
 In that sense, incentivization and public reputation (supra) are related to one another as the latter can be the subject of former: "The threat of loss of reputation and resulting loss of business that comes from having the word spread about untrustworthy business practice is generally quite an effective deterrent. For this reason, gossip [...] has been identified as a powerful means of social control." [@shapiro1992 368]
 
-#### Third-Party Moderation
+#### Third-party moderation
 
 @babin2017 [6-7] describes a single case study in which trust in an outsourcing relationship had eroded over time. Instead of parting ways, it was clear that both parties needed each other. A proactive approach in the form of a third-party facilitated workshop successfully addressed the trust problem. "When both sides feel hurt, and do not trust the other side, it can be difficult to take preliminary steps to begin to repair inter-organizational trust. An objective outsider using a formal approach proved useful to initiating the trust repair activities."
 
@@ -733,9 +747,27 @@ data <- fread('data.csv')
 legend <- fread('legend.csv')
 ```
 
+The research below investigates potential ex ante and ex post opportunism that Belgian companies experience when working with digital consultants. On top, it tries to get a grip on the existing control mechanisms that organizations have in place to detect and prevent it.
+
+To summarize:
+
+-   Why digital consultants
+
+-   Agency problems with digital consultants
+
+-   Preventing opportunism of digital consultants
+
+Before proceeding to the research question, we elaborate on scope, paradigm and relevant.
+
 ## Scope
 
+### Subject
+
 From this literature study, there are several observations. First of all, it is clear that there is a tremendous amount of theory regarding the *raison d'être* of consultants, their growth, why organizations hire them, and how they should be controlled. However, empirical research, both quantitative and qualitative, is fairly limited.
+
+The research in this paper focuses on the control mechanisms that organizations use to govern the use of consultants with regards to adverse selection and moral hazard.
+
+### Geography
 
 The second observation is that very few research takes into account the local or cultural context. Some studies have been performed in the Anglosaxon countries. Thanks to Staffan Furusten, there has been quite some research in the Nordic countries. However, when it comes to research about consultants in Western Europe, very little to none is available. Nevertheless, a country such as Belgium deserves a specific focus for various reasons.
 
@@ -745,26 +777,39 @@ The second observation is that very few research takes into account the local or
 
 -   Finally, throughout 2023 and 2024, there's been quite the ruckus due to the extensive use of consultants by ministerial cabinets in both the Flanders and Federal government. For example, the ministry of healthcare spent 43 million on consultancy in less than four years. [@healthcare2023]
 
-The third observation is that most research is about "management" consultants or "IT" consultants. In the case of the latter, there is a strong focus on ERP implementations. No research was found that related to "digital" consultants, as defined earlier. Nevertheless, there are many consultants working in digital marketing, data science, data engineering, ecommerce, etc. Their work often goes unscrutinized due to a variety of reasons.
+### Expertise
 
-1.  These consultants often do not participate in typical IT rituals that monitor their performance.
-2.  They can easily work remotely, due to the nature of their work, and escape oversight-by-proximity.
-3.  Consultants are not subject to HR procedures, and rarely is procurement well-equipped to manage consultants in their firm.
-4.  Their hiring managers and the teams they work for are rarely digital-savvy.
+The third observation is that most research is about "management" consultants or "IT" consultants. In the case of the latter, there is a strong focus on ERP implementations. No research was found that related to "digital" consultants, as defined earlier. Nevertheless, there are many consultants working in digital marketing, data science, data engineering, ecommerce, etc. Their work often goes unscrutinized due to a variety of reasons (some of which already mentioned earlier).
+
+1.  Their individual performance is hard to measure, as their efforts are part of a larger whole.
+2.  These consultants often do not participate in typical IT rituals that monitor their performance.
+3.  They can easily work remotely, due to the nature of their work, and escape oversight-by-proximity.
+4.  Consultants are not subject to HR procedures, and rarely is procurement well-equipped to manage consultants in their firm.
+5.  Their hiring managers and the teams they work for are rarely digital-savvy.
 
 The focus of this paper is on the use of digital consultants (supra) working for organizations in Belgium.
 
 ## Paradigm
 
-This research starts with the assumption that there is a lot of information asymmetry between consultants, and their hiring organizations and managers. Furthermore, since they are (often) both profit-maximizing forms, their goals rarely align in the short term. Consequently, these hiring organizations expose themselves to a lot of opportunism, both ex post and ex ante.
+This research does not make a value judgement about the use of digital consultants. We assume that the transaction costs for building digital solutions internally are higher, and that consultants can achieve the same, but cheaper. Our research starts from the theorety that there is a substantial information asymmetry between consultants, and their hiring organizations and managers. Furthermore, since they are (often) both profit-maximizing forms, their goals rarely align in the short term. Consequently, the hiring organizations expose themselves to a lot of opportunism, both ex post and ex ante.
 
-By starting from this axioma, this study clearly puts itself in the camp of transaction cost economics and agency theory, and research questions and used methodology are laced with it.
+By starting from this axioma, this study can be situated in the large body of literature around agency theory, and the research questions and methodology are laced with it.
 
 ## Relevance
+
+As described earlier, in the past decades, mainstream media and expert media reported on a various scandals with regards to accountancy and consultancy firms. Many people, inside companies, government, and other organizations are concerned about the added value of consultants, and their impact on democracy. Very recently, these concerns were voiced in "The Big Con", the latest work by the famous contemporary economist, Mariana Mazzucato.
+
+The research in this paper does not put into question the role of consultants, nor their impact on the economy as a whole. *Au contraire*, this research assumes that managers in Belgian organizations have made the calculus for working with consultants when describing reasons for choosing (digital) consultants over internal staff. Furthermore, by starting from agency risks, we implicitly assume that (digital) consultants can, and will, turn to opportunistic behavior if they are not governed properly.
+
+Consequently, this research investigates if digital consultants are properly managed by managers in Belgium. If the existing governance is rather limited (which it is, infra) some of the concerns could be addressed through better governance and control mechanisms.
 
 ## Research Questions
 
 Given the stellar rise of (digital) consultancy, recurring scandals, and implications for how companies and our democracies are run, we believe the following questions deserve the highest priority.
+
+### Why digital consultants?
+
+The first research question investigates the "why" of digital consultancy. For which tasks are they used, why choose them over employees and how is their work evaluated.
 
 > **RQ1: For which tasks do Belgian organizations rely on digital consultants?**
 
@@ -778,15 +823,21 @@ A logical followup question to RQ1 wants to uncover *why* organizations use cons
 
 Not only are we interested in finding out why consultants are hired, but also how their work is evaluated. This is an important precursor to answering the next research questions. Without a definition of 'success', it is impossible to assess if an organization encountered agency problems with consultants.
 
+### Agency problems with digital consultants
+
 > **RQ4: Do Belgian organizations experience agency problems regarding the digital consultants?**
 
 Once we have an idea of the definition of success for working with consultants, we would like to know if agency problems stand in the way of achieving success.
+
+### Preventing opportunism of digital consultants
+
+The final two research questions are the meat of this paper and paint a picture of the current state of control mechanisms to prevent opportunism of digital consultants.
 
 > **RQ5a: Which control mechanisms do Belgian organizations have in place with regards to adverse selection?**
 >
 > **RQ5b: Which control mechanisms do Belgian organizations have in place with regards to moral hazard?**
 
-The final two research questions are the meat of this paper. The answers to these questions are structured in line with the proposed control mechanisms from the literature study (supra). Answering these two questions will provide insight into the current state of governing consultants in Belgium firms and potentially broken down by relevant dimensions.
+The answers to these questions are structured in line with the proposed control mechanisms from the literature study (supra). More importantly, we also add a breakdown about the formality of these mechanisms. When they are expected, as company policy, mechanisms are formal. When they are rather left to the goodwill of the manager, they are informal. Answering these two questions, and breaking the answers down by their formality, will provide insight into the current state of governing consultants in Belgium firms.
 
 All questions require an answer of descriptive nature. This paper does not have the ambition to investigate potential correlation or causality between the presence of specific control mechanisms and the success of working with consultants. To answer such questions, lots of quantitative data would need to be collected and analyzed. However, as became clear throughout this research, most organizations do not have a success criterion when working with consultants, let alone an objective criterion. Collecting data from a large-scale survey was simply not feasible.
 
@@ -794,19 +845,27 @@ Nevertheless, these questions could provide the basis for normative research to 
 
 ## Methodology
 
-### Structured Interviews
+Although the scope of the research has stayed fixed throughout the research process, the same can't be said for the methodology, as the following paragraphs demonstrate.
 
-To answer these questions, eight structured interviews were done with a variety of decision-makers (regarding the use of digital consultancy services) working for an organization in Belgium. Most questions required a binary answer. Yet, due to the fuzzy nature of the topic, they often acted as conversation starters for followup questions.
+### Structured interviews
 
-The initial goal of this research was to use the findings from these interviews in a structured survey, but as described earlier, this proved to be unfeasible. Structured interviews were the weapon of choice for the following reasons:
+The initial plan was to take semi-structured interviews from three respondents, all managers from organizations in Belgium, and use those results in a large-scale survey.
+
+However, from these three initial interviews, we concluded that it was unfeasible to answer the research questions through a survey, for various reasons.
 
 -   Many concepts in the interview required an oral clarification, since the definition of various concepts is a topic of discussion an sich. Even the written interview preparation documents did not suffice for bringing clarity. For example: does a "consultant" include freelancers? Does it include people working for digital agencies? What if they're just a project manager?
 
 -   The respondents weren't always well-versed in the principle of corporate governance and control mechanisms. For the respondents to answer the question properly, the proposed mechanisms needed to be translated to their particular situation.
 
--   For some tasks, the respondents didn't use consultants, but the respondents could often elaborate on the practices in other teams and departments. The same applied to the existence of certain controls.
+-   For some tasks, the respondents didn't use consultants themselves, but the respondents could often elaborate on the practices in other teams and departments. The same applied to the existence of certain controls.
 
--   The relational mechanisms are often defined by seemingly small details (e.g. Do consultants wear a visitor badge? Is their lanyard of a different color? Are they invited to company events?) which are nonetheless interesting to determine how an organization relates to its consultants. Some respondents could easily sum up some of these company-specific details, which would be hard to capture in a survey.
+-   The relational mechanisms are often defined by seemingly small details (e.g. Do consultants wear a visitor badge? Is their lanyard of a different color? Are they invited to company events? Can they use the parking for free?) which are nonetheless interesting to determine how an organization relates to its consultants.
+
+The solution was to continue the existing interviews with several more respondents. The open responses from the three initial interviews were not used to amend individual questions or structure of the script. These responses, as well as the open responses from the five next respondents, are solely used to give the answers to the questions more context in the results of this research (infra).
+
+Both structured interviews and surveys offer the benefits of uniformity and comparability. However, through open questions, structured interviews offer more room for discovering certain topics in more detail. In this particular research, this allowed the respondents to elaborate on contestable topics such as defining success of working with consultants and evaluation of existing control mechanisms.
+
+Finally, the choice for a limited set of structured interviews undoubtedly has a negative impact on generalizability of the research findings, but it also increases its credibility and reliability.
 
 ### Question Set
 
@@ -834,9 +893,19 @@ The initial goal of this research was to use the findings from these interviews 
 
 ## Respondents
 
-The respondents in this interview are senior and mid-level managers from 8 different organizations that have a significant presence in Belgium. Six out of eight were even founded in Belgium. The number of employees working in Belgium ranges between 250 and 3000 (numbers rounded) and excludes consultants. The headcount of each manager *includes* long-term consultants.
+The target population of the research are are senior and mid-level managers from different organizations that operate from or in Belgium. 23 people were approached through digital channels, 2 proved to be invalid due to their limited experience with hiring consultants and 13 did not reply or stopped replying during the interview planning phase.
 
-All respondents were sampled from the researcher's professional network.
+The resulting sample exists out of eight respondents from eight different organizations. Six out of eight organizations were not only operating in Belgium, but also founded in Belgium. The number of employees working in Belgium ranges between 250 and 3000 (numbers rounded) and excludes consultants. The headcount of each manager *includes* long-term consultants.
+
+There are also some side notes to be mindful of.
+
+-   Two respondents (ID 1&8) are not on the payroll of the company, but work as a freelancer through a management enterprise--which is typical in Belgium. Although they are (formally) external, like consultants, the other five criteria of consultancy do not apply to them. (1) They have a long tenure (no contingency); (2) their role is not two-sided since their renumeration is (at least partially) variable; (3&4) there is no intentional change that emerges from interaction between them and the organization; and (5) they have a generalist role and don't work around a single expertise.
+
+-   However, three respondents (ID 1, 5 and 7) have a background in digital consultancy. Although one could expect their answers to be untruthful, their answers do not solely praise working with consultants.
+
+-   All respondents had a hard time disentangling the concept of disentangling the concepts of a freelancer, temporary worker, agency and consultant, even after receiving a lengthy written briefing. The concept of a consultant was always clarified through six properties from the definition (supra). Many responses required followup questions about the nature of party involved. For example, off-shore workers *can* be consultants, but aren't necessarily so.
+
+-   All respondents were sampled from the researcher's professional network.
 
 ```{r, echo=FALSE, out.width="75%", fig.align="center"}
 kable(
@@ -845,8 +914,6 @@ booktabs=T)
 ```
 
 # Results
-
-Before discussing the results, there are some side notes to be mindful of. \* Multiple respondents are not on the payroll of the company, but work as a freelancer through a management enterprise--which is typical in Belgium. \* Some respondents had a hard time disentangling the concept of disentangling the concepts of a freelancer, temporary worker, agency and consultant, even after receiving a lengthy written briefing. The concept of a consultant was always clarified through six properties from the definition (supra). Many responses required followup questions about the nature of party involved. For example, off-shore workers *can* be consultants, but aren't necessarily so.
 
 ## Tasks (RQ1)
 
@@ -928,7 +995,7 @@ data %>%
 
 A clear picture emerged when asking the respondents about how they define and evaluate the success of a consultancy engagement. Most respondents have no formal, objective way for determining if a consultancy engagement was successful. Respondent 1 described how there are statements of work, but no statements of success. When problems arise during a consultancy assignment, this results in a mutual blame game. Respondent 5 admitted they never even considered what defines a successful consultancy engagement.
 
-Two informal definitions of success did, however, arise during the follow-up discussion for this question
+Two informal definitions of success did, however, arise during the follow-up discussion for this question:
 
 -   The job is done.
 
@@ -1023,7 +1090,7 @@ The organization of respondent 3 does not have controls in place to prevent adve
 
 ```{r, echo=FALSE, out.width="75%", fig.align="center"}
 figure_n <- figure_n + 1
-data %>% 
+suppressMessages(data %>% 
   select(all_of('ID') | starts_with("Q8")) %>%
   pivot_longer(cols = starts_with("Q8"), names_to = 'control_mech', values_to = 'in_place') %>%
   filter(in_place != 0) %>%
@@ -1052,6 +1119,7 @@ data %>%
       plot.title.position = 'plot',
       legend.position = 'bottom'
       )
+)
 
 ```
 
@@ -1132,6 +1200,60 @@ suppressMessages(data %>%
 
 # Limitations
 
+Several limitations can be formulated. They relate to definitions, methodology, sample selection and scope.
+
+## Definitions
+
+The research in this paper focuses on digital consultancy. For most respondents in the interview, the concept of "digital" was entirely clear. However, the concept of "consultancy" remains an item of discussion. While traditionally, management consultants worked on projects with pre-defined deliverables, many digital consultants are onboarded with a fixed-term contract as temporary employees with a specific expertise. Although they often assume the title of 'consultant' with some prefix, that doesn't mean they abide to our definition. The primary differentiator, in this research, was the introduction of some kind of "change": improving a process, onboarding a new tool, writing code that impacts the organization's way of working, etc.
+
+It is not unthinkable that the breath of the definition has a strong impact on the findings. Another iteration of this research might narrow the definition to consultancy assignments with predefined deliverables.
+
+## Methodology
+
+The final methodological choice is driven by multiple factors. As described earlier, from preliminary interviews, it quickly became clear that abstracting the concept of consultancy and corporate governance wasn't straightforward to the respondents. Although a survey was the initial aim, structured interviews proved to be more feasible. This reduces bias in the answers, but due to the fairly limited number of interviews the study might lack generalization power.
+
+## Sample
+
+The sample of respondents is mostly driven by the researcher's personal network and strongly reflects the researcher's professional career.
+
+-   Three ex-colleagues, three ex-customers and two ex-students of Antwerp Management School.
+
+-   None of the respondents have a tenure of over ten years at their current organization.
+
+-   Three out of eight respondents formally work within marketing, and two more have a background in marketing.
+
+It is hard to estimate to what degree the respondents reflect the target population and if all conclusions can be generalized.
+
+## Scope
+
+The scope of this research is mostly defined by the context of the researcher: living in Belgium, working as a digital consultant. To investigate the generalizability of the findings, a comparative study might shed a better light on the subject. For example, a dialectical opposition between digital consultancy and management consultancy on the one hand, and between digital consultancy in Belgium and in France on the other hand.
+
 # Conclusions
+
+This research comprises two large parts: a literature study and an empiric study. Both parts are built around the same topics: digital consultancy, the rationale for working with consultants, resulting agency problems and the control mechanisms for managing them.
+
+The first section of the literature study elaborates on its definition. In this section, we argued that consultancy is defined by six properties: externality, the introduction of change, contingency on the context, its relational nature, its two-sidedness and the diversity of expertises. By fixating on the expertise of digital transformation, we end up with the final definition of "digital consultancy".
+
+In the second section, we argued that today's stellar rise of digital consultancy is driven by the introduction of digital off-the-shelf tools that penetrate all sectors of the economy. Digital consultants help organizations to exploit these new opportunities throughout their supply chain.
+
+In the third and fourth sections of the literature, we've outlined the various reasons why organizations choose to work with consultants. Both practical and theoretical perspectives were offered. Theoretically, this research resolutely chooses the perspectives of transaction costs economics & agency theory. The reason for choosing consultants over internal staff is driven by low human asset specificity. The practical considerations discussed are: cost reduction, cost control, getting an outside view, facilitating M&As, access to high-skilled individuals, knowledge transfer and company politics.
+
+Through eight structured interviews, the empirical side of the study established that the three main reasons for managers in Belgian organizations to hire digital consultants are to get access to a specific set of skills, because they think consultants are more performing than internal staff, and because they offer an outside view.
+
+To discover how the respondents evaluated the success of working with consultants, we did not receive a straightforward answer. Either the consultant does what is asked of them, or the consultant and the hiring manager have a good relationship with each other.
+
+In the fifth and final part of the literature study, the problem statement, we elaborated on the various ways that organizations are exposed to the agency problems of adverse selection and moral hazard when working with digital consultants, and proposed control mechanisms to manage them.
+
+To prevent adverse selection, three main mechanisms can be identified from the respondents' answers: some sort of purchase regulation, the involvement of procurement, and a reputational check of the consultancy form or the individual consultants. Purchase regulation is usually formalized, yet the involvement of procurement is rather non-committal.
+
+Finally, to prevent moral hazard, the three main mechanisms described by the respondents are relational mechanisms (i.e. treating a consultant like a team member), first-party assessments (interviews) and third-party moderation (inter-consultant competition or splitting of projects over multiple firms). An important conclusion is that nearly all mechanisms are informal, and up to the hiring manager to maintain.
+
+# Discussion
+
+A first point of discussion is the reasons for managers to hire consultants. As is clear from their responses, it is mainly driven by their desire to access premium-level expertise, which they can't find in the traditional labor market. More than once, the respondents indicated that this is truly a "Belgian sickness". It is unclear if this opinion is grounded in facts, or merely diversion for poor recruitment practices and poor employer branding. A comparative study with other Western-European countries could shed more light on this.
+
+Furthermore, although most respondents have encountered some form of opportunism by a digital consultant, which is in line with agency theory, the control mechanisms in place are fairly limited, and for moral hazard, they are mostly informal. It's unclear what causes this corporate blind spot. Is it the unpreparedness for a sector that became omnipresent in less than two decades? Is it the Belgian corporate culture? Is it the embeddedness of consultants? Further research is more than welcome.
+
+Another aspect that was not the focus of this study: several respondents indicated that they wouldn't welcome tighter control mechanisms, especially if it means involving procurement or giving up autonomy, as it would impede their ability to shift gears quickly. Nevertheless, some low-effort mechanisms, that don't eat into a manager's autonomy, are worth considering. A consulting database, which acts as a hivemind for past consultancy engagements, a more structured approach to first-party assessments, or even third-party assessments for important projects are all fairly easy to implement in an organization's HR/procurement operating models.
 
 # References
