@@ -1,0 +1,114 @@
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.7500}}@{}}
+\caption{Six properties that define consultants and set them apart from other third parties.}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Property
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Description
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Property
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Description
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+External & A consultant is external to the client they work for. They are not in an employer-employee relationship. \\
+Change & Working as a consultant for a client implies that they introduce some kind of change into the organization. \\
+Contingent & A consultant has to adapt to the context of the assignment: the sector, the organization, the culture, etc. \\
+Relational & The outcome of a consultancy assignment often depends heavily on the interaction between the client and the consultant. \\
+Two-sided & Next to the pressures based from the client, a consultant face internal pressures from their employers in terms of optimized resource utilization. \\
+Diverse & Consultants have different expertises and can work in different sectors. \\
+\end{longtable}
+\efloatseparator
+ 
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.3521}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.6479}}@{}}
+\caption{Control mechanisms to prevent adverse selection of consultants.}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Control Mechanism
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Description
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Control Mechanism
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Description
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Public reputation & Selecting a consultant on its past performance or potential for any client. \\
+Experience-based trust & Selecting a consultant on personal experience with it. \\
+Networked reputation & Selecting a consultant on the experience with it by a network of business relations \\
+Procurement & A central office responsible for transactional contracting of a consultancy firm through (partial) commodification of its services. \\
+Purchase regulation & An institutionalized set of rules for contracting consultancy firms. \\
+Third-party assessment & A third-party broker that tests consultants on a variety of dimensions. \\
+Consulting database & A central hive mind that holds reports on experiences with individual consultants or consultancy firms. \\
+\end{longtable}
+\efloatseparator
+ 
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.3521}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.6479}}@{}}
+\caption{Control mechanisms to prevent moral hazard of consultants.}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Control Mechanism
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Description
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Control Mechanism
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Description
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Monitoring & A feedback system to provide information to the manager about the performance of the consultant. \\
+Relational & An institutionalized set of rules that define how an organization, team or manager interact with consultants. \\
+(Internal) whistleblowing & An instutionalized way (procedure, expectation, unwritten rule, \ldots) for employees to report unwanted behavior by consultants. \\
+Incentivization & Alignment of the consultant's goal with those of the hiring organization. \\
+Third-party moderation & A third party to monitor, manage or govern relationships with the consultant. \\
+First-party assessment & Gathering information on a consultant or consultancy firm through interviews and/or screening to assess if a consultant is trustworthy. \\
+\end{longtable}
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+\caption{\label{tab:unnamed-chunk-3}Overview of respondents}
+\centering
+\begin{tabular}[t]{rllrlrr}
+\toprule
+ID & Level & Expertise & Tenure & Reports to & N\_below & N\_Belgium\\
+\midrule
+1 & Senior & Digital & 4 & Chief Growth Officer & 150 & 3000\\
+2 & Mid & Data & 5 & IT Director & 20 & 1000\\
+3 & Mid & Digital & 8 & GTM Manager & 8 & 800\\
+4 & Senior & IT & 7 & Chief Executive Officer & 40 & 1000\\
+5 & Mid & Marketing & 4 & Director (of a vertical) & 5 & 300\\
+\addlinespace
+6 & Mid & IT & 9 & Director Engineering & 10 & 450\\
+7 & Mid & Marketing & 4 & Director (of a vertical) & 5 & 250\\
+8 & Senior & Marketing & 7 & Chief Executive Officer & 10 & 400\\
+\bottomrule
+\end{tabular}
+\end{table*}
